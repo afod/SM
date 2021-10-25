@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="40f6bd0e-21d2-4545-bf94-e1d2abcf3911">
+  <name>рарусДобавлениеИзменениеДокументовИмущественногоУчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление и изменение документов имущественного учета</value>
+  </synonym>
+  <comment>rarus makole 03022021</comment>
+</mdclass:Role>

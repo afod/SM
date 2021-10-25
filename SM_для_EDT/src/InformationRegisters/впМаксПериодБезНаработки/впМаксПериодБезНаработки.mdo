@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="215d1548-97d0-44dd-a9ad-a9d2d79a35f2">
+  <producedTypes>
+    <selectionType typeId="97704913-3b4a-484e-b577-55662e7d1fa2" valueTypeId="06611949-d2e3-49b2-a3f4-5098051e6f8d"/>
+    <listType typeId="67d1b239-623f-4513-8366-076a908e7747" valueTypeId="bff5d83a-8b7b-45af-adbe-a454d1147ea3"/>
+    <managerType typeId="54766e71-cfe6-4695-8e04-de702ce4f0c4" valueTypeId="d06d3be6-2369-48b2-9ae7-d1cb3a1d4e70"/>
+    <recordSetType typeId="3b3d4443-5e52-4b69-9162-b4f7a9e2ae60" valueTypeId="45724ea3-c559-4ede-b831-85222cfaad43"/>
+    <recordKeyType typeId="edff9499-3c9d-4531-bb5a-3becb75fc7d6" valueTypeId="e27db49a-d4db-4425-bfa8-54826bbb65ab"/>
+    <recordType typeId="0463f773-0f01-4e32-a229-ad6f7ced8973" valueTypeId="8816bd75-9e52-41af-a287-66a45aa2e8b2"/>
+    <recordManagerType typeId="0d8e7844-3d14-43ae-bc39-9fb4302cd0a1" valueTypeId="a14d7722-e437-4046-9675-8b2dea73db6f"/>
+  </producedTypes>
+  <name>впМаксПериодБезНаработки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Макс. период без ввода наработки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="fe1da46a-66b8-48fa-b0af-b829aba06f5c">
+    <name>КолвоПериодов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кол-во периодов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="67eb9b5e-9a42-4d2f-bfb5-30dc8e8f1d61">
+    <name>Периодичность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Периодичность</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Периодичность</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

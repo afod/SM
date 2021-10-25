@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e58cc14f-5119-4648-943f-6aa981608b5f">
+  <name>рарусДобавлениеИзменениеПриходТМЦ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление и изменение прихода ТМЦ</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a0f544ab-9b02-4b0d-8558-2ca9a0e3c7ee">
+  <producedTypes>
+    <objectType typeId="42d165cc-a5cd-4040-ad30-224e9f80da93" valueTypeId="1b503415-fef1-4862-a2f3-037c49624dd8"/>
+    <managerType typeId="245460ea-b5bf-42fd-9741-fb4c922dfb6f" valueTypeId="c8ddf72c-dfe5-406d-9a47-adbaee2c0b91"/>
+  </producedTypes>
+  <name>рарусРейсыДатыСудопроходовУчастковОбязательнойЛоцманскойПроводки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рейсы: даты судопроходов участков обязательной лоцманской проводки</value>
+  </synonym>
+  <comment>Задача № 20999</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.рарусРейсыДатыСудопроходовУчастковОбязательнойЛоцманскойПроводки.Form.ФормаОтчета</defaultForm>
+  <attributes uuid="5a4f37bf-826c-4795-b289-5025743a7789">
+    <name>НачДата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нач. дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="9c9e94e1-deff-4afc-aca6-1b2a967e9a73">
+    <name>КонДата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кон. дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="6ff53d50-3a36-4f24-bcee-0b140d1bd977">
+    <name>ПортОтправления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порт отправления</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.vftПунктыСледования</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="432ce351-5df3-4097-8f02-ab50b32777fb">
+    <name>ПортПогрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порт погрузки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.vftПунктыСледования</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="783209b3-c7c1-40df-a540-ec08395a4bbb">
+    <name>ПортВыгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порт выгрузки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.vftПунктыСледования</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="cfc7d831-0a15-4cd2-b751-3cf05181b41a">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="5f6f2839-427d-4f2a-aa3a-57e49e7b540b">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

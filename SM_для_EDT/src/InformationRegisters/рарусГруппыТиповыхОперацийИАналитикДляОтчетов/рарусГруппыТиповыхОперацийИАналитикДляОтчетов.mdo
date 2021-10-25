@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b7a2d4c6-5f72-4e55-937d-f0d0a7e66c09">
+  <producedTypes>
+    <selectionType typeId="0f21fdbe-5576-4d6e-b198-82aa2fc7261e" valueTypeId="4b73ff13-ba17-4742-944e-2b92b1e8f88b"/>
+    <listType typeId="f4509b9d-1c89-4657-b1a5-6cb01b67f204" valueTypeId="76beb116-7056-444b-a29b-ebdd510b9c70"/>
+    <managerType typeId="e5cba484-6acd-4abf-941c-a603734a973a" valueTypeId="3ca75f9c-6496-4de1-94f2-c49d2be04037"/>
+    <recordSetType typeId="49adca91-8c7e-4c27-93a3-98d3f67c66ff" valueTypeId="c3d4d5e7-1275-42f4-9dd6-673e28a92fe6"/>
+    <recordKeyType typeId="398fff2e-64ac-4742-9865-cfe6e260be96" valueTypeId="b8ceb08e-7c13-4c9f-9760-478fbd322e9a"/>
+    <recordType typeId="91888fdc-fd58-4392-b353-089e0224c229" valueTypeId="ea5916b6-3d3f-4d04-a01e-2e58912105d2"/>
+    <recordManagerType typeId="f317562d-bfa2-458f-a164-0590b674efac" valueTypeId="295f7265-11ab-41a7-b32f-c073a6687789"/>
+  </producedTypes>
+  <name>рарусГруппыТиповыхОперацийИАналитикДляОтчетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Группы типовых операций и аналитик для отчетов</value>
+  </synonym>
+  <comment>Задача № 20649</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="34a9144a-e3d4-42a7-8098-0e7abd1fbfb1">
+    <name>ТиповыеОперации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Типовые операции</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.vftТиповыеОперации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="d7aeb3b0-bea9-4e74-82e1-b86af8b19d9a">
+    <name>АналитикиПростоя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аналитики простоя</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.рарусАналитикиПростоя</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>InformationRegister.рарусГруппыТиповыхОперацийИАналитикДляОтчетов.Dimension.ТиповыеОперации</field>
+    </choiceParameterLinks>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="d98a0a59-0305-481c-8d45-0de201f9fa82">
+    <name>ВидГруппыТиповыхОперацийИАналитик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид группы типовых операций и аналитик</value>
+    </synonym>
+    <type>
+      <types>EnumRef.рарусВидыГруппТиповыхОперацийИАналитик</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

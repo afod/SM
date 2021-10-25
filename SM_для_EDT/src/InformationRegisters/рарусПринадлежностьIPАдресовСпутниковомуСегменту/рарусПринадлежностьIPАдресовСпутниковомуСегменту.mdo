@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="df2ae484-e21b-4208-bb8a-67a13876332c">
+  <producedTypes>
+    <selectionType typeId="d1f8f76b-3e2f-450d-85b5-284d6869cc5d" valueTypeId="32a30146-1a71-4004-ab3f-a39ee798c637"/>
+    <listType typeId="c27ad16c-1a00-4806-9aac-1a73033ddaa0" valueTypeId="0f2a4813-d3b1-44a2-a0e6-383ef0fdbee4"/>
+    <managerType typeId="dbf72770-0452-444d-8a3c-16236f5b4297" valueTypeId="fd2ac1da-7ec8-459e-acf2-04076455b89e"/>
+    <recordSetType typeId="40d955ef-4862-488d-84aa-d57430d818f0" valueTypeId="963baec3-8e52-4f4f-923a-ccff159c8477"/>
+    <recordKeyType typeId="eab532f2-c776-44f1-8dc5-d156ef558d11" valueTypeId="7d8c426c-6f38-469b-8467-fb3cde0f74c0"/>
+    <recordType typeId="a3bdabf5-9cde-4902-acdc-fb3b03fd5a51" valueTypeId="d1e9c776-1f57-453b-90c9-5a596e264ecf"/>
+    <recordManagerType typeId="9cdae7fb-44d0-480f-831c-dc09c532073e" valueTypeId="e047c424-27ec-42ce-875e-709806100943"/>
+  </producedTypes>
+  <name>рарусПринадлежностьIPАдресовСпутниковомуСегменту</name>
+  <synonym>
+    <key>ru</key>
+    <value>Принадлежность IP-адресов спутниковому сегменту</value>
+  </synonym>
+  <comment>rarus makole БСО.СМ.007.02</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.рарусПринадлежностьIPАдресовСпутниковомуСегменту.Form.ФормаЗаписи</defaultRecordForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="b57b1d85-0ef3-471d-9649-ba66397f5dae">
+    <name>Оператор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оператор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.рарусОператорыСпутниковогоСегмента</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="04e7e908-6af2-4194-83b0-a82c33c5953d">
+    <name>IPАдресНачалаДиапазона</name>
+    <synonym>
+      <key>ru</key>
+      <value>IP-адрес начала диапазона</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>15</length>
+      </stringQualifiers>
+    </type>
+    <mask>999.999.999.999</mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="e4995754-e9b4-4ac3-a8e6-daf4a66f0772">
+    <name>IPАдресОкончанияДиапазона</name>
+    <synonym>
+      <key>ru</key>
+      <value>IP-адрес окончания диапазона</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>15</length>
+      </stringQualifiers>
+    </type>
+    <mask>999.999.999.999</mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="6c037fc1-bb7b-4b0a-9860-91743e63297d">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

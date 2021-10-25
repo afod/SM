@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e9b3369b-644d-40fe-bee3-b2dac2b2e6c2">
+  <producedTypes>
+    <refType typeId="2f7b74c6-664c-4750-b908-4fb2fdb86938" valueTypeId="d0bc9377-7a8c-4f4e-a754-faab8dff9d29"/>
+    <listType typeId="64bb29b0-d6ba-4cc0-8669-29cccf3bb5df" valueTypeId="b44d0926-d662-4875-9a9a-2935564e52fc"/>
+    <managerType typeId="ee2788fc-5027-437a-8bfb-9ed062bad0cb" valueTypeId="af718e84-03da-4de4-ba42-ccc61fbc6056"/>
+  </producedTypes>
+  <name>рарусВидыПотребностиЗаявкиНаСнабжение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды потребности заявки на снабжение</value>
+  </synonym>
+  <comment>rarus PleA ФТ.СНБ.01.01</comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="412be569-93a5-43a9-8d0f-9020c5c582e5">
+    <name>ТМЦ</name>
+    <synonym>
+      <key>ru</key>
+      <value>ТМЦ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4559787b-bc11-4b71-8b89-a7a40a1fbcc1">
+    <name>Услуги</name>
+    <synonym>
+      <key>ru</key>
+      <value>Услуги</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f3df29fd-c083-4c71-bee7-2bf3b3985bd9">
+    <name>ТМЦЗаСчетСобственныхСредств</name>
+    <synonym>
+      <key>ru</key>
+      <value>ТМЦ за счет собственных средств</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4ed1bde8-8b90-4789-b217-aed76576b806">
+    <name>ПродуктыПитания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продукты питания</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="75eec346-f341-4be1-b2e3-8029e1922a5a">
+    <name>НавигационныеКарты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Навигационные карты</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="68bc3162-e066-4a45-989f-88fd260f5e25">
+  <producedTypes>
+    <selectionType typeId="9eca89df-021f-413a-88a1-e62e12ba7e90" valueTypeId="b53af8fc-3f86-483f-9b7d-9c83f2cb1427"/>
+    <listType typeId="e11aa4f4-d140-4f65-949b-bd5b4c442305" valueTypeId="46bef80d-7de4-46c2-9189-1633bc03c5e1"/>
+    <managerType typeId="a6c22714-1061-4788-b7c7-a0ee0702eea8" valueTypeId="860178b7-656a-4788-a79d-ac7cba7fb86d"/>
+    <recordSetType typeId="9d3223e9-9ce4-4936-b3ac-ef6764554bd2" valueTypeId="fb692c07-9a9f-4370-99a2-ca5605286cc2"/>
+    <recordKeyType typeId="81cf781a-ffd6-4329-9205-3a517bbe03a5" valueTypeId="73dec56b-0d9d-4efe-b3e9-696bdecb0b4d"/>
+    <recordType typeId="5adf46b7-1b64-4a3d-8a91-d72c4b39835c" valueTypeId="934a7793-9922-4826-b237-ba2746b8f2c8"/>
+    <recordManagerType typeId="5a04bcd8-07fe-4665-beb1-6cff7825c515" valueTypeId="90158dfe-1925-45ab-b87b-75589d75a568"/>
+  </producedTypes>
+  <name>vftТаблицаМорскихРасстояний</name>
+  <synonym>
+    <key>ru</key>
+    <value>Таблица морских расстояний</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="0a8c52be-8ba6-44b4-8dd7-63c4844d9bbe">
+    <name>Расстояние</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расстояние</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="df5366af-1654-4a4a-817e-5a2261ecac2f">
+    <name>Судно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Судно</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.vftСуда</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="09ab2934-c991-42b5-9a24-f6d059b12cee">
+    <name>ПунктОтправления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пункт отправления</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.vftПунктыСледования</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="0455467e-05c1-4f7a-a274-00a364207798">
+    <name>ПунктСледования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пункт следования</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.vftПунктыСледования</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

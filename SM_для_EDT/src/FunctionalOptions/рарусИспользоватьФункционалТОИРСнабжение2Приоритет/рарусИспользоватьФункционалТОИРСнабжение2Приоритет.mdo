@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c5c16e72-4b74-436b-a490-df4682042112">
+  <name>рарусИспользоватьФункционалТОИРСнабжение2Приоритет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать функционал ТОИРСнабжение 2 приоритет</value>
+  </synonym>
+  <location>InformationRegister.рарусНастройкиФункционалаТОИР.Resource.ИспользоватьСудовоеСнабжение2Приоритет</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>DataProcessor.рарусАРМСнабжение</content>
+  <content>Report.рарусВедомостьТМЦ</content>
+  <content>Report.рарусМинимальныеЗапасыТМЦ</content>
+</mdclass:FunctionalOption>

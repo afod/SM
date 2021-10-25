@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5a40874c-ba6c-4abf-bda8-0fc645c06f8d">
+  <name>vftПользовательБезСообщений</name>
+  <synonym>
+    <key>ru</key>
+    <value>(vft) Пользователь без доступа к сообщениям</value>
+  </synonym>
+</mdclass:Role>

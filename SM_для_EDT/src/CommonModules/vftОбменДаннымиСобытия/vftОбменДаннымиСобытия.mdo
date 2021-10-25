@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0f0ffab9-02f0-4856-8bfe-485b1439bff6">
+  <name>vftОбменДаннымиСобытия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен данными события</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

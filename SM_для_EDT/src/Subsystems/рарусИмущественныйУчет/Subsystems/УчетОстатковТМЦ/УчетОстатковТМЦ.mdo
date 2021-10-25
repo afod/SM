@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a1509032-aa68-4c76-8ade-7fa983ed690d">
+  <name>УчетОстатковТМЦ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет остатков ТМЦ</value>
+  </synonym>
+  <comment>makole РАIT-0023494 04082021</comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>FunctionalOption.рарусКонтролироватьОстаткиТМЦ</content>
+  <content>InformationRegister.рарусНастройкиФункционалаТОИР</content>
+  <content>CommonModule.рарусИмущественныйУчетСервер</content>
+  <content>CommonModule.рарусИмущественныйУчетСерверПовтИсп</content>
+  <content>DataProcessor.рарусПанельАдминистрированияТОИР</content>
+  <content>AccumulationRegister.рарусИмуществоНаСудах</content>
+  <content>Document.рарусРасходТМЦ</content>
+  <content>Document.впАктОВыполненииЭтапаРабот</content>
+  <content>DataProcessor.впПодборНоменклатуры</content>
+  <parentSubsystem>Subsystem.рарусИмущественныйУчет</parentSubsystem>
+</mdclass:Subsystem>

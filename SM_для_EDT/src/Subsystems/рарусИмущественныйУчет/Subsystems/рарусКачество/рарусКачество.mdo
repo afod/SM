@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1d12afb1-1606-4916-bbc1-ef03233ac1e6">
+  <name>рарусКачество</name>
+  <synonym>
+    <key>ru</key>
+    <value>Качество</value>
+  </synonym>
+  <comment>makole ЗНИ РАIT-0023374</comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Catalog.Номенклатура</content>
+  <content>Constant.ИспользоватьКачествоТоваров</content>
+  <content>InformationRegister.ТоварыДругогоКачества</content>
+  <content>Role.рарусЧтениеПросмотрТоваровДругогоКачества</content>
+  <parentSubsystem>Subsystem.рарусИмущественныйУчет</parentSubsystem>
+</mdclass:Subsystem>

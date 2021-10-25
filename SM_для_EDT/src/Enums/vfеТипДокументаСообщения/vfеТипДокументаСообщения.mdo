@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="48030787-f34a-409e-bb48-0808747455f2">
+  <producedTypes>
+    <refType typeId="f568014d-dd27-4b26-bd41-3dc4f626bb66" valueTypeId="b36c251b-b846-4d8f-94ac-d1e3678af271"/>
+    <listType typeId="abd68215-7f60-435b-92df-ac0fd46b9834" valueTypeId="0faeb97a-6774-427e-b63b-ba9345fdb0c4"/>
+    <managerType typeId="514248ea-436c-423e-a67b-3899753be76d" valueTypeId="cf94f76b-b5b6-4cca-9cd4-4f0c7867c158"/>
+  </producedTypes>
+  <name>vfеТипДокументаСообщения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Vfе тип документа сообщения</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="712d11a8-37fc-44e6-814e-fc1cf112c8b1">
+    <name>СообщениеОПотенциальномИнциденте</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сообщение о потенциальном инциденте</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8365dec7-49be-4b83-9e02-9e17c56c1084">
+    <name>АнализСУБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Анализ СУБ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fe9ff28d-e201-427b-9929-940cf3d2a6d2">
+    <name>ДокладОСостоянииБезопасности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доклад о состоянии безопасности</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f9abec0d-5c5e-40aa-87bf-e6d05651ea2b">
+    <name>ДокладОНесоответствии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доклад о несоответствии</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aa187583-2967-4d71-b539-18c5ef7a0a63">
+  <producedTypes>
+    <objectType typeId="167888b7-48d8-4133-ae4d-a0631b1d8b02" valueTypeId="0ea9fa5e-fd37-44fa-8aa0-6764a8da86ed"/>
+    <managerType typeId="8c18dd4c-511a-45be-bf44-584b03012c92" valueTypeId="6dbcc91f-1c39-4fa0-b380-dbdf5c55d699"/>
+  </producedTypes>
+  <name>vftСводныйЛистУчетаНесоответствий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сводный лист учета несоответствий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.vftСводныйЛистУчетаНесоответствий.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="dc287a24-90f0-4bad-892f-0f09c47cd9d8">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

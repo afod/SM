@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="00b5405f-950f-4b0d-893a-250a9a82d284">
+  <producedTypes>
+    <refType typeId="fd91346c-7765-4d0f-a99d-c17cbb582cd8" valueTypeId="b4e0ec8e-6a76-4e73-89f0-c4d8d56fc9ae"/>
+    <listType typeId="9e75a850-be1d-4b3d-8d90-f972f1a94dd6" valueTypeId="3952d204-e930-4bf2-8f57-29d1057d0aec"/>
+    <managerType typeId="a2bfe37c-4a30-4e6c-9550-61ac7afd29d7" valueTypeId="801d0aca-eb92-42e0-bc57-47e42023365a"/>
+  </producedTypes>
+  <name>рарусВариантыПрохожденияКЕК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты прохождения КЕК</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d18708bf-a6de-4811-bd3a-ba12b79840e7">
+    <name>ТСП</name>
+    <synonym>
+      <key>ru</key>
+      <value>ТСП</value>
+    </synonym>
+    <comment>ТСП - Таманский судоходный путь (ФВК)</comment>
+  </enumValues>
+  <enumValues uuid="2ff2ef4b-3ada-4553-ac96-b52c3d1d9517">
+    <name>КЕК</name>
+    <synonym>
+      <key>ru</key>
+      <value>КЕК</value>
+    </synonym>
+    <comment>КЕК - Керчь-Еникальский канал</comment>
+  </enumValues>
+</mdclass:Enum>

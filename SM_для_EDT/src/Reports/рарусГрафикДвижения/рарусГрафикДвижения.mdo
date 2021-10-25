@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f23cf424-e207-4e01-9b50-5912e33cf6e2">
+  <producedTypes>
+    <objectType typeId="2c2767f1-ffa9-4d89-84d5-c1092a6e37ed" valueTypeId="323a6c7e-4914-48d7-8803-eb89391bc710"/>
+    <managerType typeId="3b1b906d-1a41-46b0-bc3e-04fa89d10111" valueTypeId="1d246ef3-05f8-4ca7-b7fa-66a86a8e48b8"/>
+  </producedTypes>
+  <name>рарусГрафикДвижения</name>
+  <synonym>
+    <key>ru</key>
+    <value>График движения</value>
+  </synonym>
+  <comment>Задача № 20473</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.рарусГрафикДвижения.Form.ФормаОтчета</defaultForm>
+  <forms uuid="250f504d-13a8-4caa-b242-4347aeb2590f">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="7b190422-8634-4c43-b5f0-01870765030c">
+    <name>УчетВремени</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учет времени</value>
+    </synonym>
+  </templates>
+  <templates uuid="34ed6324-2eda-4eb4-bfa4-12957cf9bc9d">
+    <name>УчетВремениБуксиры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учет времени (буксиры)</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

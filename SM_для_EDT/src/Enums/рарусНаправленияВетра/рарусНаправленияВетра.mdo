@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1cc2c07f-2f68-4a1d-8eaa-bc275e5a6e5e">
+  <producedTypes>
+    <refType typeId="d5d34fff-2ae3-4e5a-a304-bae01193657d" valueTypeId="17ba74a2-3c09-42a5-b3e6-fcc71a49cbdd"/>
+    <listType typeId="bdaf84ef-8fa2-4fb8-b749-479dbcd473d8" valueTypeId="7185900c-d3cf-436b-98a4-228760ea47f5"/>
+    <managerType typeId="19ce3bf4-47e3-47e3-b78f-9f1c5230b6a1" valueTypeId="4d3d3099-f2c4-4b0d-b864-33e2804f5238"/>
+  </producedTypes>
+  <name>рарусНаправленияВетра</name>
+  <synonym>
+    <key>ru</key>
+    <value>Направления ветра</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="e7e47f0b-a0c0-422f-9202-af2489e46df6">
+    <name>N</name>
+    <synonym>
+      <key>ru</key>
+      <value>N</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="797201dd-2c08-4362-b74c-4e826317ec87">
+    <name>S</name>
+    <synonym>
+      <key>ru</key>
+      <value>S</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bd65a6db-2786-4adc-8ad4-591875ed19f2">
+    <name>E</name>
+    <synonym>
+      <key>ru</key>
+      <value>E</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0310bbbc-5657-4c50-b974-e45412a0d66a">
+    <name>W</name>
+    <synonym>
+      <key>ru</key>
+      <value>W</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ca4848a6-a674-4adf-baff-158491f6ccac">
+    <name>NE</name>
+    <synonym>
+      <key>ru</key>
+      <value>NE</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="723244e3-ae94-4717-b607-5af6c27aeb65">
+    <name>NW</name>
+    <synonym>
+      <key>ru</key>
+      <value>NW</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="480a20a5-7c9d-4f39-a7f6-36a31bee6093">
+    <name>SE</name>
+    <synonym>
+      <key>ru</key>
+      <value>SE</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c0842323-2518-4598-810e-7a72e937d62a">
+    <name>SW</name>
+    <synonym>
+      <key>ru</key>
+      <value>SW</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

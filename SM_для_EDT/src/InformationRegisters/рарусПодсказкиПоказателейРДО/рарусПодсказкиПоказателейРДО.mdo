@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="041dd0be-6652-4815-9b53-69e58b4afcb6">
+  <producedTypes>
+    <selectionType typeId="0e0ce632-1c6f-44e8-ad50-05f233b1134a" valueTypeId="0fbe1f8d-0749-4df3-aecf-2471fbe11c5f"/>
+    <listType typeId="101d33d1-19fb-4e90-aa79-d28c2286c191" valueTypeId="03e8599c-eca3-4fce-acb1-a0d6182771d7"/>
+    <managerType typeId="37eaf566-203b-4718-b24e-44102efc2362" valueTypeId="eb79caee-6e6f-498a-82f9-d12cc8a13210"/>
+    <recordSetType typeId="fb8a90b0-f585-4b97-a4e6-c06ba71a3b25" valueTypeId="0cc8043c-9f92-40df-a993-050bc88d0c6e"/>
+    <recordKeyType typeId="49a0402a-91ad-45aa-a0f4-4878361317fa" valueTypeId="4ea91172-ccf4-4422-9cab-8a94230da6af"/>
+    <recordType typeId="52b7e34e-64fc-45a1-9c4e-1029a3eecbf6" valueTypeId="6a108e9c-21e5-4e8a-a2ef-3341f323df87"/>
+    <recordManagerType typeId="1a9611aa-2599-4b97-bb00-161b639f6290" valueTypeId="4f0b0b6e-b457-4be4-99b5-cba7b17dfa5a"/>
+  </producedTypes>
+  <name>рарусПодсказкиПоказателейРДО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подсказки показателей РДО</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.рарусПодсказкиПоказателейРДО.Form.ФормаЗаписи</defaultRecordForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="dd61f95f-ed1e-4744-8443-50cff33a1606">
+    <name>ТекстПодсказки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст подсказки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="4d25fb37-dbe2-4caa-9ef1-b26047a632c6">
+    <name>Показатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показатель</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="6fe5ca01-56b7-4253-8c48-11d25c948b01">
+    <name>Шаблон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.vftШаблоныРДО</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="6e8d49ce-100f-4c49-8dec-57f9df6031b5">
+    <name>ВидОперации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид операции</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Type of operation</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.vftТиповыеОперации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="a14d5300-56be-41a8-9aed-b2e033801750">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

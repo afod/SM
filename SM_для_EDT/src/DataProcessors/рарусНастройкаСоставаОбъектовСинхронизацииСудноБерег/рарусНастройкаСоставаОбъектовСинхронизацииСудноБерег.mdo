@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="054f5f5c-d452-4406-a504-f3f2027ca934">
+  <producedTypes>
+    <objectType typeId="3c5b4a7e-d040-4c97-9716-4a4b79c6d452" valueTypeId="84492d0b-1c23-43ef-81c0-032fdf550d2f"/>
+    <managerType typeId="04b7be96-b43b-4f97-8ef9-df65c8652ec3" valueTypeId="65631e5c-d968-4997-ac44-768861ac00a1"/>
+  </producedTypes>
+  <name>рарусНастройкаСоставаОбъектовСинхронизацииСудноБерег</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка состава объектов синхронизации судно-берег</value>
+  </synonym>
+  <comment>rarus makole БСО.СМ.007.04</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.рарусНастройкаСоставаОбъектовСинхронизацииСудноБерег.Form.Форма</defaultForm>
+  <attributes uuid="361e3d64-fdb9-4b7c-ba04-0f34d2fabf9a">
+    <name>Узел</name>
+    <synonym>
+      <key>ru</key>
+      <value>Узел</value>
+    </synonym>
+    <type>
+      <types>ExchangePlanRef.Полный</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="aa002b79-397d-46ca-bb54-36e5b75cc8c3">
+    <name>Вариант</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вариант</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:StringValue">
+      <value>1</value>
+    </minValue>
+    <maxValue xsi:type="core:StringValue">
+      <value>3</value>
+    </maxValue>
+  </attributes>
+  <tabularSections uuid="9d6afdb6-3289-475b-bf0d-8eb2a8dcc88d">
+    <producedTypes>
+      <objectType typeId="752d1dd4-6b01-4b19-83fe-34e0d6a1b7d5" valueTypeId="caed487d-298f-4f31-b310-55bd06b1d6d4"/>
+      <rowType typeId="9edfe72b-4af1-4a0e-a06b-8a0d364d0b93" valueTypeId="ac08fd0a-4c62-45cd-8778-48292e70afef"/>
+    </producedTypes>
+    <name>Настройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="34e0f6e5-ce3c-40f6-946d-5526e44a7968">
+      <name>Объект</name>
+      <synonym>
+        <key>ru</key>
+        <value>Объект</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ИдентификаторыОбъектовМетаданных</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="608f792b-ea96-4c65-8a54-e021ebe107a4">
+      <name>Выгружать</name>
+      <synonym>
+        <key>ru</key>
+        <value>Выгружать на судно</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="707f4ed4-c05b-4bab-a126-a76aeacf34f6">
+      <name>Загружать</name>
+      <synonym>
+        <key>ru</key>
+        <value>Загружать в ЦБ</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="e0101d88-e867-429f-be11-9cf78d50ccc9">
+      <name>ЭтоВид</name>
+      <synonym>
+        <key>ru</key>
+        <value>Это вид</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="a328d802-5c00-4612-bbe2-52d051e60403">
+    <producedTypes>
+      <objectType typeId="1819f1dc-57e8-4bc7-a04d-befc93474eda" valueTypeId="3c273477-b693-4a49-93d2-137b4e3c7ea3"/>
+      <rowType typeId="047e7146-b15e-4c03-bd60-f1361e79b549" valueTypeId="04336556-633a-441f-a431-d4f9f393889b"/>
+    </producedTypes>
+    <name>Узлы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Узлы</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="35898c7c-ab79-4747-bccf-9dfd2796eac2">
+      <name>Узел</name>
+      <synonym>
+        <key>ru</key>
+        <value>Узел</value>
+      </synonym>
+      <type>
+        <types>ExchangePlanRef.Полный</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="c937d134-c6a8-4cab-a853-7f7f6a788512">
+      <name>Устанавливать</name>
+      <synonym>
+        <key>ru</key>
+        <value>Устанавливать</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="47e00104-66d3-46cc-b413-a6ca364c8bb1">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

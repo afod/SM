@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="67d26d82-8f75-423d-90a9-7a2db4ff42bf">
+  <producedTypes>
+    <objectType typeId="c35e4251-9ae2-4881-92b6-f113e048863e" valueTypeId="3bd9e4fc-385b-471f-a78b-044cc8206241"/>
+    <refType typeId="170cfc56-4fe2-465a-8b50-0971695b5494" valueTypeId="cef693c4-4006-4713-a75b-1ffab1bb7612"/>
+    <selectionType typeId="ee1f3f52-c4af-4257-8be2-34123525c14a" valueTypeId="5a898aee-48dd-47bd-93d4-a45237540436"/>
+    <listType typeId="fc6ca72b-73d9-405a-a0b6-968d011db367" valueTypeId="0c2668bd-500c-417c-a4ae-ef4fe85e76e1"/>
+    <managerType typeId="9eadcd7c-b181-43e5-8be1-f57691e00bbf" valueTypeId="fb5dae5d-5015-4fe2-b396-b67062b6c0d5"/>
+  </producedTypes>
+  <name>рарусКлассыСудов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Классы судов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.рарусКлассыСудов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.рарусКлассыСудов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

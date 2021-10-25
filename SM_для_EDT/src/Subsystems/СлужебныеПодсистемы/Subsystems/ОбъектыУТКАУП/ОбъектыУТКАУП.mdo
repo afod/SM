@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="378cb336-71d4-47b6-98b9-610ec78e9e20">
+  <name>ОбъектыУТКАУП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Объекты УТ11, КА2, УП2</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>TM11, CA2 and EM2 objects </value>
+  </synonym>
+  <explanation>
+    <key>ru</key>
+    <value>Технологическая подсистема.
+Включает в себя объекты, относящиеся к конфигурациям УТ11, КА2, УП2.</value>
+  </explanation>
+  <explanation>
+    <key>en</key>
+    <value>Technological subsystem.
+It includes objects which belong to the TM11, CA2 and EM2 configurations.</value>
+  </explanation>
+  <content>CommonModule.ОбщегоНазначенияУТ</content>
+  <content>Enum.ВариантыОбеспечения</content>
+  <content>Enum.ТипыИзмеряемыхВеличин</content>
+  <content>Constant.НастройкиКолонтитулов</content>
+  <content>EventSubscription.ПолныйРегистрацияУдаления</content>
+  <content>InformationRegister.ДанныеОбработанныеВЦентральномУзлеРИБ</content>
+  <content>Enum.ВажностьПроблемыУчета</content>
+  <content>Enum.ПолФизическогоЛица</content>
+  <content>Catalog.Контрагенты</content>
+  <content>EventSubscription.СброситьЗначениеРеквизитаУпорядочивания</content>
+  <content>Enum.Периодичность</content>
+  <content>SessionParameter.ПараметрыОбработчикаОбновления</content>
+  <content>ExchangePlan.ОбновлениеИнформационнойБазы</content>
+  <content>EventSubscription.ВыполнитьДействияПриЗаписиПрисоединенногоФайла</content>
+  <content>Catalog.Номенклатура</content>
+  <content>CommonPicture.ПодсистемаНормативноСправочнаяИнформация</content>
+  <content>CommonPicture.ОткрепитьВариантОтчета</content>
+  <content>Enum.СпособыВыполненияПроверки</content>
+  <content>CommonModule.ОбщегоНазначенияУТКлиент</content>
+  <content>Catalog.ФизическиеЛица</content>
+  <content>DefinedType.КонтекстПроверокВеденияУчета</content>
+  <content>CommonForm.ПриоритетОбновленияВОбластяхДанных</content>
+  <content>Catalog.НаборыУпаковок</content>
+  <content>Constant.ПриоритетОбновленияВОбластяхДанных</content>
+  <content>EventSubscription.ЗаполнитьЗначениеРеквизитаУпорядочивания</content>
+  <content>Enum.ТипыУпаковокНоменклатуры</content>
+  <content>Role.ДобавлениеИзменениеБанков</content>
+  <content>EventSubscription.ЗаписатьВерсиюОбъекта</content>
+  <content>Enum.ТипыНоменклатуры</content>
+  <content>EventSubscription.ВыполнитьДействияПередЗаписьюПрисоединенногоФайла</content>
+  <content>EventSubscription.ВыполнитьДействияПередУдалениемПрисоединенногоФайла</content>
+  <content>StyleItem.ЦветТекстаНевыбраннойКартинки</content>
+  <content>CommonPicture.СтрелкаВнизЗеленая</content>
+  <content>CommonModule.УправлениеКолонтитулами</content>
+  <content>Constant.ДанныеДляОтложенногоОбновления</content>
+  <content>CommonModule.ПроведениеДокументовЛокализация</content>
+  <content>CommonModule.СозданиеНаОсновании</content>
+  <content>CommonModule.СозданиеНаОснованииПереопределяемый</content>
+  <content>Catalog.Склады</content>
+  <content>Catalog.УпаковкиЕдиницыИзмерения</content>
+  <content>CommonPicture.КоллекцияПиктограммПараметрыШаблонаСообщения</content>
+  <content>Constant.КоличествоПотоковОбновленияИнформационнойБазы</content>
+  <content>CommonModule.СобытияФорм</content>
+  <content>EventSubscription.ПолныйРегистрация</content>
+  <content>Catalog.ШаблоныСообщений</content>
+  <content>Catalog.ШаблоныСообщенийПрисоединенныеФайлы</content>
+  <content>Role.ДобавлениеИзменениеШаблоновСообщений</content>
+  <content>StyleItem.ИтогиФонГруппы</content>
+  <content>Role.ДобавлениеИзменениеДополнительныхРеквизитовИСведений</content>
+  <content>InformationRegister.ОбработчикиСобытийСинхронизацииДанных</content>
+  <content>DefinedType.УточнениеКонтекстаПроверокВеденияУчета</content>
+  <content>CommonPicture.ФлагУстановлен</content>
+  <content>CommonPicture.ФлагНеУстановлен</content>
+  <content>Catalog.Организации</content>
+  <content>XDTOPackage.EnterpriseData_1_3_20</content>
+  <content>Catalog.ПравилаПроверкиУчета</content>
+  <content>EventSubscription.ПолныйРегистрацияДокумента</content>
+  <content>EventSubscription.ПолныйРегистрацияКонстанты</content>
+  <content>EventSubscription.ПолныйРегистрацияНабора</content>
+  <content>ExchangePlan.Полный</content>
+  <content>CommonModule.ПользователиПереопределяемый</content>
+  <content>DefinedType.ДенежнаяСуммаЛюбогоЗнака</content>
+  <content>DefinedType.ДенежнаяСуммаНеотрицательная</content>
+  <content>CommonModule.ПроведениеДокументов</content>
+  <content>Constant.ДополнительныйЯзык1</content>
+  <content>Constant.ДополнительныйЯзык2</content>
+  <content>Constant.ИспользоватьДополнительныйЯзык1</content>
+  <content>Constant.ИспользоватьДополнительныйЯзык2</content>
+  <content>FunctionalOption.ИспользоватьДополнительныйЯзык1</content>
+  <content>FunctionalOption.ИспользоватьДополнительныйЯзык2</content>
+  <content>Constant.ОсновнойЯзык</content>
+  <content>CommonModule.МультиязычностьСервер</content>
+  <content>SessionParameter.ОсновнойЯзык</content>
+  <parentSubsystem>Subsystem.СлужебныеПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f7fc4475-ac41-4239-b277-d1b9c50f2e5f">
+  <name>НастройкиИСправочники</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки и справочники</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.рарусЗоныОтветственности</content>
+  <content>Catalog.рарусВидыДокументовОсвидетельствования</content>
+  <content>Catalog.рарусГруппыДокументовСудов</content>
+  <content>Catalog.рарусТипыСудов</content>
+  <content>Catalog.рарусСвидетельстваСудов</content>
+  <content>Catalog.рарусКлассификаторыКодовЗамечаний</content>
+  <content>Catalog.рарусКлассификаторыКодовУстраненияЗамечаний</content>
+  <content>Catalog.рарусТипыОсвидетельствования</content>
+  <content>Catalog.рарусВидыМероприятийСУБ</content>
+  <content>Catalog.рарусКонтролирующиеОрганы</content>
+  <content>Catalog.рарусСтепениРиска</content>
+  <content>Catalog.рарусКонвенции</content>
+  <parentSubsystem>Subsystem.VftЭлектронныеСообщения</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d5dde3bd-d1e9-4599-8396-fe9cc7e5291b">
+  <name>рарусКонтролироватьОстаткиТМЦ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контролировать остатки ТМЦ при списании</value>
+  </synonym>
+  <comment>makole РАIT-0023494 04082021</comment>
+  <location>InformationRegister.рарусНастройкиФункционалаТОИР.Resource.КонтролироватьОстаткиТМЦ</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Subsystem.рарусИмущественныйУчет.Subsystem.УчетОстатковТМЦ</content>
+</mdclass:FunctionalOption>

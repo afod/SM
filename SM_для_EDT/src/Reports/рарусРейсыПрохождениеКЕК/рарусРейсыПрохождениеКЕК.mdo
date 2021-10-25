@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="465c6811-fbc4-42ee-b95b-84510aa39302">
+  <producedTypes>
+    <objectType typeId="8a7aee39-88f8-48ea-a3de-998296f64a2a" valueTypeId="d32d3177-b857-4f28-bc34-fb465cad14ea"/>
+    <managerType typeId="6534c376-ab18-4e03-b329-703107a062df" valueTypeId="1ae8345c-424c-407f-8565-2a5054887324"/>
+  </producedTypes>
+  <name>рарусРейсыПрохождениеКЕК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рейсы: прохождение участков обязательной лоцманской проводки</value>
+  </synonym>
+  <comment>Задача № 20997</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.рарусРейсыПрохождениеКЕК.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.рарусРейсыПрохождениеКЕК.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <forms uuid="150488f7-05b9-4fb1-b3fb-394467221928">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="3724737a-a637-4864-809e-f86c01398f48">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="56fdd740-f085-4c53-98c1-be20b675d6cf">
+  <producedTypes>
+    <selectionType typeId="154ff18e-ee84-450c-b255-24422970c113" valueTypeId="1299d85f-266d-444a-98ef-ac20c3f916d5"/>
+    <listType typeId="a8a5faa7-cb39-4158-b289-59b379b44dcb" valueTypeId="68aa5b99-334e-4c3e-9e16-d4d643d44544"/>
+    <managerType typeId="a8759f33-c62b-4aaf-bee0-245b705e5c6b" valueTypeId="2727ae00-e94b-4134-a512-df8f9d67e04c"/>
+    <recordSetType typeId="5fddb505-c492-48fa-bbe5-bbf216cf065f" valueTypeId="8e74f4d0-4467-4b36-bd92-3ef778bb48e6"/>
+    <recordKeyType typeId="a5acdc3d-acb8-4313-929d-0a4c91ed3b69" valueTypeId="28e27277-baea-49bf-955c-11479fa5490c"/>
+    <recordType typeId="7c117842-4655-45fb-bbd9-6eb7130cfa5b" valueTypeId="ac415605-232a-44c6-864b-7a4228fab536"/>
+    <recordManagerType typeId="a7177ab2-bc0a-41ae-8e5b-1701a041c843" valueTypeId="912a14e8-6aa4-43e4-a256-0c8b9200a220"/>
+  </producedTypes>
+  <name>ТоварыДругогоКачества</name>
+  <synonym>
+    <key>ru</key>
+    <value>Товары другого качества</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Another quality goods</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ТоварыДругогоКачества.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.ТоварыДругогоКачества.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Товар другого качества</value>
+  </recordPresentation>
+  <recordPresentation>
+    <key>en</key>
+    <value>Other quality goods</value>
+  </recordPresentation>
+  <resources uuid="84839587-54e6-4976-890b-c37727d603af">
+    <name>ГрадацияКачества</name>
+    <synonym>
+      <key>ru</key>
+      <value>Градация качества</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Quality levels</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ГрадацииКачества</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Градация качества между номенклатурой исходного качества и браком</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Quality levels between products of source quality and defective goods</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="676a2815-ffd1-4061-afbc-9427305f89bc">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товар</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Product</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Номенклатура исходного качества</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Products of original quality</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameters>
+      <name>Отбор.ТипНоменклатуры</name>
+      <value xsi:type="core:FixedArrayValue">
+        <values xsi:type="core:ReferenceValue">
+          <value>3b49f41c-31ae-46c8-94af-4a8f8bdd9ad0.57507687-e857-4627-84a6-131b6dc5555a</value>
+        </values>
+        <values xsi:type="core:ReferenceValue">
+          <value>3b49f41c-31ae-46c8-94af-4a8f8bdd9ad0.898c017b-174f-4670-8146-5c6e75af51c1</value>
+        </values>
+      </value>
+    </choiceParameters>
+    <choiceParameters>
+      <name>Отбор.Качество</name>
+      <value xsi:type="core:ReferenceValue">
+        <value>505642d7-d223-4519-aee1-9f918f7f84ed.b21b212c-ce0e-477b-be8e-0fc91014bfea</value>
+      </value>
+    </choiceParameters>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="97dbaba3-39cf-49a3-9b5f-0c6920a2d613">
+    <name>НоменклатураБрак</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товар другого качества</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Other quality goods</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Номенклатура с качеством отличным от качества &quot;Новый&quot;</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Products with quality which differs from the &quot;New&quot; quality</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameters>
+      <name>Отбор.ТипНоменклатуры</name>
+      <value xsi:type="core:FixedArrayValue">
+        <values xsi:type="core:ReferenceValue">
+          <value>3b49f41c-31ae-46c8-94af-4a8f8bdd9ad0.57507687-e857-4627-84a6-131b6dc5555a</value>
+        </values>
+        <values xsi:type="core:ReferenceValue">
+          <value>3b49f41c-31ae-46c8-94af-4a8f8bdd9ad0.898c017b-174f-4670-8146-5c6e75af51c1</value>
+        </values>
+      </value>
+    </choiceParameters>
+    <choiceParameters>
+      <name>Отбор.Качество</name>
+      <value xsi:type="core:FixedArrayValue">
+        <values xsi:type="core:ReferenceValue">
+          <value>505642d7-d223-4519-aee1-9f918f7f84ed.89e61e64-5166-42e5-aba9-85760478e287</value>
+        </values>
+        <values xsi:type="core:ReferenceValue">
+          <value>505642d7-d223-4519-aee1-9f918f7f84ed.71be8e96-35fe-4bda-9f72-fab7058e5519</value>
+        </values>
+      </value>
+    </choiceParameters>
+    <choiceParameters>
+      <name>ВыборТовараДругогоКачества</name>
+      <value xsi:type="core:BooleanValue">
+        <value>true</value>
+      </value>
+    </choiceParameters>
+    <choiceForm>Catalog.Номенклатура.Form.ФормаВыбора</choiceForm>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="d57df46c-2c5f-478f-aa92-a1bfcea3f566">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="df3a3712-d27d-4ec5-b956-f53dce0450ce">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Record form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="9ebcce0b-567f-4a22-bb45-0575f64315da">
+    <name>ТоварыДругогоКачества</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товары другого качества</value>
+    </synonym>
+    <group>FormNavigationPanelGoTo</group>
+    <commandParameterType>
+      <types>CatalogRef.Номенклатура</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:InformationRegister>

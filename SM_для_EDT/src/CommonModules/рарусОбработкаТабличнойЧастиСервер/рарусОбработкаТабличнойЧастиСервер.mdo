@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cfef2f84-64a1-4419-b0bb-aab09ca0f860">
+  <name>рарусОбработкаТабличнойЧастиСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработка табличной части сервер</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Tabular section processing server</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

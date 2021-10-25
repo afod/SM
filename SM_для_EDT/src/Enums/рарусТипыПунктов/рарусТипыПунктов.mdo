@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9804c4ff-1b53-4316-bc5f-097e12a39947">
+  <producedTypes>
+    <refType typeId="8e933466-a610-4926-93f6-cab2e44a29c5" valueTypeId="b2f68452-1bc2-43b3-933a-0c12d2c92dc4"/>
+    <listType typeId="eca029b4-7cf5-4de6-ab88-eb687c857dd9" valueTypeId="68908604-fb4c-4997-ab8f-4fb11206c87e"/>
+    <managerType typeId="2685ef1a-abd9-4b8b-93fc-31cebb807669" valueTypeId="d86573f8-366c-4db2-b29c-326a9048fc50"/>
+  </producedTypes>
+  <name>рарусТипыПунктов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы пунктов</value>
+  </synonym>
+  <comment>Задача № 20769</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="e589f2d3-d16a-407d-8e5f-3e0ebbf135ca">
+    <name>ПортОтправления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порт отправления</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a20755e1-1388-44e3-a2b3-d181529671f1">
+    <name>ПортПогрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порт погрузки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ba6f5905-2d7f-4cd9-902e-7118671a2a13">
+    <name>ПортВыгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порт выгрузки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b3ab8d52-0a13-40eb-99e8-c1337a8b5bde">
+    <name>ОпорныйПункт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Опорный пункт</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

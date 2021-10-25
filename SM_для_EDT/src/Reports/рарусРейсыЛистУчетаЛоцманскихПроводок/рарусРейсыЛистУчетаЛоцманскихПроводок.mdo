@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f9ad1724-bf54-4759-9b0f-f71215fc50ff">
+  <producedTypes>
+    <objectType typeId="f9c9f6cb-0ebc-413b-8fb4-ec7e3e3f915c" valueTypeId="26c158d5-ad77-461f-981f-7712c5a70bce"/>
+    <managerType typeId="029e95df-f1e1-435d-9e66-01afcc4160e6" valueTypeId="e39a8458-81de-4795-a48f-8a0526077d7e"/>
+  </producedTypes>
+  <name>рарусРейсыЛистУчетаЛоцманскихПроводок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Лист учета лоцманских проводок</value>
+  </synonym>
+  <comment>Задача № 21001</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.рарусРейсыЛистУчетаЛоцманскихПроводок.Form.ФормаОтчета</defaultForm>
+  <attributes uuid="5befcb45-df01-4493-8f73-b194e340b8fd">
+    <name>НачДата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нач. дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d809e88a-294d-4a6a-9028-0c9568e282e8">
+    <name>КонДата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кон. дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c86dcdca-a6f3-4f04-a73c-9764d93d60e3">
+    <name>Судно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Судно</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.vftСуда</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="7f6ec056-a90d-4d5f-92bd-e9180013f425">
+    <name>Капитан</name>
+    <synonym>
+      <key>ru</key>
+      <value>ФИО капитана</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="765c3bc2-f77b-4b57-b7be-4b29c3a0a824">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="15064b92-8fa4-4177-9215-0b8b495d01da">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

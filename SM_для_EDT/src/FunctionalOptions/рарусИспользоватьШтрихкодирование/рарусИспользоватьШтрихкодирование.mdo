@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b3d0d684-8eb4-4d5a-b5f3-08f4d2081594">
+  <name>рарусИспользоватьШтрихкодирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать штрихкодирование</value>
+  </synonym>
+  <location>InformationRegister.рарусНастройкиФункционалаТОИР.Resource.ИспользоватьШтрихкодирование</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.ПодключаемоеОборудование</content>
+  <content>InformationRegister.рарусШтрихкодыНоменклатуры</content>
+</mdclass:FunctionalOption>

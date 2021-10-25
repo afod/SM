@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="76e935ca-0de4-46fa-83df-fd7d6dec9bc9">
+  <producedTypes>
+    <selectionType typeId="ec6e8f53-ac0d-417b-8e37-5c5af35bcb49" valueTypeId="6fda9f75-0807-4219-8aba-ac1264988788"/>
+    <listType typeId="84632cc2-867c-4361-adc6-8212f858ba98" valueTypeId="3ed4aa8d-7c0e-4104-a0b5-87c361deb252"/>
+    <managerType typeId="02a0fe67-9c3c-4749-b929-ad49fe65bdb1" valueTypeId="55d92195-1b68-4587-8df8-42c75d94581e"/>
+    <recordSetType typeId="8c4f9dcb-ddcf-4601-b56b-e3be05a95c69" valueTypeId="830f1997-0d88-4d27-a746-f824ebc66524"/>
+    <recordKeyType typeId="df4970f7-9b13-4cc6-bd17-4537cd36042c" valueTypeId="33ab3f9c-15ec-4ef3-b300-42a5792c4eb7"/>
+    <recordType typeId="9ad16090-5d1d-4baa-a587-0ed0aaa1f5f6" valueTypeId="0d811d45-034d-4e35-a96f-8dffedc75a58"/>
+    <recordManagerType typeId="48f683ce-8f01-47f7-976a-4701cb3f1610" valueTypeId="faa8c2ff-44d9-4b44-b53d-bc35027257b7"/>
+  </producedTypes>
+  <name>рарусПринадлежностьСуднаКБТОФ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Принадлежность судна к БТОФ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="33874739-9703-4136-813e-074628bf5c74">
+    <name>БТОФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>БТОФ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="09b173b1-12b7-4524-a691-7c3b835fdf55">
+    <name>Судно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Судно</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.vftСуда</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

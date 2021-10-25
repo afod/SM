@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="44001b08-dcc6-4098-ad89-950b6be48be4">
+  <name>рарусУчетАналогов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет аналогов (общий модуль)</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

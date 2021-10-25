@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExchangePlan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a1391cec-8801-49da-859a-a279c6cbcc3c" thisNode="e96cf9b4-cddc-46c4-8b86-ddb7e8f2dc1f">
+  <producedTypes>
+    <objectType typeId="2cfa0fc3-bd53-4e85-811f-f19828cd05db" valueTypeId="e867fe9e-993c-444f-aeb0-1f41e35c663d"/>
+    <refType typeId="037ab1f1-7030-40df-9394-8e3d78157527" valueTypeId="2fe0f582-87c9-4f4f-ba93-c8c9debfca6d"/>
+    <selectionType typeId="2fba06bd-97e8-4600-9524-a21db7341a61" valueTypeId="359bc1ff-62ee-4234-9652-fdd1b6cb985f"/>
+    <listType typeId="81f33c2b-e15f-4173-9d39-6d6d657706f4" valueTypeId="f5cbf5e6-614d-4486-91ab-c443093b6c7b"/>
+    <managerType typeId="19676e72-027c-4216-821e-df917accc798" valueTypeId="19f18c36-50c7-43ef-86a4-08f37bf5befb"/>
+  </producedTypes>
+  <name>рарусОбменУправлениеПредприятиемСудовойМодуль</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен ERP -  Судовой модуль</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExchangePlan.рарусОбменУправлениеПредприятиемСудовойМодуль.StandardAttribute.Description</inputByString>
+  <inputByString>ExchangePlan.рарусОбменУправлениеПредприятиемСудовойМодуль.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>ThisNode</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>ReceivedNo</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>SentNo</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>150</descriptionLength>
+  <content>
+    <mdObject>InformationRegister.СоответствияОбъектовИнформационныхБаз</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.рарусЛоцманы</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.vftРейс</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.рарусОчередьОбработкиДублейERP</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.рарусПрочиеСуда</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.vftРейсПрисоединенныеФайлы</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.рарусРегистрацияПриемаДанных</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.vftПунктыСледования</mdObject>
+  </content>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>ExchangePlan.рарусОбменУправлениеПредприятиемСудовойМодуль.Form.ФормаУзла</defaultObjectForm>
+  <defaultListForm>ExchangePlan.рарусОбменУправлениеПредприятиемСудовойМодуль.Form.ФормаСписка</defaultListForm>
+  <forms uuid="f89a5e08-d778-40d0-8496-da0bc7ca9710">
+    <name>ФормаУзла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма узла</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9fe67812-d78c-4e34-86a5-8d3133795bf4">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d61717b2-0570-44c2-a705-c73f442d0301">
+    <name>ФормаНастройкиУзла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настройки узла</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="807e9e50-a6e9-4792-b097-488acd2aff98">
+    <name>ПравилаОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правила обмена</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="34ac3c6e-ac69-4c15-adef-8cc53bb2179c">
+    <name>ПравилаОбменаКорреспондента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правила обмена корреспондента</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="3d68cdb1-53a1-42cf-b235-0d57962a9993">
+    <name>ПравилаРегистрации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правила регистрации</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:ExchangePlan>

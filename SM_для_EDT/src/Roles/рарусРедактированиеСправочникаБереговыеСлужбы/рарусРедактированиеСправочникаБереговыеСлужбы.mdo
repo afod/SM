@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="99fce1d8-304f-4064-95d8-e082d79ec865">
+  <name>рарусРедактированиеСправочникаБереговыеСлужбы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Редактирование справочника береговые службы</value>
+  </synonym>
+  <comment>makole РАIT-0023284</comment>
+</mdclass:Role>

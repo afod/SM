@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6df40b5a-3c03-4256-95ac-02e295506f66">
+  <producedTypes>
+    <refType typeId="2ad665ca-9507-4ef4-af8a-96b5e507d7d5" valueTypeId="378087ca-7d54-4257-bfd5-d3187f484d02"/>
+    <listType typeId="866fec99-c78e-4aa9-bcea-47273e7dcc4d" valueTypeId="2359376d-ba20-4416-b1ca-9df0a10d8519"/>
+    <managerType typeId="7556e18a-e157-41be-bf23-e318c9cbdb32" valueTypeId="1a300b4d-57e7-49e1-96f3-b0ae55a287fa"/>
+  </producedTypes>
+  <name>рспбСтатусыНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рспб статусы номенклатуры</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="2650333b-135d-45a7-92ef-64bfd4034feb">
+    <name>НеЗаблокирован</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не заблокирован</value>
+    </synonym>
+    <comment>ОбщиеДанныеXDTO.MSTAE = Неопределено</comment>
+  </enumValues>
+  <enumValues uuid="a412c89d-96ca-4843-94d7-ede632a35c46">
+    <name>БлокирДляЗаготов</name>
+    <synonym>
+      <key>ru</key>
+      <value>01 Блокировка для заготовки</value>
+    </synonym>
+    <comment>ОбщиеДанныеXDTO.MSTAE = &quot;01&quot;. Запрещено: Планирование потребности, Закупки</comment>
+  </enumValues>
+  <enumValues uuid="fe1f3b02-fb77-4eed-8a58-579508d49ee8">
+    <name>БлокирДляТехнКарты</name>
+    <synonym>
+      <key>ru</key>
+      <value>02 Блокировка для техн. карт и спецификаций</value>
+    </synonym>
+    <comment>ОбщиеДанныеXDTO.MSTAE = &quot;02&quot;. Запрещено: Использование в спецификациях и техкартах</comment>
+  </enumValues>
+  <enumValues uuid="b437317c-f7a4-463e-91a6-e620451edb6d">
+    <name>БлокированиеДвижений</name>
+    <synonym>
+      <key>ru</key>
+      <value>DL Блокирование движений</value>
+    </synonym>
+    <comment>ОбщиеДанныеXDTO.MSTAE = &quot;DL&quot;. Запрещено Планирование потребности, Закупки, Прогнозирование,Использование в спецификациях и техкартах,Система управления запасами (складские движения),Сообщения\Заказы ТОРО, производственные заказы</comment>
+  </enumValues>
+  <enumValues uuid="80447d32-d483-4bff-bb38-67c1e8bc8669">
+    <name>БлокирДляСклада</name>
+    <synonym>
+      <key>ru</key>
+      <value>05 Блокир для склада</value>
+    </synonym>
+    <comment>ОбщиеДанныеXDTO.MSTAE = &quot;05&quot;. Запрещено Система управления запасами (складские движения),Использование в спецификациях и техкартах,Сообщения\Заказы ТОРО, производственные заказы</comment>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="87097883-f3fd-44b7-81a9-c1b7fcbc7603">
+  <name>рарусИмущественныйУчет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Имущественный учет</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.рарусРазделИмущество</picture>
+  </picture>
+  <content>InformationRegister.рарусНастройкиФункционалаТОИР</content>
+  <content>FunctionalOption.рарусИспользоватьИмущественныйУчет</content>
+  <content>FunctionalOptionsParameter.Судно</content>
+  <content>CommonModule.рарусИмущественныйУчетСервер</content>
+  <content>Enum.рарусСтатусыИмуществаНаСудне</content>
+  <content>AccumulationRegister.рарусИмуществоНаСудах</content>
+  <content>DefinedType.рарусРаспоряжение</content>
+  <content>CommonAttribute.рарусКодСинхронизации</content>
+  <content>InformationRegister.рарусИндексКодаСинхронизации</content>
+  <content>DefinedType.рарусДокументыСКодомСинхронизации</content>
+  <content>Enum.рарусВидыОперацийРасходаТМЦ</content>
+  <content>CommonPicture.ЗаполнитьПоШаблону</content>
+  <content>CommonPicture.СтруктураПодчиненности</content>
+  <content>Report.рарусВедомостьИмуществаНаСудах</content>
+  <content>CommonModule.рарусИмущественныйУчетКлиент</content>
+  <content>Role.рарусДобавлениеИзменениеДокументовИмущественногоУчета</content>
+  <content>EventSubscription.рарусПостановкаВОчередьАктаОВыполненииЭтапаРаботДляПроведенияРасхода</content>
+  <content>ScheduledJob.рарусСозданиеРасходовПоАктамОВыполненииЭтапаРабот</content>
+  <content>InformationRegister.рарусОчередьАктовОВыполненииЭтапаРаботДляПроведенияРасходов</content>
+  <content>EventSubscription.рарусУстановкаКодаСинхронизации</content>
+  <content>EventSubscription.рарусОчисткаКодаСинхронизацииПриКопировании</content>
+  <content>CommonModule.рарусЗаявкаНаСнабжениеПечать</content>
+  <content>CommonModule.рарусИмущественныйУчетВызовСервера</content>
+  <content>Role.рарусДобавлениеИзменениеВидовНоменклатуры</content>
+  <content>Role.рарусЧтениеВидовНоменклатуры</content>
+  <content>Role.рарусЧтениеПросмотрДокументовИмущественногоУчета</content>
+  <content>DataProcessor.рарусОформлениеРасходаТМЦ</content>
+  <content>AccumulationRegister.рарусТоварыКОтгрузке</content>
+  <content>DataProcessor.рарусОформлениеПриходаТМЦ</content>
+  <content>InformationRegister.рарусСостоянияОтправкиОбъектов</content>
+  <content>Enum.рарусСостояниеОтправкиОбъекта</content>
+  <content>CommonPicture.рарусКоллекцияКорабльЯкорь</content>
+  <content>FunctionalOption.рарусУчетКартНавигацииКакУслуги</content>
+  <content>Constant.рарусУчетКартНавигацииКакУслуги</content>
+  <subsystems>Документы</subsystems>
+  <subsystems>СправочнаяИнформация</subsystems>
+  <subsystems>рарусКачество</subsystems>
+  <subsystems>УчетОстатковТМЦ</subsystems>
+</mdclass:Subsystem>

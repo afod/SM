@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9935a239-0321-4ada-a934-ef7b1cb2b0ea">
+  <producedTypes>
+    <refType typeId="1a770eaf-a3d4-4c60-b077-b4d92c06d9a7" valueTypeId="a3a399a8-314a-4e76-a045-9e9c5b21f66a"/>
+    <listType typeId="cd7d7e6e-ab39-4250-98a0-6744f61c77b4" valueTypeId="7232a0e3-1c08-4f61-8888-9a66170ffb44"/>
+    <managerType typeId="8e0d84d2-fecc-4c3f-81bb-459f7a69c5f4" valueTypeId="2dd5eb59-3023-4a54-93eb-0acdf6db8912"/>
+  </producedTypes>
+  <name>рарусВидыОбъектовДляСинхронизации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды объектов для синхронизации</value>
+  </synonym>
+  <comment>rarus makole БСО.СМ.007.03</comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="77a84b7c-ae79-49d0-9037-d9d9cc004b91">
+    <name>Документы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d236c576-451a-4a9c-a3a9-c6899870da20">
+    <name>Справочники</name>
+    <synonym>
+      <key>ru</key>
+      <value>Справочники</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="55a97389-e1a7-4572-ae58-bf2b2c620fdb">
+    <name>Файлы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файлы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9ae77a08-4c77-4394-ac59-e759088e21da">
+    <name>СлужебныеДанные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Служебные данные</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2ccad624-5af4-4b8a-83ab-d5f5e39c10e5">
+    <name>КритичныеДанные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Критичные данные</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

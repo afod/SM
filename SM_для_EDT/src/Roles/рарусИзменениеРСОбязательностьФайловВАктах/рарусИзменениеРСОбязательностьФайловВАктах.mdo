@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6942183e-57cd-44d5-9a50-bb2e3bb3da00">
+  <name>рарусИзменениеРСОбязательностьФайловВАктах</name>
+  <synonym>
+    <key>ru</key>
+    <value>(рарус) Изменение РС &quot;Обязательность файлов в актах&quot;</value>
+  </synonym>
+</mdclass:Role>

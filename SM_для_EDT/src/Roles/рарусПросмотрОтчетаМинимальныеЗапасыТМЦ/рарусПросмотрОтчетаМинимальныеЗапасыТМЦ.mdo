@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="58457bd7-495f-4b3f-bd0c-05ba9cd83dc8">
+  <name>рарусПросмотрОтчетаМинимальныеЗапасыТМЦ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Просмотр отчета &quot;Минимальные запасы ТМЦ&quot;</value>
+  </synonym>
+</mdclass:Role>

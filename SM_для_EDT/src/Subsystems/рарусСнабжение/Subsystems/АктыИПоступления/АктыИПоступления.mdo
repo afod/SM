@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="88c101c7-0ca1-4bd3-b249-7a076bca61f4">
+  <name>АктыИПоступления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Акты и поступления</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.рарусАктВыполненныхРаботОказанныхУслуг</content>
+  <content>AccumulationRegister.рарусОказанныеУслуги</content>
+  <content>DataProcessor.рарусОтражениеУслуг</content>
+  <content>CommonModule.рарусАктВыполненныхРаботОказанныхУслуг</content>
+  <content>CommonModule.рарусАктВыполненныхРаботОказанныхУслугОбмен</content>
+  <content>Role.рарусЧтениеАктовВыполненныхРаботОказанныхУслуг</content>
+  <content>Role.рарусДобавлениеИзменениеАктовВыполненныхРаботОказанныхУслуг</content>
+  <content>Catalog.рарусАктВыполненныхРаботОказанныхУслугПрисоединенныеФайлы</content>
+  <content>CommonModule.рарусТоварыУслугиКПоступлению</content>
+  <content>CommonModule.рарусТоварыНаСкладах</content>
+  <content>Role.рарусОтражениеУслуг</content>
+  <content>Role.рарусДобавлениеИзменениеПриходТМЦ</content>
+  <content>Role.рарусЧтениеПросмотрПриходТМЦ</content>
+  <content>Catalog.впПриходТМЦПрисоединенныеФайлы</content>
+  <parentSubsystem>Subsystem.рарусСнабжение</parentSubsystem>
+</mdclass:Subsystem>

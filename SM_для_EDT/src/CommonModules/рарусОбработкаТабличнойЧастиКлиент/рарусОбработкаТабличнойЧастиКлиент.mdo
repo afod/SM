@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="10926658-aa2a-4e24-b350-1b22c905ec3e">
+  <name>рарусОбработкаТабличнойЧастиКлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработка табличной части клиент</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Tabular section processing client</value>
+  </synonym>
+  <comment>rarus Plea</comment>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

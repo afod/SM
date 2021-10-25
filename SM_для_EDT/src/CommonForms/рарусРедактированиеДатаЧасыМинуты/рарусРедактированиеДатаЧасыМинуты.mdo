@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2dad64e4-9423-4183-8523-aada144c9ee9">
+  <name>рарусРедактированиеДатаЧасыМинуты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Редактирование дата часы минуты</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

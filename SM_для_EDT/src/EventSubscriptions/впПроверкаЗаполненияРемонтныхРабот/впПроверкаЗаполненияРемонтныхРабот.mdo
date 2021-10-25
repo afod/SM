@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="32ed8a1d-00a7-4fe1-b31d-7e6691918e3b">
+  <name>впПроверкаЗаполненияРемонтныхРабот</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверка заполнения ремонтных работ</value>
+  </synonym>
+  <comment>rarus markim</comment>
+  <source>
+    <types>DocumentObject.впЗаявкаНаРемонт</types>
+    <types>DocumentObject.впВнешнееОснованиеДляРабот</types>
+    <types>DocumentObject.впАктОВыполненииЭтапаРабот</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.впОбщиеПроцедурыДокументовТОИР.впПроверкаЗаполненияРемонтныхРаботПередЗаписью</handler>
+</mdclass:EventSubscription>

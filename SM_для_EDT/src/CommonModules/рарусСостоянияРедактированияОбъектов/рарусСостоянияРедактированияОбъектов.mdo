@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6f51a82a-ae1b-4b7b-9666-fbf671934135">
+  <name>рарусСостоянияРедактированияОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояния редактирования объектов (рарус)</value>
+  </synonym>
+  <comment>ФТ.СНБ.01.01</comment>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

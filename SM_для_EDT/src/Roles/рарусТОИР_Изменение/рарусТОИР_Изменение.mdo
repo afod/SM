@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="188df65a-fe82-4a82-b106-e87e53334f0f">
+  <name>рарусТОИР_Изменение</name>
+  <synonym>
+    <key>ru</key>
+    <value>ТОИР (изменение)</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8ab1aed2-990a-437c-a0d2-21e6f9ccf4b5">
+  <name>СудоваяОтчетность</name>
+  <synonym>
+    <key>ru</key>
+    <value>Судовая отчетность</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.рарусОтчетСУБ</content>
+  <parentSubsystem>Subsystem.VftЭлектронныеСообщения</parentSubsystem>
+</mdclass:Subsystem>

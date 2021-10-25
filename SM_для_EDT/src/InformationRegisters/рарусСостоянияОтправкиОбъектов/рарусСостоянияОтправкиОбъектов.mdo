@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e8bb48b7-b845-4df8-be8a-9dac6b2f5f43">
+  <producedTypes>
+    <selectionType typeId="6c44e2e4-1b23-4be0-8caf-7eebb5a1129c" valueTypeId="236262fd-4e39-49a8-b754-9a5b99dc5fed"/>
+    <listType typeId="910948ed-52bb-47ba-94ec-4d9c5ae348d2" valueTypeId="f3f5137f-0704-4831-9a2c-bec0a8f89ed6"/>
+    <managerType typeId="b98fffbb-953a-43c7-a175-080d640effaf" valueTypeId="cfc05e19-b5a8-4c1b-8833-d20764bd1e81"/>
+    <recordSetType typeId="d6995750-b43e-4cc2-82cb-1c115076f548" valueTypeId="fc9a0f12-d656-43b4-92f0-487f0b3bc020"/>
+    <recordKeyType typeId="60c77439-b126-4d45-9786-c664ada1e326" valueTypeId="9a965d59-68dd-461a-81b9-a9664e175d6f"/>
+    <recordType typeId="d9bf59de-90fa-4b2f-bc07-80f8d70f7d13" valueTypeId="26454a9c-0a2d-4ee2-92c0-af700b1833eb"/>
+    <recordManagerType typeId="6e341e3a-caed-445b-bb26-d7bed7495ae2" valueTypeId="bd7d50fb-808e-44c1-9cae-0332e035d84e"/>
+  </producedTypes>
+  <name>рарусСостоянияОтправкиОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояние отправки объекта</value>
+  </synonym>
+  <comment>rarus makole 29032021</comment>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="046771dd-d3ab-459d-bd19-816482970daa">
+    <name>СостояниеОтправки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние отправки</value>
+    </synonym>
+    <type>
+      <types>EnumRef.рарусСостояниеОтправкиОбъекта</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="1d08674b-79db-4380-80b7-42e2ef135926">
+    <name>КонтролируемыйОбъект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контролируемый объект</value>
+    </synonym>
+    <type>
+      <types>DefinedType.рарусДокументыСКонтролемСостоянияОтправки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="c5a35147-f8d3-4343-ac3e-e90b304c630b">
+    <name>ФормаКоманды</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма команды</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

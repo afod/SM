@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="41fa8bff-d609-4e7d-a1e7-16070acfdcaa">
+  <producedTypes>
+    <objectType typeId="c4c2e6a1-9ec3-408a-b276-abfdbc1ce867" valueTypeId="34f589f3-963c-4a40-9edc-d209ef42e4ff"/>
+    <refType typeId="26e62f57-25b3-4013-bd91-627b33358908" valueTypeId="b25bd8a6-b0a2-41c6-9c66-0f7e141f40c3"/>
+    <selectionType typeId="b9e47f6e-056e-40e5-8e5c-69a61b3088d2" valueTypeId="017bcd66-5998-49e2-8732-67f5f87a047b"/>
+    <listType typeId="be214876-5f23-4ea6-8444-a5b49461ef91" valueTypeId="117ce806-d848-4b59-9385-7a674ead629d"/>
+    <managerType typeId="077e25e3-e6b0-4a8d-a09a-06f9b54daa7f" valueTypeId="cd9f75fb-72a6-462f-bcc3-c5a923079ea2"/>
+  </producedTypes>
+  <name>рарусТипыСоставов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы составов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.рарусТипыСоставов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.рарусТипыСоставов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.рарусТипыСоставов.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="6460641f-9280-4ac8-9e5c-8ac85778ee4e">
+    <name>ПроектТолкача</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проект толкача</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.vftПроектыСудов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.Толкач</name>
+      <value xsi:type="core:BooleanValue">
+        <value>true</value>
+      </value>
+    </choiceParameters>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f7db0798-8ccc-494b-9f50-c2db57977644">
+    <name>КоличествоНосовыхСекций</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество носовых секций</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="208fab36-6136-47cb-94ec-57f0c1f25665">
+    <name>КоличествоКормовыхСекций</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество кормовых секций</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="8ee52d0b-5f73-4e5d-a661-d1d2bbb3fa20">
+    <producedTypes>
+      <objectType typeId="a8f2c7ed-e209-44c0-98ce-9f788eedb3dd" valueTypeId="cec7021b-1f06-4ec0-b004-4f4a3ce50f38"/>
+      <rowType typeId="5b496a18-7a5f-4b11-b69f-fadce3fce257" valueTypeId="1d30eec4-a67b-4906-96c0-32dde0e6ba17"/>
+    </producedTypes>
+    <name>Секции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Секции</value>
+    </synonym>
+    <attributes uuid="276ea30a-d3b6-4108-b7fa-11e4da037b9e">
+      <name>ПроектСекции</name>
+      <synonym>
+        <key>ru</key>
+        <value>Проект секции</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.vftПроектыСудов</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameters>
+        <name>Отбор.ТипХода</name>
+        <value xsi:type="core:NumberValue">
+          <value>1</value>
+        </value>
+      </choiceParameters>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="24c1edf7-7e95-469f-8c09-ba745fca54bd">
+    <producedTypes>
+      <objectType typeId="ee53238e-d18f-4de5-8619-20b4cba5208e" valueTypeId="46324754-6d02-4aed-8408-ba30f9b04376"/>
+      <rowType typeId="760e49bb-5135-4837-b3f1-a7194aa2f944" valueTypeId="3e9cab25-ca9f-4d20-91f8-271696e91f87"/>
+    </producedTypes>
+    <name>ПроектыТолкачей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проекты толкачей</value>
+    </synonym>
+    <attributes uuid="eaa6b925-ccd6-4d74-82b0-556bd5636a93">
+      <name>ПроектТолкача</name>
+      <synonym>
+        <key>ru</key>
+        <value>Проект толкача</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.vftПроектыСудов</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameters>
+        <name>Отбор.Толкач</name>
+        <value xsi:type="core:BooleanValue">
+          <value>true</value>
+        </value>
+      </choiceParameters>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="0707f79c-cc47-4adc-9486-ca86b3d4adac">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

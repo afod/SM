@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9d76be9b-ee76-4c8d-9fbd-dd0f249e558f">
+  <producedTypes>
+    <objectType typeId="e3ea319b-60e8-4392-8296-e7e54396975e" valueTypeId="42b9bdcf-121c-46d4-8acf-dbce2c454366"/>
+    <managerType typeId="1751af27-20b2-4f1f-aa60-f21614ac9673" valueTypeId="2d7d7103-ec27-4e65-9d81-f47b9f3fbd43"/>
+  </producedTypes>
+  <name>рарусПутевойЖурнал</name>
+  <synonym>
+    <key>ru</key>
+    <value>Путевой журнал</value>
+  </synonym>
+  <comment>Задача № 20475</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.рарусПутевойЖурнал.Form.ФормаОтчета</defaultForm>
+  <forms uuid="9c924baa-67ba-4482-81ce-46a71284c6d4">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="c11cf61e-1148-4e6c-8ef3-308901bfda1b">
+    <name>ПутевойЖурнал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путевой журнал</value>
+    </synonym>
+  </templates>
+  <templates uuid="11c18d49-8bb0-4677-8099-b1d50df678f5">
+    <name>ПутевойЖурналБуксиры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путевой журнал (буксиры)</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

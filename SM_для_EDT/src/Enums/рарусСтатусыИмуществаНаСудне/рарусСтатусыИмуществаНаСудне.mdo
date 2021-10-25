@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f4b8391c-fc34-48a0-8141-9474c88e00ab">
+  <producedTypes>
+    <refType typeId="ba2a9ce2-46cf-4505-b844-7046fc5a5c3e" valueTypeId="d4cd2911-7b26-4561-96b2-f98bf59789a0"/>
+    <listType typeId="90f472bd-0227-48eb-b42b-95ba2db063d9" valueTypeId="5d366f18-7ca4-4e0a-b86a-ccd3e33fce7b"/>
+    <managerType typeId="ec1a8b48-594e-47ac-8194-0cfb82dfce45" valueTypeId="98a5918c-008b-4744-9c70-6926922efd04"/>
+  </producedTypes>
+  <name>рарусСтатусыИмуществаНаСудне</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы имущества на судне</value>
+  </synonym>
+  <comment>rarus makole</comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b79153a2-54c2-4996-b073-e0ee073c7a55">
+    <name>НаСкладе</name>
+    <synonym>
+      <key>ru</key>
+      <value>На складе</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ec2bc435-300e-4a3e-ad45-4368fd9bc773">
+    <name>ВыданоВПользование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выдано членам экипажа</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="78d04816-a994-4858-ad5b-059279248bea">
+    <name>ОприходованоБУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оприходовано Б/У</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="12c351ff-e36d-4983-bf40-d73cd1d9d85a">
+    <name>СписаноВРегУчете</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списано в рег. учете</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

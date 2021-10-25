@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="93064af4-4ae7-4fc5-9318-27da7eb34422">
+  <producedTypes>
+    <refType typeId="393cc426-8ffb-4422-9af8-564996f58543" valueTypeId="936c06e9-65fc-4936-9a99-5bf6b23a4e90"/>
+    <listType typeId="bbd1984d-474c-459f-b0e9-9f402cef5760" valueTypeId="7723194c-01e4-47a6-8761-7899151114b2"/>
+    <managerType typeId="24eb535f-cb34-4acf-ac0e-e0a87d24a9c8" valueTypeId="09ed33e0-5f91-491e-8171-99451f4896ad"/>
+  </producedTypes>
+  <name>ТипыНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы номенклатуры</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Product types</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ebec2c82-75c7-4a72-89f3-0ea68280c22c">
+    <name>Товар</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товар</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Product</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e8fdb3f2-5c6d-4d0a-83cf-46809e4ce7f9">
+    <name>МногооборотнаяТара</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тара</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Package</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d9213bc4-3221-450f-a9dd-eef419fa2860">
+    <name>Услуга</name>
+    <synonym>
+      <key>ru</key>
+      <value>Услуга</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Service</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e0632de8-61eb-44a4-87eb-1e93362d3e18">
+    <name>Работа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Работа</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Work</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6171a67f-77b7-4d24-bad3-c1ee0bb0149c">
+    <name>Набор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Набор</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Set</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

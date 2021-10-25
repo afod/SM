@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="00bf8bf5-68b0-4996-afcf-fe40972d3500">
+  <name>vtfЧтениеИПросмотрСообщенийОПотенциальноймИнцидиенте</name>
+  <synonym>
+    <key>ru</key>
+    <value>(vtf) Чтение и просмотр сообщений о потенциальном инциденте</value>
+  </synonym>
+</mdclass:Role>

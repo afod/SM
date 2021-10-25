@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="97692a70-1fd3-4c0c-b223-30c973980453">
+  <producedTypes>
+    <selectionType typeId="c85c1f4c-b6e3-4818-9b7d-9c4850e980f5" valueTypeId="394dea4d-fe37-4ee6-a860-dc8f1d036a33"/>
+    <listType typeId="06ce1791-f298-41b7-ad9f-5b499c630d0e" valueTypeId="56bd92d0-4759-425a-9d91-823cb7ea81bc"/>
+    <managerType typeId="0baee32f-94c2-43cb-af89-c293ca7b7a8e" valueTypeId="28d7ba50-7c8f-4d0c-8390-15045f27e63e"/>
+    <recordSetType typeId="370f5c2b-99f8-4f5e-a403-ab517d524cef" valueTypeId="1642893d-cd7f-4aed-9971-f3215a65d9ef"/>
+    <recordKeyType typeId="21c193fe-3644-4cad-803c-a2f6ac1d7ebe" valueTypeId="d6449492-ecc7-4f6a-949c-7dfaffb46ac1"/>
+    <recordType typeId="0513b7c4-7f6b-4bfe-a3b9-a229f5331dc8" valueTypeId="5f0f6f9a-7aad-492c-88b1-cb51d27eba2e"/>
+    <recordManagerType typeId="090f759e-4645-4ed0-92d2-5bb8605d803b" valueTypeId="8494b8e5-1f79-4813-a9dd-813b46642731"/>
+  </producedTypes>
+  <name>рарусОчередьАктовОВыполненииЭтапаРаботДляПроведенияРасходов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Очередь Актов о выполнении этапа работ для проведения Расходов ТМЦ</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="03d18028-a494-417f-ab74-610af425922e">
+    <name>АктОВыполненииЭтапаРабот</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акт о выполнении этапа работ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.впАктОВыполненииЭтапаРабот</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="c04d4539-bd97-4157-8d6f-9b556a6fb997">
+    <name>Идентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Identifier</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

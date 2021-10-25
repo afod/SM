@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d9bbd6c5-2dc2-494a-8ea4-518b7c16eeb9">
+  <producedTypes>
+    <selectionType typeId="f79bca41-08d0-4125-bbfe-06a5061b8190" valueTypeId="c20480b7-93db-49f7-83b8-ae50405d122f"/>
+    <listType typeId="6d9a094b-06a8-4c51-8a6c-70d6200ca180" valueTypeId="98d64e1e-8f20-471a-96cd-82761006ae7a"/>
+    <managerType typeId="6cc1fc82-2324-4a9c-b63d-3e3288a85463" valueTypeId="b1301289-7a21-45f8-83bb-8207ed33346f"/>
+    <recordSetType typeId="70ba1649-a2ea-4e7f-ae45-4b754b03361a" valueTypeId="033b4913-c1a7-4137-9647-8f7b9abe73b3"/>
+    <recordKeyType typeId="30fff33e-fccf-4a12-b07f-2571023fee90" valueTypeId="e06c270a-91fd-4f02-8d38-99c0f4f3c861"/>
+    <recordType typeId="3897b4b7-0276-4e34-b914-5ec7e0f38c8c" valueTypeId="83d7294f-ea55-4cfa-9adf-41776aa0ec8d"/>
+    <recordManagerType typeId="2232c3ef-8105-4a4d-a756-7d77b1e5f001" valueTypeId="1d92a0bd-4d10-4f67-91a8-e568ce670938"/>
+  </producedTypes>
+  <name>впИнтеграцияДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция документов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="03a0a7a7-6872-46b1-acd2-234756971eda">
+    <name>ID</name>
+    <synonym>
+      <key>ru</key>
+      <value>ID</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>(ID)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="7c049d15-8844-4d2e-8e3a-95c6a9b8ecee">
+    <name>ДокументТОИР</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ ТОиР</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.впЗаявкаНаРемонт</types>
+      <types>DocumentRef.впПланГрафикРемонта</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>(Документ ТОиР)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="2a7681df-3db5-4b3d-bbcf-520f126e91fe">
+    <name>ДокументЕРП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ ERP</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.впЗаявкаНаСнабжение</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>(Документ ERP)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

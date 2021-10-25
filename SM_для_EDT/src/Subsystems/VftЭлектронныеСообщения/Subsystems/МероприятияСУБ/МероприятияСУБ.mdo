@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="495d8ffe-9863-44e8-9d57-1fb0121eca9e">
+  <name>МероприятияСУБ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мероприятия СУБ</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.рарусМероприятиеСУБ</content>
+  <content>Document.рарусУчение</content>
+  <parentSubsystem>Subsystem.VftЭлектронныеСообщения</parentSubsystem>
+</mdclass:Subsystem>

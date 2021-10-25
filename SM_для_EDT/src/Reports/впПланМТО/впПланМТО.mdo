@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1f0648ea-9997-4f85-bf65-c7afb21ee6c2">
+  <producedTypes>
+    <objectType typeId="a71e2efd-5b9f-4aaf-b33f-762d6f1d7f00" valueTypeId="ace63015-dc94-44d7-851c-fb2366c10bac"/>
+    <managerType typeId="b5834491-f5dd-4ae1-8aca-d334c61f1ef4" valueTypeId="d6f054ac-2f2d-4ba0-86eb-3b4bfaabfcc1"/>
+  </producedTypes>
+  <name>впПланМТО</name>
+  <synonym>
+    <key>ru</key>
+    <value>План МТО</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.впПланМТО.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <templates uuid="10c0f5bf-94f2-44bb-8ef6-840c6394d9ac">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

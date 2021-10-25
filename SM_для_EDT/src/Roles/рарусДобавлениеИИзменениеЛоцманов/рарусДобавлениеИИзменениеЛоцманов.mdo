@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d78850dd-7a27-49f4-a5fb-483c08ce2370">
+  <name>рарусДобавлениеИИзменениеЛоцманов</name>
+  <synonym>
+    <key>ru</key>
+    <value>(рарус) Добавление и изменение лоцманов</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b31a3da4-fbc2-4877-97bb-3282b832de16">
+  <producedTypes>
+    <refType typeId="b2f479f2-0d44-4e74-9c9e-557b0d315a7e" valueTypeId="35ac7b85-3c57-40a6-b5ed-d25f26b61978"/>
+    <listType typeId="76d5e0fd-7bec-46e2-bc15-48a45204274a" valueTypeId="bce9f646-7317-4b7c-b03d-6870ad813109"/>
+    <managerType typeId="0279a460-22b8-4495-b32d-4f137d77529b" valueTypeId="558f743d-bd2d-4659-b86b-fc72093812d8"/>
+  </producedTypes>
+  <name>рарусСостоянияЗаявокНаСнабжение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояния заявок на снабжение</value>
+  </synonym>
+  <comment>rarus PleA ФТ.СНБ.01.01</comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ba3e91bb-be79-4bc1-aaae-f33651b567bf">
+    <name>Активно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Активно</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Shipment in progress</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="08d5989e-d9ad-49c8-aa1a-5269552678d5">
+    <name>Выполнено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнено</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Receipt in progress</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9355fffe-cde7-4d19-9f09-8efbdf190148">
+    <name>ЧастичноЗаказано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Частично заказано</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Assembly (disassembly) in progress</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9b41a290-2ca5-4fb7-a3a9-25faf8aabe2a">
+    <name>Заказано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказано</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Ready for closure</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="aaecbaa1-503e-4a04-9785-0f484375b210">
+    <name>ОтправленоСоСкладаОтправителя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправлено со склада-отправителя</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6a5bf8f1-000f-4b37-96ac-728f76dcff87">
+    <name>СогласованиеКапитаном</name>
+    <synonym>
+      <key>ru</key>
+      <value>Согласование капитаном</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="84a85403-7798-49bd-8b44-31e7206e9412">
+    <name>НаРассмотренииТехническойДирекции</name>
+    <synonym>
+      <key>ru</key>
+      <value>На рассмотрении тех. дирекции</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="df88d773-c929-4e48-8c09-1b0e303a29a7">
+    <name>УслугиОказаны</name>
+    <synonym>
+      <key>ru</key>
+      <value>Услуги оказаны</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bb6c760e-5a61-4437-8601-78d3029c99b4">
+    <name>Отменено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отменено</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="39f9496b-b4ef-4ddc-9818-6d6a137b7551">
+    <name>ЧастичноВыполнено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Частично выполнено</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="31e1dca0-47fd-49db-ae96-521750206b9a">
+    <name>Черновик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Черновик</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

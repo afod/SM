@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d6afa2c0-4fb5-4cf9-8a43-241470b7430d">
+  <producedTypes>
+    <objectType typeId="e72673fc-28dd-448a-b9e3-b5fa825b982a" valueTypeId="48296dd4-8031-4f90-8c52-968a65d79b0e"/>
+    <managerType typeId="a9a1cd4f-daf3-41d5-a601-13c59bd49908" valueTypeId="60a4aa88-3084-480e-b8c8-4d1144989d38"/>
+  </producedTypes>
+  <name>впВыявленныеДефекты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выявленные дефекты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.впВыявленныеДефекты.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <settingsStorage>SettingsStorage.ХранилищеВариантовОтчетов</settingsStorage>
+  <templates uuid="de5d79aa-d5d5-4b82-a265-c2badd48e963">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

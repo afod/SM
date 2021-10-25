@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f3096f1c-9564-47ed-ab12-9266b3c280e9">
+  <producedTypes>
+    <objectType typeId="807ac973-c6dd-40cb-afe8-75abd362a670" valueTypeId="78dd6e6c-1f75-4b80-a579-51ff7d28b76b"/>
+    <managerType typeId="69d2f0d2-01a0-4fe4-93bf-d7a17c843792" valueTypeId="ed2f3bbf-9365-447e-b8a2-c4e3c4cc3573"/>
+  </producedTypes>
+  <name>vftКонтрольЗаНесоответствиямиНаСудах</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контроль за несоответствиями на судах</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.vftКонтрольЗаНесоответствиямиНаСудах.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="5ae27278-d4f8-431f-a453-32e8d1d71e9c">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

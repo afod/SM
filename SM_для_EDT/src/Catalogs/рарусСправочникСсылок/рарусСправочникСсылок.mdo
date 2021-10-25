@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b2ae792c-7c9d-4bd0-8bc4-a2c9c230c328">
+  <producedTypes>
+    <objectType typeId="c4f6f695-10d0-4183-9e23-d1694693ce9c" valueTypeId="3ca21b28-bef0-4bdf-acb7-c2087cdb0dbd"/>
+    <refType typeId="5149aa20-6ca0-48e0-b212-e1c53fd22d52" valueTypeId="fd82237d-7c7c-48c3-8cac-9aa419d0628d"/>
+    <selectionType typeId="8a935f3d-b2f1-463a-9477-cd996bdbb03f" valueTypeId="d10d4413-c511-4ab7-b9f2-670267020595"/>
+    <listType typeId="2bcf82dc-64e5-4f2c-9344-655c9a7d4c56" valueTypeId="2aee885e-ca67-48e1-9aab-b46420a42c75"/>
+    <managerType typeId="a51e83c4-0cb2-4002-9aa7-6db871fb8620" valueTypeId="5405d289-6d64-411b-baef-9e42c7937f03"/>
+  </producedTypes>
+  <name>рарусСправочникСсылок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочник ссылок</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.рарусСправочникСсылок.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.рарусСправочникСсылок.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <limitLevelCount>true</limitLevelCount>
+  <levelCount>3</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>50</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <codeSeries>WithinSubordination</codeSeries>
+  <checkUnique>true</checkUnique>
+  <predefined>
+    <items id="d37c2b7c-12db-4eb1-95fb-503cdd95250c">
+      <name>FSC</name>
+      <description>FSC</description>
+      <code xsi:type="core:StringValue">
+        <value>FSC</value>
+      </code>
+    </items>
+    <items id="070babac-6f86-4946-9394-1a9621826ce9">
+      <name>PSC</name>
+      <description>PSC</description>
+      <code xsi:type="core:StringValue">
+        <value>PSC</value>
+      </code>
+    </items>
+    <items id="269de4a3-96e6-466a-bbe1-a7f07d47e2b3">
+      <name>ГПК</name>
+      <description>ГПК</description>
+      <code xsi:type="core:StringValue">
+        <value>ГПК</value>
+      </code>
+    </items>
+    <items id="1f25aa93-8ce4-4e88-a9a8-6c02c2398337">
+      <name>ДиректоруПоЭксплуатации</name>
+      <description>Директор по эксплуатации в родительном падеже</description>
+      <code xsi:type="core:StringValue">
+        <value>ДиректоруПоЭксплуатации</value>
+      </code>
+    </items>
+    <items id="0191e095-b97b-4e60-8f29-c6ae7387ef67">
+      <name>ИнтервалМеждуРейсами</name>
+      <description>Интервал между рейсами, часы</description>
+      <code xsi:type="core:StringValue">
+        <value>ИнтервалМеждуРейсами</value>
+      </code>
+    </items>
+    <items id="fb10a08c-8bed-4e93-9199-b19e9b2ffbb5">
+      <name>МаслоГД</name>
+      <description>Масло ГД</description>
+      <code xsi:type="core:StringValue">
+        <value>МаслоГД</value>
+      </code>
+    </items>
+    <items id="6d43194c-7c6e-4d14-b2b1-1590654051d5">
+      <name>МаслоДГ</name>
+      <description>Масло ДГ</description>
+      <code xsi:type="core:StringValue">
+        <value>МаслоДГ</value>
+      </code>
+    </items>
+    <items id="5c2279c2-f67c-48b0-921b-bec3b41885aa">
+      <name>МинКоличествоСтрокАзов</name>
+      <description>Мин. кол-во строк в табл. части &quot;Прохождение Азов&quot;</description>
+      <code xsi:type="core:StringValue">
+        <value>МинКоличествоСтрокАзов</value>
+      </code>
+    </items>
+    <items id="46a896ae-e5ae-45e5-9640-95acea7b5782">
+      <name>МинКоличествоСтрокКЕК</name>
+      <description>Мин. кол-во строк в табл. части &quot;Прохождение КЕК&quot;</description>
+      <code xsi:type="core:StringValue">
+        <value>МинКоличествоСтрокКЕК</value>
+      </code>
+    </items>
+    <items id="25340086-d980-4d07-b9ad-9a38e3eccbe4">
+      <name>МинКоличествоСтрокЛоцман</name>
+      <description>Мин. кол-во строк в табл. части &quot;Прохождение участков с лоцманом&quot;</description>
+      <code xsi:type="core:StringValue">
+        <value>МинКоличествоСтрокЛоцман</value>
+      </code>
+    </items>
+    <items id="2d1a4d8d-eac2-4d35-8f0f-d7812903c598">
+      <name>МинКоличествоСтрокРостов</name>
+      <description>Мин. кол-во строк в табл. части &quot;Прохождение Ростов&quot;</description>
+      <code xsi:type="core:StringValue">
+        <value>МинКоличествоСтрокРостов</value>
+      </code>
+    </items>
+    <items id="996c2e57-0de8-4d0d-942d-aac317bcd5b1">
+      <name>МодельРДО_ННФ</name>
+      <description>Модель РДО (Нефтеналивной флот)</description>
+      <code xsi:type="core:StringValue">
+        <value>МодельРДО_ННФ</value>
+      </code>
+    </items>
+    <items id="25214470-ffe4-4b1b-a880-e7ac97cd272a">
+      <name>МодельРДО_СГФ</name>
+      <description>Модель РДО (Сухогрузный флот)</description>
+      <code xsi:type="core:StringValue">
+        <value>МодельРДО_СГФ</value>
+      </code>
+    </items>
+    <items id="b31e8539-8024-44e3-b18b-073c9467edcd">
+      <name>МодельРДО_СЗП</name>
+      <description>Модель РДО (Морской сухогрузный флот)</description>
+      <code xsi:type="core:StringValue">
+        <value>МодельРДО_СЗП</value>
+      </code>
+    </items>
+    <items id="4fb6e890-00f7-4074-8487-83be778077da">
+      <name>РМРС</name>
+      <description>РМРС</description>
+      <code xsi:type="core:StringValue">
+        <value>РМРС</value>
+      </code>
+    </items>
+    <items id="8d231fc4-1130-47d8-9b1b-c234b00724cf">
+      <name>ТопливоМТ01</name>
+      <description>МТ 0.1</description>
+      <code xsi:type="core:StringValue">
+        <value>ТопливоМТ01</value>
+      </code>
+    </items>
+    <items id="e7a43d52-3415-42cf-a2a6-95bb3a4ddaf2">
+      <name>ТопливоМТ05</name>
+      <description>МТ 0.5</description>
+      <code xsi:type="core:StringValue">
+        <value>ТопливоМТ05</value>
+      </code>
+    </items>
+    <items id="ef700e2d-41de-42f5-aad0-c366fc0a4ca7">
+      <name>ТопливоМТ15</name>
+      <description>МТ 1.5</description>
+      <code xsi:type="core:StringValue">
+        <value>ТопливоМТ15</value>
+      </code>
+    </items>
+    <items id="92cce7b9-a99a-4ccb-9f66-a8df8492ddeb">
+      <name>ТопливоСМТ</name>
+      <description>СМТ</description>
+      <code xsi:type="core:StringValue">
+        <value>ТопливоСМТ</value>
+      </code>
+    </items>
+  </predefined>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.рарусСправочникСсылок.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="a5145085-82b2-4488-a246-a8fc66b47d84">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.vftТиповыеОперации</types>
+      <types>CatalogRef.Номенклатура</types>
+      <types>String</types>
+      <types>CatalogRef.vftПунктыСледования</types>
+      <types>Number</types>
+      <types>CatalogRef.рарусУчасткиСОЛП</types>
+      <types>CatalogRef.впМодельРДО</types>
+      <types>CatalogRef.рарусКонтролирующиеОрганы</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="dcdc5b41-890e-445d-b333-f1faf3c45532">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d6773789-1e94-4b73-b295-01976d8d6f8f">
+  <name>рарусЧтениеИПросмотрЛоцманов</name>
+  <synonym>
+    <key>ru</key>
+    <value>(рарус) Чтение и просмотр лоцманов</value>
+  </synonym>
+</mdclass:Role>

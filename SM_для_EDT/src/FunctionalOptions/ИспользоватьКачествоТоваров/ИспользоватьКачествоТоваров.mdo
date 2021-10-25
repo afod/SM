@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="26b4fb88-6693-44cd-98be-0d35f7416492">
+  <name>ИспользоватьКачествоТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать качество товаров</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Use goods quality</value>
+  </synonym>
+  <comment>makole ЗНИ РАIT-0023374</comment>
+  <location>Constant.ИспользоватьКачествоТоваров</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.Номенклатура.Attribute.Качество</content>
+  <content>InformationRegister.ТоварыДругогоКачества</content>
+  <content>Subsystem.рарусИмущественныйУчет.Subsystem.рарусКачество</content>
+  <content>InformationRegister.ТоварыДругогоКачества.Command.ТоварыДругогоКачества</content>
+</mdclass:FunctionalOption>

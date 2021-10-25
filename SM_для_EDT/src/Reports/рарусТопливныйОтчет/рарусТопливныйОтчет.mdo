@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="59e89332-1868-4994-837d-70aac3eead94">
+  <producedTypes>
+    <objectType typeId="601531b8-5fce-49bf-ac25-27cc862af7a4" valueTypeId="7ad0becc-8d56-46e4-bfc4-86e3fb5683b0"/>
+    <managerType typeId="514e9729-962b-4f28-a2aa-91e4ed5b94c2" valueTypeId="224b6318-7507-4714-92ac-c56ff44a2e86"/>
+  </producedTypes>
+  <name>рарусТопливныйОтчет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Топливный отчет</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.рарусТопливныйОтчет.Form.ФормаОтчета</defaultForm>
+  <tabularSections uuid="ca5d4c74-e0ce-4dc5-8a39-ace127a70541">
+    <producedTypes>
+      <objectType typeId="4478f74e-54fe-4f9d-9c01-b838bca0c574" valueTypeId="22128f05-fdbe-4c8b-b567-538028e13b76"/>
+      <rowType typeId="7ff10197-753c-431c-90f8-4fef13bf3fb7" valueTypeId="83edd234-4b04-437b-a2a0-dbe44cfe4eb6"/>
+    </producedTypes>
+    <name>СписокВидовТопливаТЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список видов топлива ТЗ</value>
+    </synonym>
+    <attributes uuid="f7a4bb1b-c7b3-4fac-874b-cf29d1066f99">
+      <name>Номенклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="917dbab3-f273-4454-b0ef-4b8c77cc1c3b">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="a6eee454-02f0-4ae0-831c-91b897b2d201">
+    <name>РейсовыйОтчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рейсовый отчет</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

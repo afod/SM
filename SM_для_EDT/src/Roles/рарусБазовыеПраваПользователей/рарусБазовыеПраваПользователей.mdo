@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="78e31d2f-cf44-40bf-b3b9-4530c45d9cb1">
+  <name>рарусБазовыеПраваПользователей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Базовые права пользователей (Рарус)</value>
+  </synonym>
+  <comment>rarus makole</comment>
+</mdclass:Role>

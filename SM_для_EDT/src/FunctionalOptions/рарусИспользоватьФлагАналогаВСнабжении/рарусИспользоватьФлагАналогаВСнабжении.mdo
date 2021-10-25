@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="86536783-1de7-4916-b20e-46c8d19e3c2c">
+  <name>рарусИспользоватьФлагАналогаВСнабжении</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать флаг аналога в снабжении (рарус)</value>
+  </synonym>
+  <location>InformationRegister.рарусНастройкиФункционалаТОИР.Resource.ИспользоватьФлагАналогаВСнабжении</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Document.впЗаявкаНаСнабжение.TabularSection.МатериалыИРаботы.Attribute.Аналог</content>
+  <content>Document.впЗаказПоставщику.TabularSection.ТМЦ.Attribute.Аналог</content>
+</mdclass:FunctionalOption>

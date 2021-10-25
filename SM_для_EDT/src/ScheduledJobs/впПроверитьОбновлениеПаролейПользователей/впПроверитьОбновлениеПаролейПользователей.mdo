@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fbd9d507-e79c-4107-83ac-2a2e1dcef2c5">
+  <name>впПроверитьОбновлениеПаролейПользователей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверить обновление паролей пользователей</value>
+  </synonym>
+  <comment>rarus markim</comment>
+  <methodName>CommonModule.vftОбщегоНазначенияВызовСервера.ПроверитьПаролиПользователей</methodName>
+  <description>Проверить обновление паролей пользователей</description>
+  <key>впПроверитьОбновлениеПаролейПользователей</key>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

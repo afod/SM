@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="734d71db-c4b4-445b-9f74-7ba8b2a0ad16">
+  <name>рарусСинхронизацияССудномПовтИсп</name>
+  <synonym>
+    <key>ru</key>
+    <value>Cинхронизация с судном повт исп</value>
+  </synonym>
+  <comment>rarus makole</comment>
+  <server>true</server>
+  <returnValuesReuse>DuringSession</returnValuesReuse>
+</mdclass:CommonModule>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aa505026-a0ec-4bac-bbfc-dfee1e423e82">
+  <name>ОсновнаяПодсистема</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основная подсистема</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Catalog.vftСуда</content>
+  <content>Report.рарусПутевойЖурнал</content>
+  <content>EventSubscription.впЗапретИзмененияПроведенныхПриНаличииСозданныхНаОсновании</content>
+  <content>Report.рарусПутевойЖурналНС</content>
+  <content>FunctionalOptionsParameter.Судно</content>
+  <content>CommandGroup.Печать</content>
+  <content>InformationRegister.vftНормыСледования</content>
+  <content>Enum.vftГруппыСтоянокПутевогоЖурнала</content>
+  <content>Document.vftРейс</content>
+  <content>Report.рарусРейсыДатыСудопроходовУчастковОбязательнойЛоцманскойПроводки</content>
+  <content>Document.vftРДО</content>
+  <content>Catalog.vftПроектыСудов</content>
+  <content>Constant.рарусИспользоватьКонтрольВыбораПунктов</content>
+  <content>Report.рарусРапортСОЛП</content>
+  <content>FunctionalOption.ПрефиксыСудов</content>
+  <content>CommonForm.vftФормаЖурнала</content>
+  <content>Catalog.vftПунктыСледования</content>
+  <content>InformationRegister.vftТаблицаДвижения</content>
+  <content>Catalog.vftТиповыеОперации</content>
+  <content>Catalog.vftГрузы</content>
+  <content>Enum.vftРекаМоре</content>
+  <content>Catalog.рарусМаркиТоплива</content>
+  <content>InformationRegister.vftТаблицаМорскихРасстояний</content>
+  <content>Report.рарусОтчетОРейсообороте</content>
+  <content>InformationRegister.vftСвязьПунктовСледования</content>
+  <content>Catalog.vftВодныеУчастки</content>
+  <content>Report.рарусРейсыСправкаБезлоцманскойПроводки</content>
+  <content>Catalog.рарусТипыСоставов</content>
+  <content>Catalog.рарусКлассыСудов</content>
+  <content>Catalog.рарусТипыПунктовСледования</content>
+  <content>Report.рарусГрафикДвижения</content>
+  <content>Report.рарусРейсыЛистУчетаЛоцманскихПроводок</content>
+  <content>InformationRegister.рарусГруппыТиповыхОперацийИАналитикДляОтчетов</content>
+  <content>Enum.рарусВидыГруппТиповыхОперацийИАналитик</content>
+  <content>Report.рарусРейсовыйОтчет</content>
+  <content>Report.рарусТопливныйОтчет</content>
+  <content>InformationRegister.рарусПрохождениеУчастковСОЛП</content>
+  <content>DataProcessor.рарусПостроениеМаршрутаПоАлгоритмуДейкстры</content>
+  <content>Report.рарусРейсыПрохождениеКЕК</content>
+  <content>InformationRegister.рарусПодсказкиПоказателейРДО</content>
+  <subsystems>ОбменДанными</subsystems>
+  <subsystems>ВариантыОтчетов</subsystems>
+  <subsystems>НормативноСправочнаяИнформация</subsystems>
+  <subsystems>СервисныеМеханизмы</subsystems>
+</mdclass:Subsystem>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c073d72c-16ff-4787-876d-95736f4f239b">
+  <producedTypes>
+    <containerType typeId="089c2ccd-9976-4a59-838e-d3413e5f8906" valueTypeId="6c85147f-db92-476b-a3e9-40e5ed6a1f5e"/>
+  </producedTypes>
+  <name>рарусРаспоряжение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Распоряжение</value>
+  </synonym>
+  <comment>rarus makole</comment>
+  <type>
+    <types>DocumentRef.впЗаказПоставщику</types>
+    <types>DocumentRef.впПеремещениеТоваров</types>
+    <types>DocumentRef.впЗаявкаНаСнабжение</types>
+    <types>DocumentRef.рарусИнвентаризацияТМЦ</types>
+  </type>
+</mdclass:DefinedType>

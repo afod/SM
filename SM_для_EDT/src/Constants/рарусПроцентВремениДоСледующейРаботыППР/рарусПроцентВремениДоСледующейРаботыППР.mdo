@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5c70d8d0-d4f7-447d-9958-fd5eb0074a7d">
+  <producedTypes>
+    <managerType typeId="122f120a-1950-4a4b-95d0-81a9852c76cf" valueTypeId="ae0010c6-31ac-46f7-a40e-6ee21f5d51b1"/>
+    <valueManagerType typeId="7f556b9c-eb8c-4230-86e7-3bd381524931" valueTypeId="8aaf2a4b-85fc-4444-a733-62c8ab3db525"/>
+    <valueKeyType typeId="34d10a97-0e21-46c5-a667-16fcf7704971" valueTypeId="83453aca-4a7a-4769-b443-ef63a5be05b0"/>
+  </producedTypes>
+  <name>рарусПроцентВремениДоСледующейРаботыППР</name>
+  <synonym>
+    <key>ru</key>
+    <value>Процент времени до следующей работы (ППР)</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>2</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a1f2ed40-4763-4cfa-bec9-1d251022abac">
+  <producedTypes>
+    <selectionType typeId="5cd5d527-882f-49b8-9cb1-4d5ffba49344" valueTypeId="a7314591-831b-49db-b78b-157cf14beb48"/>
+    <listType typeId="2e316d87-5140-4f84-b4e6-58580a98cd63" valueTypeId="c4dc6d68-8eb1-4de7-a16e-74d5eebc52c0"/>
+    <managerType typeId="abe50cc9-6794-4ea2-9d23-f123f9055207" valueTypeId="0d8d5b15-e077-4951-9da1-d807986b3a87"/>
+    <recordSetType typeId="4d2f043b-9aca-4885-89ae-d9dedb714562" valueTypeId="386da5c2-e741-49b3-aca1-214eaa8903ef"/>
+    <recordKeyType typeId="b1ec3dd0-5979-4a17-9b39-defa03ee35a0" valueTypeId="2b595a5a-a82a-4e41-a554-40e1aac16f30"/>
+    <recordType typeId="78da9ec1-970b-40bb-a0ba-1729d10d8718" valueTypeId="08549b3b-1c2e-4a42-80a3-e9f34d3f6e32"/>
+    <recordManagerType typeId="a20ea36b-1953-4eee-9482-e91922620b1f" valueTypeId="350c40ff-0878-45ef-87ba-32e04937caf6"/>
+  </producedTypes>
+  <name>рарусОчередьОбработкиДублейERP</name>
+  <synonym>
+    <key>ru</key>
+    <value>Очередь обработки дублей ERP</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Элемент очереди обработки дублей ERP</value>
+  </recordPresentation>
+  <extendedRecordPresentation>
+    <key>ru</key>
+    <value>Элемент очереди обработки дублей ERP</value>
+  </extendedRecordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Очередь обработки дублей ERP</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Очередь обработки дублей ERP</value>
+  </extendedListPresentation>
+  <resources uuid="21db216f-46a5-4347-9314-05796b6aea2e">
+    <name>Оригинал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оригинал</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.vftПунктыСледования</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="61b14009-6751-4922-9b06-b15520410a17">
+    <name>Обработано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обработано</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="67fc567b-7a4e-4e8d-8736-ff82baeb1522">
+    <name>ОшибкаТекст</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст ошибки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="153053d4-55e3-4930-8446-fa206f1a5170">
+    <name>КодУзла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код узла</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>9</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="cd8070ec-e064-4ff2-b191-736d18b198b2">
+    <name>Дубль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дубль</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.vftПунктыСледования</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

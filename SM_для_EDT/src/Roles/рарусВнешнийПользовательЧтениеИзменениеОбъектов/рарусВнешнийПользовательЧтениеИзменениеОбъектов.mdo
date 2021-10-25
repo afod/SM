@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c8ac00ab-99a5-4366-994b-e337f0d03434">
+  <name>рарусВнешнийПользовательЧтениеИзменениеОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение и изменение объектов (только для пользователя http-сервиса обмена данными)</value>
+  </synonym>
+  <comment>rarus makole БСО.СМ.001 - Для пользователя http-сервиса</comment>
+</mdclass:Role>

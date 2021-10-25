@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="be311a0b-a23b-4c51-8375-0837b77d6b81">
+  <producedTypes>
+    <objectType typeId="2287a6a3-1cb7-4b4a-92ec-0a465f2944e9" valueTypeId="1baf1e03-41c8-4d29-8e4d-5800bde74768"/>
+    <refType typeId="81cd004a-9ed6-4281-84ef-0f07d8baf9f1" valueTypeId="1d979736-a352-42be-b495-2442b00e3c71"/>
+    <selectionType typeId="3ec0297a-baa4-4f95-ba48-895f8ffa6f92" valueTypeId="c2db981d-2224-42e8-b068-23d8189678cb"/>
+    <listType typeId="03c7610b-9a61-4730-8f42-35c8117833aa" valueTypeId="4ef2612c-2266-48af-9611-3a174b28d3ff"/>
+    <managerType typeId="debe5c33-2677-4adf-a7f0-d9bbf40e481f" valueTypeId="7dc1bd4d-b279-4c30-bfae-09f3903f56c5"/>
+  </producedTypes>
+  <name>рарусКатегорииНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Категории номенклатуры</value>
+  </synonym>
+  <comment>rarus makole</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.рарусКатегорииНоменклатуры.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.рарусКатегорииНоменклатуры.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>80</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="639f8ee0-8820-46e6-a8bc-cf28177a7fe0">
+      <name>ИМПАИмущество</name>
+      <description>ИМПА/Имущество</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="ca958f2a-634c-4994-a63f-e2a4bc30549f">
+      <name>ИМПАРасходныеМатериалы</name>
+      <description>ИМПА/Расходные Материалы</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="58904c8d-2ee4-47f2-91ad-f32d3866ae04">
+      <name>КартыИПубликации</name>
+      <description>Карты и публикации</description>
+      <code xsi:type="core:StringValue">
+        <value>000000008</value>
+      </code>
+    </items>
+    <items id="0ebf6544-8556-42e4-ae55-d7f2e766a4ef">
+      <name>Колпит</name>
+      <description>Колпит</description>
+      <code xsi:type="core:StringValue">
+        <value>000000010</value>
+      </code>
+    </items>
+    <items id="0b6af146-23cc-4c4c-bbc7-cff96eaa32aa">
+      <name>СЗЧ</name>
+      <description>СЗЧ (Сменные запасные части)</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="22147c96-e0de-44e3-9317-21f42793c594">
+      <name>СИЗИ</name>
+      <description>СИЗ (Средства индивидуальной защиты) индивидуального пользования</description>
+      <code xsi:type="core:StringValue">
+        <value>000000009</value>
+      </code>
+    </items>
+    <items id="775ea681-8eaf-4495-bc7f-0b9b9246beb4">
+      <name>СИЗО</name>
+      <description>СИЗ (Средства индивидуальной защиты) общего пользования</description>
+      <code xsi:type="core:StringValue">
+        <value>000000006</value>
+      </code>
+    </items>
+    <items id="37c941c0-d339-4408-a876-27f0c90bc763">
+      <name>СудоваяКраска</name>
+      <description>Судовая краска</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+    <items id="58611f6f-59ca-4f63-8ae0-b6f1d8d7ec9e">
+      <name>СудоваяХимияПромышленныеГазы</name>
+      <description>Судовая химия / Промышлененные газы</description>
+      <code xsi:type="core:StringValue">
+        <value>000000005</value>
+      </code>
+    </items>
+    <items id="50b29ff3-80a0-45eb-a270-d2ef233aa4a5">
+      <name>ШвартовныеКонцыСтальныеТроса</name>
+      <description>Швартовные концы / стальные троса</description>
+      <code xsi:type="core:StringValue">
+        <value>000000007</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.рарусКатегорииНоменклатуры.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="00d44dd8-6eb5-457e-b3d7-c6bbc6e53926">
+    <name>ВыдаетсяЭкипажу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выдается экипажу</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="78380e88-6e88-4911-a744-c94b5ab1a5f7">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

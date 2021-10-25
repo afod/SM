@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c7712813-3c71-4863-81c2-2a05e32b4440">
+  <name>рарусЧтениеЗоныОтветственности</name>
+  <synonym>
+    <key>ru</key>
+    <value>(рарус) Чтение зоны ответственности</value>
+  </synonym>
+</mdclass:Role>

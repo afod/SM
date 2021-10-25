@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fc6046e8-7f06-478f-a798-ca2878d3fdee">
+  <name>рарусРазмещатьИнфоокнаНаНачальнойСтранице</name>
+  <synonym>
+    <key>ru</key>
+    <value>(рарус) Размещать инфоокна на начальной странице</value>
+  </synonym>
+  <location>InformationRegister.рарусНастройкиФункционалаТОИР.Resource.РазмещатьИнфоокнаНаНачальнойСтранице</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Report.рарусВедомостьТМЦ</content>
+  <content>DataProcessor.рарусАРМСнабжение</content>
+  <content>Report.рарусМинимальныеЗапасыТМЦ</content>
+</mdclass:FunctionalOption>

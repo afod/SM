@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bfb2cf03-f878-412e-a082-0c42fa854686">
+  <name>рарусСнабжение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Снабжение</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.рарусСнабжение</picture>
+  </picture>
+  <content>DataProcessor.рарусОформлениеПриходаТМЦ</content>
+  <content>FunctionalOption.рарусИспользоватьСудовоеСнабжение</content>
+  <content>CommonPicture.рарусСнабжение</content>
+  <content>DataProcessor.рарусАРМСнабжение</content>
+  <content>Report.рарусВедомостьТМЦ</content>
+  <content>Report.рарусМинимальныеЗапасыТМЦ</content>
+  <content>DataProcessor.рарусОформлениеРасходаТМЦ</content>
+  <subsystems>ЗаявкиНаСнабжение</subsystems>
+  <subsystems>АктыИПоступления</subsystems>
+  <subsystems>БазоваяФункциональность</subsystems>
+  <subsystems>ИмущественныйУчет</subsystems>
+  <subsystems>Аналоги</subsystems>
+</mdclass:Subsystem>

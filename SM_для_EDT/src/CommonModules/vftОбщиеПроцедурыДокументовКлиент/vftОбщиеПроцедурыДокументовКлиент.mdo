@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5d0eafcc-c9f5-4eb0-bf35-147862eb5125">
+  <name>vftОбщиеПроцедурыДокументовКлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Общие процедуры документов клиент</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+</mdclass:CommonModule>

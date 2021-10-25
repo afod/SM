@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7730ddd0-2102-4445-94e2-3a9a550437de">
+  <name>ЗаявкиНаСнабжение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заявки на снабжение</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.впЗаявкаНаСнабжение</content>
+  <content>CommonModule.рарусЗаявкаНаСнабжениеСостояния</content>
+  <content>CommonModule.рарусЗаявкаНаСнабжениеНапоминания</content>
+  <content>CommonModule.рарусЗаявкаНаСнабжениеСервер</content>
+  <content>CommonModule.рарусЗаявкаНаСнабжениеОбмен</content>
+  <content>CommonModule.рарусЗаявкаНаСнабжениеСобытия</content>
+  <content>CommonModule.рарусЗаявкаНаСнабжениеСтатусы</content>
+  <content>EventSubscription.рарусПостановкаВОчередьЗаявкиНаСнабжениеОтменаПроведения</content>
+  <content>EventSubscription.рарусПостановкаВОчередьЗаявкиНаСнабжение</content>
+  <content>EventSubscription.рарусРассчитатьСтатусЗаявкиНаСнабжениеПриПроведении</content>
+  <content>ScheduledJob.рарусОтложенноеПроведениеЗаявокНаСнабжениеПоСостояниям</content>
+  <content>Catalog.впЗаявкаНаСнабжениеПрисоединенныеФайлы</content>
+  <content>Enum.рарусВидыПотребностиЗаявкиНаСнабжение</content>
+  <content>Enum.рарусСостоянияЗаявокНаСнабжение</content>
+  <content>Enum.рарусОбластиРедактирования</content>
+  <content>Enum.рарусСтатусыСогласованияЗаявкиНаСнабжение</content>
+  <content>InformationRegister.рарусСостоянияЗаявокНаСнабжение</content>
+  <content>InformationRegister.рарусСостоянияСтрокЗаявокНаСнабжение</content>
+  <content>InformationRegister.рарусОчередьЗаявокНаСнабжениеКОбновлениюСостояния</content>
+  <content>Role.рарусЧтениеЗаявкиНаСнабжение</content>
+  <content>Role.рарусДобавлениеИзменениеЗаявкиНаСнабжение</content>
+  <content>Role.рарусЧтениеСостоянийЗаявкиНаСнабжение</content>
+  <content>Role.рарусЧтениеЗаявкиНаСнабжениеПрисоединенныеФайлы</content>
+  <content>Role.рарусДобавлениеИзменениеЗаявкиНаСнабжениеПрисоединенныеФайлы</content>
+  <content>CommonModule.рарусЗаказыСервер</content>
+  <content>EventSubscription.ЗаписатьВерсиюДокументаСМ</content>
+  <content>CommonModule.рарусСостоянияРегистрацииОбъектовНаПланахОбменаСервер</content>
+  <content>Enum.рарусВидыОперацийПриходаТМЦ</content>
+  <content>Catalog.рарусБереговыеСлужбы</content>
+  <content>Report.рарусСостояниеВыполненияЗаявокНаСнабжение</content>
+  <parentSubsystem>Subsystem.рарусСнабжение</parentSubsystem>
+</mdclass:Subsystem>

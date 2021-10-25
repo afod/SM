@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a81738a9-01d2-4519-8977-698ad2a8a49c">
+  <name>рарусДобавлениеИзменениеЗаявкиНаСнабжение</name>
+  <synonym>
+    <key>ru</key>
+    <value>(рарус) Добавление/изменение заявки на снабжение</value>
+  </synonym>
+  <comment>rarus PleA</comment>
+</mdclass:Role>

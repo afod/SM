@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4e554aa5-7e28-4cd3-8edb-0011f898ab8f">
+  <producedTypes>
+    <refType typeId="efb50d54-5ff9-4f60-9386-fa54080e045a" valueTypeId="afd3e603-029b-47f5-89bc-513d20d00c1a"/>
+    <listType typeId="14e0287b-f887-46c7-8d24-0bc0b95d8468" valueTypeId="5c332f52-1c84-4f10-80a2-9f4cf9d64c90"/>
+    <managerType typeId="905e6a7a-de4a-4289-947f-7c13321e09a7" valueTypeId="6efadcf3-831b-4bed-9cbb-fccd4bc46ab2"/>
+  </producedTypes>
+  <name>ГрадацииКачества</name>
+  <synonym>
+    <key>ru</key>
+    <value>Градации качества</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Quality levels</value>
+  </synonym>
+  <comment>makole ЗНИ РАIT-0023374</comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ed0e0ff6-7cda-4efd-9585-e99db26dcfa6">
+    <name>Новый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Новый</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>New</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ecc044be-6225-4a72-86e2-2dca42385de9">
+    <name>ОграниченноГоден</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ограниченно годен</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Suitable to a limited extent</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="af7caa16-dbc5-4581-984d-57066022df9d">
+    <name>НеГоден</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не годен</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Not usable</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="41e9ecc4-0c4e-428f-b53a-a2ae832fc895">
+    <name>БУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Б/у</value>
+    </synonym>
+    <comment>rarus makole РАIT-0023374</comment>
+  </enumValues>
+  <enumValues uuid="82032216-c7cd-4955-a8af-a09ac8d9c2e2">
+    <name>Восстановленный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Восстановленный</value>
+    </synonym>
+    <comment>rarus makole РАIT-0023374</comment>
+  </enumValues>
+</mdclass:Enum>

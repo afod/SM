@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="74c55754-2fe9-443c-81c1-73eabd60a403">
+  <producedTypes>
+    <managerType typeId="7688b7b6-22e5-46f9-a670-221a3bb0ac6f" valueTypeId="d0a7c842-9364-495c-b8a4-a7e5d6445ec0"/>
+    <valueManagerType typeId="44b78bab-70d6-4a75-a9ab-4ce2fe74d998" valueTypeId="a6ef59fe-5df5-4ef2-b99c-0aed806cd8bb"/>
+    <valueKeyType typeId="3b521c0a-68f3-45e2-af98-59130b8198a2" valueTypeId="fa84f047-a41c-4bce-9b30-ce7e1de329dc"/>
+  </producedTypes>
+  <name>рарусУчетКартНавигацииКакУслуги</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет карт навигации как услуги</value>
+  </synonym>
+  <comment>makole РАIT-0023257</comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

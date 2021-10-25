@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8ee44c0f-9227-45b0-89f7-f175caf42380">
+  <name>ИнформационнаяПанель</name>
+  <synonym>
+    <key>ru</key>
+    <value>Информационная панель</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>InformationRegister.рарусДанныеВиджетов</content>
+  <content>Catalog.рарусВиджеты</content>
+  <content>Catalog.рарусПоказателиВиджетов</content>
+  <content>Catalog.рарусПериодыВиджетовПоУмолчанию</content>
+  <content>Enum.рарусВидыПериодовВиджетов</content>
+  <content>CommonForm.ИнформационнаяПанельНастройка</content>
+  <content>CommonForm.ИнформационнаяПанель</content>
+  <content>CommonForm.рарусВыборПериодаИнформационнойПанели</content>
+</mdclass:Subsystem>

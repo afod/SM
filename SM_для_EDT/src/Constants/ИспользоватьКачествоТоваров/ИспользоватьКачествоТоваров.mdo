@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b012649d-e170-4184-89b9-d1c5f1d21fcb">
+  <producedTypes>
+    <managerType typeId="197e9251-f987-464d-aa98-8bc0984d16a8" valueTypeId="970e5764-2f67-4605-9b55-c2b4618a2735"/>
+    <valueManagerType typeId="387922a4-53df-4f6b-809e-cfb4de22bfa0" valueTypeId="5bd21906-3fd5-4b1f-aa1e-876fee53e748"/>
+    <valueKeyType typeId="7d3330e9-0398-4a55-8f19-bd9bc27c00ee" valueTypeId="f98788a5-3a82-4e87-841f-ec67e91da34b"/>
+  </producedTypes>
+  <name>ИспользоватьКачествоТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать качество товаров</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Use goods quality</value>
+  </synonym>
+  <comment>makole ЗНИ РАIT-0023374</comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

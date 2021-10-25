@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8001bcbc-8388-4b7c-882f-b5730921286d">
+  <producedTypes>
+    <objectType typeId="ef4785e1-4654-4031-b108-55819f21e6ac" valueTypeId="3cce8c3b-2789-44fd-a5df-a7b14b7b55c8"/>
+    <refType typeId="fdc63a5f-a333-41f9-badd-ea205042405d" valueTypeId="1d714cfa-fd9a-4d05-a294-7887eef70b3b"/>
+    <selectionType typeId="4daa2d81-bd92-42f4-b8d9-f1fa67fa8c07" valueTypeId="43b40609-0afe-4c87-af43-a10a5f8666b6"/>
+    <listType typeId="c9376315-7f89-4800-b127-04a9d14f3dcb" valueTypeId="76397345-3e41-4f6a-a611-fd8a09a7a2c8"/>
+    <managerType typeId="9b180e4c-877d-4251-ba90-e84783829dc4" valueTypeId="08142d8d-d429-4ed4-9a95-62e90ebef49a"/>
+  </producedTypes>
+  <name>рарусАтласы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Атласы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.рарусАтласы.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.рарусАтласы.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

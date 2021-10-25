@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="47aa5a52-6d1d-42c5-83da-65f96762ff36">
+  <producedTypes>
+    <containerType typeId="b53384f2-d587-448f-a7cc-c925107fc10f" valueTypeId="9a190d5f-3478-4ac7-9614-4dfb305b3e4c"/>
+  </producedTypes>
+  <name>рарусОбъектыСУБ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Объекты СУБ</value>
+  </synonym>
+  <type>
+    <types>DocumentRef.vftАнализСУБ</types>
+    <types>CatalogRef.vftНесоответствия</types>
+    <types>CatalogRef.vftДокладыОНесоответствии</types>
+    <types>DocumentRef.vftСообщениеОПотенциальномИнциденте</types>
+    <types>DocumentRef.vftДокладОСостоянииБезопасности</types>
+  </type>
+</mdclass:DefinedType>

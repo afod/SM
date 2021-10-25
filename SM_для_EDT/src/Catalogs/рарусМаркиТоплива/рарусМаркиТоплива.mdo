@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="08e62440-d62f-4995-ae68-4405bf1d2566">
+  <producedTypes>
+    <objectType typeId="c1ec8a89-7507-4aca-a7c6-78ddb68bc7b4" valueTypeId="3f839bbc-fdf4-4d9e-9f4c-319af76371ee"/>
+    <refType typeId="b0275c4f-4e82-40be-9fe7-82f73eb5a12e" valueTypeId="3255cd2a-9de2-4048-83e1-6579e656ad92"/>
+    <selectionType typeId="d550a640-5b5d-49bf-b9a6-5dcdc1bbf225" valueTypeId="eb1fbb2d-d3b2-45ad-8a28-be8106212c3f"/>
+    <listType typeId="07096ef5-d6f0-45d6-a12b-89d1767b1adb" valueTypeId="36cdacf3-ce9e-40e7-988d-a751aaf4a7ba"/>
+    <managerType typeId="df7f53a1-6ce2-462f-9d19-4448060952ad" valueTypeId="57e7b97e-c787-49d0-8ea3-23990adfbae4"/>
+  </producedTypes>
+  <name>рарусМаркиТоплива</name>
+  <synonym>
+    <key>ru</key>
+    <value>Марки топлива</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.рарусМаркиТоплива.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.рарусМаркиТоплива.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>11</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="88d8fabd-0dea-4884-9eda-e5e0b874110b">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

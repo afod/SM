@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e5d15930-6dcc-4641-b50c-fccd12c85131">
+  <name>рарусЧтениеИзменениеМеханизмовСинхронизацииСудноБерег</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение и изменение механизмов синхронизации судно-берег</value>
+  </synonym>
+  <comment>rarus makole БСО.СМ.001</comment>
+</mdclass:Role>

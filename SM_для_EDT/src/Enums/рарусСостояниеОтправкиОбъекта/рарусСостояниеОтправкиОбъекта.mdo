@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="80a3c3dd-b8dd-4b72-b714-8c13bfc24ec3">
+  <producedTypes>
+    <refType typeId="ccfc321b-8056-41b1-81ea-0ce753cd2954" valueTypeId="ebf3ea12-532a-4d76-9306-fa77b00870df"/>
+    <listType typeId="75267862-16df-496b-af5b-fbd084be9380" valueTypeId="47ce892c-6742-49fd-af5b-80c10f6a4005"/>
+    <managerType typeId="7e9d99cd-6974-49f5-9f13-d28c1be4b1d8" valueTypeId="64c6415f-a417-4068-a2f5-cdc8271a921a"/>
+  </producedTypes>
+  <name>рарусСостояниеОтправкиОбъекта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояние отправки объекта</value>
+  </synonym>
+  <comment>rarus makole 29032021</comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d3592a23-0418-4657-8a43-f02b048463c7">
+    <name>Черновик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Черновик</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4d6725e1-411a-4a53-97d2-633888e8008f">
+    <name>ЗарегистрированКОтправке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зарегистрирован к отправке</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5f3fa2fd-6da4-4e6f-b970-06b02d92ba01">
+    <name>Отправлен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправлен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1ff5ba61-de16-4f7a-aa02-12464ccdb55b">
+    <name>ЗагруженИзБМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загружен из БМ</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

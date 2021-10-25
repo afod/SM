@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="954aa7c5-f95a-49b7-8447-3648809c32d4">
+  <producedTypes>
+    <objectType typeId="0f212d82-2e8f-4610-acbb-adc00938bf51" valueTypeId="77ea5491-baad-4cd7-a5bc-f7a079a87df6"/>
+    <managerType typeId="1ca227ce-fdfc-4e70-849a-3652c4811992" valueTypeId="6f116f7a-2dff-467c-89f0-ff1df6b20c6d"/>
+  </producedTypes>
+  <name>рарусЖурналСообщенийСУБ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Журнал сообщений</value>
+  </synonym>
+  <comment>// rarus ilshill</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.рарусЖурналСообщенийСУБ.Form.ФормаОсновная</defaultForm>
+  <forms uuid="5e3e0958-4f3c-47dc-953a-439cfe14d016">
+    <name>ФормаОсновная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма основная</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="34bbfab0-7135-4f2e-b636-58b0482fd02d">
+    <name>ДокументыСУБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Журнал сообщений</value>
+    </synonym>
+    <group>NavigationPanelImportant</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:DataProcessor>

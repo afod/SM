@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="914ef2d1-50a4-45c3-8e37-39c84cd99b7b">
+  <producedTypes>
+    <refType typeId="d2312e8c-60ef-4981-83f7-ffcfad6535d6" valueTypeId="6ff403e5-50d1-4b09-959d-4c1f2af682c7"/>
+    <listType typeId="73cdc317-1f29-4a96-b091-785b650c4877" valueTypeId="f05ac661-955b-4829-914f-a00389cc8c9a"/>
+    <managerType typeId="4e174da2-b7bb-4fe1-8ad0-2a5572312080" valueTypeId="11184e3f-f95b-4ce6-bdad-c26bfae5797e"/>
+  </producedTypes>
+  <name>рарусСтепениРиска</name>
+  <synonym>
+    <key>ru</key>
+    <value>Степени риска</value>
+  </synonym>
+  <comment>rarus zalikh</comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c2a81987-d044-4507-af93-0c20cd59ef14">
+    <name>High</name>
+    <synonym>
+      <key>ru</key>
+      <value>High</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="03ecfa2d-929a-4534-bec2-520f4e8bb8b7">
+    <name>Low</name>
+    <synonym>
+      <key>ru</key>
+      <value>Low</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1f774f75-eba8-46fd-aae1-084e9ff3f852">
+    <name>Average</name>
+    <synonym>
+      <key>ru</key>
+      <value>Average</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7c8e948a-7e7a-48d1-9d8f-82d445ed0bff">
+  <producedTypes>
+    <selectionType typeId="af8d6ca9-d5c0-4e7b-b9f6-04c673da0081" valueTypeId="34ee2d33-7bef-44fe-86c7-31ecdc051d1d"/>
+    <listType typeId="f9d5b733-afd8-4082-b1fa-75993c954836" valueTypeId="c197dbb3-e331-406e-8587-b5dc806ba34b"/>
+    <managerType typeId="a04b43c0-f5e3-46d5-92ba-7c62dab9764b" valueTypeId="8a4ab68e-052b-4ce7-a993-008680319058"/>
+    <recordSetType typeId="77ac3669-056c-4537-bfa9-8c41bbe8ae33" valueTypeId="89dd10bd-de81-46ce-a4a5-db9984409523"/>
+    <recordKeyType typeId="d7d00238-ec0b-41a4-a755-d6148db922e0" valueTypeId="d1d55a9e-a293-4f91-a506-11db57c4bc63"/>
+    <recordType typeId="2ac49dbb-9e72-4368-8e03-a9d795de44b3" valueTypeId="57030d32-867d-4183-af6a-701a1afcfd9f"/>
+    <recordManagerType typeId="9d3c818f-9e85-4eb4-b8a3-83a9f4ff9c92" valueTypeId="d44b1abb-0ec2-42db-bd91-93baf934df0c"/>
+  </producedTypes>
+  <name>рарусКритичныеДанныеДляВыгрузкиНаСудно</name>
+  <synonym>
+    <key>ru</key>
+    <value>Критичные данные для выгрузки на судно</value>
+  </synonym>
+  <comment>rarus makole БСО.СМ.006</comment>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="15b0f074-03cc-4841-99d5-c8a39fa0d1e9">
+    <name>Объект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект</value>
+    </synonym>
+    <type>
+      <types>DocumentRef</types>
+      <types>CatalogRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

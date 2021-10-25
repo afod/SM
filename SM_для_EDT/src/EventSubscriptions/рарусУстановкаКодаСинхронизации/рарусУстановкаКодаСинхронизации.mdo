@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0145e731-590d-4aab-b19e-71e2444b0478">
+  <name>рарусУстановкаКодаСинхронизации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установка кода синхронизации</value>
+  </synonym>
+  <comment>rarus makole ФТ.ИМ.01.01</comment>
+  <source>
+    <types>DefinedType.рарусДокументыСКодомСинхронизации</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.рарусИмущественныйУчетСервер.рарусУстановкаНовогоКодаСинхронизацииПередЗаписью</handler>
+</mdclass:EventSubscription>

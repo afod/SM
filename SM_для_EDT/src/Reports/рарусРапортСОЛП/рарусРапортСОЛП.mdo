@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5d42e3b4-0bb9-4814-9dc7-8e639b633ba7">
+  <producedTypes>
+    <objectType typeId="6f6ca864-ec2b-4eb0-9960-7fe469dbf303" valueTypeId="3637aab4-43c2-465a-a489-1aebe20cc78b"/>
+    <managerType typeId="d4135397-17b2-42d7-abd2-7a0e689bdfd1" valueTypeId="e59dea08-eb95-4ef5-bfd8-4a390cb23967"/>
+  </producedTypes>
+  <name>рарусРапортСОЛП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рапорт СОЛП</value>
+  </synonym>
+  <comment>Задача № 20589</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.рарусРапортСОЛП.Form.ФормаОтчета</defaultForm>
+  <forms uuid="d546a9f1-cd1a-4843-af23-22c585c57bbb">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="7181ac45-70ec-4562-a82a-fb7fb373190c">
+    <name>РапортСОЛП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рапорт СОЛП</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

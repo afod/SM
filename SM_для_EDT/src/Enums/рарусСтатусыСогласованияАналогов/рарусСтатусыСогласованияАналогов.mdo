@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="88a556c5-214e-48e0-b883-96a9471d1c2b">
+  <producedTypes>
+    <refType typeId="ea46ebae-461e-40ca-8249-25b058f3b5ca" valueTypeId="b43f4e66-c56c-4f0f-8d42-a3d65319082e"/>
+    <listType typeId="687277e3-7c6e-4e0f-b21f-6474c8599709" valueTypeId="11db7cb2-7d3c-4d8d-b30e-51e3d3756398"/>
+    <managerType typeId="bf3c74f8-38b0-48d9-a176-cacb190fe0c5" valueTypeId="7708d645-f39d-4c7e-b2ce-a096f152f91a"/>
+  </producedTypes>
+  <name>рарусСтатусыСогласованияАналогов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы согласования аналогов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c3eac226-f8a9-4709-8056-deeb20e487ba">
+    <name>Согласовать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Согласовать</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d32ab044-9ccc-458c-be0e-fe9f988f8c80">
+    <name>Отклонить</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отклонить</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="32e79119-1cd0-4914-84ef-7ff07ab4dc96">
+    <name>ОтправитьНаСудно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправить на судно</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

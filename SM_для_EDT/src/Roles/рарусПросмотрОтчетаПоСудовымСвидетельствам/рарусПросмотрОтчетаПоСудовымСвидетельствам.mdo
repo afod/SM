@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5470ccfb-f653-490a-a8b9-c5fc56d45d9e">
+  <name>рарусПросмотрОтчетаПоСудовымСвидетельствам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Просмотр отчета по судовым свидетельствам</value>
+  </synonym>
+  <comment>rarus zalikh</comment>
+</mdclass:Role>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6b856c9d-5c87-4a8c-9bfc-dc3a5373f096">
+  <producedTypes>
+    <selectionType typeId="e2e7abf7-6fe0-49d9-89b9-08bdec91c355" valueTypeId="711acd8b-9b23-4d7b-b543-c73ea3b8b866"/>
+    <listType typeId="a341d5b0-da11-40e2-95a7-348ed1cc9a72" valueTypeId="ed90a4b9-d933-4b95-9a52-79019d372879"/>
+    <managerType typeId="925e3c1e-7722-4859-bd90-7c729749b592" valueTypeId="0e266d6e-2200-4bcc-9cc2-eb62142f466a"/>
+    <recordSetType typeId="4243c049-a616-4ad6-bbf3-27775299bdd1" valueTypeId="383d8c60-8ea6-4072-b70e-1a8269b2c4cb"/>
+    <recordKeyType typeId="1b3938d4-3dbe-4b92-9637-710ea47688aa" valueTypeId="3a6d712e-750e-413b-8929-826085c27041"/>
+    <recordType typeId="5d90c3eb-f248-4bcc-9cd0-eb7344ef377f" valueTypeId="7bbaaf15-9cca-4103-99ec-d3b6d0e706f7"/>
+    <recordManagerType typeId="360b0ccb-1f7f-4648-a782-8600bd927333" valueTypeId="9a78dd7b-12b6-41f6-89c2-27352adf82c8"/>
+  </producedTypes>
+  <name>рарусАналоги</name>
+  <synonym>
+    <key>ru</key>
+    <value>Аналоги (рарус)</value>
+  </synonym>
+  <comment>ФТ.АН.01.02</comment>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.рарусАналоги.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="f24f468a-5064-40aa-ba97-bd6d50bd05cc">
+    <name>ДокументОснование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ основание</value>
+    </synonym>
+    <comment>Документ, в котором была произведена замена</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="71653d13-298f-465f-9ff3-72b9dd08c589">
+    <name>ПризнакДостроеннойСвязи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Признак достроенной связи</value>
+    </synonym>
+    <comment>Признак, что данная связь сформирована достраиванием</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="8f5ea25f-4f75-433e-9bd6-f4fe879bcae7">
+    <name>ДатаВозникновенияЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата возникновения записи</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="4bd54fb6-b51e-4c4d-8963-c8be4cbd8c92">
+    <name>ИспользованоДляДостраивания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовано для достраивания</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="10cca751-7d8a-44cb-84e3-c1fb66e0844e">
+    <name>Оригинал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оригинал</value>
+    </synonym>
+    <comment>Исходная номенклатура</comment>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameters>
+      <name>Отбор.ТипНоменклатуры</name>
+      <value xsi:type="core:ReferenceValue">
+        <value>Enum.ТипыНоменклатуры.EnumValue.Товар</value>
+      </value>
+    </choiceParameters>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="767f087b-0a0b-451b-9ce3-6ec8b18cf61c">
+    <name>Аналог</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аналог</value>
+    </synonym>
+    <comment>Номенклатура, на которую заменили оригинал</comment>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameters>
+      <name>Отбор.ТипНоменклатуры</name>
+      <value xsi:type="core:ReferenceValue">
+        <value>Enum.ТипыНоменклатуры.EnumValue.Товар</value>
+      </value>
+    </choiceParameters>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="f483f161-1073-4cc6-a899-1c68f64baa74">
+    <name>ПризнакЗагрузкиИзSAP</name>
+    <synonym>
+      <key>ru</key>
+      <value>Признак загрузки из SAP</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="3aafa6d8-9a92-4234-9f60-3b0b264054dd">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="7c334247-ce10-4d2a-82f2-1f426bfa962d">
+    <name>СписокАналоговНавигацияФормы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список аналогов</value>
+    </synonym>
+    <group>FormNavigationPanelGoTo</group>
+    <commandParameterType>
+      <types>CatalogRef.Номенклатура</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+  <commands uuid="f86bd0cf-7ff9-4494-96ca-d350f18fc8cd">
+    <name>ОткрытьСписокРегистраАналоги</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аналоги номенклатуры</value>
+    </synonym>
+    <group>NavigationPanelImportant</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:InformationRegister>

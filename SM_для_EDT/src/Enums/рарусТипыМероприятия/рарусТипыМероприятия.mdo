@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8c01bea2-ab09-4ff7-a6d8-7f1e33d0e9fc">
+  <producedTypes>
+    <refType typeId="414f8b2f-64e8-4d73-8e09-7d04c0e13fb1" valueTypeId="509319b6-2e7d-42d8-86dc-e6af565466da"/>
+    <listType typeId="5ee02bb0-8835-41aa-8967-49567c03c18b" valueTypeId="eaf1d638-b11d-497a-9064-136d9d54141d"/>
+    <managerType typeId="dfd24a7f-c76c-46df-8c03-ecf74420ce61" valueTypeId="02feb5a4-3395-4119-9a87-9e37c1388a63"/>
+  </producedTypes>
+  <name>рарусТипыМероприятия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы мероприятия</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a54deaa2-d7f1-4a93-90d9-5798e6716de4">
+    <name>ОсвидетельствованиеСудна</name>
+    <synonym>
+      <key>ru</key>
+      <value>Освидетельствование/проверка судна</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="904b9efa-4443-4d1e-ac73-8a69171bfa6d">
+    <name>ОсвидетельствованиеКомпании</name>
+    <synonym>
+      <key>ru</key>
+      <value>Освидетельствование/проверка Компании</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ca83ad65-b219-4e23-90ca-2b762fa794bc">
+    <name>ВнешнийАудит</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внешний аудит</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="66684654-3a21-4972-a210-5f2110a0d07d">
+    <name>ВнутреннийАудит</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внутренний аудит/проверка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="81ad7f87-61a3-4956-9baf-7c89451cd61c">
+    <name>Учение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учение</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

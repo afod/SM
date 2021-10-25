@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bcaf20bf-68c4-4f34-8d4c-b90ac8511458">
+  <producedTypes>
+    <objectType typeId="98fa8229-32a1-4688-858b-435f334a48a6" valueTypeId="19ce3f33-587b-4815-9282-8e3d6b1095d1"/>
+    <managerType typeId="eff26ba1-b099-488b-be43-12ca5b851408" valueTypeId="f5f39f4c-2d9f-479c-971a-786f398c021b"/>
+  </producedTypes>
+  <name>рарусДокументыСудна</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документы судна</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.рарусДокументыСудна.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <templates uuid="9a73e2fc-5c47-45ff-b2b6-4f4c07a54575">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="9128ce45-e2d1-408c-81f5-ad38a60bcb2e">
+    <name>МакетОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет отчета</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

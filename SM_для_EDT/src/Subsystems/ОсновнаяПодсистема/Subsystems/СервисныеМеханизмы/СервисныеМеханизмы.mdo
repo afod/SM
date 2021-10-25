@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="012bf075-b414-48c5-9374-6afe032f82f4">
+  <name>СервисныеМеханизмы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сервисные механизмы</value>
+  </synonym>
+  <content>DataProcessor.рарусПостроениеМаршрутаПоАлгоритмуДейкстры</content>
+  <content>DataProcessor.впПодборНоменклатуры</content>
+  <content>InformationRegister.рарусОчередьОбработкиДублей</content>
+  <content>InformationRegister.рарусОчередьОбработкиДублейERP</content>
+  <content>ScheduledJob.рарусОбработкаДублей</content>
+  <content>ScheduledJob.впПроверитьОбновлениеПаролейПользователей</content>
+  <content>CommonForm.vftРедакторФормул</content>
+  <content>CommonPicture.КоллекцияСтатусовПутевогоЖурнала</content>
+  <parentSubsystem>Subsystem.ОсновнаяПодсистема</parentSubsystem>
+</mdclass:Subsystem>

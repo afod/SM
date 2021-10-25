@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7d6a17bc-e505-4a27-80f6-52f7b58230c2">
+  <producedTypes>
+    <objectType typeId="9ac01e81-f076-43fb-a43b-d55a2662f399" valueTypeId="a5071afd-9c52-455c-b2f5-45bef71e5c9c"/>
+    <managerType typeId="d65b6597-8fc8-4afb-9b73-1d8e9e58d7ae" valueTypeId="5686d185-df6c-4fe9-bf87-0c2dc47a9199"/>
+  </producedTypes>
+  <name>впПлановыеВнеплановыеРемонты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выполнение плановых и внеплановых ремонтов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.впПлановыеВнеплановыеРемонты.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="94f64866-1029-47a8-b30f-7ca96c0f1fe2">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

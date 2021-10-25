@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="15228251-ab14-4082-acd2-38c994ce0dd2">
+  <name>ОбменДанными</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен данными</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonForm.ВыборУзловПлановОбмена</content>
+  <content>CommonForm.СинхронизацияДанных</content>
+  <content>CommonCommand.Синхронизировать</content>
+  <content>Constant.рарусДатаНачалаПередачиПутевыхЖурналовВЕРП</content>
+  <content>CommonModule.впОбменДаннымиПовтИсп</content>
+  <content>CommonModule.впОбменРДО</content>
+  <content>CommonModule.впОбменТОиР20СМ31События</content>
+  <parentSubsystem>Subsystem.ОсновнаяПодсистема</parentSubsystem>
+</mdclass:Subsystem>

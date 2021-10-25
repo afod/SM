@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="647cdcad-8e28-42a5-9922-1d9e95ed73ae">
+  <name>впНСИ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Нормативно-справочная информация</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>0</picture>
+  </picture>
+  <content>Catalog.впВидыДефектов</content>
+  <content>Catalog.впВидыРемонтов</content>
+  <content>Catalog.впВидыЭксплуатации</content>
+  <content>Catalog.впКвалификацииРемонтногоПерсонала</content>
+  <content>Catalog.впКритичностьДефекта</content>
+  <content>Catalog.впОбъектыРемонта</content>
+  <content>Catalog.впОбъектыРемонтаПрисоединенныеФайлы</content>
+  <content>Catalog.впПричиныДефектов</content>
+  <content>Catalog.впПричиныЗакрытияЗаявок</content>
+  <content>Catalog.впПричиныЗакрытияРемонтов</content>
+  <content>Catalog.впПричиныПростояОборудования</content>
+  <content>Catalog.впТехКарты</content>
+  <content>Catalog.впТехнологическиеОперации</content>
+  <content>Catalog.впУсловияВыявленияДефекта</content>
+  <content>Catalog.впПриоритетыОбъектовРемонта</content>
+  <content>Catalog.впСпособыПланированияРемонтныхРабот</content>
+  <content>Constant.впОсновнаяОрганизация</content>
+  <content>InformationRegister.впМаксПериодБезНаработки</content>
+  <content>Constant.впВидРемонтаПриВводеНаОснованииВыявленныхДефектов</content>
+  <content>Constant.впВидРемонтаПриВводеНаОснованииВнешнихОснований</content>
+  <content>FunctionalOption.рарусИспользоватьМониторОбмена</content>
+  <content>Catalog.рарусВидыРемонтныхВедомостей</content>
+  <content>Enum.рарусТипыПунктов</content>
+  <content>Catalog.впЗаявкаНаРемонтПрисоединенныеФайлы</content>
+  <content>Catalog.ПараметрыВыработкиОС</content>
+  <content>Catalog.ЕдиницыИзмерения</content>
+  <content>Catalog.впТехКартыПрисоединенныеФайлы</content>
+  <content>Catalog.впИдентификаторыТехКарт</content>
+  <content>Catalog.впЗаведование</content>
+  <content>Catalog.впВыявленныеДефектыПрисоединенныеФайлы</content>
+  <content>Enum.впВидыПростояОборудования</content>
+  <content>Enum.впТипЭксплуатации</content>
+  <content>Catalog.Производители</content>
+  <content>Catalog.ВидыНоменклатуры</content>
+  <content>InformationRegister.рарусОбязательностьФайловВАктах</content>
+  <content>Constant.ЕдиницаИзмеренияВеса</content>
+  <content>Constant.ЕдиницаИзмеренияОбъема</content>
+  <content>Constant.рарусПроцентВремениДоСледующейРаботыППР</content>
+  <content>CommonModule.впРемонты</content>
+  <content>FunctionalOption.рарусИспользоватьКлассическийТОИР</content>
+  <content>Constant.рарусПериодичностьОбновленияЖурналаППР</content>
+  <content>Enum.рарусСтатусыЗаявокНаРемонт</content>
+  <content>InformationRegister.рарусСтатусыЗаказовНаРемонт</content>
+  <parentSubsystem>Subsystem.впТОИР</parentSubsystem>
+</mdclass:Subsystem>

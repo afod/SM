@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="98f96dbd-192f-4af6-b9d1-52d7f18beed0">
+  <name>рарусИспользоватьСудовоеСнабжение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать судовое снабжение</value>
+  </synonym>
+  <comment>(rarus PleA)</comment>
+  <location>InformationRegister.рарусНастройкиФункционалаТОИР.Resource.ИспользоватьСудовоеСнабжение</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Subsystem.рарусСнабжение</content>
+  <content>Subsystem.рарусСнабжение.Subsystem.ЗаявкиНаСнабжение</content>
+  <content>Subsystem.рарусСнабжение.Subsystem.АктыИПоступления</content>
+  <content>Subsystem.рарусСнабжение.Subsystem.БазоваяФункциональность</content>
+  <content>Catalog.рарусАктВыполненныхРаботОказанныхУслугПрисоединенныеФайлы</content>
+  <content>Catalog.впЗаявкаНаСнабжениеПрисоединенныеФайлы</content>
+  <content>Document.впЗаявкаНаСнабжение</content>
+  <content>Document.впПриходТМЦ</content>
+  <content>Document.впЗаказПоставщику</content>
+  <content>Document.впПеремещениеТоваров</content>
+  <content>Document.рарусАктВыполненныхРаботОказанныхУслуг</content>
+  <content>DataProcessor.рарусОтражениеУслуг</content>
+  <content>DataProcessor.рарусОформлениеПриходаТМЦ</content>
+  <content>Document.впЗаявкаНаСнабжение.TabularSection.МатериалыИРаботы.Attribute.НоменклатураПоставщика</content>
+  <content>Document.впЗаказПоставщику.TabularSection.ТМЦ.Attribute.НоменклатураПоставщика</content>
+</mdclass:FunctionalOption>

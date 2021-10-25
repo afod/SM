@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dfd34232-cbbc-4767-bf73-2f15aae5ef65">
+  <producedTypes>
+    <objectType typeId="ec019939-038b-464e-b001-c866b9a25dbd" valueTypeId="3fc8f1f5-f444-4894-8b0b-3ef3c24e3659"/>
+    <managerType typeId="ad0478cc-28c6-4cd7-9e25-26c066fdf812" valueTypeId="de4b7151-da91-4906-9ba0-a6377c3a744e"/>
+  </producedTypes>
+  <name>рарусАнализТехническогоОбслуживания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анализ технического обслуживания</value>
+  </synonym>
+  <comment>6</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.рарусАнализТехническогоОбслуживания.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <templates uuid="cf760027-9cf5-42ea-ae8a-fca3609e3ea0">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="783af427-2f29-4295-869a-5bba22972c44">
+    <name>Информация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Информация по обработке</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:Report>

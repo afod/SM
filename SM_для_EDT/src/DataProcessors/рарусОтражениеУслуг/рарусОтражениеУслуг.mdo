@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d91fefaa-4342-4607-ab44-75251f78f25a">
+  <producedTypes>
+    <objectType typeId="47e86297-ac66-4e70-8af6-2f1bf4f01d86" valueTypeId="c3da31ff-9351-495c-b8d7-a8021fe627c5"/>
+    <managerType typeId="34b41cc0-f80f-417a-9903-7ec2a5ba1472" valueTypeId="97ed260d-c076-4438-8e91-aa66a15677c4"/>
+  </producedTypes>
+  <name>рарусОтражениеУслуг</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отражение услуг</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.рарусОтражениеУслуг.Form.Форма</defaultForm>
+  <forms uuid="01580a61-1acb-46d8-92ac-a4f5b764dcdd">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f210eec9-2268-465e-9b39-f2afae0bc53c">
+    <name>ФормаДополнительныхДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма дополнительных данных</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="7f419490-af37-44e4-9001-c9cb649f06b8">
+    <name>ДанныеРаспоряжений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные распоряжений</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:DataProcessor>

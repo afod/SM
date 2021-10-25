@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8a0b1457-e41b-487e-b83d-64f6adb2473f">
+  <name>ОтправкаРДО</name>
+  <synonym>
+    <key>ru</key>
+    <value>РДО</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.vftОтправкаРДО</picture>
+  </picture>
+  <content>Document.vftРДО</content>
+  <content>Enum.vftГруппыСтоянокПутевогоЖурнала</content>
+  <content>Document.vftРейс</content>
+  <content>Catalog.vftСуда</content>
+  <content>CommandGroup.Печать</content>
+  <content>Report.рарусРейсыЛистУчетаЛоцманскихПроводок</content>
+  <content>Report.рарусРейсыСправкаБезлоцманскойПроводки</content>
+  <subsystems>ОбменДанными</subsystems>
+</mdclass:Subsystem>

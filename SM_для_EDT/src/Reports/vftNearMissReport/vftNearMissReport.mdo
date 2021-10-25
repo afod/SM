@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e0f67967-086d-4f0a-8fdb-105a4192a172">
+  <producedTypes>
+    <objectType typeId="f6af2ff7-a1e6-4106-bd9d-f90d1690cf7c" valueTypeId="beea2c91-b2c0-48de-9e32-c6ce9ec0edb9"/>
+    <managerType typeId="3dc82647-44ee-4082-bcf9-4396e5b65bc3" valueTypeId="a05e415b-3737-431b-aa9c-05232e38574d"/>
+  </producedTypes>
+  <name>vftNearMissReport</name>
+  <synonym>
+    <key>ru</key>
+    <value>Near miss reports</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.vftNearMissReport.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="2dacb89b-3a6a-45ca-b4b6-de53d2717163">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

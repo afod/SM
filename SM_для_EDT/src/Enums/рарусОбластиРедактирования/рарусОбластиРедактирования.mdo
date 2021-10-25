@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9398e093-e49d-495d-af97-9962a2b0dcac">
+  <producedTypes>
+    <refType typeId="aaba981a-9303-4306-ba63-b6eb2f52f6a7" valueTypeId="e4d7f5d4-5cbf-4988-9dec-12d932e26eba"/>
+    <listType typeId="084afb76-2b75-435d-a246-b19bf5fc9582" valueTypeId="9517ad50-2be1-4194-bf2c-f68ea6588e4e"/>
+    <managerType typeId="267fcb73-0128-4e2d-923e-c619fdf5f907" valueTypeId="1d50be12-0c23-49c1-bb93-bc717d9e3440"/>
+  </producedTypes>
+  <name>рарусОбластиРедактирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Области редактирования</value>
+  </synonym>
+  <comment>rarus PleA ФТ.СНБ.01.01</comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ebf1168e-49f0-4304-a409-2600a58d101b">
+    <name>Судно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Судно</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="17a4e35a-e842-4fbc-ab2d-8e97aabc740e">
+    <name>Берег</name>
+    <synonym>
+      <key>ru</key>
+      <value>Берег</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

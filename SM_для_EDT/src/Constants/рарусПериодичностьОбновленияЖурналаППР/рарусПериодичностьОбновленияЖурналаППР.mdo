@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d559de94-293b-4c34-bfcc-b7e0cb96da40">
+  <producedTypes>
+    <managerType typeId="8ab1772f-d6a0-4309-8a9f-a173826b1243" valueTypeId="43ddb192-62d9-4180-8b56-37704a2c0d41"/>
+    <valueManagerType typeId="d6a1d3e3-14cd-4d83-b82a-6007e7cf8a4d" valueTypeId="ddb0aeb1-b619-47fa-9406-08eecddda131"/>
+    <valueKeyType typeId="7db12030-e631-4a47-b0f1-2cb16796d727" valueTypeId="32f95389-1e2b-4c4b-9a69-b22ac23c192a"/>
+  </producedTypes>
+  <name>рарусПериодичностьОбновленияЖурналаППР</name>
+  <synonym>
+    <key>ru</key>
+    <value>Периодичность обновления журнала ППР (в секндах)</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>3</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

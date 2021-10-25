@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2cf6fb6e-3c48-408e-aeed-c19318e1813c">
+  <name>впОбменТОиР20СМ31_ЗарегистрироватьИзменениеДокумента</name>
+  <synonym>
+    <key>ru</key>
+    <value>ТОИР20 зарегистрировать изменение</value>
+  </synonym>
+  <comment>rarus markim</comment>
+  <source>
+    <types>DocumentObject.рарусАктВыполненныхРаботОказанныхУслуг</types>
+    <types>DocumentObject.впЗаявкаНаСнабжение</types>
+    <types>DocumentObject.впЗаявкаНаРемонт</types>
+    <types>DocumentObject.впЗакрытиеЗаявокИРемонтов</types>
+    <types>DocumentObject.vftАнализСУБ</types>
+    <types>DocumentObject.рарусИзменениеСтатусаТМЦ</types>
+    <types>DocumentObject.впПриходТМЦ</types>
+    <types>DocumentObject.рарусОтчетСУБ</types>
+    <types>DocumentObject.vftСообщениеОПотенциальномИнциденте</types>
+    <types>DocumentObject.впСостоянияОбъектовРемонта</types>
+    <types>DocumentObject.впВнешнееОснованиеДляРабот</types>
+    <types>DocumentObject.впАктОВыполненииЭтапаРабот</types>
+    <types>DocumentObject.Анкета</types>
+    <types>DocumentObject.впВыявленныеДефекты</types>
+    <types>DocumentObject.рарусИнвентаризацияТМЦ</types>
+    <types>DocumentObject.рарусМероприятиеСУБ</types>
+    <types>DocumentObject.впУчетНаработкиОборудования</types>
+    <types>DocumentObject.vftДокладОСостоянииБезопасности</types>
+    <types>DocumentObject.рарусРасходТМЦ</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.впОбменТОиР20СМ31События.впОбменТОиР20СМ31_ЗарегистрироватьИзменениеДокументаПередЗаписью</handler>
+</mdclass:EventSubscription>

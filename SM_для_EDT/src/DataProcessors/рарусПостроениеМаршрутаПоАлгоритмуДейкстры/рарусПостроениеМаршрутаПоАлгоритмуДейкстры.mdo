@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e166fd79-e935-489b-9e32-fd3deb2c1fad">
+  <producedTypes>
+    <objectType typeId="62d42669-0b41-4e3b-9607-66fbd0480386" valueTypeId="d9b65aad-a6f5-4d7b-bfa1-9db08f8983de"/>
+    <managerType typeId="b18d700d-f2e9-439e-91b0-6460d5683914" valueTypeId="8fa70dcd-7d81-4aa9-81ca-b385ad6cc4b3"/>
+  </producedTypes>
+  <name>рарусПостроениеМаршрутаПоАлгоритмуДейкстры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Построение маршрута по алгоритму Дейкстры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.рарусПостроениеМаршрутаПоАлгоритмуДейкстры.Form.Форма</defaultForm>
+  <attributes uuid="89b47203-9c07-4e07-a6ae-bc905a0921f2">
+    <name>ПунктОтправления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пункт отправления</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.vftПунктыСледования</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="2fb44269-5752-4687-b205-e808483a8fb9">
+    <name>ПунктСледования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пункт следования</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.vftПунктыСледования</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="552b9421-b65f-4563-a708-629e052f6d58">
+    <name>МинимальноеРасстояниеПоПостроеннымМаршрутам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Минимальное расстояние по построенным маршрутам</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>25</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="177f38ba-eca0-4a47-aaa2-d907b5148c54">
+    <name>Судно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Судно</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.vftСуда</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="fcb06c33-b90e-41f6-af7b-236e52b0ca1b">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f67ad76e-028e-4f1c-b655-4cf1fedd149a">
+    <name>ТипСостава</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип состава</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.рарусТипыСоставов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="dea0f32c-fba5-4b91-b403-7e58d7b820cb">
+    <producedTypes>
+      <objectType typeId="18783faf-9baa-4560-a670-b861ac330af1" valueTypeId="bc25314b-0617-44cc-b80a-8d38e30525e3"/>
+      <rowType typeId="21319959-be9d-4a08-8a7c-9eb60ec940ed" valueTypeId="3d5ecd24-c2ba-4356-b899-93deefb9cc75"/>
+    </producedTypes>
+    <name>ПунктыПрохождения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пункты прохождения</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="4c22589a-0c43-48e8-8a01-37901b14abec">
+      <name>Пункт</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пункт</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.vftПунктыСледования</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="a71b0aa0-d409-4c61-b6f9-536a855c446e">
+      <name>Участок</name>
+      <synonym>
+        <key>ru</key>
+        <value>Участок</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.vftВодныеУчастки</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="24f1a8c7-d350-4c67-9440-e1418f90e9dd">
+      <name>ПризнакДвиженияПоТечению</name>
+      <synonym>
+        <key>ru</key>
+        <value>Признак движения по течению</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="ceb45125-0cb0-4d84-adce-905313897989">
+    <producedTypes>
+      <objectType typeId="1f7b3b0a-fab5-4f7f-b0aa-88f4dabf76a9" valueTypeId="290eb578-a6e4-494e-a7ce-abffb6cac8f2"/>
+      <rowType typeId="d46a6fc5-c2d1-4f3b-9c81-3e4fc903414b" valueTypeId="f99a4b73-1af3-455e-9abf-43e783a9ec16"/>
+    </producedTypes>
+    <name>ТЗ_ПунктыДляСледующегоЭтапа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Т з пункты для следующего этапа</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="27f22b71-b670-4450-b21c-4c844aa687ee">
+      <name>ПунктОтправления</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пункт отправления</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.vftПунктыСледования</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="ead50205-7ca9-4b80-b914-98e67a82f8d8">
+      <name>ПунктСледования</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пункт следования</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.vftПунктыСледования</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="88e94aa9-325c-475e-b275-04d86fd82e35">
+      <name>Расстояние</name>
+      <synonym>
+        <key>ru</key>
+        <value>Расстояние</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>25</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="05da34ed-1bd3-440c-a08b-8aae1a8e8429">
+    <producedTypes>
+      <objectType typeId="be4fb82b-765a-4c22-8fbc-9cbaa0a61f12" valueTypeId="ff91005a-22da-4179-8338-669d2acf853f"/>
+      <rowType typeId="52c1f015-31c6-4fe0-8775-9240fadd9e0c" valueTypeId="1c04d8fb-f3d1-4718-94df-091a0f14e616"/>
+    </producedTypes>
+    <name>ТаблицаИерархииПунктовДляМаршрута</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица иерархии пунктов для маршрута</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="8e712374-359c-40ac-8dfc-533721bd605d">
+      <name>НомерСтрокиРодителя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер строки родителя</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="97f81aac-5e1d-44d0-a64e-fa696d3940d1">
+      <name>Пункт</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пункт</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.vftПунктыСледования</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="001d4103-9f1e-4db8-808d-7224a05eaa75">
+      <name>Расстояние</name>
+      <synonym>
+        <key>ru</key>
+        <value>Расстояние</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>25</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="af6fd8d5-85f4-428a-ad4e-18f7c612c5f6">
+      <name>Тупик</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тупик</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="884d9fe3-fe4d-453b-91c6-574376475e2f">
+      <name>НайденБолееОптимальныйМаршрутКДанномуПункту</name>
+      <synonym>
+        <key>ru</key>
+        <value>Найден более оптимальный маршрут к данному пункту</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="31a21dea-ef86-44f3-9e22-5d12486cb93c">
+      <name>ЯвляетсяГраничным</name>
+      <synonym>
+        <key>ru</key>
+        <value>Является граничным</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="4b2a1473-6fc3-4b78-8113-417ba0e9e8e7">
+      <name>Построен</name>
+      <synonym>
+        <key>ru</key>
+        <value>Построен</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="3fa8667f-0a36-44e6-a156-0009c7df7a2c">
+      <name>мНомерСтроки</name>
+      <synonym>
+        <key>ru</key>
+        <value>М номер строки</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="571134d9-40d8-4d8b-a37b-9e22bd784805">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

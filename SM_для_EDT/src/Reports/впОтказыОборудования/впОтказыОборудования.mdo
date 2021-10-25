@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cdab8d1c-5f35-4772-829a-3c2403a5cf9c">
+  <producedTypes>
+    <objectType typeId="f60cd6b2-56f1-450e-8914-c4ec916ee0e5" valueTypeId="daaf061e-567f-4929-b2d1-745189b9acf2"/>
+    <managerType typeId="1938d443-7c5d-42b7-9151-49a6c7487147" valueTypeId="22caf00c-3511-4be7-8b18-9705c0e79e6c"/>
+  </producedTypes>
+  <name>впОтказыОборудования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анализ отказов оборудования</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.впОтказыОборудования.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="59bdd263-b034-49e0-bef6-58a0761f1efd">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="536c3763-2066-40e9-b77d-27bf8e429c32">
+  <producedTypes>
+    <refType typeId="a9d07071-3701-4c4f-b6f0-29760587bd84" valueTypeId="1ac86f77-ac2f-4835-b1f4-263092e112c1"/>
+    <listType typeId="ecd43c59-36d5-4a30-9d4c-0f66429574a0" valueTypeId="6ef3f35a-0482-4e33-a274-da85e93146de"/>
+    <managerType typeId="85855f84-c9f2-4b53-b5ea-9346a09c51c7" valueTypeId="94633086-6b8f-472e-b755-b8b8f812adac"/>
+  </producedTypes>
+  <name>впВидДокумента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид документа</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d831b646-bfa4-4e0d-b05c-86b4eac83a01">
+    <name>ПлановыеЗатраты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Плановые затраты</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="eef16a43-1af6-4344-85fd-54984342b079">
+    <name>ЗаявкаНаРемонт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заявка на ремонт</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f5db58ac-5b72-41d8-9b0b-2b96820db504">
+    <name>ЗакрытиеЗаявокИРемонтов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закрытие заявок и ремонтов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7dda315d-18b3-48b8-ac5a-20f7122ceaa8">
+    <name>НарядНаВыполнениеРемонтныхРабот</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наряд на выполнение ремонтных работ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bc30aa6b-62fc-4a52-a30e-6e0d62039974">
+    <name>НарядНаВыполнениеРегламентногоМероприятия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наряд на выполнение регламентного мероприятия</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c8480c64-79b1-4f2d-9131-a49c7acaf5f1">
+    <name>АктОВыполненииЭтапаРабот</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акт о выполнении этапа работ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fdd7b873-0ab3-4566-9704-2c1775742f8b">
+    <name>АктОВыполненииРегламентногоМероприятия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акт о выполнении регламентного мероприятия</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

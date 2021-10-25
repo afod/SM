@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Период</dataPath>
+			<field>Период</field>
+			<role>
+				<dcscom:periodNumber>2</dcscom:periodNumber>
+				<dcscom:periodType>Main</dcscom:periodType>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Регистратор</dataPath>
+			<field>Регистратор</field>
+			<role>
+				<dcscom:periodNumber>1</dcscom:periodNumber>
+				<dcscom:periodType>Main</dcscom:periodType>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>РемонтыОборудования_ID</dataPath>
+			<field>РемонтыОборудования_ID</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидДокумента</dataPath>
+			<field>ВидДокумента</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОбъектРемонта</dataPath>
+			<field>ОбъектРемонта</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+				<dcscom:ignoreNullValues>true</dcscom:ignoreNullValues>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>РемонтнаяРабота</dataPath>
+			<field>РемонтнаяРабота</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>IDРодителя</dataPath>
+			<field>IDРодителя</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ID</dataPath>
+			<field>ID</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПроцентПлан</dataPath>
+			<field>ПроцентПлан</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Процент план</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПроцентФакт</dataPath>
+			<field>ПроцентФакт</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Процент факт</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Операция</dataPath>
+			<field>Операция</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+				<dcscom:ignoreNullValues>true</dcscom:ignoreNullValues>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДокументПлан</dataPath>
+			<field>ДокументПлан</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Документ план</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДокументФакт</dataPath>
+			<field>ДокументФакт</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Документ факт</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:ignoreNullValues>true</dcscom:ignoreNullValues>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ИдентификаторРемонта</dataPath>
+			<field>ИдентификаторРемонта</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Идентификатор ремонта</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	впРемонтыСрезПоследних.Период КАК Период,
+	впРемонтыСрезПоследних.Регистратор КАК Регистратор,
+	впЗаявкаНаРемонтРемонтныеРаботы.Ссылка КАК ДокументПлан,
+	NULL КАК ДокументФакт,
+	впРемонтыСрезПоследних.ОбъектРемонта КАК ОбъектРемонта,
+	впРемонтыСрезПоследних.ВидДокумента КАК ВидДокумента,
+	впЗаявкаНаРемонтРемонтныеРаботы.РемонтнаяРабота КАК РемонтнаяРабота,
+	впРемонтыСрезПоследних.РемонтыОборудования_ID КАК ИдентификаторРемонта,
+	впРемонтыСрезПоследних.Процент КАК ПроцентПлан,
+	NULL КАК ПроцентФакт,
+	впРемонтыСрезПоследних.Операция КАК Операция
+ПОМЕСТИТЬ Вт_ОсновнаяВыборка
+ИЗ
+	РегистрСведений.впРемонты.СрезПоследних({(&amp;КонецПериода)}, Операция ССЫЛКА Справочник.впТехнологическиеОперации) КАК впРемонтыСрезПоследних
+		ЛЕВОЕ СОЕДИНЕНИЕ Документ.впЗаявкаНаРемонт.РемонтныеРаботы КАК впЗаявкаНаРемонтРемонтныеРаботы
+		ПО впРемонтыСрезПоследних.Регистратор = впЗаявкаНаРемонтРемонтныеРаботы.Ссылка
+			И впРемонтыСрезПоследних.ID = впЗаявкаНаРемонтРемонтныеРаботы.ID
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	впПланГрафикППР.ПланГрафик.Дата,
+	впПланГрафикППР.ПланГрафик,
+	впПланГрафикППР.ПланГрафик,
+	NULL,
+	впПланГрафикППР.ОбъектРемонта,
+	NULL,
+	впНормативныеРемонтыОборудования.НормативныйРемонт,
+	впПланГрафикППР.УникальныйИдентификатор,
+	100,
+	NULL,
+	NULL
+ИЗ
+	РегистрСведений.впПланГрафикППР КАК впПланГрафикППР
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.впНормативныеРемонтыОборудования КАК впНормативныеРемонтыОборудования
+		ПО впПланГрафикППР.ОбъектРемонта = впНормативныеРемонтыОборудования.ОбъектРемонта
+			И впПланГрафикППР.ВидРемонтныхРабот = впНормативныеРемонтыОборудования.ВидРемонта
+{ГДЕ
+	(впПланГрафикППР.ПланГрафик.Дата &gt;= &amp;НачалоПериода
+			ИЛИ впПланГрафикППР.ПланГрафик.Дата &lt;= &amp;КонецПериода)}
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	впПроцентВыполненныхРаботОбороты.Период,
+	впПроцентВыполненныхРаботОбороты.Регистратор,
+	ЕСТЬNULL(впЗаявкаНаРемонтРемонтныеРаботы.Ссылка, впПланГрафикППР.ПланГрафик),
+	впАктОВыполненииЭтапаРаботРемонтныеРаботы.Ссылка,
+	впПроцентВыполненныхРаботОбороты.ОбъектРемонта,
+	впПроцентВыполненныхРаботОбороты.ВидДокумента,
+	впАктОВыполненииЭтапаРаботРемонтныеРаботы.РемонтнаяРабота,
+	впПроцентВыполненныхРаботОбороты.РемонтыОборудования_ID,
+	100,
+	впПроцентВыполненныхРаботОбороты.ПроцентОборот,
+	впПроцентВыполненныхРаботОбороты.Операция
+ИЗ
+	РегистрНакопления.впПроцентВыполненныхРабот.Обороты({(&amp;НачалоПериода)}, {(&amp;КонецПериода)}, Регистратор, Операция ССЫЛКА Справочник.впТехнологическиеОперации) КАК впПроцентВыполненныхРаботОбороты
+		ЛЕВОЕ СОЕДИНЕНИЕ Документ.впАктОВыполненииЭтапаРабот.РемонтныеРаботы КАК впАктОВыполненииЭтапаРаботРемонтныеРаботы
+		ПО впПроцентВыполненныхРаботОбороты.Регистратор = впАктОВыполненииЭтапаРаботРемонтныеРаботы.Ссылка
+			И впПроцентВыполненныхРаботОбороты.РемонтыОборудования_ID = впАктОВыполненииЭтапаРаботРемонтныеРаботы.РемонтыОборудования_ID
+		ЛЕВОЕ СОЕДИНЕНИЕ Документ.впЗаявкаНаРемонт.РемонтныеРаботы КАК впЗаявкаНаРемонтРемонтныеРаботы
+		ПО впПроцентВыполненныхРаботОбороты.РемонтыОборудования_ID = впЗаявкаНаРемонтРемонтныеРаботы.РемонтыОборудования_ID
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.впПланГрафикППР КАК впПланГрафикППР
+		ПО впПроцентВыполненныхРаботОбороты.РемонтыОборудования_ID = впПланГрафикППР.УникальныйИдентификатор
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	Вт_ОсновнаяВыборка.Период КАК Период,
+	Вт_ОсновнаяВыборка.Регистратор КАК Регистратор,
+	Вт_ОсновнаяВыборка.ДокументПлан КАК ДокументПлан,
+	Вт_ОсновнаяВыборка.ДокументФакт КАК ДокументФакт,
+	Вт_ОсновнаяВыборка.ОбъектРемонта КАК ОбъектРемонта,
+	Вт_ОсновнаяВыборка.ВидДокумента КАК ВидДокумента,
+	Вт_ОсновнаяВыборка.РемонтнаяРабота КАК РемонтнаяРабота,
+	Вт_ОсновнаяВыборка.ИдентификаторРемонта КАК ИдентификаторРемонта,
+	МАКСИМУМ(Вт_ОсновнаяВыборка.ПроцентПлан) КАК ПроцентПлан,
+	МАКСИМУМ(Вт_ОсновнаяВыборка.ПроцентФакт) КАК ПроцентФакт,
+	Вт_ОсновнаяВыборка.Операция КАК Операция
+ИЗ
+	Вт_ОсновнаяВыборка КАК Вт_ОсновнаяВыборка
+
+СГРУППИРОВАТЬ ПО
+	Вт_ОсновнаяВыборка.ДокументФакт,
+	Вт_ОсновнаяВыборка.Операция,
+	Вт_ОсновнаяВыборка.ОбъектРемонта,
+	Вт_ОсновнаяВыборка.Период,
+	Вт_ОсновнаяВыборка.Регистратор,
+	Вт_ОсновнаяВыборка.РемонтнаяРабота,
+	Вт_ОсновнаяВыборка.ИдентификаторРемонта,
+	Вт_ОсновнаяВыборка.ВидДокумента,
+	Вт_ОсновнаяВыборка.ДокументПлан</query>
+	</dataSet>
+	<calculatedField>
+		<dataPath>ПроцентОсталось</dataPath>
+		<expression>ПроцентПлан -- ПроцентФакт</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Процент осталось</v8:content>
+			</v8:item>
+		</title>
+	</calculatedField>
+	<totalField>
+		<dataPath>ПроцентПлан</dataPath>
+		<expression>Среднее(ПроцентПлан)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ПроцентФакт</dataPath>
+		<expression>Среднее(ПроцентФакт)</expression>
+		<group>ВидДокумента</group>
+		<group>ИдентификаторРемонта</group>
+		<group>ОбъектРемонта</group>
+		<group>ОбъектРемонта Иерархия</group>
+		<group>Операция</group>
+		<group>Операция Иерархия</group>
+		<group>Период</group>
+		<group>ПроцентОсталось</group>
+		<group>ПроцентПлан</group>
+		<group>ПроцентФакт</group>
+		<group>Регистратор</group>
+		<group>РемонтнаяРабота</group>
+		<group>РемонтнаяРабота Иерархия</group>
+	</totalField>
+	<totalField>
+		<dataPath>ПроцентОсталось</dataPath>
+		<expression>Среднее(ПроцентПлан) - Среднее(ПроцентФакт)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ПроцентФакт</dataPath>
+		<expression>Сумма(ПроцентФакт) /Сумма(ВычислитьВыражениеСГруппировкойМассив("Количество(Различные Операция)","ДокументПлан, ОбъектРемонта"))</expression>
+		<group>ДокументПлан</group>
+	</totalField>
+	<parameter>
+		<name>Период</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Период</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>v8:StandardPeriod</v8:Type>
+		</valueType>
+		<value xsi:type="v8:StandardPeriod">
+			<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+			<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+			<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+		</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<parameter>
+		<name>НачалоПериода</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Начало периода</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;Период.ДатаНачала</expression>
+		<availableAsField>false</availableAsField>
+	</parameter>
+	<parameter>
+		<name>КонецПериода</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Конец периода</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;Период.ДатаОкончания</expression>
+		<availableAsField>false</availableAsField>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Отчет по операциям</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПроцентПлан</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПроцентФакт</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">ДокументПлан</dcsset:left>
+					<dcsset:comparisonType>InList</dcsset:comparisonType>
+					<dcsset:right xsi:type="v8:ValueListType">
+						<v8:valueType/>
+						<v8:lastId xsi:type="xs:decimal">-1</v8:lastId>
+					</dcsset:right>
+					<dcsset:userSettingID>deebdf9b-205c-4919-a1db-cc075960787b</dcsset:userSettingID>
+				</dcsset:item>
+			</dcsset:filter>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Период</dcscor:parameter>
+					<dcscor:value xsi:type="v8:StandardPeriod">
+						<v8:variant xsi:type="v8:StandardPeriodVariant">ThisYear</v8:variant>
+					</dcscor:value>
+					<dcsset:userSettingID>24186560-635a-4213-ac78-0874fff4df5d</dcsset:userSettingID>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:conditionalAppearance>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>ПроцентПлан</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>ПроцентФакт</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter/>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>Формат</dcscor:parameter>
+							<dcscor:value xsi:type="v8:LocalStringType">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>ЧДЦ=2</v8:content>
+								</v8:item>
+							</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+					<dcsset:useInHierarchicalGroup>DontUse</dcsset:useInHierarchicalGroup>
+					<dcsset:useInOverall>DontUse</dcsset:useInOverall>
+					<dcsset:useInFieldsHeader>DontUse</dcsset:useInFieldsHeader>
+					<dcsset:useInHeader>DontUse</dcsset:useInHeader>
+					<dcsset:useInParameters>DontUse</dcsset:useInParameters>
+					<dcsset:useInFilter>DontUse</dcsset:useInFilter>
+				</dcsset:item>
+			</dcsset:conditionalAppearance>
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МакетОформления</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">Зеленый</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВертикальноеРасположениеОбщихИтогов</dcscor:parameter>
+					<dcscor:value xsi:type="dcscor:DataCompositionTotalPlacement">None</dcscor:value>
+				</dcscor:item>
+			</dcsset:outputParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>ДокументПлан</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+				<dcsset:item xsi:type="dcsset:StructureItemGroup">
+					<dcsset:groupItems>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>ОбъектРемонта</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+					</dcsset:groupItems>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					</dcsset:selection>
+					<dcsset:item xsi:type="dcsset:StructureItemGroup">
+						<dcsset:groupItems>
+							<dcsset:item xsi:type="dcsset:GroupItemField">
+								<dcsset:field>Операция</dcsset:field>
+								<dcsset:groupType>Items</dcsset:groupType>
+								<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+								<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+								<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+							</dcsset:item>
+						</dcsset:groupItems>
+						<dcsset:order>
+							<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+						</dcsset:order>
+						<dcsset:selection>
+							<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+						</dcsset:selection>
+						<dcsset:item xsi:type="dcsset:StructureItemGroup">
+							<dcsset:groupItems>
+								<dcsset:item xsi:type="dcsset:GroupItemField">
+									<dcsset:field>ДокументФакт</dcsset:field>
+									<dcsset:groupType>Items</dcsset:groupType>
+									<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+									<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+									<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+								</dcsset:item>
+							</dcsset:groupItems>
+							<dcsset:order>
+								<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+							</dcsset:order>
+							<dcsset:selection>
+								<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+							</dcsset:selection>
+						</dcsset:item>
+					</dcsset:item>
+				</dcsset:item>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

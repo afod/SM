@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f1b005e2-5c95-44b1-9784-89e29f0e14de">
+  <producedTypes>
+    <objectType typeId="7513d837-6e81-429f-9cac-6dd454d60404" valueTypeId="e3670f00-b49b-4537-a8b0-f2fedc3aeb36"/>
+    <managerType typeId="96d89c71-cb39-465d-83b4-a296fa3e2041" valueTypeId="dd245952-5b9a-4ee5-95b1-8977f2a63f86"/>
+  </producedTypes>
+  <name>рарусОтчетОРейсообороте</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет о рейсообороте</value>
+  </synonym>
+  <comment>Задача № 20591</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.рарусОтчетОРейсообороте.Form.ФормаОтчета</defaultForm>
+  <forms uuid="52cdfccb-5a0b-42e2-9524-6a0dbd12d2ee">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="bc1f15aa-01c9-45ee-8605-464526fdb80c">
+    <name>ОтчетОРейсообороте</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчет о рейсообороте</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

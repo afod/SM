@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="38a12fbb-6d04-462a-8e16-664dbc47cba6">
+  <name>рарусИспользоватьФункционалСУБ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать функционал СУБ</value>
+  </synonym>
+  <location>InformationRegister.рарусНастройкиФункционалаТОИР.Resource.ИспользоватьСУБ</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Subsystem.VftЭлектронныеСообщения.Subsystem.рарусПодсистемаСУБ</content>
+  <content>Subsystem.VftЭлектронныеСообщения.Subsystem.НастройкиИСправочники</content>
+  <content>Subsystem.VftЭлектронныеСообщения.Subsystem.ДокументыСУБСудна</content>
+  <content>Subsystem.VftЭлектронныеСообщения.Subsystem.МероприятияСУБ</content>
+  <content>Subsystem.VftЭлектронныеСообщения.Subsystem.ЧекЛисты</content>
+  <content>Document.рарусОтчетСУБ</content>
+  <content>Subsystem.VftЭлектронныеСообщения.Subsystem.рарусДокументацияСУБ</content>
+</mdclass:FunctionalOption>

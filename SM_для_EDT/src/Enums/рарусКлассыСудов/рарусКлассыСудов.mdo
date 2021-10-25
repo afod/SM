@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d84108b0-ae8c-419b-a8a1-8754dbe101a9">
+  <producedTypes>
+    <refType typeId="d44c7fbf-9931-4d3e-894f-81f049fd9664" valueTypeId="c5f37f15-db80-4c2c-9edc-6d801db846de"/>
+    <listType typeId="cd81585d-81a2-4df0-afc5-632feacf0654" valueTypeId="6a5db26c-10e3-4084-b857-2bf1a407459d"/>
+    <managerType typeId="44742108-d4eb-475b-8380-3e4597295f9b" valueTypeId="0ba7931e-abb9-44dd-9df8-9090c487ec22"/>
+  </producedTypes>
+  <name>рарусКлассыСудов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Классы судов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="65c48e3d-7bff-4a91-9205-baeb277beca2">
+    <name>О_ПР</name>
+    <synonym>
+      <key>ru</key>
+      <value>О-ПР</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="54d09ba9-7334-48fb-9af4-7d29c87f7b56">
+    <name>М_ПР</name>
+    <synonym>
+      <key>ru</key>
+      <value>М-ПР</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a196549f-ec7b-40cd-8098-8ca80a0e3417">
+    <name>М_СП</name>
+    <synonym>
+      <key>ru</key>
+      <value>М-СП</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

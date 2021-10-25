@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f25ee599-c38d-421f-84a8-afa3a90be6d1">
+  <producedTypes>
+    <refType typeId="18139053-978c-4b01-bd6c-6e112f78bb7f" valueTypeId="dd183a52-8b1c-463d-adf7-aea0923f38fb"/>
+    <listType typeId="5f7d16de-38af-48ec-95d4-1aa425fa5b1c" valueTypeId="86af1b53-c1ad-4a09-846c-4a933cffbe25"/>
+    <managerType typeId="00246ebc-0304-46bf-95fc-6a4ad90d91a2" valueTypeId="7f034ef0-726a-4149-828a-3db78ff28e54"/>
+  </producedTypes>
+  <name>ТипыУпаковокНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы упаковок номенклатуры</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Types of product packages</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="8e8608d6-658c-4e9d-9d0e-e0632e52fd32">
+    <name>Конечная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конечная</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>End</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="27745127-f299-4880-ae05-c3417f7b70f0">
+    <name>Составная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Составная</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Compound</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="39dcde9e-8889-497d-8e74-074d4c3a5f48">
+    <name>Разупаковка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разупаковка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Unpacking</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fb857daf-73ce-4b20-b9a0-3b5c827685bd">
+    <name>ТоварноеМесто</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товарное место</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Cargo item</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

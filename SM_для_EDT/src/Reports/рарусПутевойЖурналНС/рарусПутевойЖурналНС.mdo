@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c1f0233b-6744-437a-91d7-b0bebe16fdad">
+  <producedTypes>
+    <objectType typeId="9d3beda5-2f8e-408b-a06d-9580d08e9aa1" valueTypeId="976dba0b-dda4-4cd0-867a-1fcddb75a861"/>
+    <managerType typeId="cca08803-5a52-4849-886e-ae58b45e554a" valueTypeId="a077275a-0dd4-4cf0-99b6-24da49baf489"/>
+  </producedTypes>
+  <name>рарусПутевойЖурналНС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Путевой журнал НС</value>
+  </synonym>
+  <comment>Задача № 20477</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.рарусПутевойЖурналНС.Form.ФормаОтчета</defaultForm>
+  <forms uuid="7cf778fb-665d-498d-9c6e-eee541ee6dd7">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="99a56e3d-9871-4c64-ae31-a25ce4c2f171">
+    <name>ПутевойЖурналНС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путевой журнал несамоходного судна</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

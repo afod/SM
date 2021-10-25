@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4d0981df-4783-4931-92e0-90de8764d245">
+  <producedTypes>
+    <refType typeId="21269108-e767-4e81-a2cc-a469f0f0a830" valueTypeId="cae6f804-47ff-4010-8f68-6d455b42a579"/>
+    <listType typeId="050c8a22-38e5-448d-affd-88fbefc22cac" valueTypeId="d6644e3e-f1fa-4049-9ae2-90f4de3c33c7"/>
+    <managerType typeId="ff8a65de-1cca-4762-b972-e601f572828b" valueTypeId="aeb8cd6c-ffe7-4492-adca-1623765c8ee7"/>
+  </producedTypes>
+  <name>рарусВидыПериодовВиджетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды периодов виджетов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="2f680535-36c6-4e03-ad44-1150708793bc">
+    <name>ДеньКалендарный</name>
+    <synonym>
+      <key>ru</key>
+      <value>День (календарный)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3f24e644-5098-4b8e-9492-e1e06b3d1a20">
+    <name>МесяцКалендарный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Месяц (календарный)</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

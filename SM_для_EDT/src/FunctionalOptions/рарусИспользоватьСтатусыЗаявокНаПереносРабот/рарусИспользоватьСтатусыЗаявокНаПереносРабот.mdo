@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c10629c1-c377-4eee-9fb9-8595468f18bd">
+  <name>рарусИспользоватьСтатусыЗаявокНаПереносРабот</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать статусы заявок на перенос работ</value>
+  </synonym>
+  <location>Constant.рарусИспользоватьСтатусыЗаявокНаПереносРабот</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Enum.СостоянияСогласования</content>
+  <content>Document.впЗакрытиеЗаявокИРемонтов.Attribute.Статус</content>
+  <content>Document.впЗакрытиеЗаявокИРемонтов.Attribute.УточнениеСтатуса</content>
+</mdclass:FunctionalOption>

@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Номенклатура</dataPath>
+			<field>Номенклатура</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОбъектРемонтныхРабот</dataPath>
+			<field>ОбъектРемонтныхРабот</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Объект ремонтных работ</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КритичностьОборудования</dataPath>
+			<field>КритичностьОборудования</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Критичность оборудования</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Склад</dataPath>
+			<field>Склад</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КритичностьНоменклатуры</dataPath>
+			<field>КритичностьНоменклатуры</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Критичность номенклатуры (СЗЧ)</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОбъектИерархии</dataPath>
+			<field>ОбъектИерархии</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Оборудование</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>МинимальныйОстаток</dataPath>
+			<field>МинимальныйОстаток</field>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ЧН=0</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КонечныйОстаток</dataPath>
+			<field>КонечныйОстаток</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Конечный остаток</v8:content>
+				</v8:item>
+			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ЧН=0</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Статус</dataPath>
+			<field>Статус</field>
+			<useRestriction>
+				<condition>true</condition>
+			</useRestriction>
+			<attributeUseRestriction>
+				<condition>true</condition>
+			</attributeUseRestriction>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Разница</dataPath>
+			<field>Разница</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Превышение / недостача</v8:content>
+				</v8:item>
+			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ЧН=0</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДокУстановки</dataPath>
+			<field>ДокУстановки</field>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	рарусМинимальныеОстаткиНоменклатурыСрезПоследних.Номенклатура КАК Номенклатура,
+	рарусМинимальныеОстаткиНоменклатурыСрезПоследних.Склад КАК Склад,
+	СУММА(рарусМинимальныеОстаткиНоменклатурыСрезПоследних.МинимальныйОстаток) КАК МинимальныйОстаток,
+	рарусМинимальныеОстаткиНоменклатурыСрезПоследних.Склад.Судно КАК Судно
+ПОМЕСТИТЬ втМинОстатки
+ИЗ
+	РегистрСведений.рарусМинимальныеОстаткиНоменклатуры.СрезПоследних(, {(Склад.Судно = &amp;ПараметрСудно), (Номенклатура) КАК Номенклатура}) КАК рарусМинимальныеОстаткиНоменклатурыСрезПоследних
+ГДЕ
+	рарусМинимальныеОстаткиНоменклатурыСрезПоследних.МинимальныйОстаток &gt; 0
+
+СГРУППИРОВАТЬ ПО
+	рарусМинимальныеОстаткиНоменклатурыСрезПоследних.Номенклатура,
+	рарусМинимальныеОстаткиНоменклатурыСрезПоследних.Склад,
+	рарусМинимальныеОстаткиНоменклатурыСрезПоследних.Склад.Судно
+
+ИНДЕКСИРОВАТЬ ПО
+	Номенклатура,
+	Судно,
+	Склад
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	ВЫБОР
+		КОГДА ТоварыДругогоКачества.Номенклатура ЕСТЬ NULL
+			ТОГДА рарусИмуществоНаСудахОстатки.Номенклатура
+		ИНАЧЕ ТоварыДругогоКачества.Номенклатура
+	КОНЕЦ КАК Номенклатура,
+	СУММА(рарусИмуществоНаСудахОстатки.КоличествоОстаток) КАК ВНаличииОстаток,
+	рарусИмуществоНаСудахОстатки.Склад КАК Склад
+ПОМЕСТИТЬ Остатки
+ИЗ
+	РегистрНакопления.рарусИмуществоНаСудах.Остатки(
+			,
+			(Номенклатура, Склад) В
+					(ВЫБРАТЬ
+						втМинОстатки.Номенклатура КАК Номенклатура,
+						втМинОстатки.Склад КАК Склад
+					ИЗ
+						втМинОстатки КАК втМинОстатки
+			
+					ОБЪЕДИНИТЬ ВСЕ
+			
+					ВЫБРАТЬ
+						ТоварыДругогоКачества.НоменклатураБрак,
+						втМинОстатки.Склад
+					ИЗ
+						втМинОстатки КАК втМинОстатки
+							ВНУТРЕННЕЕ СОЕДИНЕНИЕ РегистрСведений.ТоварыДругогоКачества КАК ТоварыДругогоКачества
+							ПО
+								втМинОстатки.Номенклатура = ТоварыДругогоКачества.Номенклатура
+									И ТоварыДругогоКачества.ГрадацияКачества В (ЗНАЧЕНИЕ(Перечисление.ГрадацииКачества.БУ), ЗНАЧЕНИЕ(Перечисление.ГрадацииКачества.Восстановленный)))
+				И Статус В (ЗНАЧЕНИЕ(Перечисление.рарусСтатусыИмуществаНаСудне.НаСкладе), ЗНАЧЕНИЕ(Перечисление.рарусСтатусыИмуществаНаСудне.ОприходованоБУ)) {(Склад.Судно = &amp;ПараметрСудно), (Номенклатура) КАК Номенклатура}) КАК рарусИмуществоНаСудахОстатки
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.ТоварыДругогоКачества КАК ТоварыДругогоКачества
+		ПО рарусИмуществоНаСудахОстатки.Номенклатура = ТоварыДругогоКачества.НоменклатураБрак
+
+СГРУППИРОВАТЬ ПО
+	ВЫБОР
+		КОГДА ТоварыДругогоКачества.Номенклатура ЕСТЬ NULL
+			ТОГДА рарусИмуществоНаСудахОстатки.Номенклатура
+		ИНАЧЕ ТоварыДругогоКачества.Номенклатура
+	КОНЕЦ,
+	рарусИмуществоНаСудахОстатки.Склад
+
+ИНДЕКСИРОВАТЬ ПО
+	Номенклатура,
+	Склад
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	впЗапчасти.ОбъектРемонта КАК ОбъектРемонта,
+	впЗапчасти.Номенклатура КАК Номенклатура,
+	впЗапчасти.ОбъектРемонта.Приоритет КАК КритичностьОборудования,
+	впЗапчасти.ОбъектРемонта.ПодразделениеИсполнитель КАК Судно
+ПОМЕСТИТЬ втЗапчасти
+ИЗ
+	РегистрСведений.впЗапчасти КАК впЗапчасти
+ГДЕ
+	впЗапчасти.Номенклатура В
+			(ВЫБРАТЬ
+				втМинОстатки.Номенклатура КАК Номенклатура
+			ИЗ
+				втМинОстатки КАК втМинОстатки)
+	И НЕ впЗапчасти.ОбъектРемонта.НеУчаствуетВПланировании
+{ГДЕ
+	впЗапчасти.ОбъектРемонта.* КАК ОбъектРемонтныхРабот,
+	впЗапчасти.ОбъектРемонта.Приоритет.* КАК КритичностьОборудования}
+
+СГРУППИРОВАТЬ ПО
+	впЗапчасти.Номенклатура,
+	впЗапчасти.ОбъектРемонта.ПодразделениеИсполнитель,
+	впЗапчасти.ОбъектРемонта,
+	впЗапчасти.ОбъектРемонта.Приоритет
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	втМинОстатки.Номенклатура КАК Номенклатура,
+	втМинОстатки.Судно КАК Судно,
+	втЗапчасти.ОбъектРемонта КАК ОбъектРемонта
+ПОМЕСТИТЬ втПривязкаНоменклатурыКОР
+ИЗ
+	втМинОстатки КАК втМинОстатки
+		ЛЕВОЕ СОЕДИНЕНИЕ втЗапчасти КАК втЗапчасти
+		ПО втМинОстатки.Номенклатура = втЗапчасти.Номенклатура
+			И втМинОстатки.Судно = втЗапчасти.Судно
+{ГДЕ
+	втЗапчасти.ОбъектРемонта КАК ОбъектРемонтныхРабот,
+	втЗапчасти.ОбъектРемонта.Приоритет КАК КритичностьОборудования}
+
+СГРУППИРОВАТЬ ПО
+	втМинОстатки.Номенклатура,
+	втЗапчасти.ОбъектРемонта,
+	втМинОстатки.Судно
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗЛИЧНЫЕ
+	втПривязкаНоменклатурыКОР.Номенклатура КАК Номенклатура,
+	втПривязкаНоменклатурыКОР.Судно КАК Судно
+ПОМЕСТИТЬ втНоменклатураДляВывода
+ИЗ
+	втПривязкаНоменклатурыКОР КАК втПривязкаНоменклатурыКОР
+
+СГРУППИРОВАТЬ ПО
+	втПривязкаНоменклатурыКОР.Судно,
+	втПривязкаНоменклатурыКОР.Номенклатура
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	втМинОстатки.Номенклатура КАК Номенклатура,
+	втМинОстатки.Склад КАК Склад,
+	ЕСТЬNULL(втПривязкаНоменклатурыКОР.ОбъектРемонта, ЗНАЧЕНИЕ(Справочник.впОбъектыРемонта.ПустаяСсылка)) КАК ОбъектИерархии,
+	втМинОстатки.МинимальныйОстаток КАК МинимальныйОстаток,
+	ЕСТЬNULL(Остатки.ВНаличииОстаток, 0) КАК КонечныйОстаток,
+	ЕСТЬNULL(Остатки.ВНаличииОстаток, 0) - втМинОстатки.МинимальныйОстаток КАК Разница,
+	втМинОстатки.Номенклатура.Критичность КАК КритичностьНоменклатуры
+ИЗ
+	втМинОстатки КАК втМинОстатки
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ втНоменклатураДляВывода КАК втНоменклатураДляВывода
+		ПО втМинОстатки.Номенклатура = втНоменклатураДляВывода.Номенклатура
+			И втМинОстатки.Судно = втНоменклатураДляВывода.Судно
+		ЛЕВОЕ СОЕДИНЕНИЕ втПривязкаНоменклатурыКОР КАК втПривязкаНоменклатурыКОР
+		ПО втМинОстатки.Номенклатура = втПривязкаНоменклатурыКОР.Номенклатура
+			И втМинОстатки.Судно = втПривязкаНоменклатурыКОР.Судно
+		ЛЕВОЕ СОЕДИНЕНИЕ Остатки КАК Остатки
+		ПО втМинОстатки.Номенклатура = Остатки.Номенклатура
+			И втМинОстатки.Склад = Остатки.Склад
+ГДЕ
+	НЕ втМинОстатки.МинимальныйОстаток = 0</query>
+	</dataSet>
+	<totalField>
+		<dataPath>МинимальныйОстаток</dataPath>
+		<expression>Сумма(МинимальныйОстаток)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>КонечныйОстаток</dataPath>
+		<expression>Сумма(КонечныйОстаток)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>Разница</dataPath>
+		<expression>Сумма(Разница)</expression>
+	</totalField>
+	<parameter>
+		<name>Период</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Период</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<parameter>
+		<name>ПараметрСудно</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Судно</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.vftСуда</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>true</useRestriction>
+		<availableAsField>false</availableAsField>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>ПоВидамНоменклатуры</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Минимальные запасы ТМЦ (по видам номенклатуры)</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Номенклатура.Артикул</dcsset:field>
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Артикул</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Номенклатура</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Номенклатура.ЕдиницаИзмерения</dcsset:field>
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ед.изм.</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>МинимальныйОстаток</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КонечныйОстаток</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Разница</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">ОбъектИерархии</dcsset:left>
+					<dcsset:comparisonType>InHierarchy</dcsset:comparisonType>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Разница</dcsset:left>
+					<dcsset:comparisonType>Less</dcsset:comparisonType>
+					<dcsset:right xsi:type="xs:decimal">0</dcsset:right>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">КритичностьОборудования</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:userSettingID>e28bdfc6-dc05-4c0d-9cc4-9e978f3538da</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">КритичностьНоменклатуры</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:userSettingID>9ee30fb8-ffd9-4371-a3b7-41c6ffefbb1d</dcsset:userSettingID>
+				</dcsset:item>
+			</dcsset:filter>
+			<dcsset:order>
+				<dcsset:item xsi:type="dcsset:OrderItemField">
+					<dcsset:field>Номенклатура.Наименование</dcsset:field>
+					<dcsset:orderType>Asc</dcsset:orderType>
+				</dcsset:item>
+			</dcsset:order>
+			<dcsset:conditionalAppearance>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>Разница</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">Разница</dcsset:left>
+							<dcsset:comparisonType>Less</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:decimal">0</dcsset:right>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>ЦветТекста</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:Color">style:NegativeTextColor</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+					<dcsset:presentation xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Выделение отрицательной разницы</v8:content>
+						</v8:item>
+					</dcsset:presentation>
+					<dcsset:useInFieldsHeader>DontUse</dcsset:useInFieldsHeader>
+					<dcsset:useInHeader>DontUse</dcsset:useInHeader>
+					<dcsset:useInParameters>DontUse</dcsset:useInParameters>
+					<dcsset:useInFilter>DontUse</dcsset:useInFilter>
+				</dcsset:item>
+			</dcsset:conditionalAppearance>
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>РасположениеПолейГруппировки</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionGroupFieldsPlacement">Together</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>РасположениеРеквизитов</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionAttributesPlacement">Separately</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>ГоризонтальноеРасположениеОбщихИтогов</dcscor:parameter>
+					<dcscor:value xsi:type="dcscor:DataCompositionTotalPlacement">End</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВертикальноеРасположениеОбщихИтогов</dcscor:parameter>
+					<dcscor:value xsi:type="dcscor:DataCompositionTotalPlacement">None</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВыводитьПараметрыДанных</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">Auto</dcscor:value>
+				</dcscor:item>
+			</dcsset:outputParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>Номенклатура.ВидНоменклатуры</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+				<dcsset:outputParameters>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>Заголовок</dcscor:parameter>
+						<dcscor:value xsi:type="v8:LocalStringType">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Минимальные запасы ТМЦ (по видам номенклатуры)</v8:content>
+							</v8:item>
+						</dcscor:value>
+					</dcscor:item>
+				</dcsset:outputParameters>
+				<dcsset:item xsi:type="dcsset:StructureItemGroup">
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					</dcsset:selection>
+				</dcsset:item>
+			</dcsset:item>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>Номенклатура</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>Номенклатура.ЕдиницаИзмерения</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Ед.изм.</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:outputParameters>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>Заголовок</dcscor:parameter>
+						<dcscor:value xsi:type="v8:LocalStringType">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Итого по номенклатуре</v8:content>
+							</v8:item>
+						</dcscor:value>
+					</dcscor:item>
+				</dcsset:outputParameters>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

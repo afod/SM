@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6d7d99ac-f39a-43d1-a1dd-bdac752bf08b">
+  <name>рарусИмущественныйУчетСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Имущественный учет сервер</value>
+  </synonym>
+  <comment>rarus makole</comment>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

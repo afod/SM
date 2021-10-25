@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9aab2049-0725-4465-9315-55a58e90c30a">
+  <producedTypes>
+    <objectType typeId="1183e278-4bd5-45cb-a94f-ddce8208f93d" valueTypeId="5e81bedf-8eec-4b7e-840c-f5aad103491e"/>
+    <managerType typeId="0ba926dc-d383-43e9-aa69-4c636dc4f5a2" valueTypeId="b85798a7-4601-4573-b627-7db24c6893d9"/>
+  </producedTypes>
+  <name>рарусГрафикМероприятийСУБ</name>
+  <synonym>
+    <key>ru</key>
+    <value>График мероприятий СУБ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.рарусГрафикМероприятийСУБ.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <templates uuid="a9ad9da9-3d7a-4fcd-b400-3203a3bb6d69">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="ee1eecc4-f3ba-4b37-a79a-dd91dab2ebc6">
+    <name>ОсновнойМакет</name>
+    <synonym>
+      <key>ru</key>
+      <value>План - график мероприятий</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="37c3e13b-74ee-43af-b92f-210dd3eed607">
+  <name>рарусЧтениеПросмотрСостоянияОтправкиОбъекта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение просмотр состояния отправки объекта</value>
+  </synonym>
+  <comment>rarus makole 290320201</comment>
+</mdclass:Role>

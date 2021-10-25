@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ebe71d44-242e-4a3b-86dc-60835a889d2b">
+  <producedTypes>
+    <selectionType typeId="c3d3848d-7dab-4b43-a208-8a55d8b79850" valueTypeId="e130f8ff-558b-4e2d-b77e-dcf54f762563"/>
+    <listType typeId="fd51a24a-342f-44b1-a464-a730edc99061" valueTypeId="99b6cf95-87ae-48e2-a62c-68e0c00bdc1a"/>
+    <managerType typeId="fdc561d3-4d4e-49aa-a9f6-cc408c7ddb25" valueTypeId="f22642da-33ea-481a-8910-b71cd84b2ee7"/>
+    <recordSetType typeId="9dca0567-8092-4b1a-9126-3bdcf3766d53" valueTypeId="3709b7dd-42cb-472c-9bfc-de8f4a64cb53"/>
+    <recordKeyType typeId="bd036a7e-f56f-47d4-abdb-ec57e197345f" valueTypeId="26765f77-ac7c-4c61-904e-f0a414d5c3f7"/>
+    <recordType typeId="a401c47f-0ffc-44c8-8358-1d39a1f20039" valueTypeId="c6078905-7831-463c-8996-11be38610aed"/>
+    <recordManagerType typeId="8551d4c4-7aab-46a4-9beb-b29fe75d64de" valueTypeId="febad35f-9442-4b1e-9368-9b691d25522f"/>
+  </producedTypes>
+  <name>рарусОтправленныеРейсыРДО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отправленные рейсы РДО</value>
+  </synonym>
+  <comment>Задача № 20833</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="a8e31a25-3e76-42ab-b6f7-64709d1a5c39">
+    <name>Отправлено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправлено</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="6aad712d-dd69-4963-9a97-2f50eb7baa7d">
+    <name>Судно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Судно</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.vftСуда</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="cdbbdc8e-6c20-4d0a-b7c0-9b4b2c26ae04">
+    <name>Рейс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рейс</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.vftРейс</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="8ef5c5f4-4fe4-422f-a507-17d5ae5adacd">
+    <name>ИДСтрокиРейса</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИДСтроки рейса</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

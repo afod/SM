@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="78beb1da-2c5a-44d7-ba56-a9d5e38b0ee7">
+  <producedTypes>
+    <objectType typeId="a4abfda4-c5b3-42ac-94bf-2264911cd75c" valueTypeId="dea1468a-2d24-4c87-add2-78eca35f33f5"/>
+    <managerType typeId="fe55f261-c213-457c-bd80-4f3713d3e8ca" valueTypeId="07596f48-f2cf-4359-b0e4-fb95a519e5d4"/>
+  </producedTypes>
+  <name>рарусОтчетПоОперациям</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по операциям</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.рарусОтчетПоОперациям.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="40d3f0c8-0b9d-4777-b83e-418533495305">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

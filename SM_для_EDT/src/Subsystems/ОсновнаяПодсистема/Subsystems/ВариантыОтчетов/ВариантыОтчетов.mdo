@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="85fef9db-6261-46ae-8a93-7f3198214e85">
+  <name>ВариантыОтчетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты отчетов</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.рарусОтчеты</content>
+  <content>CommonModule.рарусОтчетыКлиент</content>
+  <content>CommonPicture.ЗакрепитьВариантОтчета</content>
+  <content>Report.рарусГрафикДвижения</content>
+  <content>Report.рарусПутевойЖурнал</content>
+  <content>Report.рарусПутевойЖурналНС</content>
+  <content>Report.рарусРапортСОЛП</content>
+  <content>Report.рарусОтчетОРейсообороте</content>
+  <content>Report.рарусРейсовыйОтчет</content>
+  <content>Report.рарусТопливныйОтчет</content>
+  <content>Report.рарусРейсыПрохождениеКЕК</content>
+  <content>Report.рарусРейсыДатыСудопроходовУчастковОбязательнойЛоцманскойПроводки</content>
+  <content>Report.рарусРейсыЛистУчетаЛоцманскихПроводок</content>
+  <content>Report.рарусРейсыСправкаБезлоцманскойПроводки</content>
+  <parentSubsystem>Subsystem.ОсновнаяПодсистема</parentSubsystem>
+</mdclass:Subsystem>

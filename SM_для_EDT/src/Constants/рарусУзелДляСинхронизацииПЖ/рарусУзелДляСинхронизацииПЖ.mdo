@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="45f35e75-01af-487f-840d-ed8ca71eb6e9">
+  <producedTypes>
+    <managerType typeId="bdcaf9bd-b204-4418-b5f1-3c1111db7ce9" valueTypeId="c634dbc3-c19a-4027-ae5a-bac24e4479d4"/>
+    <valueManagerType typeId="6ce9b626-64cc-42e8-98dc-535d4f1a66c7" valueTypeId="00df2edd-ca26-4a82-8559-2648fc73d590"/>
+    <valueKeyType typeId="d2c893d9-901c-40f6-a50c-069b65845695" valueTypeId="7af5db02-be08-41b1-8cab-cef51fe49a90"/>
+  </producedTypes>
+  <name>рарусУзелДляСинхронизацииПЖ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Узел для синхронизации ПЖ</value>
+  </synonym>
+  <type>
+    <types>ExchangePlanRef.рарусОбменУправлениеПредприятиемСудовойМодуль</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

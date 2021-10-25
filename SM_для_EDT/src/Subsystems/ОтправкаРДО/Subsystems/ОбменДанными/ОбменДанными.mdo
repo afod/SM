@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7f1484c3-67d1-47f0-a85c-004b68a4d643">
+  <name>ОбменДанными</name>
+  <synonym>
+    <key>ru</key>
+    <value>Служебные функции</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonCommand.НастройкиСинхронизацииДанных</content>
+  <content>DataProcessor.РезервноеКопированиеИБ</content>
+  <parentSubsystem>Subsystem.ОтправкаРДО</parentSubsystem>
+</mdclass:Subsystem>

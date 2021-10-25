@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aaccecb5-eedd-4c42-b189-d000d5fa391d">
+  <producedTypes>
+    <refType typeId="e347e8d8-7dcc-4fcc-93d9-730a9865b80b" valueTypeId="b3eccc74-f226-4fc8-9e8e-e707c72c96ac"/>
+    <listType typeId="249971d7-de8b-4c4b-92fa-5894180f6c7e" valueTypeId="56340762-7d3c-4cb2-9cb6-448aa85e373a"/>
+    <managerType typeId="d969a474-1cba-4992-8616-a1ee2d5e2199" valueTypeId="0caf8f84-7906-4ded-9257-9a45034d77bd"/>
+  </producedTypes>
+  <name>vftСтатусыДокументаРапортОПовреждении</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы документов &quot;Рапорт о повреждении, неисправности&quot;</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b9868c58-eee5-4908-933e-11ee6c8a68ee">
+    <name>Черновик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Черновик</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1b5dc5a5-b2d3-462c-b6e3-25fb55b00479">
+    <name>Отправлен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправлен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="49053a13-0e4c-460e-98e1-ba197f38e13f">
+    <name>Получен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обработан</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9bdc8804-0d76-43a7-b054-cbe4ccb24fec">
+    <name>Закрыт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закрыт</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="081e2e3d-93a1-466a-91b7-8a7651b83c65">
+    <name>Рассмотрен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рассмотрен</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

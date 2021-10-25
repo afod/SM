@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2a293a44-ae19-47f3-8d02-55f4f2df62c9">
+  <name>ТОИРглав</name>
+  <synonym>
+    <key>ru</key>
+    <value>ТОИР</value>
+  </synonym>
+</mdclass:CommonPicture>

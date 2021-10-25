@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="18644632-e107-40c5-b212-25188e51ebb4">
+  <producedTypes>
+    <objectType typeId="8d7edea5-16d0-4673-9614-65dd0b7eb11f" valueTypeId="cc05fc8d-4aab-49bc-aac5-8043cc297d88"/>
+    <managerType typeId="ce9bf37c-e07a-4a19-9fe3-3adea131a44a" valueTypeId="1dbf3d30-328b-468b-a255-b7db6497fe11"/>
+  </producedTypes>
+  <name>vftДокладыОСостоянииБезопасности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Доклады о состоянии безопасности</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.vftДокладыОСостоянииБезопасности.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="4149d911-b48a-47c3-8664-365039fd6cf6">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

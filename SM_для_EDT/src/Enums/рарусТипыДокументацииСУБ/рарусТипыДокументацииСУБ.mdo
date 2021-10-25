@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4c1d849e-93d0-4c66-8724-007652724183">
+  <producedTypes>
+    <refType typeId="0c9d473b-e7ce-4052-aa60-e559922785e9" valueTypeId="830d6a3e-e70a-4526-b105-427054e603d1"/>
+    <listType typeId="c4fb5ed1-f69b-4639-a737-b2da6751001b" valueTypeId="37f42e01-3498-4a62-ba94-ac5c95d3eacc"/>
+    <managerType typeId="6b830ae0-8a25-4c04-aa55-8f524bc31cfa" valueTypeId="e6a057ba-7142-4935-af5e-ca910cd9ca60"/>
+  </producedTypes>
+  <name>рарусТипыДокументацииСУБ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы документации СУБ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Enum.рарусТипыДокументацииСУБ.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Enum.рарусТипыДокументацииСУБ.Form.ФормаВыбора</defaultChoiceForm>
+  <enumValues uuid="edc03dd2-1fbf-47d0-ba7b-990647fe0dc8">
+    <name>ДокументацияСУБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документация СУБ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b637e7eb-c06a-4635-867d-0c414481c925">
+    <name>Прочее</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прочее</value>
+    </synonym>
+  </enumValues>
+  <forms uuid="e6e829e3-6d67-44fa-ba1e-2d9d57d1e761">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="41e02d5b-3331-403e-b850-f405d35c65b5">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Enum>

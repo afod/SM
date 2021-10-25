@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bcb3e80b-3227-4751-8e90-cac0e16095d1">
+  <producedTypes>
+    <managerType typeId="3928b7f1-8ad7-4853-810f-54d8ee4c6279" valueTypeId="7398a7bb-42da-4039-9826-d729770479fe"/>
+    <valueManagerType typeId="affb6245-0958-4d1b-9270-a6a40d3a2a75" valueTypeId="9526b04e-2b52-4d59-bd22-8b1ee2487c45"/>
+    <valueKeyType typeId="4480f76c-50dc-49be-b2d8-e9ce6f230a71" valueTypeId="0f29cc51-c118-49e1-a7e3-ec6f962a08a0"/>
+  </producedTypes>
+  <name>рарусДатаНачалаПередачиПутевыхЖурналовВЕРП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дата начала передачи путевых журналов в ЕРП</value>
+  </synonym>
+  <type>
+    <types>Date</types>
+    <dateQualifiers>
+      <dateFractions>Date</dateFractions>
+    </dateQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

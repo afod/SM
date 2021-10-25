@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0d4bac21-59ae-4cba-bb0e-6de3f43befb8">
+  <name>впОбменТОиР20СМ31_ЗарегистрироватьУдаление</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен ТОиР 2.0 СМ 3.1 зарегистрировать удаление</value>
+  </synonym>
+  <comment>rarus makole</comment>
+  <source>
+    <types>CatalogObject.впВыявленныеДефектыПрисоединенныеФайлы</types>
+    <types>CatalogObject.рарусКатегорииНоменклатуры</types>
+    <types>CatalogObject.впАктОВыполненииЭтапаРаботПрисоединенныеФайлы</types>
+    <types>CatalogObject.впЗаявкаНаСнабжениеПрисоединенныеФайлы</types>
+    <types>CatalogObject.рарусАктВыполненныхРаботОказанныхУслугПрисоединенныеФайлы</types>
+    <types>CatalogObject.впПриходТМЦПрисоединенныеФайлы</types>
+    <types>CatalogObject.впЗаявкаНаРемонтПрисоединенныеФайлы</types>
+    <types>CatalogObject.рарусРасходТМЦПрисоединенныеФайлы</types>
+    <types>DocumentObject.рарусЗаказНаПеремещение</types>
+    <types>DocumentObject.рарусЗаказКлиента</types>
+    <types>DocumentObject.рарусИнвентаризацияТМЦ</types>
+    <types>DocumentObject.рарусРасходТМЦ</types>
+    <types>CatalogObject.vftСообщениеОПотенциальномИнцидентеПрисоединенныеФайлы</types>
+  </source>
+  <event>BeforeDelete</event>
+  <handler>CommonModule.впОбменТОиР20СМ31События.впОбменТОиР20СМ31_ЗарегистрироватьУдалениеПередУдалением</handler>
+</mdclass:EventSubscription>

@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d5353b8a-bf96-473b-8495-29f1c1c1f1a1">
+  <producedTypes>
+    <selectionType typeId="5df6bbc2-fa5f-40c1-ac6b-78dff9f9007b" valueTypeId="2a4b08e5-7311-4715-abb0-ee6f7898110d"/>
+    <listType typeId="973ae0fe-727c-4276-af27-7e55fa62bbfb" valueTypeId="fbd31239-4949-45ee-a288-b94ad47e810a"/>
+    <managerType typeId="985bb2e7-2a39-45fe-a9e6-a970a9bcc3ff" valueTypeId="40a359fb-6b40-41e7-bdf1-9414df6711ae"/>
+    <recordSetType typeId="f4918f53-8d13-4d14-a27c-261b97533cb8" valueTypeId="a504379e-d162-4a60-a8c8-ababfd50d6a2"/>
+    <recordKeyType typeId="53223565-8691-40dc-8d94-750ee780d0c7" valueTypeId="7f405749-ee8d-4d18-b97f-970781af4375"/>
+    <recordType typeId="35c9a34f-0437-465d-a87b-9cf110e5182c" valueTypeId="d3ec1559-54b1-40b7-b1aa-b3abe29685d0"/>
+    <recordManagerType typeId="28e98a57-d8c6-4616-8e20-255406a3b5f5" valueTypeId="cfd415a8-52cb-48f1-8cb3-08526601c7fd"/>
+  </producedTypes>
+  <name>рарусНастройкиФункционалаТОИР</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки функционала ТОИР</value>
+  </synonym>
+  <comment>rarus makole</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.рарусНастройкиФункционалаТОИР.Form.ФормаЗаписи</defaultRecordForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="72d9959a-05c1-49ef-80c1-db66db45f868">
+    <name>ИспользоватьСудовоеСнабжение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать судовое снабжение</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="d46cdbc9-3455-4424-85ac-00f5c5bf55f1">
+    <name>ИспользоватьИмущественныйУчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать имущественный учет</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="5d0a5855-40f0-474a-87ec-633420e8861f">
+    <name>ИспользоватьМониторОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать монитор обмена</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="4eaa67e6-0248-48ac-b37b-f85c6c54f9fd">
+    <name>ИспользоватьСудовоеСнабжение2Приоритет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать судовое снабжение 2 приоритет</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="c7879ca9-3702-4adb-8724-4480d123eec8">
+    <name>ИспользоватьСУБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать СУБ</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="ece49e08-cfb2-43a9-b888-7a8a2bdba568">
+    <name>ИспользоватьКлассическийТОИР</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать классический ТОИР</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="fe3ff994-d37f-43e8-821b-0687cd785067">
+    <name>ИспользоватьФлагАналогаВСнабжении</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать флаг аналога в снабжении</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="89a48342-83d1-4c27-b182-056f1c1f1793">
+    <name>ИспользоватьШтрихкодирование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать штрихкодирование</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="1cebe4a0-922b-4763-82f1-24a61e8c123b">
+    <name>КонтролироватьОстаткиТМЦ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контролировать остатки ТМЦ при списании</value>
+    </synonym>
+    <comment>makole РАIT-0023494 04082021</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Включение функционала контроля остатков ТМЦ на судне при оформлении документов списания</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="7f12e98c-420b-496b-bc38-a72a70d394f5">
+    <name>РазмещатьИнфоокнаНаНачальнойСтранице</name>
+    <synonym>
+      <key>ru</key>
+      <value>Размещать инфоокна на начальной странице</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="73d2b780-49b8-485b-8e14-729383185b2b">
+    <name>Судно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Судно</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.vftСуда</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="be41edff-4194-4d63-9084-dc2a0265ac24">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

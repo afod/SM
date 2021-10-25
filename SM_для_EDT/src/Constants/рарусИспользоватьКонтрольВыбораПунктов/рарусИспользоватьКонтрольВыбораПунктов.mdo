@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1fb87cb4-446a-47b9-b0c2-a742c0b97a90">
+  <producedTypes>
+    <managerType typeId="bf1dded5-791f-426b-9088-0768dc9ef9d2" valueTypeId="285a958a-5ff5-4d26-8ca9-bdcab048955a"/>
+    <valueManagerType typeId="270bbb36-962a-4bc6-82d7-ba9e146e5f9e" valueTypeId="8180685e-cbc2-4bfa-afaa-77b17e35adad"/>
+    <valueKeyType typeId="2f67f475-20f8-46c7-9883-e85abdc27038" valueTypeId="6b455042-50f6-4ba3-9851-52daa578065b"/>
+  </producedTypes>
+  <name>рарусИспользоватьКонтрольВыбораПунктов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать контроль выбора пунктов</value>
+  </synonym>
+  <comment>Задача № 20785</comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

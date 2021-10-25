@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="19f9acb6-ead1-441c-bc24-d228951b8cc0">
+  <name>рарусЧтениеКонстантыПроцентВремениДоСледующейРаботыППР</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение константы Процент времени до следующей работы (ППР)</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="01be86d9-f0f4-4d6a-8e1d-b634e9dd1c5d">
+  <producedTypes>
+    <managerType typeId="74b7cd46-b83e-4b63-913f-276da83d210d" valueTypeId="f28b2f15-3413-41f0-894a-b02570100a49"/>
+    <valueManagerType typeId="19f47fe9-b5c3-4978-8432-5be944fd5abc" valueTypeId="5134edf1-3164-4c4a-87a7-11798316bf73"/>
+    <valueKeyType typeId="830948e7-9254-4172-ae13-51a932b98b0e" valueTypeId="42ca5ce6-43c4-4992-9ad5-b42df1a3e72b"/>
+  </producedTypes>
+  <name>рарусИспользуетсяСхемаСогласованияПоАналогам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Используется схема согласования по аналогам</value>
+  </synonym>
+  <comment>ФТ.АН.01.32</comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

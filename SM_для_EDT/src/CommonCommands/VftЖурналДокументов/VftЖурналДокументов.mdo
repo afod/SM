@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a5bcf41b-e1f2-44b3-a26d-bef1f664cbcd">
+  <name>VftЖурналДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Журнал сообщений</value>
+  </synonym>
+  <group>NavigationPanelImportant</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+  <shortcut></shortcut>
+</mdclass:CommonCommand>

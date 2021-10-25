@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e13b2498-b71a-460e-a65f-8d387154efa2">
+  <producedTypes>
+    <selectionType typeId="a7d65074-e78a-43c4-b8df-0ea2be6cc984" valueTypeId="86de9129-c9dc-4f1a-9c5d-e37311cfaca7"/>
+    <listType typeId="a7f8ca94-fd51-499e-bbe3-edcc5672fc8b" valueTypeId="52b5f38b-5b43-480f-9fa1-cccd019d1938"/>
+    <managerType typeId="79fae4f0-a9d5-47ac-a631-60313cab0eaa" valueTypeId="6662579a-6a2c-4d75-9152-9c8661654142"/>
+    <recordSetType typeId="993aa938-070b-4bdd-800d-228c10243ad1" valueTypeId="a60be9d4-13ab-412a-98d0-bd8c5b362a7d"/>
+    <recordKeyType typeId="cc345699-40bc-4f15-a7ca-156d9eea9a9e" valueTypeId="e08ce18a-9941-44ee-9bf3-0daa7e306183"/>
+    <recordType typeId="2928b9c1-de30-4776-9f5e-a9cce3f92f3e" valueTypeId="6b877d28-6787-4ae7-8e1c-a4c43890e593"/>
+    <recordManagerType typeId="f7fc7b03-6cfb-41a9-9e6e-4bf1b71b4266" valueTypeId="18c703de-47e3-466b-b373-191fed11c2b1"/>
+  </producedTypes>
+  <name>рарусСоответствияОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Соответствия объектов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.рарусСоответствияОбъектов.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="3e69af6f-f873-460b-86a3-ad9e16baccd3">
+    <name>ОбъектТекущейБазы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект текущей базы</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.vftТиповыеОперации</types>
+      <types>CatalogRef.рарусПрочиеСуда</types>
+      <types>CatalogRef.рарусЛоцманы</types>
+      <types>CatalogRef.Контрагенты</types>
+      <types>CatalogRef.vftГрузы</types>
+      <types>CatalogRef.vftПунктыСледования</types>
+      <types>CatalogRef.рарусМаркиТоплива</types>
+      <types>CatalogRef.vftСуда</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="9df5e639-94d5-4960-ab9a-cf4d2b9727de">
+    <name>КодСтарогоСМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код старого СМ</value>
+    </synonym>
+    <comment>Для судов</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="ff4b2c05-259e-4b41-aa83-50feb3523ef6">
+    <name>Наименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование</value>
+    </synonym>
+    <comment>Для всех</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="f876381e-0b29-48a0-bad7-a49c2302907a">
+    <name>Атлас</name>
+    <synonym>
+      <key>ru</key>
+      <value>Атлас</value>
+    </synonym>
+    <comment>Для пунктов следования</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="7c13c419-30e1-42e8-a40b-90b837889d4a">
+    <name>НомерЛистаАтласа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер листа атласа</value>
+    </synonym>
+    <comment>Для пунктов следования</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="e11c5211-b455-453b-91f8-ea4880c656a7">
+    <name>АналитикаПростоя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аналитика простоя</value>
+    </synonym>
+    <comment>Для типовых операций (они же причины простоя)</comment>
+    <type>
+      <types>CatalogRef.рарусАналитикиПростоя</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="0c2a402c-5c0a-495f-a4e8-8a9b63af646d">
+    <name>ТипТоплива</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип топлива</value>
+    </synonym>
+    <comment>Для марок топлива/масла</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="1d4a2998-062a-4734-b487-e84496753d8b">
+    <name>НаименованиеИзФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование из файла</value>
+    </synonym>
+    <comment>Для всех</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="048802e3-93a2-4910-8ef7-46433abbb78f">
+    <name>РасстояниеПоАтласу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расстояние по атласу</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>1</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="a693acc1-7769-4021-87d7-d2f5360478c1">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

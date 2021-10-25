@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dcf57033-4c95-4a26-91c1-772e5b3e7649">
+  <producedTypes>
+    <refType typeId="8f7335af-3a0f-49e9-8b7c-979cc40d3b2d" valueTypeId="73153741-3657-49fa-9dbe-17e5ac0ea8c3"/>
+    <listType typeId="0a58f668-121e-4d01-80cd-6be0da2a13c4" valueTypeId="eb8e0922-a0e3-4b51-83fa-ba6052927708"/>
+    <managerType typeId="3130474e-67e7-462b-a214-7ce8b904737f" valueTypeId="4ebf29a4-5c32-494a-92de-65266a58abb9"/>
+  </producedTypes>
+  <name>впВидыПростояОборудования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды простоя оборудования</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="12c885d8-4e59-4d61-aec9-7755931aab4c">
+    <name>АварийныеРемонтныеРаботы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аварийные ремонтные работы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="03f65882-f72c-4076-a839-07398a73d018">
+    <name>БезРаботы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Без работы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9cf8c65e-870b-4f29-8ebe-da7af71c0d30">
+    <name>ПлановыеРемонтныеРаботы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Плановые ремонтные работы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7cff9200-fd58-4554-ba29-dec6bed6c958">
+    <name>Прочее</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прочее</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="61b5c592-af39-4a38-9971-98af2eca8d77">
+    <name>Эксплуатация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Эксплуатация</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

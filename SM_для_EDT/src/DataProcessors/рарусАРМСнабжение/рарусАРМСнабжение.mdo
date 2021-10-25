@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6c257978-475e-4e08-9076-3fd2449749fe">
+  <producedTypes>
+    <objectType typeId="0fa76b2d-5a16-4dc9-b5c8-26e7318a8c68" valueTypeId="dd43141e-1fc6-4296-989c-156afcc9af1f"/>
+    <managerType typeId="cefcb407-0ecd-46a3-83d4-5aa052e43133" valueTypeId="d33c1753-8469-4f58-8386-8e5a63b38df5"/>
+  </producedTypes>
+  <name>рарусАРМСнабжение</name>
+  <synonym>
+    <key>ru</key>
+    <value>АРМ по обеспечению потребностей в ТМЦ на судах</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.рарусАРМСнабжение.Form.Форма</defaultForm>
+  <forms uuid="5a9d6315-9067-4b1d-8d30-d864f119d87a">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="e40c6515-9af5-4a42-b2bf-5a0cf787867b">
+    <name>МакетПоМинимальнымЗапасам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет по минимальным запасам</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="777ecdad-7c96-4d61-8a48-fa55a50328a9">
+    <name>МакетПоЗаявкеНаРемонт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет по заявке на ремонт</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="4c9ba020-2b59-4c6c-bb55-67bdf03a3ecd">
+    <name>МакетПоППР</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет по ППР</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="23c2e26d-9be6-4351-9ea5-166d605ed730">
+    <name>МакетПоППР_Итоговый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет по ППР итоговый</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:DataProcessor>

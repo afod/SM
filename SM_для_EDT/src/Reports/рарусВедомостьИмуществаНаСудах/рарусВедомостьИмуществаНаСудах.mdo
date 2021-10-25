@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="41650484-a9e9-4930-80ff-90360c5b6296">
+  <producedTypes>
+    <objectType typeId="d313dea3-e5aa-4e23-8bbc-3f88e0dce4d5" valueTypeId="95671d4d-194d-40c2-984c-84640b1bd80c"/>
+    <managerType typeId="42c52d45-dac0-4bff-b09e-edf867702486" valueTypeId="2a8ee429-142f-4986-b8bb-f5ed72889388"/>
+  </producedTypes>
+  <name>рарусВедомостьИмуществаНаСудах</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ведомость имущества на судах</value>
+  </synonym>
+  <comment>rarus atyutyakin</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.рарусВедомостьИмуществаНаСудах.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <templates uuid="f2283073-8c9d-4ee7-abf3-19158d7c8d94">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

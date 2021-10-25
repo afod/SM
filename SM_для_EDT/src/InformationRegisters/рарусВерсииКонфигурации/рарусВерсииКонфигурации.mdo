@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="db30268b-4cf1-464d-96ee-cafc178ca455">
+  <producedTypes>
+    <selectionType typeId="87d326a2-5cb2-4b6b-8bfc-8288ef4b8af6" valueTypeId="33c57824-842d-4db4-a054-c35fe61c9c9e"/>
+    <listType typeId="08b4d7db-22c3-4881-8a6f-56d68eb5e218" valueTypeId="a79ff4f2-e986-4d13-be01-25760efabe87"/>
+    <managerType typeId="a1d5b2ba-7364-4b63-9f75-ae95379c5a2a" valueTypeId="b56adf0e-2b73-4f9e-88cb-25d590b6a3a4"/>
+    <recordSetType typeId="6f84d48c-2f1d-44a5-aa34-ef9c36e1f08d" valueTypeId="d99ab3a7-34b6-43ee-8162-9415e2b8b2db"/>
+    <recordKeyType typeId="ad3e471f-f283-4414-802e-dabe5cf16531" valueTypeId="6758bc4a-ba52-47bc-8c85-eb0ecd76854e"/>
+    <recordType typeId="541a6c7c-4a96-46d9-b828-24f72cc15c55" valueTypeId="cbdc0c97-2243-4103-9939-288069923fc7"/>
+    <recordManagerType typeId="3a2e32d9-c1b3-4e04-8c42-f84214ef7289" valueTypeId="f7bac3b0-6ae1-4a13-bef7-df5192fd695c"/>
+  </producedTypes>
+  <name>рарусВерсииКонфигурации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Версии конфигурации (рарус)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="7004ef8c-c6cd-4256-b03c-dd52d503f00a">
+    <name>НомерВерсии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер версии</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>15</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="d334cf7e-4733-4ad7-a705-68204b03bd6b">
+    <name>НомерВерсииПлатформы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер версии платформы</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>15</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="10501b0c-431f-441f-b958-1af015ac6b88">
+    <name>УзелПрефикс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Узел префикс</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

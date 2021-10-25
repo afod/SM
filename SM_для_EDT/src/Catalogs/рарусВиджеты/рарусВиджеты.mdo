@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7a9265c2-1578-495a-8050-4d9f8fd2e0fd">
+  <producedTypes>
+    <objectType typeId="e21efa48-277a-489f-9df3-2c927736b6e5" valueTypeId="6b1d3f10-894d-4eac-b32c-21549b98e68c"/>
+    <refType typeId="a361ba52-7d27-4c7f-b2b2-7e8659f449ba" valueTypeId="926762ed-5520-4244-88a7-291550a088f6"/>
+    <selectionType typeId="bd657ace-efbc-417a-9fdb-a437f15dacfd" valueTypeId="76664a51-b7a9-45b4-966d-e557b55f396d"/>
+    <listType typeId="3accda74-a141-4671-92a3-6b6e34abb772" valueTypeId="37e83287-f508-46ba-80a8-0f23bce5998c"/>
+    <managerType typeId="3e277681-8e34-4f2b-92eb-5a31135b8ff0" valueTypeId="60fcc784-2a5e-42cd-8598-8aa6ad921b3a"/>
+  </producedTypes>
+  <name>рарусВиджеты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виджеты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.рарусВиджеты.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.рарусВиджеты.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="3b4be636-ce5b-43aa-a058-c42916544819">
+      <name>АнализСУБКапитанами</name>
+      <description>Анализ СУБ капитанами</description>
+      <code xsi:type="core:StringValue">
+        <value>С08      </value>
+      </code>
+    </items>
+    <items id="f2939501-3f69-470e-b3cf-e4e4308f16b5">
+      <name>ЗапланированныеМероприятияСУБ</name>
+      <description>Запланированные мероприятия СУБ</description>
+      <code xsi:type="core:StringValue">
+        <value>С04      </value>
+      </code>
+    </items>
+    <items id="1f3e9fd5-9867-4af5-b1ed-16d1adeb705a">
+      <name>НеустраненныеЗамечанияСУБС</name>
+      <description>Неустраненные замечания СУБ</description>
+      <code xsi:type="core:StringValue">
+        <value>С05      </value>
+      </code>
+    </items>
+    <items id="84bacf86-36ee-4069-81a8-2a2567e6b777">
+      <name>ОбменДаннымиБМ</name>
+      <description>Обмен данными с Береговым модулем</description>
+      <code xsi:type="core:StringValue">
+        <value>С07      </value>
+      </code>
+    </items>
+    <items id="5cd22569-46a5-42a3-81ee-bb324be9d6d3">
+      <name>ОстаткиСудовогоСклада</name>
+      <description>Остатки судового склада</description>
+      <code xsi:type="core:StringValue">
+        <value>С03      </value>
+      </code>
+    </items>
+    <items id="e3b2a7e1-c3a3-4a16-afe9-3bf506e140eb">
+      <name>ОткрытиеАРМ</name>
+      <description>Открытие АРМ ТОИР</description>
+      <code xsi:type="core:StringValue">
+        <value>С10</value>
+      </code>
+    </items>
+    <items id="ecaa82d9-fac5-4c68-8785-4eec49f480ee">
+      <name>ОтслеживаниеПоказанийНаработкиС</name>
+      <description>Отслеживание показаний наработки</description>
+      <code xsi:type="core:StringValue">
+        <value>С09      </value>
+      </code>
+    </items>
+    <items id="dc71e03e-300e-4ed7-ada9-e41994de7dfd">
+      <name>ПлановыеВнеплановыеРемонты</name>
+      <description>Плановые внеплановые ремонты</description>
+      <code xsi:type="core:StringValue">
+        <value>С01</value>
+      </code>
+    </items>
+    <items id="79847cfc-c361-47de-a166-e75df976687b">
+      <name>ПриближениеСрокаДействияСудовыхДокументовС</name>
+      <description>Приближение срока действия судовых документов</description>
+      <code xsi:type="core:StringValue">
+        <value>С06      </value>
+      </code>
+    </items>
+    <items id="27205dd7-4489-40bc-a597-0a75304afce0">
+      <name>ПросроченныеРемонты</name>
+      <description>Просроченные ремонты</description>
+      <code xsi:type="core:StringValue">
+        <value>С02      </value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.рарусВиджеты.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.рарусВиджеты.Form.ФормаСписка</defaultListForm>
+  <forms uuid="59ab96cb-9b8b-4b42-8bca-f21897bce0ae">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ec6df3c0-25ea-46b8-b43e-47820d51514e">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

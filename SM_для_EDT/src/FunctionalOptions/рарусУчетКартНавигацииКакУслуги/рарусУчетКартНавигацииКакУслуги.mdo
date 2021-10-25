@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="df6cd3b2-1f3f-4e84-8117-d653d2416620">
+  <name>рарусУчетКартНавигацииКакУслуги</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет карт навигации как услуги</value>
+  </synonym>
+  <comment>makole РАIT-0023257</comment>
+  <location>Constant.рарусУчетКартНавигацииКакУслуги</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

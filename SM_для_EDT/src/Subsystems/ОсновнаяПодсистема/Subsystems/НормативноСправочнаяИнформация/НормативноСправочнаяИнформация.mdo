@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7d262933-e079-4264-952c-784bf8134915">
+  <name>НормативноСправочнаяИнформация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Нормативно справочная информация</value>
+  </synonym>
+  <content>Enum.рарусБаржиОперации</content>
+  <content>Enum.рарусСтатусыПутевогоЖурнала</content>
+  <content>Enum.рарусКлассыСудов</content>
+  <content>Enum.рарусВариантыПрохожденияКЕК</content>
+  <content>Enum.рарусВидыГруппТиповыхОперацийИАналитик</content>
+  <content>Enum.рарусТипыПунктов</content>
+  <content>Catalog.впАктОВыполненииЭтапаРаботПрисоединенныеФайлы</content>
+  <content>Catalog.vftРейсПрисоединенныеФайлы</content>
+  <content>InformationRegister.vftНормыСледования</content>
+  <content>InformationRegister.vftСвязьПунктовСледования</content>
+  <content>InformationRegister.vftТаблицаДвижения</content>
+  <content>InformationRegister.vftТаблицаМорскихРасстояний</content>
+  <content>InformationRegister.рарусПринадлежностьСуднаКБТОФ</content>
+  <content>InformationRegister.рарусАктуальныеНормыСледованияПоПроектамСудов</content>
+  <content>InformationRegister.рарусГруппыТиповыхОперацийИАналитикДляОтчетов</content>
+  <content>InformationRegister.рарусПрохождениеУчастковСОЛП</content>
+  <content>InformationRegister.рарусОтправленныеРейсыРДО</content>
+  <content>Role.рарусЧтениеИПросмотрЛоцманов</content>
+  <content>Role.рарусДобавлениеИИзменениеЛоцманов</content>
+  <content>Role.рарусПросмотрОтчетовПоДаннымДокументаПутевойЖурнал</content>
+  <content>Role.рарусЧтениеИПросмотрПрисоединенныхФайловРейса</content>
+  <content>Role.рарусДобавлениеИИзменениеПрисоединенныхФайловРейса</content>
+  <parentSubsystem>Subsystem.ОсновнаяПодсистема</parentSubsystem>
+</mdclass:Subsystem>

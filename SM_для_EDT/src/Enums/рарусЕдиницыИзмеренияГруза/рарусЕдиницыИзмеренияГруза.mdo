@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ee2da45e-143c-4594-b53d-2be5ea4bb9fb">
+  <producedTypes>
+    <refType typeId="73e58932-7f53-4f08-9d15-f4f169af50d1" valueTypeId="7e1a1482-f2e1-40e4-91eb-6adc616911a8"/>
+    <listType typeId="c3c8238b-f75c-4db7-8972-d1546c23fac3" valueTypeId="22834788-5379-42d6-881f-fde30761e9ac"/>
+    <managerType typeId="0564c171-e660-43ca-a4f9-2b83838367cb" valueTypeId="9bb21e2a-6569-43c5-9965-ab951068e073"/>
+  </producedTypes>
+  <name>рарусЕдиницыИзмеренияГруза</name>
+  <synonym>
+    <key>ru</key>
+    <value>Единицы измерения груза</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="bf7f0c88-53aa-49bf-9366-406f516c8b4e">
+    <name>t</name>
+    <synonym>
+      <key>ru</key>
+      <value>t</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e47b7f48-5849-4b4e-8011-bf06a79ab8cc">
+    <name>cbm</name>
+    <synonym>
+      <key>ru</key>
+      <value>cbm</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

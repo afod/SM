@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d0847891-7f24-4a61-a1b2-166a81ad6d55">
+  <producedTypes>
+    <objectType typeId="681231b4-53a2-44be-a614-cb327018b300" valueTypeId="ddeff18e-7d7f-49f0-91a4-e83961c9eb58"/>
+    <managerType typeId="9e908b72-0b4e-4217-82d7-75a75fde3096" valueTypeId="c324e2f0-30db-43a1-b546-878f9dfb860a"/>
+  </producedTypes>
+  <name>рарусОтчетПоПроведеннымМероприятиямСУБ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по проведенным мероприятиям СУБ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.рарусОтчетПоПроведеннымМероприятиямСУБ.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <templates uuid="4c0a8db4-ee4b-4594-abee-d547d7c748cc">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExchangePlan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0bd0eb90-f982-44cf-9d26-c2e5d1593bdb" thisNode="bfe5f427-a501-408d-aaeb-9994fb4cf5b6">
+  <producedTypes>
+    <objectType typeId="25105f40-4f01-40ff-9d55-667b7cd040af" valueTypeId="a4b85dce-ba51-4a64-9d17-d07543230e1e"/>
+    <refType typeId="a8033bc7-383c-4e9c-a8a1-f95ae67a1ea1" valueTypeId="8f003d53-7116-4a07-8ca8-4acd7873d500"/>
+    <selectionType typeId="31cef59c-4285-4d62-a52a-11e82be5eb7a" valueTypeId="d8f9be6a-bc43-4804-8b79-37fca9c9e461"/>
+    <listType typeId="b2c879c8-1a97-4439-85cf-085b8cb29cd4" valueTypeId="707509a1-9f9a-49fb-8515-93a6290736b5"/>
+    <managerType typeId="f579d00d-3d83-43fb-843c-04b7909aca52" valueTypeId="8cab472f-ba40-4ec8-9eb6-db578678c912"/>
+  </producedTypes>
+  <name>впОбменТОиР20СМ31</name>
+  <synonym>
+    <key>ru</key>
+    <value>ERP + ТОИР 2.0</value>
+  </synonym>
+  <comment>rarus markim</comment>
+  <inputByString>ExchangePlan.впОбменТОиР20СМ31.StandardAttribute.Description</inputByString>
+  <inputByString>ExchangePlan.впОбменТОиР20СМ31.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>ThisNode</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>ReceivedNo</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>SentNo</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <content>
+    <mdObject>Catalog.рарусМероприятиеСУБПрисоединенныеФайлы</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ШаблоныАнкет</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.рарусУчение</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ОтветыНаВопросыАнкет</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.впПриходТМЦПрисоединенныеФайлы</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ВопросыШаблонаАнкеты</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.vftСообщениеОПотенциальномИнцидентеПрисоединенныеФайлы</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.vftНесоответствияПрисоединенныеФайлы</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.впАктОВыполненииЭтапаРабот</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.vftДокладОСостоянииБезопасности</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.СоответствияОбъектовИнформационныхБаз</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.рарусАктуализацияДокументацииСУБ</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.впЗакрытиеЗаявокИРемонтов</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.рарусОтчетСУБ</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ВариантыОтветовАнкет</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.рарусСвидетельстваСудовПрисоединенныеФайлы</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.впАктОВыполненииЭтапаРаботПрисоединенныеФайлы</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.Пользователи</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.vftДокладыОНесоответствииПрисоединенныеФайлы</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.рарусРасходТМЦПрисоединенныеФайлы</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.vftНесоответствия</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.Анкета</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.впПриходТМЦ</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.впЗаявкаНаСнабжениеПрисоединенныеФайлы</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.впЗаявкаНаРемонт</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.впСостоянияОбъектовРемонта</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.vftДокладОСостоянииБезопасностиПрисоединенныеФайлы</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.рарусСвидетельстваСудов</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.vftАнализСУБПрисоединенныеФайлы</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.рарусУчениеПрисоединенныеФайлы</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.впЗаявкаНаСнабжение</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.vftСУБПрисоединенныеФайлы</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.рарусДополнительныеДанныеЗамечаний</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.рарусИнвентаризацияТМЦ</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.рарусАктВыполненныхРаботОказанныхУслугПрисоединенныеФайлы</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.vftДокладыОНесоответствии</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.рарусЖурналИзмененийНоменклатурыПоАналогам</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.рарусКатегорииНоменклатуры</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.впВыявленныеДефектыПрисоединенныеФайлы</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.впУчетНаработкиОборудования</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.vftСообщениеОПотенциальномИнциденте</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.рарусСтепениРиска</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.впВыявленныеДефекты</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.СостоянияУспешныхОбменовДанными</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.рарусНастройкиФункционалаТОИР</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.рарусАктВыполненныхРаботОказанныхУслуг</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.рарусРасходТМЦ</mdObject>
+  </content>
+  <content>
+    <mdObject>ChartOfCharacteristicTypes.ВопросыДляАнкетирования</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.впВнешнееОснованиеДляРабот</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.vftАнализСУБ</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.впЗаявкаНаРемонтПрисоединенныеФайлы</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.рарусМероприятиеСУБ</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.рарусИзменениеСтатусаТМЦ</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.рарусТребования</mdObject>
+  </content>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>ExchangePlan.впОбменТОиР20СМ31.Form.ФормаУзла</defaultObjectForm>
+  <forms uuid="8a6fdd68-7a4a-406e-adea-c6366f796025">
+    <name>ФормаУзла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма узла</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c6365d90-b0f0-4fc3-a513-7c7ea1dc4697">
+    <name>ПодробнаяИнформация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подробная информация</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="ddd8a8c9-3f47-444c-9b08-8e26a3f95689">
+    <name>ПравилаРегистрации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правила регистрации</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="168e27f9-29ea-499d-9ea0-ccb8a357db58">
+    <name>ПравилаОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правила обмена</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="816186d9-2243-4ba6-98a0-7e169df3ac4b">
+    <name>ПравилаОбменаКорреспондента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правила обмена корреспондента</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:ExchangePlan>

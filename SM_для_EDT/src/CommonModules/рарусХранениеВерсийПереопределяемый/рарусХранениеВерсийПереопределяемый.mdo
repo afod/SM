@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c67115dd-f3dd-43b0-b949-8d7a5b9cf5cf">
+  <name>рарусХранениеВерсийПереопределяемый</name>
+  <synonym>
+    <key>ru</key>
+    <value>Хранение версий переопределяемый (рарус)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="732a3375-ce7b-4ea0-a2ad-9f354e130b24">
+  <name>рарусВключенаСхемаАналогов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Включена схема аналогов</value>
+  </synonym>
+  <comment>ФТ.АН.01.32</comment>
+  <location>Constant.рарусВключенаСхемаАналогов</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Subsystem.рарусСнабжение.Subsystem.Аналоги</content>
+  <content>InformationRegister.рарусАналоги</content>
+  <content>InformationRegister.рарусЖурналИзмененийНоменклатурыПоАналогам</content>
+  <content>Document.впЗаявкаНаСнабжение.TabularSection.МатериалыИРаботы.Attribute.ИсходнаяНоменклатура</content>
+  <content>Document.впЗаявкаНаСнабжение.TabularSection.МатериалыИРаботы.Attribute.ПризнакАналог</content>
+  <content>Document.впЗаявкаНаСнабжение.TabularSection.МатериалыИРаботы.Attribute.ПричинаЗамены</content>
+  <content>Document.впЗаявкаНаСнабжение.TabularSection.МатериалыИРаботы.Attribute.IDПервоначальный</content>
+  <content>Document.впЗаявкаНаСнабжение.TabularSection.МатериалыИРаботы.Attribute.IDДинамический</content>
+  <content>InformationRegister.рарусЖурналИзмененийНоменклатурыПоАналогам.Command.ОткрытьИсториюИзмененийНоменклатурыПоАналогам</content>
+</mdclass:FunctionalOption>

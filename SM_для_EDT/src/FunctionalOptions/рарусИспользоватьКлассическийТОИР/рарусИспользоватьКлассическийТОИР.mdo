@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="90706820-77eb-4fbd-90c2-75a0b87ded20">
+  <name>рарусИспользоватьКлассическийТОИР</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать классический ТОИР</value>
+  </synonym>
+  <location>InformationRegister.рарусНастройкиФункционалаТОИР.Resource.ИспользоватьКлассическийТОИР</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Subsystem.рарусСинхронизация</content>
+  <content>Catalog.рарусОператорыСпутниковогоСегмента</content>
+  <content>Catalog.рарусСтандартыПередачиДанных</content>
+  <content>DataProcessor.рарусМониторОбменаСудна</content>
+  <content>DataProcessor.рарусНастройкаСоставаОбъектовСинхронизацииСудноБерег</content>
+  <content>InformationRegister.рарусПринадлежностьIPАдресовСпутниковомуСегменту</content>
+  <content>InformationRegister.рарусНастройкиСоставаОбъектовСинхронизацииСудноБерег</content>
+  <content>InformationRegister.рарусЛогСменыВариантаСинхронизации</content>
+  <content>InformationRegister.рарусКритичныеДанныеДляВыгрузкиНаСудно</content>
+</mdclass:FunctionalOption>

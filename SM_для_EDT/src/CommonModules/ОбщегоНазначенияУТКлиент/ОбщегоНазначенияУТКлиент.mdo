@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="10e5adf8-dc36-4f0f-8c77-d54928e0b52c">
+  <name>ОбщегоНазначенияУТКлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Общего назначения УТКлиент</value>
+  </synonym>
+  <comment>(наполняется необходимыми функциями из аналогичного модуля ЕРП)</comment>
+  <clientManagedApplication>true</clientManagedApplication>
+</mdclass:CommonModule>

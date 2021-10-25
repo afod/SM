@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f9c88d4b-b666-42f1-aa49-64d84c45fb9f">
+  <producedTypes>
+    <refType typeId="8dfc6ec2-d5da-46c4-b5d4-ffdbf474805d" valueTypeId="325b7a45-c62e-4a6c-954f-416ca40a3f21"/>
+    <listType typeId="9914bae7-68ff-431c-8d00-f2c9383bc89d" valueTypeId="4ecf5092-2c8a-4b23-a4c2-629a57add345"/>
+    <managerType typeId="37ba28ca-b75f-4085-a6b2-f3e686225f3a" valueTypeId="2721896e-f7c2-45a5-9944-66a06f1cba1a"/>
+  </producedTypes>
+  <name>рарусРезультатыОбмена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Результаты обмена</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f16c07b8-5bfb-4977-bb02-8a89d7aafe8f">
+    <name>ВыгрузкаОК</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выгрузка ОК</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fe299de7-0406-4da1-9966-c67e632ae10e">
+    <name>ВыгрузкаОшибка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выгрузка ошибка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5975ed26-8010-4fa4-af7b-fbdf050720d5">
+    <name>ЗагрузкаОК</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загрузка ОК</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="026eb3ff-25f4-4cdb-9624-6d9e3360e89e">
+    <name>ЗагрузкаОшибка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загрузка ошибка</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

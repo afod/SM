@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c582686f-5e91-46b8-b599-fde06158dd3e">
+  <name>vtfДобавлениеИИзменениеНесоответствийИДокладов</name>
+  <synonym>
+    <key>ru</key>
+    <value>(vtf) Добавление и изменение несоответствий и докладов о несоответствии</value>
+  </synonym>
+</mdclass:Role>

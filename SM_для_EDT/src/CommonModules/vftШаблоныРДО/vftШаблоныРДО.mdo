@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fb984a03-7c20-48ea-a7b7-135dc214272e">
+  <name>vftШаблоныРДО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Шаблоны РДО</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

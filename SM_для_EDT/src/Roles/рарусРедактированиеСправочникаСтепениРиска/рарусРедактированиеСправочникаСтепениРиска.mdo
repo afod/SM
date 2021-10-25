@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="48debf86-e7ad-43b9-999b-c155a3b4d53e">
+  <name>рарусРедактированиеСправочникаСтепениРиска</name>
+  <synonym>
+    <key>ru</key>
+    <value>Редактирование справочника степени риска</value>
+  </synonym>
+  <comment>zalikh, СУБ 29295</comment>
+</mdclass:Role>

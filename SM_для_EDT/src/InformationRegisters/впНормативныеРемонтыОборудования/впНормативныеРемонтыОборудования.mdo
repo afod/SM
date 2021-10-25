@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a6614f09-0d84-4ac0-8cb9-ed61ffcdf79e">
+  <producedTypes>
+    <selectionType typeId="b6fd5ea8-ed32-4f1a-abaa-4e07b658b3e5" valueTypeId="3a4a36d6-e03d-4313-a7c3-7ea1946372a0"/>
+    <listType typeId="48d72d27-f5cf-4567-b64e-ac2ff451b69e" valueTypeId="dd698acf-6988-4eae-92cb-d8174b99c1ae"/>
+    <managerType typeId="c02eb950-07ab-43f3-80a4-3b5bb341c36e" valueTypeId="279cb2be-7b7b-47c8-bd9e-004e034b612c"/>
+    <recordSetType typeId="514158ea-9560-4814-a20a-804af9addd51" valueTypeId="c53a8e78-02fa-4b01-8871-b8c987570062"/>
+    <recordKeyType typeId="aaff5965-4ef9-4a20-b6bc-83278159c218" valueTypeId="8464b018-271e-49f8-ac90-25a7c872735d"/>
+    <recordType typeId="847849f3-f990-45b7-b6de-09a8752397b8" valueTypeId="ca9a8d66-2137-4772-b31b-da562df88238"/>
+    <recordManagerType typeId="81f012aa-e8ac-4006-bc95-9494520d3279" valueTypeId="dd67d448-646b-4a2b-9061-6b3878aeb663"/>
+  </producedTypes>
+  <name>впНормативныеРемонтыОборудования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Нормативные ремонты оборудования</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <includeHelpInContents>true</includeHelpInContents>
+  <resources uuid="1d7e3482-1aaf-495f-8cd5-3167bce1138f">
+    <name>НормативныйРемонт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нормативный ремонт</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.впТехКарты</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Технологическая карта ремонта</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="d30c4db5-e74f-463a-ae64-5fbd511553c3">
+    <name>СпособПланирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способ планирования</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.впСпособыПланированияРемонтныхРабот</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Способ планирования ремонта</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="bc1309b6-9ba3-46a3-b2a0-f739d2af5fa4">
+    <name>ОбъектРемонта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект ремонта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.впОбъектыРемонта</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Объект ремонта, для которого установлен норматив</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="654540a8-efae-49bf-b596-f2a612abe9c4">
+    <name>ВидРемонта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид ремонта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.впВидыРемонтов</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Вид ремонта объекта ремонта</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

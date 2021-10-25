@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="52e2333c-568b-416b-95d1-fd18c7f59639">
+  <producedTypes>
+    <refType typeId="c75ddbff-2b8f-482c-9a84-893cdc45cf12" valueTypeId="940177d4-72cb-46fb-94f5-f72c329886ca"/>
+    <listType typeId="b5b0b2dc-00b8-4e2d-b930-bb1a130e2894" valueTypeId="93351d2c-4545-4bb9-b8ca-7fdd33c9ea08"/>
+    <managerType typeId="32011a40-a237-4612-987d-88f547406d65" valueTypeId="440efc3d-04f1-4b72-8eac-33f2fe33623a"/>
+  </producedTypes>
+  <name>рарусТипыЗамечания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы замечания</value>
+  </synonym>
+  <comment>rarus ilshill</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Enum.рарусТипыЗамечания.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Enum.рарусТипыЗамечания.Form.ФормаВыбора</defaultChoiceForm>
+  <enumValues uuid="b7ab0c78-dbd7-4208-9e90-4ceb32645567">
+    <name>Несоответствие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Несоответствие</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ebd1a2d7-470b-4915-b819-37cac6c94bc4">
+    <name>Замечание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Замечание</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="33c53089-3065-420d-adf8-b8113edfe6a6">
+    <name>Наблюдение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наблюдение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="15861189-c943-4d79-9739-5ddb8e380d72">
+    <name>ЗначительноеНесоответствие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значительное несоответствие</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9c7ade88-09bb-4596-8db8-5d4b6d3537c8">
+    <name>Недостаток</name>
+    <synonym>
+      <key>ru</key>
+      <value>Недостаток</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cda81ded-573f-4bcb-87c9-874844c81870">
+    <name>СерьезныйНедостаток</name>
+    <synonym>
+      <key>ru</key>
+      <value>Серьезный недостаток</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c08f247d-49fc-4a3e-ba08-708d051c8af9">
+    <name>СущественныйНедостаток</name>
+    <synonym>
+      <key>ru</key>
+      <value>Существенный недостаток</value>
+    </synonym>
+  </enumValues>
+  <forms uuid="e652ca34-e684-4d0d-8f92-33b15c131982">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="fcfd478b-214b-4410-b92c-68c2ae708c8f">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Enum>

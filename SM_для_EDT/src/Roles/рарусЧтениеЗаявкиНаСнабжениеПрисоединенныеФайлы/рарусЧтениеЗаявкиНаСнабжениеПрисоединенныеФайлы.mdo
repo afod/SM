@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2e97f8d9-63db-4045-be3d-cd901cf1609f">
+  <name>рарусЧтениеЗаявкиНаСнабжениеПрисоединенныеФайлы</name>
+  <synonym>
+    <key>ru</key>
+    <value>(рарус) Чтение: Заявка на снабжение присоединенные файлы</value>
+  </synonym>
+  <comment>rarus PleA ФТ.СНБ.01.01</comment>
+</mdclass:Role>

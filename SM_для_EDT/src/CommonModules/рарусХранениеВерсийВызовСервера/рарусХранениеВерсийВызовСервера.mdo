@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6cd660fe-8633-4a3e-bd4f-6a3efadcaf1e">
+  <name>рарусХранениеВерсийВызовСервера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Хранение версий вызов сервера</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

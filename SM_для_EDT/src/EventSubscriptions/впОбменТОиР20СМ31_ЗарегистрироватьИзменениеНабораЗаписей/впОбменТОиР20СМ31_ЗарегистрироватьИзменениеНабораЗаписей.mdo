@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e2b87b66-0f63-4ef4-a19e-182ea1c2ea1b">
+  <name>впОбменТОиР20СМ31_ЗарегистрироватьИзменениеНабораЗаписей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен ТОиР 2.0 СМ 3.1 зарегистрировать изменение</value>
+  </synonym>
+  <source>
+    <types>InformationRegisterRecordSet.рарусЖурналИзмененийНоменклатурыПоАналогам</types>
+    <types>InformationRegisterRecordSet.СостоянияУспешныхОбменовДанными</types>
+    <types>InformationRegisterRecordSet.ОтветыНаВопросыАнкет</types>
+    <types>InformationRegisterRecordSet.рарусНастройкиФункционалаТОИР</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.впОбменТОиР20СМ31События.впОбменТОиР20СМ31_ЗарегистрироватьИзменениеНабораЗаписейПередЗаписью</handler>
+</mdclass:EventSubscription>

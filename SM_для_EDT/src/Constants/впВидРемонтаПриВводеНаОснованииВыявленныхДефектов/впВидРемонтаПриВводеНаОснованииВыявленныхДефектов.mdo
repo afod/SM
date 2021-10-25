@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="79a2a9f2-7e32-4d18-b463-717f4239da4d">
+  <producedTypes>
+    <managerType typeId="2c50b736-f759-45df-a384-392a1719331c" valueTypeId="3c765ae2-7785-4c1f-982e-4bc4b0e9fd20"/>
+    <valueManagerType typeId="3dea7f6b-f5c3-471d-b6d2-189a1744db46" valueTypeId="ca30c378-170b-45ba-b7d8-ebe562987744"/>
+    <valueKeyType typeId="1096b517-d8c1-43f2-b076-9d58dfa78dd8" valueTypeId="d238d598-5130-40c5-93a5-8768f9882beb"/>
+  </producedTypes>
+  <name>впВидРемонтаПриВводеНаОснованииВыявленныхДефектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид ремонта при вводе на основании выявленных дефектов</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.впВидыРемонтов</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="56bceab1-8cbf-4921-bdfd-acf0ed83d1e4">
+  <name>ИмущественныйУчет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Имущественный учет</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Номенклатура</content>
+  <content>Catalog.рарусКатегорииНоменклатуры</content>
+  <content>Document.впПриходТМЦ</content>
+  <content>Document.рарусРасходТМЦ</content>
+  <content>Document.рарусИзменениеСтатусаТМЦ</content>
+  <content>Document.рарусИнвентаризацияТМЦ</content>
+  <content>Report.рарусВедомостьИмуществаНаСудах</content>
+  <content>Document.рарусОтражениеИмуществаВУчете</content>
+  <content>Document.рарусЗаказКлиента</content>
+  <content>Document.рарусЗаказНаПеремещение</content>
+  <parentSubsystem>Subsystem.рарусСнабжение</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0f3f9966-f933-4bec-a38d-c6afe9238933">
+  <name>рарусПостановкаВОчередьЗаявкиНаСнабжение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Постановка в очередь Заявки на снабжение</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.рарусАктВыполненныхРаботОказанныхУслуг</types>
+    <types>DocumentObject.впЗаявкаНаСнабжение</types>
+    <types>DocumentObject.впПеремещениеТоваров</types>
+    <types>DocumentObject.впПриходТМЦ</types>
+    <types>DocumentObject.впЗаказПоставщику</types>
+  </source>
+  <event>Posting</event>
+  <handler>CommonModule.рарусЗаявкаНаСнабжениеСобытия.рарусПостановкаВОчередьЗаявкиНаСнабжениеОбработкаПроведения</handler>
+</mdclass:EventSubscription>

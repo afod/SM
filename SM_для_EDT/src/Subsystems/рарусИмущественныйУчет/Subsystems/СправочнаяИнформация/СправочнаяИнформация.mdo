@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3592d50f-0468-48e4-860d-269df581c1ff">
+  <name>СправочнаяИнформация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочная информация</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.рарусКатегорииНоменклатуры</content>
+  <content>Catalog.Номенклатура</content>
+  <parentSubsystem>Subsystem.рарусИмущественныйУчет</parentSubsystem>
+</mdclass:Subsystem>

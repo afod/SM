@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b369b15f-6454-4635-941e-1e12b5557b28">
+  <producedTypes>
+    <selectionType typeId="56f444d9-6810-4528-a619-bde317a61e98" valueTypeId="771491ae-8a4d-48d1-bf58-12468b72de06"/>
+    <listType typeId="0a43878b-b8f9-40e1-97c4-0e52d1321126" valueTypeId="b741c4ab-04b3-436b-9885-ba79dc85b1cc"/>
+    <managerType typeId="22d031d0-5716-4df8-bacd-72fc11117367" valueTypeId="44f70145-b52d-4739-87b6-09b88965bc01"/>
+    <recordSetType typeId="f7a98ef3-24f1-423c-862a-aa5238c368bf" valueTypeId="5314e7a5-004d-4134-9647-0cf0c959573d"/>
+    <recordKeyType typeId="38000fc3-a73c-4315-ab74-38e55e58def8" valueTypeId="b9e26f9f-a561-4ea8-9602-1cefe12fdff8"/>
+    <recordType typeId="8b35531e-3e64-4f3c-b354-3b615bb9993b" valueTypeId="5d7d0078-b6b6-420d-8668-339018735108"/>
+    <recordManagerType typeId="368174f5-bc2a-4525-9c70-3529836d0dd3" valueTypeId="750feeb4-d879-4b7a-805d-9959c7801f35"/>
+  </producedTypes>
+  <name>vftСвязьПунктовСледования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Связь пунктов следования</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="69387cf9-e7c0-42a1-8234-7c110c4c9ca6">
+    <name>Участок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Участок</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.vftВодныеУчастки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="1c415c61-dc57-49a4-bbc2-02d57eeadc4e">
+    <name>ПунктТекущий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пункт текущий</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.vftПунктыСледования</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="fa6c88d1-849e-4e93-a353-841a90f218d2">
+    <name>ПунктСмежный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пункт смежный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.vftПунктыСледования</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a805f605-7aa4-4a71-8c7a-23bc481f3a08">
+    <name>МодельРДО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модель РДО</value>
+    </synonym>
+    <comment>Задача № 20785</comment>
+    <type>
+      <types>CatalogRef.впМодельРДО</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,724 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидДокумента</dataPath>
+			<field>ВидДокумента</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вид документа</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СрокДействия</dataPath>
+			<field>СрокДействия</field>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ГоризонтальноеПоложение</dcscor:parameter>
+					<dcscor:value xsi:type="v8ui:HorizontalAlign">Center</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВертикальноеПоложение</dcscor:parameter>
+					<dcscor:value xsi:type="v8ui:VerticalAlign">Center</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НомерДокумента</dataPath>
+			<field>НомерДокумента</field>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ГоризонтальноеПоложение</dcscor:parameter>
+					<dcscor:value xsi:type="v8ui:HorizontalAlign">Center</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВертикальноеПоложение</dcscor:parameter>
+					<dcscor:value xsi:type="v8ui:VerticalAlign">Center</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Судно</dataPath>
+			<field>Судно</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Судно</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>IMO</dataPath>
+			<field>IMO</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>IMO</v8:content>
+				</v8:item>
+			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ГоризонтальноеПоложение</dcscor:parameter>
+					<dcscor:value xsi:type="v8ui:HorizontalAlign">Center</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВертикальноеПоложение</dcscor:parameter>
+					<dcscor:value xsi:type="v8ui:VerticalAlign">Center</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаВыдачи</dataPath>
+			<field>ДатаВыдачи</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата выдачи</v8:content>
+				</v8:item>
+			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ГоризонтальноеПоложение</dcscor:parameter>
+					<dcscor:value xsi:type="v8ui:HorizontalAlign">Center</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВертикальноеПоложение</dcscor:parameter>
+					<dcscor:value xsi:type="v8ui:VerticalAlign">Center</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаИнспекции</dataPath>
+			<field>ДатаИнспекции</field>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ГоризонтальноеПоложение</dcscor:parameter>
+					<dcscor:value xsi:type="v8ui:HorizontalAlign">Center</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВертикальноеПоложение</dcscor:parameter>
+					<dcscor:value xsi:type="v8ui:VerticalAlign">Center</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ГруппаСудов</dataPath>
+			<field>ГруппаСудов</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа судов</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПроектСудна</dataPath>
+			<field>ПроектСудна</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаВыдачиЖНРИС</dataPath>
+			<field>ДатаВыдачиЖНРИС</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПланируемаяДатаОсвидетельствования</dataPath>
+			<field>ПланируемаяДатаОсвидетельствования</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Планируемая дата освидетельствования</v8:content>
+				</v8:item>
+			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ГоризонтальноеПоложение</dcscor:parameter>
+					<dcscor:value xsi:type="v8ui:HorizontalAlign">Center</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВертикальноеПоложение</dcscor:parameter>
+					<dcscor:value xsi:type="v8ui:VerticalAlign">Center</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НомерЖНРИС</dataPath>
+			<field>НомерЖНРИС</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВилкаНачало</dataPath>
+			<field>ВилкаНачало</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вилка начало</v8:content>
+				</v8:item>
+			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ДФ=dd.MM.yyyy</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВилкаКонец</dataPath>
+			<field>ВилкаКонец</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Крайняя дата следующей проверки</v8:content>
+				</v8:item>
+			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ГоризонтальноеПоложение</dcscor:parameter>
+					<dcscor:value xsi:type="v8ui:HorizontalAlign">Center</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВертикальноеПоложение</dcscor:parameter>
+					<dcscor:value xsi:type="v8ui:VerticalAlign">Center</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ДФ=dd.MM.yyyy</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОсталосьДней</dataPath>
+			<field>ОсталосьДней</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Осталось дней</v8:content>
+				</v8:item>
+			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ГоризонтальноеПоложение</dcscor:parameter>
+					<dcscor:value xsi:type="v8ui:HorizontalAlign">Center</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВертикальноеПоложение</dcscor:parameter>
+					<dcscor:value xsi:type="v8ui:VerticalAlign">Center</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Примечание</dataPath>
+			<field>Примечание</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Примечание</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Свидетельство</dataPath>
+			<field>Свидетельство</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Номер документа</v8:content>
+				</v8:item>
+			</title>
+			<presentationExpression>НомерДокумента</presentationExpression>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ГоризонтальноеПоложение</dcscor:parameter>
+					<dcscor:value xsi:type="v8ui:HorizontalAlign">Center</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВертикальноеПоложение</dcscor:parameter>
+					<dcscor:value xsi:type="v8ui:VerticalAlign">Center</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	ВЫРАЗИТЬ(рарусСвидетельстваСудов.Владелец КАК Справочник.vftСуда) КАК Судно,
+	рарусСвидетельстваСудов.ВидДокумента КАК ВидДокумента,
+	МИНИМУМ(рарусПлановыеСрокиОсвидетельствованийРМРС.ДатаНачала) КАК МинимальнаяДата
+ПОМЕСТИТЬ ВТМинДатыБлижайщиеСрокиПроведенияОсвид
+ИЗ
+	Справочник.рарусСвидетельстваСудов КАК рарусСвидетельстваСудов
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.рарусПлановыеСрокиОсвидетельствованийРМРС КАК рарусПлановыеСрокиОсвидетельствованийРМРС
+		ПО (ВЫБОР
+				КОГДА рарусСвидетельстваСудов.Владелец ССЫЛКА Справочник.vftСуда
+					ТОГДА рарусСвидетельстваСудов.Владелец = рарусПлановыеСрокиОсвидетельствованийРМРС.Судно
+				ИНАЧЕ ЛОЖЬ
+			КОНЕЦ)
+			И рарусСвидетельстваСудов.ВидДокумента = рарусПлановыеСрокиОсвидетельствованийРМРС.ВидДокумента
+ГДЕ
+	рарусПлановыеСрокиОсвидетельствованийРМРС.ДатаОкончания &gt;= &amp;ДатаОтчета
+
+СГРУППИРОВАТЬ ПО
+	ВЫРАЗИТЬ(рарусСвидетельстваСудов.Владелец КАК Справочник.vftСуда),
+	рарусСвидетельстваСудов.ВидДокумента
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	ВТМинДатыБлижайщиеСрокиПроведенияОсвид.Судно КАК Судно,
+	ВТМинДатыБлижайщиеСрокиПроведенияОсвид.ВидДокумента КАК ВидДокумента,
+	рарусПлановыеСрокиОсвидетельствованийРМРС.ДатаНачала КАК ДатаНачала,
+	рарусПлановыеСрокиОсвидетельствованийРМРС.ДатаОкончания КАК ДатаОкончания
+ПОМЕСТИТЬ ВТБлижайщиеСрокиПроведения
+ИЗ
+	ВТМинДатыБлижайщиеСрокиПроведенияОсвид КАК ВТМинДатыБлижайщиеСрокиПроведенияОсвид
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ РегистрСведений.рарусПлановыеСрокиОсвидетельствованийРМРС КАК рарусПлановыеСрокиОсвидетельствованийРМРС
+		ПО ВТМинДатыБлижайщиеСрокиПроведенияОсвид.Судно = рарусПлановыеСрокиОсвидетельствованийРМРС.Судно
+			И ВТМинДатыБлижайщиеСрокиПроведенияОсвид.ВидДокумента = рарусПлановыеСрокиОсвидетельствованийРМРС.ВидДокумента
+			И ВТМинДатыБлижайщиеСрокиПроведенияОсвид.МинимальнаяДата = рарусПлановыеСрокиОсвидетельствованийРМРС.ДатаНачала
+ГДЕ
+	рарусПлановыеСрокиОсвидетельствованийРМРС.ДатаОкончания &gt;= &amp;ДатаОтчета
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	рарусМероприятиеСУБ.Судно КАК Судно,
+	МАКСИМУМ(рарусМероприятиеСУБ.ДатаИнспекции) КАК ДатаИнспекции,
+	рарусВидыДокументовОсвидетельствованияВидыМероприятий.Ссылка КАК ВидДокумента
+ПОМЕСТИТЬ ВТПоследниеПроверкиМероприятийСУБ
+ИЗ
+	Справочник.рарусВидыДокументовОсвидетельствования.ВидыМероприятий КАК рарусВидыДокументовОсвидетельствованияВидыМероприятий
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Документ.рарусМероприятиеСУБ КАК рарусМероприятиеСУБ
+		ПО рарусВидыДокументовОсвидетельствованияВидыМероприятий.ВидМероприятия = рарусМероприятиеСУБ.ВидМероприятия
+ГДЕ
+	НЕ рарусМероприятиеСУБ.ПометкаУдаления
+	И рарусМероприятиеСУБ.Статус = ЗНАЧЕНИЕ(Перечисление.vftСтатусыДокументовСообщений.Проведено)
+	И рарусМероприятиеСУБ.Дата &lt;= &amp;ДатаОтчета
+
+СГРУППИРОВАТЬ ПО
+	рарусМероприятиеСУБ.Судно,
+	рарусВидыДокументовОсвидетельствованияВидыМероприятий.Ссылка
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	рарусСвидетельстваСудов.Ссылка КАК СвидетельствоСудна,
+	ВТПоследниеПроверкиМероприятийСУБ.Судно КАК Судно,
+	ВТПоследниеПроверкиМероприятийСУБ.ВидДокумента КАК ВидДокумента,
+	ВТПоследниеПроверкиМероприятийСУБ.ДатаИнспекции КАК ДатаИнспекции
+ПОМЕСТИТЬ ВТДатыПоследнихПроверок
+ИЗ
+	Справочник.рарусСвидетельстваСудов КАК рарусСвидетельстваСудов
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ ВТПоследниеПроверкиМероприятийСУБ КАК ВТПоследниеПроверкиМероприятийСУБ
+		ПО (ВЫБОР
+				КОГДА рарусСвидетельстваСудов.Владелец ССЫЛКА Справочник.vftСуда
+					ТОГДА рарусСвидетельстваСудов.Владелец = ВТПоследниеПроверкиМероприятийСУБ.Судно
+				ИНАЧЕ ЛОЖЬ
+			КОНЕЦ)
+			И рарусСвидетельстваСудов.ВидДокумента = ВТПоследниеПроверкиМероприятийСУБ.ВидДокумента
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	ВЫРАЗИТЬ(рарусДанныеПланГрафиковМероприятийСУБ.ОбъектПроверки КАК Справочник.vftСуда) КАК Судно,
+	рарусДанныеПланГрафиковМероприятийСУБ.ВидМероприятия КАК ВидМероприятия,
+	МИНИМУМ(рарусДанныеПланГрафиковМероприятийСУБ.ПериодС) КАК ПериодС,
+	рарусВидыДокументовОсвидетельствованияВидыМероприятий.Ссылка КАК ВидДокумента
+ПОМЕСТИТЬ ВТПланДатыОсвид
+ИЗ
+	РегистрСведений.рарусДанныеПланГрафиковМероприятийСУБ КАК рарусДанныеПланГрафиковМероприятийСУБ
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Справочник.рарусВидыДокументовОсвидетельствования.ВидыМероприятий КАК рарусВидыДокументовОсвидетельствованияВидыМероприятий
+		ПО рарусДанныеПланГрафиковМероприятийСУБ.ВидМероприятия = рарусВидыДокументовОсвидетельствованияВидыМероприятий.ВидМероприятия
+ГДЕ
+	рарусДанныеПланГрафиковМероприятийСУБ.Статус &lt;&gt; ЗНАЧЕНИЕ(Перечисление.vftСтатусыДокументовСообщений.Черновик)
+	И рарусДанныеПланГрафиковМероприятийСУБ.ПериодС &gt;= &amp;ДатаОтчета
+
+СГРУППИРОВАТЬ ПО
+	рарусДанныеПланГрафиковМероприятийСУБ.ВидМероприятия,
+	рарусВидыДокументовОсвидетельствованияВидыМероприятий.Ссылка,
+	ВЫРАЗИТЬ(рарусДанныеПланГрафиковМероприятийСУБ.ОбъектПроверки КАК Справочник.vftСуда)
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	vftСуда.Ссылка КАК Судно,
+	vftСуда.IMO КАК IMO,
+	рарусСвидетельстваСудов.ВидДокумента КАК ВидДокумента,
+	рарусСвидетельстваСудов.НомерДокумента КАК НомерДокумента,
+	рарусСвидетельстваСудов.ДатаВыдачи КАК ДатаВыдачи,
+	рарусСвидетельстваСудов.СрокДействия КАК СрокДействия,
+	ВТДатыПоследнихПроверок.ДатаИнспекции КАК ДатаИнспекции,
+	vftГруппыСудовСуда.Ссылка КАК ГруппаСудов,
+	vftСуда.Проект КАК ПроектСудна,
+	ВТПланДатыОсвид.ПериодС КАК ПланируемаяДатаОсвидетельствования,
+	vftСуда.НомерЖНРИС КАК НомерЖНРИС,
+	vftСуда.ДатаВыдачиЖНРИС КАК ДатаВыдачиЖНРИС,
+	ВТБлижайщиеСрокиПроведения.ДатаНачала КАК ВилкаНачало,
+	ВТБлижайщиеСрокиПроведения.ДатаОкончания КАК ВилкаКонец,
+	РАЗНОСТЬДАТ(&amp;ДатаОтчета, ВТБлижайщиеСрокиПроведения.ДатаОкончания, ДЕНЬ) КАК ОсталосьДней,
+	ВЫРАЗИТЬ(рарусДанныеПланГрафиковМероприятийСУБ.Комментарий КАК СТРОКА(200)) КАК Примечание,
+	рарусСвидетельстваСудов.Ссылка КАК Свидетельство
+ИЗ
+	Справочник.рарусСвидетельстваСудов КАК рарусСвидетельстваСудов
+		ЛЕВОЕ СОЕДИНЕНИЕ ВТБлижайщиеСрокиПроведения КАК ВТБлижайщиеСрокиПроведения
+		ПО (ВЫБОР
+				КОГДА рарусСвидетельстваСудов.Владелец ССЫЛКА Справочник.vftСуда
+					ТОГДА рарусСвидетельстваСудов.Владелец = ВТБлижайщиеСрокиПроведения.Судно
+				ИНАЧЕ ЛОЖЬ
+			КОНЕЦ)
+			И рарусСвидетельстваСудов.ВидДокумента = ВТБлижайщиеСрокиПроведения.ВидДокумента
+		ЛЕВОЕ СОЕДИНЕНИЕ ВТДатыПоследнихПроверок КАК ВТДатыПоследнихПроверок
+		ПО (ВТДатыПоследнихПроверок.СвидетельствоСудна = рарусСвидетельстваСудов.Ссылка)
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Справочник.vftСуда КАК vftСуда
+			ЛЕВОЕ СОЕДИНЕНИЕ Справочник.vftГруппыСудов.Суда КАК vftГруппыСудовСуда
+			ПО vftСуда.Ссылка = vftГруппыСудовСуда.Судно
+		ПО рарусСвидетельстваСудов.Владелец = vftСуда.Ссылка
+		ЛЕВОЕ СОЕДИНЕНИЕ ВТПланДатыОсвид КАК ВТПланДатыОсвид
+			ВНУТРЕННЕЕ СОЕДИНЕНИЕ РегистрСведений.рарусДанныеПланГрафиковМероприятийСУБ КАК рарусДанныеПланГрафиковМероприятийСУБ
+			ПО ВТПланДатыОсвид.Судно = рарусДанныеПланГрафиковМероприятийСУБ.ОбъектПроверки
+				И ВТПланДатыОсвид.ВидМероприятия = рарусДанныеПланГрафиковМероприятийСУБ.ВидМероприятия
+				И ВТПланДатыОсвид.ПериодС = рарусДанныеПланГрафиковМероприятийСУБ.ПериодС
+		ПО (ВЫБОР
+				КОГДА рарусСвидетельстваСудов.Владелец ССЫЛКА Справочник.vftСуда
+					ТОГДА рарусСвидетельстваСудов.Владелец = ВТПланДатыОсвид.Судно
+				ИНАЧЕ ЛОЖЬ
+			КОНЕЦ)
+			И рарусСвидетельстваСудов.ВидДокумента = ВТПланДатыОсвид.ВидДокумента
+ГДЕ
+	НЕ рарусСвидетельстваСудов.ПометкаУдаления
+	И НЕ рарусСвидетельстваСудов.ВАрхиве
+	И НЕ рарусСвидетельстваСудов.СлужебныйПризнак
+
+СГРУППИРОВАТЬ ПО
+	vftСуда.Ссылка,
+	ВТДатыПоследнихПроверок.ДатаИнспекции,
+	ВТПланДатыОсвид.ПериодС,
+	ВТБлижайщиеСрокиПроведения.ДатаОкончания,
+	vftГруппыСудовСуда.Ссылка,
+	рарусСвидетельстваСудов.Ссылка,
+	ВТБлижайщиеСрокиПроведения.ДатаНачала,
+	ВЫРАЗИТЬ(рарусДанныеПланГрафиковМероприятийСУБ.Комментарий КАК СТРОКА(200)),
+	vftСуда.IMO,
+	рарусСвидетельстваСудов.ВидДокумента,
+	рарусСвидетельстваСудов.НомерДокумента,
+	рарусСвидетельстваСудов.ДатаВыдачи,
+	рарусСвидетельстваСудов.СрокДействия,
+	vftСуда.Проект,
+	vftСуда.НомерЖНРИС,
+	vftСуда.ДатаВыдачиЖНРИС</query>
+	</dataSet>
+	<calculatedField>
+		<dataPath>Вилка</dataPath>
+		<expression>выбор когда ТипЗначения(ВилкаНачало) = Тип("Дата") тогда Строка(Формат(ВилкаНачало,"ДФ=dd.MM.yy")) + " - " + Строка(Формат(ВилкаКонец, "ДФ=dd.MM.yy")) иначе "" конец</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Вилка</v8:content>
+			</v8:item>
+		</title>
+		<appearance>
+			<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+				<dcscor:parameter>ГоризонтальноеПоложение</dcscor:parameter>
+				<dcscor:value xsi:type="v8ui:HorizontalAlign">Center</dcscor:value>
+			</dcscor:item>
+			<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+				<dcscor:parameter>ВертикальноеПоложение</dcscor:parameter>
+				<dcscor:value xsi:type="v8ui:VerticalAlign">Center</dcscor:value>
+			</dcscor:item>
+		</appearance>
+		<valueType>
+			<v8:Type>xs:string</v8:Type>
+			<v8:StringQualifiers>
+				<v8:Length>0</v8:Length>
+				<v8:AllowedLength>Variable</v8:AllowedLength>
+			</v8:StringQualifiers>
+		</valueType>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>ЖНРИС</dataPath>
+		<expression>НомерЖНРИС + выбор когда ДатаВыдачиЖНРИС = ДатаВремя(1,1,1) тогда "" иначе " от " + Строка(Формат(ДатаВыдачиЖНРИС, "ДФ=dd.MM.yy")) конец</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>ЖНРИС</v8:content>
+			</v8:item>
+		</title>
+		<appearance>
+			<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+				<dcscor:parameter>ГоризонтальноеПоложение</dcscor:parameter>
+				<dcscor:value xsi:type="v8ui:HorizontalAlign">Center</dcscor:value>
+			</dcscor:item>
+			<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+				<dcscor:parameter>ВертикальноеПоложение</dcscor:parameter>
+				<dcscor:value xsi:type="v8ui:VerticalAlign">Center</dcscor:value>
+			</dcscor:item>
+		</appearance>
+		<valueType>
+			<v8:Type>xs:string</v8:Type>
+			<v8:StringQualifiers>
+				<v8:Length>0</v8:Length>
+				<v8:AllowedLength>Variable</v8:AllowedLength>
+			</v8:StringQualifiers>
+		</valueType>
+	</calculatedField>
+	<parameter>
+		<name>ДатаОтчета</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата отчета</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>false</useRestriction>
+		<expression>КонецПериода(&amp;ДатаОтчета, "ДЕНЬ")</expression>
+		<denyIncompleteValues>true</denyIncompleteValues>
+		<use>Always</use>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>ОсновнойВариантОтчета</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Отчет по судовым свидетельствам</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Основной</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Судно</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>IMO</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВидДокумента</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Свидетельство</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДатаВыдачи</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СрокДействия</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Вилка</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДатаИнспекции</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПланируемаяДатаОсвидетельствования</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВилкаКонец</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ОсталосьДней</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ЖНРИС</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Примечание</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">ГруппаСудов</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:userSettingID>7e51a508-6e52-4503-a880-def8128700d2</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">ПроектСудна</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:userSettingID>e0d25804-b521-4d10-a2cb-638e74411837</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Судно</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:userSettingID>6518501d-453c-4e29-b934-56a92587ff9c</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">ВидДокумента</dcsset:left>
+					<dcsset:comparisonType>InList</dcsset:comparisonType>
+					<dcsset:right xsi:type="v8:ValueListType">
+						<v8:valueType/>
+						<v8:lastId xsi:type="xs:decimal">-1</v8:lastId>
+					</dcsset:right>
+					<dcsset:userSettingID>1ffe949f-b78f-49c5-9a95-d4a41863564e</dcsset:userSettingID>
+				</dcsset:item>
+			</dcsset:filter>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ДатаОтчета</dcscor:parameter>
+					<dcscor:value xsi:type="v8:StandardBeginningDate">
+						<v8:variant xsi:type="v8:StandardBeginningDateVariant">BeginningOfThisDay</v8:variant>
+					</dcscor:value>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:conditionalAppearance>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>ОсталосьДней</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">ОсталосьДней</dcsset:left>
+							<dcsset:comparisonType>Less</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:decimal">11</dcsset:right>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>ЦветТекста</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:Color">style:SpecialTextColor</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>ОсталосьДней</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemGroup">
+							<dcsset:groupType>AndGroup</dcsset:groupType>
+							<dcsset:item xsi:type="dcsset:FilterItemComparison">
+								<dcsset:left xsi:type="dcscor:Field">ОсталосьДней</dcsset:left>
+								<dcsset:comparisonType>GreaterOrEqual</dcsset:comparisonType>
+								<dcsset:right xsi:type="xs:decimal">11</dcsset:right>
+							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:FilterItemComparison">
+								<dcsset:left xsi:type="dcscor:Field">ОсталосьДней</dcsset:left>
+								<dcsset:comparisonType>Less</dcsset:comparisonType>
+								<dcsset:right xsi:type="xs:decimal">30</dcsset:right>
+							</dcsset:item>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>ЦветТекста</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:Color">#FFFF00</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>ОсталосьДней</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemGroup">
+							<dcsset:groupType>AndGroup</dcsset:groupType>
+							<dcsset:item xsi:type="dcsset:FilterItemComparison">
+								<dcsset:left xsi:type="dcscor:Field">ОсталосьДней</dcsset:left>
+								<dcsset:comparisonType>GreaterOrEqual</dcsset:comparisonType>
+								<dcsset:right xsi:type="xs:decimal">30</dcsset:right>
+							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:FilterItemComparison">
+								<dcsset:left xsi:type="dcscor:Field">ОсталосьДней</dcsset:left>
+								<dcsset:comparisonType>Less</dcsset:comparisonType>
+								<dcsset:right xsi:type="xs:decimal">60</dcsset:right>
+							</dcsset:item>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>ЦветТекста</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:Color">#00FF00</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+			</dcsset:conditionalAppearance>
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МакетОформления</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">ОформлениеОтчетовБежевый</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>ТипДиаграммы</dcscor:parameter>
+					<dcscor:value xsi:type="v8ui:ChartType">Column3D</dcscor:value>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ТипДиаграммы.ЦветФона</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">style:ReportHeaderBackColor</dcscor:value>
+					</dcscor:item>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВыводитьЗаголовок</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">Output</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Заголовок</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отчет по судовым свидетельствам</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВыводитьПараметрыДанных</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">DontOutput</dcscor:value>
+				</dcscor:item>
+			</dcsset:outputParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>ПроектСудна</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+				<dcsset:item xsi:type="dcsset:StructureItemGroup">
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					</dcsset:selection>
+				</dcsset:item>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

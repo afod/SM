@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="67604655-cada-4cb8-99b4-eda0e84b8bb8">
+  <producedTypes>
+    <managerType typeId="05d30489-6cef-4cf4-baca-eb2a2f1a7f6b" valueTypeId="2ab36e24-0741-4f50-a92a-e42687ec42e0"/>
+    <valueManagerType typeId="7c3b7f5c-69c9-4ba6-9e3c-882837e3d163" valueTypeId="c725022c-2889-43e7-9321-f4e65e00e194"/>
+    <valueKeyType typeId="6880faa2-a816-457c-a157-a141ef1db2a8" valueTypeId="f12c789a-baf0-4025-ad9f-5e4d661bf0d2"/>
+  </producedTypes>
+  <name>ЕдиницаИзмеренияОбъема</name>
+  <synonym>
+    <key>ru</key>
+    <value>Единица измерения объема</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Volume unit of measure</value>
+  </synonym>
+  <comment>(rarus PleA)</comment>
+  <type>
+    <types>CatalogRef.УпаковкиЕдиницыИзмерения</types>
+  </type>
+  <toolTip>
+    <key>ru</key>
+    <value>Единица измерения, в которой указывается объем. По умолчанию - кубический метр.</value>
+  </toolTip>
+  <toolTip>
+    <key>en</key>
+    <value>Unit of measure in which volume is specified. By default - cubic meter.</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <choiceParameters>
+    <name>Отбор.ТипИзмеряемойВеличины</name>
+    <value xsi:type="core:ReferenceValue">
+      <value>Enum.ТипыИзмеряемыхВеличин.EnumValue.Объем</value>
+    </value>
+  </choiceParameters>
+  <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

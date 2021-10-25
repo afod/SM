@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="562615c5-46f1-4f15-9554-03032fb33208">
+  <producedTypes>
+    <selectionType typeId="c1fe5ab9-45cb-497c-be84-4ee5fd942aca" valueTypeId="e9df7978-b825-4a81-94d7-06834dcdbe51"/>
+    <listType typeId="25a2990e-09d6-4447-81d3-f212bf09a1f6" valueTypeId="3a2d851f-eeae-4534-98a1-67b344dabe34"/>
+    <managerType typeId="40f4bdb5-e935-47cb-b108-4c22fbf10fc2" valueTypeId="1524502d-dc00-47a8-86d0-700f0bb0b61a"/>
+    <recordSetType typeId="843901dc-e948-45f8-9357-e945e0c786e4" valueTypeId="bf7c181f-20cf-41c5-afad-bde8a7962ebb"/>
+    <recordKeyType typeId="c2bd0aef-cac2-461f-8e02-8d01bd7bdb7a" valueTypeId="2de19b42-c696-4522-a4c9-2c61e37c9c9a"/>
+    <recordType typeId="1fb611bc-37ba-431c-ac18-9500bae6e2cd" valueTypeId="e657c171-c1e2-46f2-8d2c-44961ade8ba5"/>
+    <recordManagerType typeId="ef6dd4e0-6088-41e4-9ca6-e53a6c72a1ca" valueTypeId="2b1bba41-b037-420f-b57a-cdabcf521d97"/>
+  </producedTypes>
+  <name>рарусИндексКодаСинхронизации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Индекс кода синхронизации</value>
+  </synonym>
+  <comment>rarus makole ФТ.ИМ.01.01</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.рарусИндексКодаСинхронизации.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="ace8efdc-bd13-4ee8-993d-f7f95ac7901c">
+    <name>Индекс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Индекс</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="3a0e5317-c537-4418-bb41-dc39e3efd386">
+    <name>ДатаУстановки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата установки</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <forms uuid="dbc6112e-0c12-4bb9-a058-d84a464f8dc7">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

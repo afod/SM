@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8686e635-369c-4dbb-a025-969457ef05bc">
+  <name>БазоваяФункциональность</name>
+  <synonym>
+    <key>ru</key>
+    <value>Базовая функциональность</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.рарусОбщегоНазначенияКлиент</content>
+  <content>CommonModule.рарусОбщегоНазначенияСервер</content>
+  <content>CommonModule.рарусОбщегоНазначенияКлиентСервер</content>
+  <content>CommonModule.рарусОбменДаннымиСобытияУППСудовойМодуль</content>
+  <content>CommonModule.рарусОбработкаТабличнойЧастиКлиент</content>
+  <content>CommonModule.рарусОбработкаТабличнойЧастиКлиентСервер</content>
+  <content>CommonModule.рарусОбработкаТабличнойЧастиКлиентЛокализация</content>
+  <content>CommonModule.рарусОбработкаТабличнойЧастиКлиентСерверЛокализация</content>
+  <content>CommonModule.рарусОбработкаТабличнойЧастиВызовСервера</content>
+  <content>CommonModule.рарусОбработкаТабличнойЧастиСервер</content>
+  <content>CommonModule.рарусОбработкаТабличнойЧастиСерверЛокализация</content>
+  <content>CommonModule.рарусПроведениеДокументовПереопределяемый</content>
+  <content>CommonModule.рарусОбщегоНазначенияВызовСервера</content>
+  <content>CommonModule.рарусРегламентныеЗадания</content>
+  <content>CommonModule.рарусОбщегоНазначенияСМКлиентСервер</content>
+  <content>CommonModule.рарусОбщегоНазначенияСМСервер</content>
+  <content>CommonPicture.ОтправитьEmail</content>
+  <content>CommonPicture.Переключатель</content>
+  <content>CommonPicture.ПолнотекстовыйПоискДалее</content>
+  <content>CommonPicture.ПолнотекстовыйПоискНазад</content>
+  <content>CommonForm.рарусРедактированиеДатаЧасыМинуты</content>
+  <content>CommonModule.рарусСМУправлениеСвойствами</content>
+  <content>CommonModule.ФизическиеЛицаПереопределяемый</content>
+  <content>CommonModule.ЭлектроннаяПочтаКлиентПереопределяемый</content>
+  <content>DataProcessor.рарусПанельАдминистрированияТОИР</content>
+  <content>Constant.рарусОсновноеСудно</content>
+  <content>Enum.рарусКатегорииЗаявокНаСнабжение</content>
+  <parentSubsystem>Subsystem.рарусСнабжение</parentSubsystem>
+</mdclass:Subsystem>

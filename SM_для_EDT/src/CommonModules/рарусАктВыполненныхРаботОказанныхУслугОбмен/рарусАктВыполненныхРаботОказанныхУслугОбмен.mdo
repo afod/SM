@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d3ae92a2-b745-48c9-b883-f8dd3f9a83ab">
+  <name>рарусАктВыполненныхРаботОказанныхУслугОбмен</name>
+  <synonym>
+    <key>ru</key>
+    <value>(рарус) Акт выполненных работ оказанных услуг обмен</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

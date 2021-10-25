@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c6a4d9b0-2558-4ad4-a398-d5d4bacde46f">
+  <producedTypes>
+    <managerType typeId="ad1f5026-a15d-4c64-b742-9dd7bde01519" valueTypeId="50ec5eca-d9a8-4f68-8888-3606761689a3"/>
+    <valueManagerType typeId="22e180c6-e6f8-42e1-9dc1-62bb7df5b0a3" valueTypeId="336d7be9-a990-4d77-b2cf-9025219b3df4"/>
+    <valueKeyType typeId="cf55df1a-78bf-48e2-a6c1-7027bfd399e5" valueTypeId="060380ea-e3ab-4a77-9257-8ee6b5c4d05b"/>
+  </producedTypes>
+  <name>рарусИспользоватьСтатусыЗаявокНаПереносРабот</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать статусы заявок на перенос плановых и внеплановых работ</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

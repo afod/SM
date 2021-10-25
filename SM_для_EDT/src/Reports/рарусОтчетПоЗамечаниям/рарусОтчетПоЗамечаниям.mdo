@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3cde9814-8945-422e-93b1-be18e3a9e6af">
+  <producedTypes>
+    <objectType typeId="3cf177f8-6ee3-4b61-a438-a477a5816f11" valueTypeId="05971896-1e66-428f-9520-29bb6c148555"/>
+    <managerType typeId="f44e02d6-a288-4aee-876c-90f767133fd9" valueTypeId="090f6a1c-077c-4804-963c-db49ad98465d"/>
+  </producedTypes>
+  <name>рарусОтчетПоЗамечаниям</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по замечаниям</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.рарусОтчетПоЗамечаниям.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <templates uuid="0e9d8773-7528-47ed-8737-ef1426dfd5f5">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

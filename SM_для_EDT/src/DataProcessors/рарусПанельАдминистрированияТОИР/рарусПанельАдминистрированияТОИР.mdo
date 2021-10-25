@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a970af95-b833-4592-865a-335b2bb953cf">
+  <producedTypes>
+    <objectType typeId="5636562e-88fa-4c60-a5ea-44c052f7cda6" valueTypeId="7b0e5e73-b8cf-46ff-a371-101d9d9f0115"/>
+    <managerType typeId="a790056d-7268-4cf1-b7da-3dcac79fea30" valueTypeId="4a47400f-601f-4ccf-a2b3-70030a557577"/>
+  </producedTypes>
+  <name>рарусПанельАдминистрированияТОИР</name>
+  <synonym>
+    <key>ru</key>
+    <value>Панель администрирования ТОИР</value>
+  </synonym>
+  <defaultForm>DataProcessor.рарусПанельАдминистрированияТОИР.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="e6621efd-147a-4379-88c7-d7bad9f0df1d">
+    <name>ОбщиеНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общие настройки (ТОИР)</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6f545565-9857-414d-ad7a-cf4aa27bd460">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="9bac8e6a-955d-454a-bbb8-a92e9e5e1edb">
+    <name>ОбщиеНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общие настройки (ТОИР)</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Изменение заголовка программы, настройка версионирования объектов, дополнительных реквизитов и других общих настроек.</value>
+    </toolTip>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:DataProcessor>

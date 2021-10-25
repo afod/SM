@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e0322033-987f-40e5-8fdc-a36ca6c396df">
+  <name>рарусОчисткаКодаСинхронизацииПриКопировании</name>
+  <synonym>
+    <key>ru</key>
+    <value>Очистка кода синхронизации при копировании</value>
+  </synonym>
+  <comment>rarus makole ФТ.ИМ.01.01</comment>
+  <source>
+    <types>DefinedType.рарусДокументыСКодомСинхронизации</types>
+  </source>
+  <event>OnCopy</event>
+  <handler>CommonModule.рарусИмущественныйУчетСервер.рарусОчисткаКодаСинхронизацииПриКопированииОбработчик</handler>
+</mdclass:EventSubscription>

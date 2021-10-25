@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e57280b4-5b2c-49ff-a587-68a40f6a17b3">
+  <name>ОформлениеОтчетовБежевый</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бежевый</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Beige</value>
+  </synonym>
+  <templateType>DataCompositionAppearanceTemplate</templateType>
+</mdclass:CommonTemplate>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e8a0a3bf-e738-4c37-8ba3-c6e33a2fad79">
+  <name>рарусХранениеВерсийПередЗаписью</name>
+  <synonym>
+    <key>ru</key>
+    <value>Хранение версий перед записью</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.впЗаявкаНаСнабжение</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.рарусХранениеВерсийСобытия.рарусХранениеВерсийПередЗаписьюПередЗаписью</handler>
+</mdclass:EventSubscription>

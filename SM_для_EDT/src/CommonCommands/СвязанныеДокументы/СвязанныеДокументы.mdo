@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="41f87891-ddd5-4e0f-a4f2-8039fb71981b">
+  <name>СвязанныеДокументы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Связанные документы</value>
+  </synonym>
+  <group>FormCommandBarImportant</group>
+  <commandParameterType>
+    <types>DocumentRef.впАктОВыполненииЭтапаРабот</types>
+    <types>DocumentRef.впЗаказПоставщику</types>
+    <types>DocumentRef.впЗакрытиеЗаявокИРемонтов</types>
+    <types>DocumentRef.рарусРасходТМЦ</types>
+    <types>DocumentRef.впЗаявкаНаРемонт</types>
+    <types>DocumentRef.рарусЗаказНаПеремещение</types>
+    <types>DocumentRef.впЗаявкаНаСнабжение</types>
+    <types>DocumentRef.впПланГрафикРемонта</types>
+    <types>DocumentRef.рарусЗаказКлиента</types>
+    <types>DocumentRef.рарусИнвентаризацияТМЦ</types>
+    <types>DocumentRef.впПриходТМЦ</types>
+    <types>DocumentRef.впВнешнееОснованиеДляРабот</types>
+    <types>DocumentRef.впВыявленныеДефекты</types>
+    <types>DocumentRef.рарусИзменениеСтатусаТМЦ</types>
+    <types>DocumentRef.рарусАктВыполненныхРаботОказанныхУслуг</types>
+  </commandParameterType>
+  <representation>Auto</representation>
+  <toolTip>
+    <key>ru</key>
+    <value>Перейти к иерархическому списку связанных документов</value>
+  </toolTip>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.СтруктураПодчиненности</picture>
+  </picture>
+  <shortcut></shortcut>
+</mdclass:CommonCommand>

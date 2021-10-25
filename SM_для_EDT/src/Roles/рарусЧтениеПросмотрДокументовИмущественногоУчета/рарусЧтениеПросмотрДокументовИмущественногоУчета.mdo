@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7454c9ba-0808-4130-b314-7c26b4fb8508">
+  <name>рарусЧтениеПросмотрДокументовИмущественногоУчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение и просмотр документов имущественного учета</value>
+  </synonym>
+  <comment>rarus makole 03022021</comment>
+</mdclass:Role>

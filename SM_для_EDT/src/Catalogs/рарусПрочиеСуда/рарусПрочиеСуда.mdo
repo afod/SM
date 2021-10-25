@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a287eb9d-c994-4d65-96ee-fb357bcbd5a1">
+  <producedTypes>
+    <objectType typeId="21b6cd13-db77-418f-9c51-c59c44ae1645" valueTypeId="b248b929-f48e-43ec-83e6-b9924a94e52e"/>
+    <refType typeId="208bec20-4711-4bf2-8154-ed11b815f767" valueTypeId="45a7181b-3205-4d45-9547-a488b69ff481"/>
+    <selectionType typeId="960079df-e7f5-421f-9980-c48126572142" valueTypeId="bc404add-d46d-4544-ac63-d3ff0f7d9fcb"/>
+    <listType typeId="95fca99a-f861-4ae9-a720-30d7ad9e577c" valueTypeId="d65b48d4-3acb-4c6c-b58a-fff4679523ba"/>
+    <managerType typeId="560fe1a5-4600-406e-a128-799c892c503f" valueTypeId="f9b1d6f0-9370-4c6b-9506-818e2364dbf0"/>
+  </producedTypes>
+  <name>рарусПрочиеСуда</name>
+  <synonym>
+    <key>ru</key>
+    <value>Прочие суда</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.рарусПрочиеСуда.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.рарусПрочиеСуда.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.рарусПрочиеСуда.Form.ФормаЭлемента</defaultObjectForm>
+  <forms uuid="8594c796-489b-4534-8e83-110e5bf5260e">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

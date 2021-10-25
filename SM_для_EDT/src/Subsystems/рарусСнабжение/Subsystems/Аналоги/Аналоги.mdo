@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c0ec172a-65a3-4f49-82e6-2507a5761837">
+  <name>Аналоги</name>
+  <synonym>
+    <key>ru</key>
+    <value>Аналоги</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Constant.рарусВключенаСхемаАналогов</content>
+  <content>Constant.рарусИспользуетсяЦелеваяСхемаАналогов</content>
+  <content>Constant.рарусИспользуетсяСхемаСогласованияПоАналогам</content>
+  <content>Enum.рарусСтатусыСогласованияАналогов</content>
+  <content>InformationRegister.рарусАналоги</content>
+  <content>InformationRegister.рарусЖурналИзмененийНоменклатурыПоАналогам</content>
+  <parentSubsystem>Subsystem.рарусСнабжение</parentSubsystem>
+</mdclass:Subsystem>

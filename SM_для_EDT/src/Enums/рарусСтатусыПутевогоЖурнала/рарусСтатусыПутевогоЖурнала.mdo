@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="262b03c3-0941-4353-b900-bce4f1ae8101">
+  <producedTypes>
+    <refType typeId="b63adda7-2dc4-4208-9141-69492517811a" valueTypeId="9ccfb42c-2f2b-46b3-902f-ad968ee1a758"/>
+    <listType typeId="2000fa66-7f55-49e4-afbc-5e1be0d9a2ba" valueTypeId="5a2da00b-9256-4ccc-bbb6-efb2355fd21c"/>
+    <managerType typeId="d33998a1-a2d8-4da0-a758-17aef5eb7cb0" valueTypeId="370f8258-e330-4561-8faa-19c5ec46bd23"/>
+  </producedTypes>
+  <name>рарусСтатусыПутевогоЖурнала</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы путевого журнала</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="8c68050f-9550-476a-a58d-385db64d83db">
+    <name>Незавершен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не завершен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="904200dd-078f-475c-bdc7-4a39141bfe91">
+    <name>Завершен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Завершен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="629d6979-aaed-40e6-95cf-cda7a1171986">
+    <name>ЗавершенСОшибками</name>
+    <synonym>
+      <key>ru</key>
+      <value>Завершен с ошибками</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5b9cda04-2969-46de-9312-d36e18451ab0">
+    <name>Проверен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Завершен и проверен</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

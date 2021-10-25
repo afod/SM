@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7ba6cf43-2c20-4651-9c02-0008545f1b2b">
+  <name>рарусДобавлениеИзменениеСообщениеОПотенциальномИнцидентеПрисоединенныеФайлы</name>
+  <synonym>
+    <key>ru</key>
+    <value>(рарус) Добавление изменение присоединенных файлов (Сообщение о потенциальном инциденте)</value>
+  </synonym>
+</mdclass:Role>

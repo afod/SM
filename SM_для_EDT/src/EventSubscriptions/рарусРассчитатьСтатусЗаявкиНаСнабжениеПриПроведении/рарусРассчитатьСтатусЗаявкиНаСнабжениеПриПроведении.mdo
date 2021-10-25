@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a4a14708-70cd-46ec-b309-e861012ffd46">
+  <name>рарусРассчитатьСтатусЗаявкиНаСнабжениеПриПроведении</name>
+  <synonym>
+    <key>ru</key>
+    <value>(рарус) Рассчитать статус заявки на снабжение при проведении</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.впЗаявкаНаСнабжение</types>
+  </source>
+  <event>Posting</event>
+  <handler>CommonModule.рарусЗаявкаНаСнабжениеСобытия.рарусРассчитатьСтатусЗаявкиНаСнабжениеПриПроведенииОбработкаПроведения</handler>
+</mdclass:EventSubscription>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6c2bf9a8-b355-4e41-9ae8-191ba706365f">
+  <name>vftДобавлениеСправочниковНСИ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление справочников НСИ</value>
+  </synonym>
+</mdclass:Role>

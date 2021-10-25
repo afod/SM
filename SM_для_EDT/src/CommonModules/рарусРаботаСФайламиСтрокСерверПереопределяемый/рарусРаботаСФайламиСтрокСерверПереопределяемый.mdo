@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ab42d012-eab7-4773-ac05-cc933b4b8910">
+  <name>рарусРаботаСФайламиСтрокСерверПереопределяемый</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с файлами строк сервер переопределяемый</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

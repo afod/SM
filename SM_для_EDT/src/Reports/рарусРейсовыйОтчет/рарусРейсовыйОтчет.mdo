@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="10d89792-a621-4ca9-900a-c58c3a317dd3">
+  <producedTypes>
+    <objectType typeId="4dbd24a4-9527-4fb2-ae65-dc802b43a7f1" valueTypeId="fb5f305c-3598-4715-81dc-35157b9ae88f"/>
+    <managerType typeId="b6809412-b896-4793-8f64-6a7789db25a7" valueTypeId="0e35db97-490e-460d-b901-9cd917d8dd71"/>
+  </producedTypes>
+  <name>рарусРейсовыйОтчет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рейсовый отчет</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.рарусРейсовыйОтчет.Form.ФормаОтчета</defaultForm>
+  <forms uuid="65127837-6a44-466f-9f71-c09a9990554e">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="8acf7139-6e58-447b-86c0-44098f727b6b">
+    <name>РейсовыйОтчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рейсовый отчет</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

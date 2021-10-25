@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4cff18cb-3062-41eb-8063-720b8bcc2472">
+  <name>рарусПолучениеПолейПредставленияФайлов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Получение полей представления файла</value>
+  </synonym>
+  <comment>rarus makole 07122020</comment>
+  <source>
+    <types>CatalogManager.Файлы</types>
+    <types>CatalogManager.ЭлектронноеПисьмоИсходящееПрисоединенныеФайлы</types>
+    <types>CatalogManager.впТехКартыПрисоединенныеФайлы</types>
+    <types>CatalogManager.впЗаявкаНаСнабжениеПрисоединенныеФайлы</types>
+    <types>CatalogManager.впВыявленныеДефектыПрисоединенныеФайлы</types>
+    <types>CatalogManager.впЗаявкаНаРемонтПрисоединенныеФайлы</types>
+    <types>CatalogManager.ВстречаПрисоединенныеФайлы</types>
+    <types>CatalogManager.впПриходТМЦПрисоединенныеФайлы</types>
+    <types>CatalogManager.СообщениеSMSПрисоединенныеФайлы</types>
+    <types>CatalogManager.впАктОВыполненииЭтапаРаботПрисоединенныеФайлы</types>
+    <types>CatalogManager.ЗапланированноеВзаимодействиеПрисоединенныеФайлы</types>
+    <types>CatalogManager.vftРейсПрисоединенныеФайлы</types>
+    <types>CatalogManager.ЭлектронноеПисьмоВходящееПрисоединенныеФайлы</types>
+    <types>CatalogManager.ВерсииФайлов</types>
+    <types>CatalogManager.ШаблоныСообщенийПрисоединенныеФайлы</types>
+    <types>CatalogManager.впОбъектыРемонтаПрисоединенныеФайлы</types>
+    <types>CatalogManager.ТелефонныйЗвонокПрисоединенныеФайлы</types>
+    <types>CatalogManager.рарусАктВыполненныхРаботОказанныхУслугПрисоединенныеФайлы</types>
+    <types>CatalogManager.vftНесоответствияПрисоединенныеФайлы</types>
+  </source>
+  <event>PresentationFieldsGetProcessing</event>
+  <handler>CommonModule.рарусОбщегоНазначенияСервер.рарусПолучениеПолейПредставленияФайлов</handler>
+</mdclass:EventSubscription>

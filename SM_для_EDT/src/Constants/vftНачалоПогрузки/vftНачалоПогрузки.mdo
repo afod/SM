@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dd56af15-26db-4c83-a178-e76a77657c03">
+  <producedTypes>
+    <managerType typeId="e1608a4e-d844-4b1c-aab5-fd45ebb0c8ac" valueTypeId="bd73cdac-d2a8-48aa-ac77-ea17c6b67e0d"/>
+    <valueManagerType typeId="6ef25572-5de6-4cb4-81fd-432a48153644" valueTypeId="9577ff5b-1740-4ab3-95aa-b7babe31a300"/>
+    <valueKeyType typeId="57403e46-b092-55cd-b8a9-a4a1ad8dbc45" valueTypeId="4997755e-cb4c-574d-bf2b-7c7d70de21ea"/>
+  </producedTypes>
+  <name>vftНачалоПогрузки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Начало погрузки</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.vftТиповыеОперации</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="32869905-4fdc-493f-b73f-4b94bf92c85d">
+  <producedTypes>
+    <managerType typeId="506d4158-8e58-4ee0-a49b-6736a9214c66" valueTypeId="00524998-987e-4c77-81c8-322675bd74b6"/>
+    <valueManagerType typeId="b39c0f85-dc86-4692-afaf-73e18e0d7dd9" valueTypeId="66f5200b-f768-415e-8de6-b337f20627c7"/>
+    <valueKeyType typeId="48586eee-5439-42c0-bd27-5a764e9ea3c7" valueTypeId="b15e45d2-ca43-4bd9-8968-e5ef0f29c6e2"/>
+  </producedTypes>
+  <name>рарусОсновноеСудно</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основное судно</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.vftСуда</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

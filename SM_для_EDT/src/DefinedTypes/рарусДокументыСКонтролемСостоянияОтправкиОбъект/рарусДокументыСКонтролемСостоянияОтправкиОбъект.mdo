@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d27cc5af-99b9-47aa-8a6d-860d8dad411f">
+  <producedTypes>
+    <containerType typeId="40e4c6eb-e1df-4bb2-91e5-f29753f4b06d" valueTypeId="74595d47-74fe-4209-ae7f-0de2a8f1aaac"/>
+  </producedTypes>
+  <name>рарусДокументыСКонтролемСостоянияОтправкиОбъект</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документы с контролем состояния отправки (объекты)</value>
+  </synonym>
+  <type>
+    <types>DocumentObject.рарусИзменениеСтатусаТМЦ</types>
+    <types>DocumentObject.впПриходТМЦ</types>
+    <types>DocumentObject.рарусИнвентаризацияТМЦ</types>
+    <types>DocumentObject.рарусРасходТМЦ</types>
+  </type>
+</mdclass:DefinedType>

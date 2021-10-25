@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="22f0fd6e-2194-4e4a-bdd3-94f2e9711e64">
+  <producedTypes>
+    <managerType typeId="97fdad37-d951-4a22-a4cd-dde4176fb031" valueTypeId="7a997be8-4b85-42d6-8ea4-99093adfa6ac"/>
+    <valueManagerType typeId="8a1b17b7-c8da-42de-8000-0b83d2dcb16b" valueTypeId="e8533f72-8da7-4a23-a08b-0ec2d9569f3b"/>
+    <valueKeyType typeId="976b1e0c-0212-446a-805f-847fedc71b15" valueTypeId="d9a38b8c-9685-4b9f-ab9c-0b012cba935b"/>
+  </producedTypes>
+  <name>ЕдиницаИзмеренияВеса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Единица измерения веса</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Weight unit of measure</value>
+  </synonym>
+  <comment>(rarus PleA)</comment>
+  <type>
+    <types>CatalogRef.УпаковкиЕдиницыИзмерения</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <toolTip>
+    <key>ru</key>
+    <value>Единица измерения, в которой указываются весовые характеристики. По умолчанию - килограмм.</value>
+  </toolTip>
+  <toolTip>
+    <key>en</key>
+    <value>Unit of measure in which weight characteristics are specified. By default - kilogram.</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <choiceParameters>
+    <name>Отбор.ТипИзмеряемойВеличины</name>
+    <value xsi:type="core:ReferenceValue">
+      <value>Enum.ТипыИзмеряемыхВеличин.EnumValue.Вес</value>
+    </value>
+  </choiceParameters>
+  <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

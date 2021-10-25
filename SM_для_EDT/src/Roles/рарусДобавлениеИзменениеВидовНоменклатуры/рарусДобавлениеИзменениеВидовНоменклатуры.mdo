@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dda26dce-0812-4bda-a3c7-77f246b2b2a6">
+  <name>рарусДобавлениеИзменениеВидовНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление/изменение видов номенклатуры (рарус)</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="abfae6dd-af0e-432b-8fe5-8195a98d7b83">
+  <name>рарусЗаявкаНаСнабжениеСостояния</name>
+  <synonym>
+    <key>ru</key>
+    <value>(рарус) Заявка на снабжение состояния</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

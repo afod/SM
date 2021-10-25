@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="714a2fda-c3eb-4b6e-b63f-0d064a92bbc7">
+  <name>рарусСозданиеРасходовПоАктамОВыполненииЭтапаРабот</name>
+  <synonym>
+    <key>ru</key>
+    <value>Создание Расходов ТМЦ по Актам о выполнении этапа работ</value>
+  </synonym>
+  <methodName>CommonModule.рарусИмущественныйУчетСервер.СозданиеРасходовПоАктамОВыполненииЭтапаРабот</methodName>
+  <description>Создание Расходов ТМЦ по Актам о выполнении этапа работ</description>
+  <key>рарусСозданиеРасходовПоАктамОВыполненииЭтапаРабот</key>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

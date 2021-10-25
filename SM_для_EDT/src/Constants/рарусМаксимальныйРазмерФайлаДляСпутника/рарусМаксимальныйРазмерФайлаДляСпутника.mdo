@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="49bd076d-f120-4588-842b-0e85b0a58444">
+  <producedTypes>
+    <managerType typeId="66dcafb0-3b18-4ec8-8d43-c0f6b1fa72a6" valueTypeId="08f7a9a3-fa65-4980-9d27-343c3d0f8620"/>
+    <valueManagerType typeId="cc30611b-afe5-440f-9ee0-3757a5a10bff" valueTypeId="e2692a30-3842-4b87-8620-44a49bb2a0d6"/>
+    <valueKeyType typeId="60f8269d-c1fd-4a8e-864d-d97bd1bcc501" valueTypeId="72ad41dc-ced8-46f5-a045-266a21353225"/>
+  </producedTypes>
+  <name>рарусМаксимальныйРазмерФайлаДляСпутника</name>
+  <synonym>
+    <key>ru</key>
+    <value>Максимальный размер файла выгрузки для спутника, Кбайт</value>
+  </synonym>
+  <comment>rarus makole 10122020</comment>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <explanation>
+    <key>ru</key>
+    <value>При превышении этого значения будет выдаваться предупреждение</value>
+  </explanation>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c6809d17-a781-433a-b0bd-39ac14a8ac2b">
+  <producedTypes>
+    <selectionType typeId="3a286d67-0c15-4914-9fc4-459305ebd8f9" valueTypeId="58f077ac-7b82-483b-bfc3-c704fa8c7833"/>
+    <listType typeId="f34e9ae3-6cba-41a1-bdb1-2fa605756cf2" valueTypeId="3d7caa09-63c2-4e94-988d-d749c14fa214"/>
+    <managerType typeId="daa5343b-7e1c-428a-a629-0e207e76a212" valueTypeId="7122713c-3d5f-43e7-969d-45a0047a3dca"/>
+    <recordSetType typeId="4135da01-2403-4394-8abb-64972c758787" valueTypeId="eb2bdb9d-04cf-4195-8643-6e5ea8d102d8"/>
+    <recordKeyType typeId="dd83e744-3f42-4a10-927a-9bd677b3a035" valueTypeId="eae9d2cd-f8d8-41c6-9564-30e47590e644"/>
+    <recordType typeId="00b874ba-fb3a-439e-9970-bfcaccad770e" valueTypeId="7030ca1b-242a-4d8d-9391-104fc532d6ff"/>
+    <recordManagerType typeId="409dde83-f926-4193-8720-2c556bf87a3f" valueTypeId="9ae27e1d-76b4-4b4d-9967-d92cc3a68ae9"/>
+  </producedTypes>
+  <name>рарусРегистрацияПриемаДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистрация приема данных</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.рарусРегистрацияПриемаДанных.Form.ФормаЗаписи</defaultRecordForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <resources uuid="ce47f346-4158-493f-8596-6573260194b2">
+    <name>ДатаПриема</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата приема</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="0d7bba5f-41c9-4785-bf32-495e1993a010">
+    <name>Ссылка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ссылка</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.vftРейс</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="30f37e44-e8a6-4734-b20b-0dc31ae6d50e">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

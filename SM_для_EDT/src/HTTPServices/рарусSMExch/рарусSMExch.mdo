@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3683eaf5-31ce-404e-924d-04f862167f36">
+  <name>рарусSMExch</name>
+  <synonym>
+    <key>ru</key>
+    <value>SMExch</value>
+  </synonym>
+  <comment>rarus makole БСО.СМ.005</comment>
+  <rootURL>SMExch</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="66c931a3-f42f-4d48-a6ea-1d522b8a9ae1">
+    <name>Test</name>
+    <synonym>
+      <key>ru</key>
+      <value>Test</value>
+    </synonym>
+    <comment>Для проверки соединения</comment>
+    <template>/Тест</template>
+    <methods uuid="a0705d50-d7dc-49e6-8814-edebc64f9c6e">
+      <name>TestGET</name>
+      <synonym>
+        <key>ru</key>
+        <value>Test GET</value>
+      </synonym>
+      <handler>TestGET</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="c0d4a26b-62ed-45c3-b275-dc5e53e3e50e">
+    <name>ServiceInfo</name>
+    <synonym>
+      <key>ru</key>
+      <value>Service info</value>
+    </synonym>
+    <template>/SI/{Opt}/{Code}/{InputNumber}/{OutputNumber}</template>
+    <methods uuid="3602daac-c8a2-4eb4-a26c-193b69413bc8">
+      <name>ServiceInfoGET</name>
+      <synonym>
+        <key>ru</key>
+        <value>Service info GET</value>
+      </synonym>
+      <handler>ServiceInfoGET</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="fa2fbb0e-1421-41d0-a858-dc1522901fc8">
+    <name>DataInfo</name>
+    <synonym>
+      <key>ru</key>
+      <value>Data Info</value>
+    </synonym>
+    <template>/DI/{Opt}/{Code}/{InputNumber}/{OutputNumber}</template>
+    <methods uuid="e265476f-79f3-4190-8802-4b9d1f51f19f">
+      <name>DataInfoGET</name>
+      <synonym>
+        <key>ru</key>
+        <value>Data info GET</value>
+      </synonym>
+      <handler>DataInfoGET</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="dc6aa6bb-6b80-48cf-9887-b38dfb45c367">
+    <name>DataPost</name>
+    <synonym>
+      <key>ru</key>
+      <value>Data post</value>
+    </synonym>
+    <template>/DIP/{Code}</template>
+    <methods uuid="5d15b7c1-57e1-4867-8569-795b3b071d2c">
+      <name>DataPostPOST</name>
+      <synonym>
+        <key>ru</key>
+        <value>Data post POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>DataPostPOST</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="1a169b99-4937-4aee-9827-872039f32821">
+    <name>Info</name>
+    <synonym>
+      <key>ru</key>
+      <value>Info</value>
+    </synonym>
+    <template>/info</template>
+    <methods uuid="ebb5bd3d-483f-4d73-b4a0-d987d748eb64">
+      <name>InfoGET</name>
+      <synonym>
+        <key>ru</key>
+        <value>Info GET</value>
+      </synonym>
+      <comment>makole для проверки доступа к сервису</comment>
+      <handler>InfoGET</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

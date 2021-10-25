@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="95c96ed5-80cf-4e5f-b8b3-0300ed7e3ec0">
+  <name>впСостоянияОбъектовРемонта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вп состояния объектов ремонта</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

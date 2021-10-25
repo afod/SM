@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eeb8203c-fc7c-426f-84ea-c491ed26c134">
+  <name>рарусИспользоватьИмущественныйУчет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать функционал имущественного учета</value>
+  </synonym>
+  <comment>rarus makole</comment>
+  <location>InformationRegister.рарусНастройкиФункционалаТОИР.Resource.ИспользоватьИмущественныйУчет</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Document.рарусОтражениеИмуществаВУчете</content>
+  <content>Enum.рарусВидыОперацийРасходаТМЦ</content>
+  <content>Document.рарусИзменениеСтатусаТМЦ</content>
+  <content>Document.рарусЗаказКлиента</content>
+  <content>AccumulationRegister.рарусТоварыКОтгрузке</content>
+  <content>AccumulationRegister.рарусИмуществоНаСудах</content>
+  <content>Document.рарусРасходТМЦ</content>
+  <content>CommonAttribute.рарусКодСинхронизации</content>
+  <content>Document.рарусИнвентаризацияТМЦ</content>
+  <content>InformationRegister.рарусИндексКодаСинхронизации</content>
+  <content>Report.рарусВедомостьИмуществаНаСудах</content>
+  <content>InformationRegister.рарусОчередьАктовОВыполненииЭтапаРаботДляПроведенияРасходов</content>
+  <content>Document.рарусЗаказНаПеремещение</content>
+  <content>DataProcessor.рарусОформлениеРасходаТМЦ</content>
+  <content>Subsystem.рарусИмущественныйУчет</content>
+  <content>InformationRegister.рарусСостоянияОтправкиОбъектов</content>
+  <content>Enum.рарусСостояниеОтправкиОбъекта</content>
+  <content>Subsystem.рарусСнабжение.Subsystem.ИмущественныйУчет</content>
+</mdclass:FunctionalOption>

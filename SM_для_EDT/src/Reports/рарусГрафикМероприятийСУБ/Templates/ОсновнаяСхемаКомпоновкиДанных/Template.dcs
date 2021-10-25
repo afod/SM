@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>ОсновнойНаборДанных</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОбъектПроверки</dataPath>
+			<field>ОбъектПроверки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Мероприятие</dataPath>
+			<field>Мероприятие</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Мероприятие</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидМероприятия</dataPath>
+			<field>ВидМероприятия</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОбозначениеПланГрафик</dataPath>
+			<field>ОбозначениеПланГрафик</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обозначение план график</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЦветПланГрафик</dataPath>
+			<field>ЦветПланГрафик</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Цвет план график</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>МестоПроведения</dataPath>
+			<field>МестоПроведения</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПериодС</dataPath>
+			<field>ПериодС</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПериодПо</dataPath>
+			<field>ПериодПо</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КомментарийТч</dataPath>
+			<field>КомментарийТч</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПредставлениеМероприятия</dataPath>
+			<field>ПредставлениеМероприятия</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ФиоИнспектора</dataPath>
+			<field>ФиоИнспектора</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаИнспекции</dataPath>
+			<field>ДатаИнспекции</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЦветМероприятий</dataPath>
+			<field>ЦветМероприятий</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Цвет мероприятий</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Учение</dataPath>
+			<field>Учение</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Учение</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПредставлениеУчения</dataPath>
+			<field>ПредставлениеУчения</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаУчения</dataPath>
+			<field>ДатаУчения</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>МестоУчения</dataPath>
+			<field>МестоУчения</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЦветУчения</dataPath>
+			<field>ЦветУчения</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Цвет учения</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТипМероприятия</dataPath>
+			<field>ТипМероприятия</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тип мероприятия</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Проект</dataPath>
+			<field>Проект</field>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	Учение.Ссылка КАК Ссылка,
+	Учение.ПредставлениеУчения КАК ПредставлениеУчения,
+	Учение.ИдентификаторСтрокиПланГрафика КАК ИдентификаторСтрокиПланГрафика,
+	Учение.Дата КАК Дата,
+	Учение.ДатаУчения КАК ДатаУчения,
+	Учение.МестоУчения КАК МестоУчения,
+	ВидыМероприятийСУБ.Цвет КАК ЦветУчения,
+	Учение.Представление КАК Представление
+ПОМЕСТИТЬ втУчение
+ИЗ
+	Документ.рарусУчение КАК Учение
+		ЛЕВОЕ СОЕДИНЕНИЕ Справочник.рарусВидыМероприятийСУБ КАК ВидыМероприятийСУБ
+		ПО Учение.ВидМероприятия = ВидыМероприятийСУБ.Ссылка
+ГДЕ
+	Учение.Статус = ЗНАЧЕНИЕ(перечисление.vftСтатусыДокументовСообщений.Проведено)
+	И Учение.УчениеПоПлану
+	И НЕ Учение.ПометкаУдаления
+	;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	МероприятиеСУБ.Ссылка КАК Ссылка,
+	МероприятиеСУБ.ПредставлениеМероприятия КАК ПредставлениеМероприятия,
+	МероприятиеСУБ.Дата КАК Дата,
+	МероприятиеСУБ.ФиоИнспектора КАК ФиоИнспектора,
+	МероприятиеСУБ.МестоПроведения КАК МестоПроведения,
+	МероприятиеСУБ.ДатаИнспекции КАК ДатаИнспекции,
+	МероприятиеСУБ.ИдентификаторСтрокиПланГрафика КАК ИдентификаторСтрокиПланГрафика,
+	ВидыМероприятийСУБ.Цвет КАК ЦветМероприятий,
+	МероприятиеСУБ.Представление КАК Представление
+ПОМЕСТИТЬ втМероприятиеСУБ
+ИЗ
+	Документ.рарусМероприятиеСУБ КАК МероприятиеСУБ
+		ЛЕВОЕ СОЕДИНЕНИЕ Справочник.рарусВидыМероприятийСУБ КАК ВидыМероприятийСУБ
+		ПО МероприятиеСУБ.ВидМероприятия = ВидыМероприятийСУБ.Ссылка
+ГДЕ
+	МероприятиеСУБ.Статус = ЗНАЧЕНИЕ(перечисление.vftСтатусыДокументовСообщений.Проведено)
+	И МероприятиеСУБ.МероприятиеПоПлану
+	И НЕ МероприятиеСУБ.ПометкаУдаления
+	;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ДанныеПланГрафиковМероприятийСУБ.ПериодС КАК ПериодС,
+	ДанныеПланГрафиковМероприятийСУБ.ПериодПо КАК ПериодПо,
+	ДанныеПланГрафиковМероприятийСУБ.ВидМероприятия КАК ВидМероприятия,
+	ДанныеПланГрафиковМероприятийСУБ.ОбъектПроверки КАК ОбъектПроверки,
+	ДанныеПланГрафиковМероприятийСУБ.ИдентификаторСтроки КАК ИдентификаторСтроки,
+	рарусВидыМероприятийСУБ.Обозначение КАК ОбозначениеПланГрафик,
+	рарусВидыМероприятийСУБ.Цвет КАК ЦветПланГрафик,
+	ДанныеПланГрафиковМероприятийСУБ.КомментарийТч КАК КомментарийТч
+ПОМЕСТИТЬ втДанныеПоПланГрафику
+ИЗ
+	РегистрСведений.рарусДанныеПланГрафиковМероприятийСУБ КАК ДанныеПланГрафиковМероприятийСУБ
+		ЛЕВОЕ СОЕДИНЕНИЕ Справочник.рарусВидыМероприятийСУБ КАК рарусВидыМероприятийСУБ
+		ПО ДанныеПланГрафиковМероприятийСУБ.ВидМероприятия = рарусВидыМероприятийСУБ.Ссылка
+ГДЕ
+	ДанныеПланГрафиковМероприятийСУБ.Статус = ЗНАЧЕНИЕ(Перечисление.vftСтатусыДокументовСообщений.Утвержден)
+	И ДанныеПланГрафиковМероприятийСУБ.ПериодПо &lt;= ДобавитьКДате(&amp;КонецПериода, Год, 1)
+    И ДанныеПланГрафиковМероприятийСУБ.ПериодС &gt;= ДобавитьКДате(&amp;НачалоПериода, Год, -1)
+
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	втДанныеПоПланГрафику.ОбъектПроверки КАК ОбъектПроверки,
+	втДанныеПоПланГрафику.ВидМероприятия КАК ВидМероприятия,
+	втДанныеПоПланГрафику.ПериодС КАК ПериодС,
+	втДанныеПоПланГрафику.ПериодПо КАК ПериодПо,
+	втДанныеПоПланГрафику.ОбозначениеПланГрафик КАК ОбозначениеПланГрафик,
+	втДанныеПоПланГрафику.ЦветПланГрафик КАК ЦветПланГрафик,
+	втДанныеПоПланГрафику.КомментарийТч КАК КомментарийТч,
+	ЕСТЬNULL(втМероприятиеСУБ.Ссылка, ЗНАЧЕНИЕ(Документ.рарусМероприятиеСУБ.ПустаяССылка)) КАК Мероприятие,
+	ЕСТЬNULL(втМероприятиеСУБ.ПредставлениеМероприятия, "") КАК ПредставлениеМероприятия,
+	ЕСТЬNULL(втМероприятиеСУБ.ФиоИнспектора, " ") КАК ФиоИнспектора,
+	ЕСТЬNULL(втМероприятиеСУБ.МестоПроведения, "") КАК МестоПроведения,
+	ЕСТЬNULL(втМероприятиеСУБ.ДатаИнспекции, ДАТАВРЕМЯ(1, 1, 1, 0, 0, 0)) КАК ДатаИнспекции,
+	ЕСТЬNULL(втМероприятиеСУБ.ЦветМероприятий, "") КАК ЦветМероприятий,
+	ЕСТЬNULL(втУчение.Ссылка, ЗНАЧЕНИЕ(Документ.рарусУчение.ПустаяССылка)) КАК Учение,
+	ЕСТЬNULL(втУчение.ПредставлениеУчения, " ") КАК ПредставлениеУчения,
+	ЕСТЬNULL(втУчение.ДатаУчения, ДАТАВРЕМЯ(1, 1, 1, 0, 0, 0)) КАК ДатаУчения,
+	ЕСТЬNULL(втУчение.МестоУчения, "") КАК МестоУчения,
+	ЕСТЬNULL(втУчение.ЦветУчения, "") КАК ЦветУчения
+ИЗ
+	втДанныеПоПланГрафику КАК втДанныеПоПланГрафику
+		ЛЕВОЕ СОЕДИНЕНИЕ втМероприятиеСУБ КАК втМероприятиеСУБ
+		ПО втДанныеПоПланГрафику.ИдентификаторСтроки = втМероприятиеСУБ.ИдентификаторСтрокиПланГрафика
+		ЛЕВОЕ СОЕДИНЕНИЕ втУчение КАК втУчение
+		ПО втДанныеПоПланГрафику.ИдентификаторСтроки = втУчение.ИдентификаторСтрокиПланГрафика
+		ЛЕВОЕ СОЕДИНЕНИЕ Справочник.vftСуда КАК vftСуда
+		ПО втДанныеПоПланГрафику.ОбъектПроверки = vftСуда.Ссылка
+ГДЕ
+	&amp;УсловиеОтбора
+{ГДЕ
+	vftСуда.Проект.*,
+	втДанныеПоПланГрафику.ВидМероприятия.ТипМероприятия.* КАК ТипМероприятия}
+
+УПОРЯДОЧИТЬ ПО
+	ПериодС</query>
+	</dataSet>
+	<parameter>
+		<name>КонецПериода</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Конец периода</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;Период.ДатаОкончания</expression>
+	</parameter>
+	<parameter>
+		<name>НачалоПериода</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Начало периода</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;Период.ДатаНачала</expression>
+	</parameter>
+	<parameter>
+		<name>Период</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Период</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>v8:StandardPeriod</v8:Type>
+		</valueType>
+		<value xsi:type="v8:StandardPeriod">
+			<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+			<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+			<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+		</value>
+		<useRestriction>false</useRestriction>
+		<denyIncompleteValues>true</denyIncompleteValues>
+		<use>Always</use>
+	</parameter>
+	<parameter>
+		<name>ГруппаСудов</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Группа судов</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.vftГруппыСудов</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<parameter>
+		<name>УсловиеОтбора</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Условие отбора</v8:content>
+			</v8:item>
+		</title>
+		<value xsi:nil="true"/>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>ОсновнойВариантОтчета</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>График мероприятий СУБ</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Основной</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ОбъектПроверки</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВидМероприятия</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ОбозначениеПланГрафик</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ЦветПланГрафик</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПериодС</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПериодПо</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КомментарийТч</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Мероприятие</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДатаИнспекции</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>МестоПроведения</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ЦветМероприятий</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ФиоИнспектора</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПредставлениеМероприятия</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Учение</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПредставлениеУчения</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ЦветУчения</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДатаУчения</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>МестоУчения</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">ОбъектПроверки</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:userSettingID>6d5c63e6-faaf-4938-a9a5-5a17e520d7ce</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">ВидМероприятия</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:userSettingID>7dc186f2-d995-4fc7-8762-2b4c1bbe6485</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">ТипМероприятия</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:userSettingID>5f922f2f-1740-4403-b591-b60fc353ccb9</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">ПроектСудна</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:userSettingID>a5ec4252-16ce-4a0f-b02a-724dc6ae0788</dcsset:userSettingID>
+				</dcsset:item>
+			</dcsset:filter>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Период</dcscor:parameter>
+					<dcscor:value xsi:type="v8:StandardPeriod">
+						<v8:variant xsi:type="v8:StandardPeriodVariant">ThisYear</v8:variant>
+					</dcscor:value>
+					<dcsset:userSettingID>9384b89c-7528-44bb-9762-3e5daf9ca8a1</dcsset:userSettingID>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>ГруппаСудов</dcscor:parameter>
+					<dcscor:value xsi:nil="true"/>
+					<dcsset:userSettingID>bac3dd5d-dc99-4f80-85b4-1941a5316bac</dcsset:userSettingID>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

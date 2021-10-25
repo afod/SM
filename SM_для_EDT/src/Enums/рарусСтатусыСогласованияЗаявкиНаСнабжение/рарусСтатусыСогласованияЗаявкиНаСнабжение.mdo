@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a3ac84a3-9760-43e1-acc5-cb528d54b7ac">
+  <producedTypes>
+    <refType typeId="6440520f-efb9-42f3-a9ca-685069c59c1b" valueTypeId="6cf58dff-590e-4a10-b02f-c5dd1032c2c2"/>
+    <listType typeId="4d1988b9-96b5-4d77-89dc-62cc5ebe1d69" valueTypeId="9cd79f68-5f68-4e31-86ba-7caf7f1305c9"/>
+    <managerType typeId="d253bc58-9198-48a7-8961-ed41a52646a0" valueTypeId="92628d79-ceff-4535-a80e-53dd68f8fb53"/>
+  </producedTypes>
+  <name>рарусСтатусыСогласованияЗаявкиНаСнабжение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы согласования заявки на снабжение (рарус)</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="6884c785-e049-4e32-9ba6-209c0bdf0e7a">
+    <name>СогласованиеКапитаном</name>
+    <synonym>
+      <key>ru</key>
+      <value>Согласование капитаном</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a4b562cd-ddc4-4d6b-9877-420331d42b43">
+    <name>ДоработкаИнициатором</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доработка инициатором</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="01c4ab49-d776-4459-9a00-d364c075db88">
+    <name>Согласована</name>
+    <synonym>
+      <key>ru</key>
+      <value>Согласована</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9b2d866f-44ba-45b5-a8c2-d7d924e1cf99">
+    <name>ДоработкаКапитаном</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доработка капитаном</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d49a94e6-c3bc-49e4-88c8-8e542ec0bc75">
+    <name>СозданаНаБерегу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создана береговыми службами</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

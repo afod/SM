@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0d924951-c955-4bec-bf5c-436908db546a">
+  <producedTypes>
+    <refType typeId="f22b251d-6fe2-46ff-9fbe-0234b73755fa" valueTypeId="7fef25f7-c16a-4199-b130-b5318aeee234"/>
+    <listType typeId="083394c6-d6c0-4b8c-8731-dcf7450ee8fa" valueTypeId="0d158249-0a47-4d1a-aed0-5e2a0b67e779"/>
+    <managerType typeId="d4eefdcb-2f27-488d-8149-fcf42c89a86c" valueTypeId="dd9bd69d-b3a6-4f50-b461-92ea4b1e973a"/>
+  </producedTypes>
+  <name>рарусБаржиОперации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Баржи операции</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="70e24463-2fbb-4a0d-a192-e3be69b5532c">
+    <name>Прием</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прием</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9588253d-550f-4b17-b008-d663eb3c2aec">
+    <name>Передача</name>
+    <synonym>
+      <key>ru</key>
+      <value>Передача</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ab8fe8c6-ba98-49a1-827a-95555f8c67ee">
+    <name>ПриемПередача</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прием / передача</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f5821240-720d-431a-9c81-d12e5ff0feb5">
+    <name>ОжиданиеБуксира</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ожидание буксира</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

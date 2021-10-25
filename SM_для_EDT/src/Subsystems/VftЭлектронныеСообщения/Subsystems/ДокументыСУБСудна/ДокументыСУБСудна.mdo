@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ac80daf5-8103-4439-a998-f6df1af38c17">
+  <name>ДокументыСУБСудна</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документы СУБ судна</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.vftАнализСУБ</content>
+  <content>Document.vftДокладОСостоянииБезопасности</content>
+  <content>Document.vftРапортОПоврежденииНеисправности</content>
+  <content>Catalog.vftНесоответствия</content>
+  <content>Catalog.vftДокладыОНесоответствии</content>
+  <content>DataProcessor.рарусЖурналСообщенийСУБ</content>
+  <parentSubsystem>Subsystem.VftЭлектронныеСообщения</parentSubsystem>
+</mdclass:Subsystem>

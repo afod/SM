@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="de95f8c7-5795-4cb2-9e45-63712f5eaba9">
+  <producedTypes>
+    <selectionType typeId="4cbd77b3-88eb-4fe2-a959-44cb5af54faf" valueTypeId="56dc3133-fe38-4d1b-888d-dd8046e2cbe7"/>
+    <listType typeId="7da6fa17-aa35-472b-83c3-b39b3bb7791a" valueTypeId="15884611-37a5-466d-8294-444d90ddbce9"/>
+    <managerType typeId="977f12f0-2d62-48dc-b648-e557badc9096" valueTypeId="89d0618e-5d20-421f-9bef-e5fd3241b477"/>
+    <recordSetType typeId="5aeded89-7b57-4d0e-8286-623c33c502e6" valueTypeId="de243282-ed35-46f6-9437-10ce5c7915ac"/>
+    <recordKeyType typeId="4b842868-e379-4a17-8d54-ae65c917d4e9" valueTypeId="ac6edfe6-eb8f-4dc7-aa98-48ebe294e98a"/>
+    <recordType typeId="baad00e4-e31e-4e4d-9e69-8bf93fef221f" valueTypeId="4fc33e75-ae05-4a04-b2e8-1e141193b60f"/>
+    <recordManagerType typeId="21bb1088-bc89-4fb1-bf67-c00c54dea929" valueTypeId="8eb8f724-47fb-4417-a3ad-f94bcd2cbdfe"/>
+  </producedTypes>
+  <name>рарусОбязательностьФайловВАктах</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обязательность файлов в актах</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="c451e401-6a73-4f51-9536-d2abd7d90237">
+    <name>ФайлОбязателен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файл обязателен</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="0879dc72-b799-471c-8fcb-fc17415e2bcc">
+    <name>ВидРемонта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид ремонта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.впВидыРемонтов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>Catalog.Номенклатура.StandardCommand.OpenList</commands>
+      <commands>Catalog.рарусКатегорииНоменклатуры.StandardCommand.OpenList</commands>
+      <commands>Document.впПриходТМЦ.StandardCommand.OpenList</commands>
+      <commands>Document.рарусРасходТМЦ.StandardCommand.OpenList</commands>
+      <commands>Document.рарусИзменениеСтатусаТМЦ.StandardCommand.OpenList</commands>
+      <commands>Document.рарусИнвентаризацияТМЦ.StandardCommand.OpenList</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

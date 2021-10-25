@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="97326e61-21f3-4a3e-a8ca-0c53e19ed5d2">
+  <producedTypes>
+    <objectType typeId="d76dab79-3416-46fe-9f37-cffb9c63e395" valueTypeId="1fd9a07c-f44e-4a85-8aa6-ac146acb4bcb"/>
+    <managerType typeId="7221caac-02d6-4b2e-a612-e52e6bf813c0" valueTypeId="1c21d348-0d8e-4565-bbfa-a8364a141fba"/>
+  </producedTypes>
+  <name>рарусМинимальныеЗапасыТМЦ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Минимальные запасы ТМЦ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.рарусМинимальныеЗапасыТМЦ.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <templates uuid="aa249c06-55c1-4045-8b04-6620c0cf54fc">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

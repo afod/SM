@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="33c4d85a-f27f-47e9-b400-602d5f9101ba">
+  <producedTypes>
+    <objectType typeId="76f58204-49f2-465a-9c5e-a43f12bea3a6" valueTypeId="e1ac81f0-eb76-423f-b5ad-d0d7c9903d97"/>
+    <refType typeId="15bb6ecb-ed55-4c94-9117-38cbb9393225" valueTypeId="7e1f47c6-2f94-4174-a491-0ad60aa58025"/>
+    <selectionType typeId="649cfaea-7f3e-45b0-86e3-96dfb5ee0719" valueTypeId="f7057b1e-c87e-4425-83ac-9f9adfa55f1b"/>
+    <listType typeId="49873912-ff39-4f13-b068-db10b8c03a1c" valueTypeId="e46c3c0e-ccfe-47cf-a5ea-0508526b2c45"/>
+    <managerType typeId="b1fc6812-7922-4f3d-9328-89a9ecc5dd58" valueTypeId="649a6e73-2250-491d-9835-8d7d248ab961"/>
+  </producedTypes>
+  <name>рарусАналитикиПростоя</name>
+  <synonym>
+    <key>ru</key>
+    <value>Аналитики простоя</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.рарусАналитикиПростоя.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.рарусАналитикиПростоя.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Аналитика простоя</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.vftТиповыеОперации</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

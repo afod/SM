@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6517bf7b-8012-4e18-b182-b100f5c0cfa6">
+  <name>впЗапретИзмененияПроведенныхПриНаличииСозданныхНаОсновании</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запрет изменения проведенных при наличии созданных на основании</value>
+  </synonym>
+  <comment>rarus markim 11.02.2020</comment>
+  <source>
+    <types>DocumentObject.впЗаявкаНаСнабжение</types>
+    <types>DocumentObject.впЗаявкаНаРемонт</types>
+    <types>DocumentObject.впЗакрытиеЗаявокИРемонтов</types>
+    <types>DocumentObject.впВнешнееОснованиеДляРабот</types>
+    <types>DocumentObject.впАктОВыполненииЭтапаРабот</types>
+    <types>DocumentObject.впПланГрафикРемонта</types>
+    <types>DocumentObject.впВыявленныеДефекты</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.впОбщиеПроцедурыДокументовТОИР.ЗапретИзмененияПроведенныхПриНаличииСозданныхНаОснованииПередЗаписью</handler>
+</mdclass:EventSubscription>

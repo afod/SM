@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0f1a76a1-fd4d-4a92-8dc7-9c8acc2dfb47">
+  <name>рарусКоллекцияКорабльЯкорь</name>
+  <synonym>
+    <key>ru</key>
+    <value>Коллекция корабль/якорь</value>
+  </synonym>
+  <availabilityForChoice>true</availabilityForChoice>
+</mdclass:CommonPicture>

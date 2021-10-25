@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f518b45b-4e1b-4cfc-8bd5-b87d165f0d46">
+  <producedTypes>
+    <objectType typeId="a5b1f611-96b8-4fab-b3e9-8c6a091aeec6" valueTypeId="86e07fa8-12ae-4bf3-8876-e64aca3dd98c"/>
+    <managerType typeId="341b41c6-55a4-49f0-8142-60118d1521f5" valueTypeId="525ad67a-deef-4481-a35c-34d4d1e2affb"/>
+  </producedTypes>
+  <name>рарусИнформацияОбОбновлении</name>
+  <synonym>
+    <key>ru</key>
+    <value>Информация об обновлении (рарус)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Management of news settings and update</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="d6e2ee74-d504-4953-90de-2e82f0eed9d3">
+    <name>ФормаИнформацияОбновления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Информация об обновлении</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Application release notes</value>
+    </synonym>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="68b2e06e-8e49-4dc8-96ab-9669b1e7c5e1">
+    <name>МакетИнформацияОбновления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет информация обновления</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <commands uuid="52a69fa5-50ff-4f4e-84eb-b465cf08753f">
+    <name>КомандаИнформацияОбновлении</name>
+    <synonym>
+      <key>ru</key>
+      <value>Информация об обновлении</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>News settings and update</value>
+    </synonym>
+    <group>CommandGroup.Информация</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+  <commands uuid="af5cf5f7-587d-4b30-9982-33b49e3ee27d">
+    <name>КомандаСбросаВсехНастроекПользователя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сброс пользовательских настроек</value>
+    </synonym>
+    <group>ActionsPanelTools</group>
+    <commandParameterType/>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:DataProcessor>

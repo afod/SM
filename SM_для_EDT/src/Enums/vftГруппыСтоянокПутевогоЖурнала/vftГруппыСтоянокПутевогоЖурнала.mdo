@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="652c4603-9b21-4bc1-af76-d61658817a40">
+  <producedTypes>
+    <refType typeId="dd20bbdb-fbb4-43ec-b200-f3d7ce8d13ce" valueTypeId="75300bd6-203a-41fe-9ad7-afc1daec24a7"/>
+    <listType typeId="fae3dd1e-8f6a-4e0d-a8f5-f4d2e7453f40" valueTypeId="9babb5e4-7d4c-4db7-81b4-9cb1335df52c"/>
+    <managerType typeId="69c65adc-abf4-4fbd-94e3-3b7388be807a" valueTypeId="f2171fad-0ade-4e0f-a34d-1e159c2a2051"/>
+  </producedTypes>
+  <name>vftГруппыСтоянокПутевогоЖурнала</name>
+  <synonym>
+    <key>ru</key>
+    <value>Группы стоянок путевого журнала</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b6c601f9-be98-496d-bb50-42022586449d">
+    <name>МаневровыйРежим</name>
+    <synonym>
+      <key>ru</key>
+      <value>Маневровый режим</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="684f9a4b-a085-4649-af97-971ec8e7a4f0">
+    <name>НахождениеВПорту</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нахождение в порту</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="97caf767-2360-4101-9c7a-0ef7be83a7d1">
+    <name>ОжиданиеШлюзования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ожидание шлюзования</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="069f4769-0e47-41fa-9e0c-dec93f515a0b">
+    <name>Шлюзование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шлюзование</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1c609cc3-8068-4158-b0e1-3a75eee0abfa">
+    <name>КОФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>КОФ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cc80ed30-c618-4062-ba0f-d30c2e2c8245">
+    <name>МетеорологическиеПричины</name>
+    <synonym>
+      <key>ru</key>
+      <value>Метеорологические причины</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7844e891-d252-4f9e-8eaf-ce7e05bc01cb">
+    <name>РемонтныеРаботы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ремонтные работы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="96fcd300-aba2-4485-bcbb-9cabe0b96202">
+    <name>ОжиданиеРазводкиМостов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ожидание разводки мостов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="24b71b9b-4a6b-4b8c-b0b7-19cd9f3229f8">
+    <name>РаботаКомиссииКПП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Работа комиссии КПП</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ce19efbc-bbb9-4bd5-bf91-c36a7f3647eb">
+    <name>Прочие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прочие</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

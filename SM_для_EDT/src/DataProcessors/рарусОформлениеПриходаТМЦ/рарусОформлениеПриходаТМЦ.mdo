@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e5d8d517-fbf3-459c-ab86-1a0d710ef9ac">
+  <producedTypes>
+    <objectType typeId="9ee1e82c-6f3f-49ad-97a4-35df2a45bea6" valueTypeId="8da62daf-e974-4597-9283-f3478d9f9cfa"/>
+    <managerType typeId="4779e6b3-64c7-498b-8e29-de2cad802e14" valueTypeId="4e97d554-90c0-4bf9-9b11-c5786dfd3c69"/>
+  </producedTypes>
+  <name>рарусОформлениеПриходаТМЦ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оформление прихода ТМЦ </value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.рарусОформлениеПриходаТМЦ.Form.Форма</defaultForm>
+  <forms uuid="311c9bc0-6ac8-4961-963f-4cc96b95ee1d">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="94cf64d2-8a1c-4d22-be36-a47c150f5a81">
+    <name>ФормаДополнительныхДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма дополнительных данных</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="3b24ff47-304c-49c0-94b2-3630eeb03dd5">
+    <name>МакетПоиска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет поиска</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:DataProcessor>

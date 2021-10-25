@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="075c423f-26cf-479f-b597-105d22963473">
+  <producedTypes>
+    <refType typeId="133da230-8057-45b0-8a28-2bca99dcf405" valueTypeId="4e1897c1-8108-4e2f-b7af-119d7c62eaeb"/>
+    <listType typeId="01fcae47-8891-4aaf-ad94-924ebf4e4b4a" valueTypeId="a2a9e161-a247-4311-a60f-9487e121fd60"/>
+    <managerType typeId="07e46a9e-8c30-4300-907d-311587b67a2f" valueTypeId="906e22df-03ae-4a6f-8e21-d06e92a63cf2"/>
+  </producedTypes>
+  <name>рарусВидыОперацийПриходаТМЦ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды операций прихода ТМЦ (рарус)</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="485ebe82-9c3f-455f-97d1-3d6be80e7805">
+    <name>ЗакупкаУПоставщика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закупка у поставщика</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Purchase from supplier</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4403bb5d-8b0f-49fc-b184-b00de9f44911">
+    <name>ЗакупкаЧерезПодотчетноеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закупка через подотчетное лицо</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Purchase via advance holder</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c224ddb0-2fbf-4491-8c8c-f5195735788f">
+    <name>ПриходПоПеремещению</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приход по перемещению</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="634040f8-e06f-476a-bb14-169ae2da4425">
+    <name>ОприходованиеИзлишков</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оприходование излишков</value>
+    </synonym>
+    <comment>makole ФТ.ИМ.01.01</comment>
+  </enumValues>
+  <enumValues uuid="2c295017-dd1a-448e-b280-9b5f2f28573b">
+    <name>ЗакупкаПродуктовПитания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закупка продуктов питания</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dc9a9735-4ae0-4bcb-a2b3-8841be2031eb">
+    <name>ЗакупкаНавигационныхКарт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закупка навигационных карт</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

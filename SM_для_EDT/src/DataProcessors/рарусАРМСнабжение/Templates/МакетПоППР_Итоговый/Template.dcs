@@ -1,0 +1,729 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Склад</dataPath>
+			<field>Склад</field>
+			<useRestriction>
+				<condition>true</condition>
+			</useRestriction>
+			<attributeUseRestriction>
+				<condition>true</condition>
+			</attributeUseRestriction>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Номенклатура</dataPath>
+			<field>Номенклатура</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Статус</dataPath>
+			<field>Статус</field>
+			<useRestriction>
+				<condition>true</condition>
+			</useRestriction>
+			<attributeUseRestriction>
+				<condition>true</condition>
+			</attributeUseRestriction>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Заявка</dataPath>
+			<field>Заявка</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Остаток</dataPath>
+			<field>Остаток</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Остаток</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Затребовано</dataPath>
+			<field>Затребовано</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Затребовано</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Требуется</dataPath>
+			<field>Требуется</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Требуется</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>МинимальныйОстаток</dataPath>
+			<field>МинимальныйОстаток</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Мин.запас</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КоличествоСМинЗапасом</dataPath>
+			<field>КоличествоСМинЗапасом</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>К заказу с учетом мин.запаса</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Отметка</dataPath>
+			<field>Отметка</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отметка</v8:content>
+				</v8:item>
+			</title>
+			<useRestriction>
+				<condition>true</condition>
+			</useRestriction>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Количество</dataPath>
+			<field>Количество</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Количество</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КритичностьОборудования</dataPath>
+			<field>КритичностьОборудования</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Критичность оборудования</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОбъектРемонта</dataPath>
+			<field>ОбъектРемонта</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Объект ремонта</v8:content>
+				</v8:item>
+			</title>
+			<useRestriction>
+				<field>true</field>
+				<condition>true</condition>
+				<order>true</order>
+			</useRestriction>
+			<attributeUseRestriction>
+				<condition>true</condition>
+			</attributeUseRestriction>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КритичностьНоменклатуры</dataPath>
+			<field>КритичностьНоменклатуры</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Критичность номенклатуры (СЗЧ)</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДокУстановки</dataPath>
+			<field>ДокУстановки</field>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	впПланГрафикППР.ОбъектРемонта КАК ОбъектРемонтныхРабот,
+	впПланГрафикППР.ВидРемонтныхРабот КАК ВидРемонтныхРабот,
+	впПланГрафикППР.ДатаНачалаПлан КАК ДатаНачалаРемонтныхРабот,
+	ВЫРАЗИТЬ(впПланГрафикППР.ПланГрафик КАК Документ.впПланГрафикРемонта) КАК Регистратор,
+	впПланГрафикППР.ПланГрафик.Подразделение КАК Судно,
+	1 КАК КоличествоРабот
+ПОМЕСТИТЬ втПлановыеРемРаботы
+ИЗ
+	РегистрСведений.впПланГрафикППР КАК впПланГрафикППР
+ГДЕ
+	впПланГрафикППР.ДатаНачалаПлан МЕЖДУ &amp;ДатаНачала И &amp;ДатаКонца
+	И впПланГрафикППР.ПланГрафик ССЫЛКА Документ.впПланГрафикРемонта
+	И НЕ впПланГрафикППР.Удален
+	И впПланГрафикППР.ОбъектРемонта В ИЕРАРХИИ(&amp;ПараметрОбъектРемонта)
+{ГДЕ
+	(впПланГрафикППР.ПланГрафик.Подразделение = &amp;ПараметрСудно),
+	впПланГрафикППР.ОбъектРемонта.* КАК ОбъектРемонта,
+	впПланГрафикППР.ОбъектРемонта.Приоритет.* КАК КритичностьОборудования}
+
+ИНДЕКСИРОВАТЬ ПО
+	Судно
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	втПлановыеРемРаботы.Регистратор КАК Регистратор,
+	МИНИМУМ(Склады.Ссылка) КАК Склад
+ПОМЕСТИТЬ втСкладДокумента
+ИЗ
+	втПлановыеРемРаботы КАК втПлановыеРемРаботы
+		ЛЕВОЕ СОЕДИНЕНИЕ Справочник.Склады КАК Склады
+		ПО втПлановыеРемРаботы.Судно = Склады.Судно
+
+СГРУППИРОВАТЬ ПО
+	втПлановыеРемРаботы.Регистратор
+
+ИНДЕКСИРОВАТЬ ПО
+	Регистратор
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	втПлановыеРемРаботы.ОбъектРемонтныхРабот КАК ОбъектРемонтныхРабот,
+	втПлановыеРемРаботы.ВидРемонтныхРабот КАК ВидРемонтныхРабот,
+	втПлановыеРемРаботы.Судно КАК Судно,
+	втСкладДокумента.Склад КАК Склад,
+	втПлановыеРемРаботы.Регистратор КАК Регистратор,
+	НАЧАЛОПЕРИОДА(втПлановыеРемРаботы.ДатаНачалаРемонтныхРабот, МЕСЯЦ) КАК МесяцНачалаРабот,
+	СУММА(втПлановыеРемРаботы.КоличествоРабот) КАК КоличествоРабот
+ПОМЕСТИТЬ втПлановыеРемРаботыСоСкладом
+ИЗ
+	втПлановыеРемРаботы КАК втПлановыеРемРаботы
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ втСкладДокумента КАК втСкладДокумента
+		ПО втПлановыеРемРаботы.Регистратор = втСкладДокумента.Регистратор
+
+СГРУППИРОВАТЬ ПО
+	втПлановыеРемРаботы.Судно,
+	НАЧАЛОПЕРИОДА(втПлановыеРемРаботы.ДатаНачалаРемонтныхРабот, МЕСЯЦ),
+	втПлановыеРемРаботы.Регистратор,
+	втПлановыеРемРаботы.ВидРемонтныхРабот,
+	втПлановыеРемРаботы.ОбъектРемонтныхРабот,
+	втСкладДокумента.Склад
+
+ИНДЕКСИРОВАТЬ ПО
+	ОбъектРемонтныхРабот,
+	ВидРемонтныхРабот,
+	МесяцНачалаРабот
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	впНормыЗапчастейНаОбъектыРемонта.ОбъектРемонта КАК ОбъектРемонта,
+	впНормыЗапчастейНаОбъектыРемонта.Номенклатура КАК Номенклатура,
+	впНормыЗапчастейНаОбъектыРемонта.ВидРемонта КАК ВидРемонта,
+	СУММА(впНормыЗапчастейНаОбъектыРемонта.Количество) КАК Количество,
+	втПлановыеРемРаботыСоСкладом.Склад КАК Склад,
+	втПлановыеРемРаботыСоСкладом.МесяцНачалаРабот КАК МесяцНачалаРабот
+ПОМЕСТИТЬ втНормыЗапчастей
+ИЗ
+	РегистрСведений.впНормыЗапчастейНаОбъектыРемонта КАК впНормыЗапчастейНаОбъектыРемонта
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ втПлановыеРемРаботыСоСкладом КАК втПлановыеРемРаботыСоСкладом
+		ПО впНормыЗапчастейНаОбъектыРемонта.ОбъектРемонта = втПлановыеРемРаботыСоСкладом.ОбъектРемонтныхРабот
+			И впНормыЗапчастейНаОбъектыРемонта.ВидРемонта = втПлановыеРемРаботыСоСкладом.ВидРемонтныхРабот
+
+СГРУППИРОВАТЬ ПО
+	впНормыЗапчастейНаОбъектыРемонта.ОбъектРемонта,
+	впНормыЗапчастейНаОбъектыРемонта.Номенклатура,
+	впНормыЗапчастейНаОбъектыРемонта.ВидРемонта,
+	втПлановыеРемРаботыСоСкладом.Склад,
+	втПлановыеРемРаботыСоСкладом.МесяцНачалаРабот
+
+ИНДЕКСИРОВАТЬ ПО
+	ОбъектРемонта,
+	ВидРемонта,
+	МесяцНачалаРабот
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	втНормыЗапчастей.Номенклатура КАК Номенклатура,
+	СУММА(ЕСТЬNULL(втНормыЗапчастей.Количество, 0) * ЕСТЬNULL(втПлановыеРемРаботыСоСкладом.КоличествоРабот, 0)) КАК Количество,
+	втПлановыеРемРаботыСоСкладом.Склад КАК Склад,
+	втПлановыеРемРаботыСоСкладом.ОбъектРемонтныхРабот КАК ОбъектРемонтныхРабот
+ПОМЕСТИТЬ втПланыиНормы
+ИЗ
+	втПлановыеРемРаботыСоСкладом КАК втПлановыеРемРаботыСоСкладом
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ втНормыЗапчастей КАК втНормыЗапчастей
+		ПО втПлановыеРемРаботыСоСкладом.ОбъектРемонтныхРабот = втНормыЗапчастей.ОбъектРемонта
+			И втПлановыеРемРаботыСоСкладом.ВидРемонтныхРабот = втНормыЗапчастей.ВидРемонта
+			И втПлановыеРемРаботыСоСкладом.МесяцНачалаРабот = втНормыЗапчастей.МесяцНачалаРабот
+
+СГРУППИРОВАТЬ ПО
+	втНормыЗапчастей.Номенклатура,
+	втПлановыеРемРаботыСоСкладом.Склад,
+	втПлановыеРемРаботыСоСкладом.ОбъектРемонтныхРабот
+
+ИНДЕКСИРОВАТЬ ПО
+	Номенклатура,
+	Склад
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	рарусМинимальныеОстаткиНоменклатурыСрезПоследних.Номенклатура КАК Номенклатура,
+	рарусМинимальныеОстаткиНоменклатурыСрезПоследних.Склад КАК Склад,
+	рарусМинимальныеОстаткиНоменклатурыСрезПоследних.МинимальныйОстаток КАК МинимальныйОстаток
+ПОМЕСТИТЬ втМинОстатки
+ИЗ
+	РегистрСведений.рарусМинимальныеОстаткиНоменклатуры.СрезПоследних(
+			,
+			(Номенклатура, Склад) В
+				(ВЫБРАТЬ
+					втПланыиНормы.Номенклатура КАК Номенклатура,
+					втПланыиНормы.Склад КАК Склад
+				ИЗ
+					втПланыиНормы КАК втПланыиНормы) {(Склад.Судно = &amp;ПараметрСудно), (Номенклатура) КАК Номенклатура}) КАК рарусМинимальныеОстаткиНоменклатурыСрезПоследних
+
+ИНДЕКСИРОВАТЬ ПО
+	Номенклатура,
+	Склад
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	ВЫБОР
+		КОГДА ТоварыДругогоКачества.Номенклатура ЕСТЬ NULL
+			ТОГДА рарусИмуществоНаСудахОстатки.Номенклатура
+		ИНАЧЕ ТоварыДругогоКачества.Номенклатура
+	КОНЕЦ КАК Номенклатура,
+	СУММА(рарусИмуществоНаСудахОстатки.КоличествоОстаток) КАК ВНаличииОстаток,
+	рарусИмуществоНаСудахОстатки.Склад КАК Склад
+ПОМЕСТИТЬ втОстаткиПоИмуществу
+ИЗ
+	РегистрНакопления.рарусИмуществоНаСудах.Остатки(
+			,
+			(Номенклатура, Склад) В
+					(ВЫБРАТЬ
+						втПланыиНормы.Номенклатура КАК Номенклатура,
+						втПланыиНормы.Склад КАК Склад
+					ИЗ
+						втПланыиНормы КАК втПланыиНормы
+			
+					ОБЪЕДИНИТЬ ВСЕ
+			
+					ВЫБРАТЬ
+						ТоварыДругогоКачества.НоменклатураБрак,
+						втПланыиНормы.Склад
+					ИЗ
+						втПланыиНормы КАК втПланыиНормы
+							ВНУТРЕННЕЕ СОЕДИНЕНИЕ РегистрСведений.ТоварыДругогоКачества КАК ТоварыДругогоКачества
+							ПО
+								втПланыиНормы.Номенклатура = ТоварыДругогоКачества.Номенклатура
+									И ТоварыДругогоКачества.ГрадацияКачества В (ЗНАЧЕНИЕ(Перечисление.ГрадацииКачества.БУ), ЗНАЧЕНИЕ(Перечисление.ГрадацииКачества.Восстановленный)))
+				// ++ makole 08102021 добавил забалансовые ТМЦ					
+				//И Статус В (ЗНАЧЕНИЕ(Перечисление.рарусСтатусыИмуществаНаСудне.НаСкладе), ЗНАЧЕНИЕ(Перечисление.рарусСтатусыИмуществаНаСудне.ОприходованоБУ)) {(Склад.Судно = &amp;ПараметрСудно), (Номенклатура) КАК Номенклатура}) КАК рарусИмуществоНаСудахОстатки
+				И Статус В (ЗНАЧЕНИЕ(Перечисление.рарусСтатусыИмуществаНаСудне.НаСкладе), ЗНАЧЕНИЕ(Перечисление.рарусСтатусыИмуществаНаСудне.ОприходованоБУ), ЗНАЧЕНИЕ(Перечисление.рарусСтатусыИмуществаНаСудне.ВыданоВПользование)) {(Склад.Судно = &amp;ПараметрСудно), (Номенклатура) КАК Номенклатура}) КАК рарусИмуществоНаСудахОстатки
+				// -- makole 08102021
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.ТоварыДругогоКачества КАК ТоварыДругогоКачества
+		ПО рарусИмуществоНаСудахОстатки.Номенклатура = ТоварыДругогоКачества.НоменклатураБрак
+
+СГРУППИРОВАТЬ ПО
+	ВЫБОР
+		КОГДА ТоварыДругогоКачества.Номенклатура ЕСТЬ NULL
+			ТОГДА рарусИмуществоНаСудахОстатки.Номенклатура
+		ИНАЧЕ ТоварыДругогоКачества.Номенклатура
+	КОНЕЦ,
+	рарусИмуществоНаСудахОстатки.Склад
+
+ИНДЕКСИРОВАТЬ ПО
+	Номенклатура,
+	Склад
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	рарусТоварыЗаявокНаСнабжениеОстатки.Номенклатура КАК Номенклатура,
+	рарусТоварыЗаявокНаСнабжениеОстатки.Заявка КАК Заявка,
+	рарусТоварыЗаявокНаСнабжениеОстатки.ЗаказаноОстаток КАК ЗаказаноОстаток
+ПОМЕСТИТЬ втОстаткиЗаявок
+ИЗ
+	РегистрНакопления.рарусТоварыЗаявокНаСнабжение.Остатки(
+			,
+			(Номенклатура, Заявка.Подразделение) В
+				(ВЫБРАТЬ
+					втПланыиНормы.Номенклатура КАК Номенклатура,
+					втПланыиНормы.Склад.Судно КАК Судно
+				ИЗ
+					втПланыиНормы КАК втПланыиНормы)) КАК рарусТоварыЗаявокНаСнабжениеОстатки
+ГДЕ
+	рарусТоварыЗаявокНаСнабжениеОстатки.ЗаказаноОстаток &gt; 0
+
+СГРУППИРОВАТЬ ПО
+	рарусТоварыЗаявокНаСнабжениеОстатки.Заявка,
+	рарусТоварыЗаявокНаСнабжениеОстатки.Номенклатура,
+	рарусТоварыЗаявокНаСнабжениеОстатки.ЗаказаноОстаток
+
+ИНДЕКСИРОВАТЬ ПО
+	Номенклатура,
+	Заявка
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	впЗаявкаНаСнабжениеМатериалыИРаботы.Номенклатура КАК Номенклатура,
+	впЗаявкаНаСнабжениеМатериалыИРаботы.КодСтроки КАК КодСтроки,
+	впЗаявкаНаСнабжениеМатериалыИРаботы.Ссылка КАК Ссылка
+ПОМЕСТИТЬ втКодыСтрокЗаявок
+ИЗ
+	Документ.впЗаявкаНаСнабжение.МатериалыИРаботы КАК впЗаявкаНаСнабжениеМатериалыИРаботы
+ГДЕ
+	впЗаявкаНаСнабжениеМатериалыИРаботы.Ссылка В
+			(ВЫБРАТЬ
+				втОстаткиЗаявок.Заявка КАК Заявка
+			ИЗ
+				втОстаткиЗаявок КАК втОстаткиЗаявок)
+
+ИНДЕКСИРОВАТЬ ПО
+	КодСтроки,
+	Ссылка
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	втКодыСтрокЗаявок.Номенклатура КАК Номенклатура,
+	втКодыСтрокЗаявок.КодСтроки КАК КодСтроки,
+	втКодыСтрокЗаявок.Ссылка КАК Ссылка,
+	рарусСостоянияСтрокЗаявокНаСнабжение.Состояние КАК Состояние
+ПОМЕСТИТЬ втСостоянияСтрокСКодом
+ИЗ
+	втКодыСтрокЗаявок КАК втКодыСтрокЗаявок
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ РегистрСведений.рарусСостоянияСтрокЗаявокНаСнабжение КАК рарусСостоянияСтрокЗаявокНаСнабжение
+		ПО втКодыСтрокЗаявок.Ссылка = рарусСостоянияСтрокЗаявокНаСнабжение.Заказ
+			И втКодыСтрокЗаявок.КодСтроки = рарусСостоянияСтрокЗаявокНаСнабжение.КодСтроки
+ГДЕ
+	НЕ рарусСостоянияСтрокЗаявокНаСнабжение.Состояние = ЗНАЧЕНИЕ(Перечисление.рарусСостоянияЗаявокНаСнабжение.СогласованиеКапитаном)
+
+ИНДЕКСИРОВАТЬ ПО
+	Ссылка,
+	Номенклатура
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	втОстаткиЗаявок.Номенклатура КАК Номенклатура,
+	СУММА(втОстаткиЗаявок.ЗаказаноОстаток) КАК НеПоступило,
+	втОстаткиЗаявок.Заявка.Подразделение КАК Судно
+ПОМЕСТИТЬ втЗатребовано
+ИЗ
+	втОстаткиЗаявок КАК втОстаткиЗаявок
+		ЛЕВОЕ СОЕДИНЕНИЕ втСостоянияСтрокСКодом КАК втСостоянияСтрокСКодом
+		ПО втОстаткиЗаявок.Заявка = втСостоянияСтрокСКодом.Ссылка
+			И втОстаткиЗаявок.Номенклатура = втСостоянияСтрокСКодом.Номенклатура
+ГДЕ
+	НЕ втСостоянияСтрокСКодом.Ссылка ЕСТЬ NULL
+
+СГРУППИРОВАТЬ ПО
+	втОстаткиЗаявок.Номенклатура,
+	втОстаткиЗаявок.Заявка.Подразделение
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	втПланыиНормы.Номенклатура КАК Номенклатура,
+	СУММА(ЕСТЬNULL(втМинОстатки.МинимальныйОстаток, 0)) КАК МинимальныйОстаток,
+	СУММА(втПланыиНормы.Количество) КАК Требуется,
+	СУММА(ЕСТЬNULL(втОстаткиПоИмуществу.ВНаличииОстаток, 0)) КАК Остаток,
+	ВЫБОР
+		КОГДА СУММА(втПланыиНормы.Количество) + СУММА(ЕСТЬNULL(втМинОстатки.МинимальныйОстаток, 0)) - СУММА(ЕСТЬNULL(втОстаткиПоИмуществу.ВНаличииОстаток, 0)) - СУММА(ЕСТЬNULL(втЗатребовано.НеПоступило, 0)) &gt; 0
+			ТОГДА СУММА(втПланыиНормы.Количество) + СУММА(ЕСТЬNULL(втМинОстатки.МинимальныйОстаток, 0)) - СУММА(ЕСТЬNULL(втОстаткиПоИмуществу.ВНаличииОстаток, 0)) - СУММА(ЕСТЬNULL(втЗатребовано.НеПоступило, 0))
+		ИНАЧЕ 0
+	КОНЕЦ КАК КоличествоСМинЗапасом,
+	ИСТИНА КАК Отметка,
+	ВЫБОР
+		КОГДА СУММА(втПланыиНормы.Количество) - СУММА(ЕСТЬNULL(втОстаткиПоИмуществу.ВНаличииОстаток, 0)) - СУММА(ЕСТЬNULL(втЗатребовано.НеПоступило, 0)) &gt; 0
+			ТОГДА СУММА(втПланыиНормы.Количество) - СУММА(ЕСТЬNULL(втОстаткиПоИмуществу.ВНаличииОстаток, 0)) - СУММА(ЕСТЬNULL(втЗатребовано.НеПоступило, 0))
+		ИНАЧЕ 0
+	КОНЕЦ КАК Количество,
+	СУММА(ЕСТЬNULL(втЗатребовано.НеПоступило, 0)) КАК Затребовано,
+	&amp;ПараметрОбъектРемонта КАК ОбъектРемонта,
+	втПланыиНормы.Номенклатура.Критичность КАК КритичностьНоменклатуры
+ИЗ
+	втПланыиНормы КАК втПланыиНормы
+		ЛЕВОЕ СОЕДИНЕНИЕ втМинОстатки КАК втМинОстатки
+		ПО втПланыиНормы.Номенклатура = втМинОстатки.Номенклатура
+			И втПланыиНормы.Склад = втМинОстатки.Склад
+		ЛЕВОЕ СОЕДИНЕНИЕ втОстаткиПоИмуществу КАК втОстаткиПоИмуществу
+		ПО втПланыиНормы.Номенклатура = втОстаткиПоИмуществу.Номенклатура
+			И втПланыиНормы.Склад = втОстаткиПоИмуществу.Склад
+		ЛЕВОЕ СОЕДИНЕНИЕ втЗатребовано КАК втЗатребовано
+		ПО втПланыиНормы.Номенклатура = втЗатребовано.Номенклатура
+			И втПланыиНормы.Склад.Судно = втЗатребовано.Судно
+
+СГРУППИРОВАТЬ ПО
+	втПланыиНормы.Номенклатура,
+	втПланыиНормы.Номенклатура.Критичность</query>
+	</dataSet>
+	<calculatedField>
+		<dataPath>ИсточникПотребности</dataPath>
+		<expression>неопределено</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Источник потребности</v8:content>
+			</v8:item>
+		</title>
+		<useRestriction>
+			<condition>true</condition>
+		</useRestriction>
+	</calculatedField>
+	<parameter>
+		<name>ПараметрСудно</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Судно</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.vftСуда</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>false</useRestriction>
+		<availableAsField>false</availableAsField>
+	</parameter>
+	<parameter>
+		<name>ДатаКонца</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата конца</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>Date</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>false</useRestriction>
+		<availableAsField>false</availableAsField>
+	</parameter>
+	<parameter>
+		<name>ДатаНачала</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата начала</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>Date</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>false</useRestriction>
+		<availableAsField>false</availableAsField>
+	</parameter>
+	<parameter>
+		<name>Период</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Период</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<availableAsField>false</availableAsField>
+	</parameter>
+	<parameter>
+		<name>ПараметрОбъектРемонта</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Объект ремонта</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.впОбъектыРемонта</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Номенклатура</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>МинимальныйОстаток</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Остаток</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Затребовано</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Количество</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Требуется</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Отметка</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КоличествоСМинЗапасом</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ИсточникПотребности</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Номенклатура</dcsset:left>
+					<dcsset:comparisonType>InList</dcsset:comparisonType>
+					<dcsset:right xsi:type="v8:ValueListType">
+						<v8:valueType/>
+						<v8:lastId xsi:type="xs:decimal">-1</v8:lastId>
+					</dcsset:right>
+					<dcsset:userSettingID>0fc4b7da-02ef-48ec-926b-8bf0d34f4971</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">КритичностьОборудования</dcsset:left>
+					<dcsset:comparisonType>InList</dcsset:comparisonType>
+					<dcsset:right xsi:type="v8:ValueListType">
+						<v8:valueType/>
+						<v8:lastId xsi:type="xs:decimal">-1</v8:lastId>
+					</dcsset:right>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">КритичностьНоменклатуры</dcsset:left>
+					<dcsset:comparisonType>InList</dcsset:comparisonType>
+					<dcsset:right xsi:type="v8:ValueListType">
+						<v8:valueType/>
+						<v8:lastId xsi:type="xs:decimal">-1</v8:lastId>
+					</dcsset:right>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">МинимальныйОстаток</dcsset:left>
+					<dcsset:comparisonType>GreaterOrEqual</dcsset:comparisonType>
+					<dcsset:right xsi:type="xs:decimal">0</dcsset:right>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Требуется</dcsset:left>
+					<dcsset:comparisonType>GreaterOrEqual</dcsset:comparisonType>
+					<dcsset:right xsi:type="xs:decimal">0</dcsset:right>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Затребовано</dcsset:left>
+					<dcsset:comparisonType>GreaterOrEqual</dcsset:comparisonType>
+					<dcsset:right xsi:type="xs:decimal">0</dcsset:right>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Остаток</dcsset:left>
+					<dcsset:comparisonType>GreaterOrEqual</dcsset:comparisonType>
+					<dcsset:right xsi:type="xs:decimal">0</dcsset:right>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Количество</dcsset:left>
+					<dcsset:comparisonType>GreaterOrEqual</dcsset:comparisonType>
+					<dcsset:right xsi:type="xs:decimal">0</dcsset:right>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">КоличествоСМинЗапасом</dcsset:left>
+					<dcsset:comparisonType>GreaterOrEqual</dcsset:comparisonType>
+					<dcsset:right xsi:type="xs:decimal">0</dcsset:right>
+				</dcsset:item>
+			</dcsset:filter>
+			<dcsset:order>
+				<dcsset:item xsi:type="dcsset:OrderItemField">
+					<dcsset:field>Номенклатура.Наименование</dcsset:field>
+					<dcsset:orderType>Asc</dcsset:orderType>
+				</dcsset:item>
+			</dcsset:order>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>ОбъектРемонта</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>ОбъектРемонта</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:item xsi:type="dcsset:StructureItemGroup">
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>Номенклатура</dcsset:field>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>МинимальныйОстаток</dcsset:field>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>Остаток</dcsset:field>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>Затребовано</dcsset:field>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>Количество</dcsset:field>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>Требуется</dcsset:field>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>Отметка</dcsset:field>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>КоличествоСМинЗапасом</dcsset:field>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>ИсточникПотребности</dcsset:field>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>ОбъектРемонта</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+				</dcsset:item>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="685fa921-794a-4f56-aa91-89abeb50b451">
+  <producedTypes>
+    <selectionType typeId="a04df182-8bb0-4ef6-8098-aa42ff6ccfa9" valueTypeId="873add61-01a2-4d85-8bd9-57fb85958d1f"/>
+    <listType typeId="81ac4c45-6e55-4459-8507-68cada8611dd" valueTypeId="e99d673e-0800-4f6c-850a-9eb1a5571f77"/>
+    <managerType typeId="6e231b18-2256-4eaf-a26f-fecef33fbc51" valueTypeId="0f244977-ec86-4b27-ad47-136d4078f206"/>
+    <recordSetType typeId="ee1e1b0b-d9fe-4def-b733-2b5bc8ee39df" valueTypeId="2a183d47-aed6-4025-a6b6-1040169dbee4"/>
+    <recordKeyType typeId="f1729b15-4266-44d4-a5e4-3a1e4a859caf" valueTypeId="58940407-4c05-435f-9f6a-c8d3f4967e37"/>
+    <recordType typeId="82cf6033-7868-49ce-ad6f-3db8cbfd5993" valueTypeId="ceea0326-b801-498e-ac7d-a4b30051bb9f"/>
+  </producedTypes>
+  <name>рарусТоварыЗаявокНаСнабжение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Товары заявок на снабжение</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>RecordType</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="5bd3e76d-0008-4517-87d4-5526413e098f">
+    <name>Заказано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказано</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Ordered</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Обязательства предприятия по выполнению заказа в количественном выражении.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Enterprise liabilities concerning order fulfillment in quantitative terms.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="3ad906d5-893f-4c80-994e-6df031df9ee6">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Номенклатура затрат</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="a0ba9131-b1b7-4ee8-a817-e07d8c056493">
+    <name>Заявка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заявка на снабжение</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.впЗаявкаНаСнабжение</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Идентификатор ремонта оборудования</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

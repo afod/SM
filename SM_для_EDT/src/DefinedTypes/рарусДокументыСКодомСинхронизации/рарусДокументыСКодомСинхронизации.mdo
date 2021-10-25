@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eaa4c9c5-491a-46b1-b8dc-aff1d87f8c0a">
+  <producedTypes>
+    <containerType typeId="f8b004a0-bc0f-4f41-bced-7f959ce979a1" valueTypeId="a135b41e-0ba7-4173-924f-77d662894d0d"/>
+  </producedTypes>
+  <name>рарусДокументыСКодомСинхронизации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документы с кодом синхронизации</value>
+  </synonym>
+  <comment>rarus makole ФТ.ИМ.01.01</comment>
+  <type>
+    <types>DocumentObject.впПеремещениеТоваров</types>
+    <types>DocumentObject.рарусИзменениеСтатусаТМЦ</types>
+    <types>DocumentObject.впПриходТМЦ</types>
+    <types>DocumentObject.рарусРасходТМЦ</types>
+  </type>
+</mdclass:DefinedType>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e2bcb6f3-b777-4abf-a0b9-1d537c43f316">
+  <producedTypes>
+    <selectionType typeId="38c33dc2-d9a5-4377-8253-cab5255e0c57" valueTypeId="5e81b63a-1a76-40a7-b476-6bb5e96174f8"/>
+    <listType typeId="68c4def9-434c-478f-bf94-c2cefe2c1bb6" valueTypeId="6f0b90ab-3c50-4842-8a9b-9f622fe5bb41"/>
+    <managerType typeId="43ad0cf3-3792-4b3b-9f8b-5439172e0627" valueTypeId="c07aa7e3-b99e-4bf9-9ff5-acce3cb8579b"/>
+    <recordSetType typeId="c21feb85-242a-40b4-a518-28c78361642c" valueTypeId="87a0854f-7e8d-4e04-b976-66cef42d2444"/>
+    <recordKeyType typeId="39859480-90d2-4488-aaba-7ee31253839a" valueTypeId="9a511423-1b02-4a3d-a920-eeb07d625fa5"/>
+    <recordType typeId="5ee4c908-1339-4fad-ae75-9b8b1f581c5d" valueTypeId="565a1a88-7b7b-4c12-be36-4fdd0b9264e8"/>
+    <recordManagerType typeId="340f4761-f5e2-4ad8-9426-7c938d579c26" valueTypeId="8ed03a48-7dd6-42ba-afd4-33eafaa23a2a"/>
+  </producedTypes>
+  <name>рарусСтатусыЗаказовНаРемонт</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы заказов на ремонт</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="79c5c000-5d0f-4306-9d38-6f478806f654">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.рарусСтатусыЗаявокНаРемонт</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="1793afb8-cb2c-4b6e-8245-7b085028e9ea">
+    <name>ЗаявкаНаРемонт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заявка на ремонт</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.впЗаявкаНаРемонт</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

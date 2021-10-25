@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6359d023-ef32-49ba-9da6-69fd9fb4978e">
+  <producedTypes>
+    <objectType typeId="f6c8ac76-cee2-4249-9faa-719d1e8dccfc" valueTypeId="a1aa0465-ce68-4e7b-95ae-404ddded4b27"/>
+    <managerType typeId="a8ebf6dc-3b20-4eb7-93c6-3913e4009db4" valueTypeId="c95eadd3-db48-486c-ac76-390d198ea8f9"/>
+  </producedTypes>
+  <name>рарусСостояниеВыполненияЗаявокНаСнабжение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояние выполнения заявок на снабжение</value>
+  </synonym>
+  <comment>makole РАIT-0023341 (для СМ)</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.рарусСостояниеВыполненияЗаявокНаСнабжение.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="006faa39-a859-4d2f-bcc4-7f571126fb2d">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

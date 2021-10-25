@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ac02059b-84f6-4cb1-ad8d-c76cbd0bfa0b">
+  <name>рарусДобавлениеИИзменениеПрисоединенныхФайловРейса</name>
+  <synonym>
+    <key>ru</key>
+    <value>(рарус) Добавление и изменение присоединенных файлов рейса</value>
+  </synonym>
+</mdclass:Role>

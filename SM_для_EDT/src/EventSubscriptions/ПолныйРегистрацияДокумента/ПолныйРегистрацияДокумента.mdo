@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="252d8489-ce37-4dd1-99c1-ce8d6a1e6008">
+  <name>ПолныйРегистрацияДокумента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Полный регистрация документа</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.рарусАктВыполненныхРаботОказанныхУслуг</types>
+    <types>DocumentObject.впЗаявкаНаСнабжение</types>
+    <types>DocumentObject.впЗаявкаНаРемонт</types>
+    <types>DocumentObject.впПеремещениеТоваров</types>
+    <types>DocumentObject.впЗакрытиеЗаявокИРемонтов</types>
+    <types>DocumentObject.vftАнализСУБ</types>
+    <types>DocumentObject.Встреча</types>
+    <types>DocumentObject.рарусИзменениеСтатусаТМЦ</types>
+    <types>DocumentObject.НазначениеОпросов</types>
+    <types>DocumentObject.впПриходТМЦ</types>
+    <types>DocumentObject.рарусОтчетСУБ</types>
+    <types>DocumentObject.vftСообщениеОПотенциальномИнциденте</types>
+    <types>DocumentObject.ЭлектронноеПисьмоВходящее</types>
+    <types>DocumentObject.впСостоянияОбъектовРемонта</types>
+    <types>DocumentObject.vftРДО</types>
+    <types>DocumentObject.впВнешнееОснованиеДляРабот</types>
+    <types>DocumentObject.рарусУчение</types>
+    <types>DocumentObject.ОтзывСогласияНаОбработкуПерсональныхДанных</types>
+    <types>DocumentObject.впЗаказПоставщику</types>
+    <types>DocumentObject.рарусЗаказНаПеремещение</types>
+    <types>DocumentObject.впАктОВыполненииЭтапаРабот</types>
+    <types>DocumentObject.рарусЗаказКлиента</types>
+    <types>DocumentObject.ЗапланированноеВзаимодействие</types>
+    <types>DocumentObject.впПланГрафикРемонта</types>
+    <types>DocumentObject.рарусУстановкаЦенНоменклатуры</types>
+    <types>DocumentObject.Анкета</types>
+    <types>DocumentObject.впВыявленныеДефекты</types>
+    <types>DocumentObject.рарусИнвентаризацияТМЦ</types>
+    <types>DocumentObject.рарусМероприятиеСУБ</types>
+    <types>DocumentObject.СообщениеSMS</types>
+    <types>DocumentObject.впУчетНаработкиОборудования</types>
+    <types>DocumentObject.рарусОтражениеИмуществаВУчете</types>
+    <types>DocumentObject.ТелефонныйЗвонок</types>
+    <types>DocumentObject.СогласиеНаОбработкуПерсональныхДанных</types>
+    <types>DocumentObject.vftДокладОСостоянииБезопасности</types>
+    <types>DocumentObject.рарусРасходТМЦ</types>
+    <types>DocumentObject.рарусУстановкаМинимальногоОстатка</types>
+    <types>DocumentObject.vftРапортОПоврежденииНеисправности</types>
+    <types>DocumentObject.ЭлектронноеПисьмоИсходящее</types>
+    <types>DocumentObject.vftРейс</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.vftОбменДаннымиСобытия.ОбменПолныйЗарегистрироватьИзменениеДокумента</handler>
+</mdclass:EventSubscription>

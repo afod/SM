@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f9e28a30-17b2-43d2-aa0f-6d66e6fc0843">
+  <producedTypes>
+    <refType typeId="5782afeb-7bea-4a2d-866f-ebb45e7c240a" valueTypeId="87f51597-a7f9-43e7-811d-ba2b65c6db75"/>
+    <listType typeId="e5eb31d9-7840-4bbf-ba5a-f67351695b7f" valueTypeId="67ef912c-0195-42e0-9018-c5fe09b898e6"/>
+    <managerType typeId="cb8bc32a-53ce-4e40-b4b3-b26d38e00ca0" valueTypeId="03c3003a-756a-44eb-87ed-b3a7b83d9d62"/>
+  </producedTypes>
+  <name>ВариантыОбеспечения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты обеспечения</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Supply options</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ccdf1552-3cc9-4336-b7fc-7a758577367a">
+    <name>ОтгрузитьОбособленно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отгрузить обособленно</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Ship on pegging basis</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="79409b28-bb70-43cd-b9d2-20001c4bab4e">
+    <name>Отгрузить</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отгрузить</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Ship</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a77dd208-9c20-4b77-a42f-571b19866b01">
+    <name>СоСклада</name>
+    <synonym>
+      <key>ru</key>
+      <value>Резервировать на складе</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Reserve at warehouse</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="36879dea-1048-4767-9c1e-329846989e59">
+    <name>ИзЗаказов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Резервировать к дате</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Reserve to date</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="933d06f7-9920-47b5-a450-d7857511b659">
+    <name>Обособленно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обеспечивать обособленно</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Provide on pegging basis</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8235d4d6-d119-4065-8d0c-4c74e0fcdb47">
+    <name>Требуется</name>
+    <synonym>
+      <key>ru</key>
+      <value>К обеспечению</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>To supply</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8a96a5de-f3da-47f6-b1ee-0e0745328b3d">
+    <name>НеТребуется</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не обеспечивать</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Do not supply</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

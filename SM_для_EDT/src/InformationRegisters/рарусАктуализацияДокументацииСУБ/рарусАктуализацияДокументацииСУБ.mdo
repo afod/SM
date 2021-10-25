@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2cb0a332-f278-4c9f-ad1d-1612a6abb4ed">
+  <producedTypes>
+    <selectionType typeId="09548824-f430-4728-b090-4a6d1ab8ad20" valueTypeId="a0488028-3715-41c5-8749-87caa007e3b5"/>
+    <listType typeId="60892e77-90b1-4b01-9956-27dc9d38ce32" valueTypeId="85484f41-dca1-4a97-a3c8-edff60d06a70"/>
+    <managerType typeId="efb851d1-9b52-4be8-9a52-f9559ff01838" valueTypeId="44315047-70a0-4a38-8ecf-165557c5325e"/>
+    <recordSetType typeId="494acc7a-3655-4738-aef4-f8e805cb9a1d" valueTypeId="84760822-6d7e-42b0-862c-eb455bd3169f"/>
+    <recordKeyType typeId="29c112fb-e2aa-4513-b508-7b058bbab8d2" valueTypeId="7c6f3de5-3978-4126-948b-fc142305c701"/>
+    <recordType typeId="a88941b0-1b89-475c-8eb6-4b3702ae853a" valueTypeId="9475708f-43ae-4c43-8733-0d333a0b3ff5"/>
+    <recordManagerType typeId="76e2f7e6-b40e-4ee6-9687-5e70905e3cf2" valueTypeId="d05b8d1a-b50c-41de-84b6-59ba81a15157"/>
+  </producedTypes>
+  <name>рарусАктуализацияДокументацииСУБ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Актуализация документации СУБ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.рарусАктуализацияДокументацииСУБ.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.рарусАктуализацияДокументацииСУБ.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="477bd7c6-f0ae-4bf3-9d32-5fa02b4aeeab">
+    <name>НеВыгружатьНаСуда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не выгружать на суда</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="48d88f9c-5f4a-4f26-8831-1e0ffea31217">
+    <name>КарточкаДокументацииСУБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Карточка документации СУБ</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.vftСУБ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="bbfd28fe-c855-48bb-bf66-ed6c513c5bf4">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5a4d68a5-34d9-43a7-8272-66eb53ba0229">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

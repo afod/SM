@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="89d0e500-e301-419c-b47b-96a460803a0c">
+  <producedTypes>
+    <refType typeId="ce21388f-973e-4d9a-a8b9-b71a4598e6f3" valueTypeId="4b16538c-2e43-4a59-a3ff-7ef5f6f8c0b9"/>
+    <listType typeId="e8a305bb-7d1d-4d76-b911-a3c3aba57eec" valueTypeId="8d579498-fabf-44af-b2ca-a38a273deb46"/>
+    <managerType typeId="9bf514c0-ac91-4808-9b8c-d939e9b6b86c" valueTypeId="54095893-db2e-4441-906d-58aa4da8737b"/>
+  </producedTypes>
+  <name>vftРекаМоре</name>
+  <synonym>
+    <key>ru</key>
+    <value>Река/море</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="6129eeab-d139-4328-8efd-af3acf89114d">
+    <name>Река</name>
+    <synonym>
+      <key>ru</key>
+      <value>Река</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="298d0d0a-3656-4b41-ae56-51646ef0c557">
+    <name>Море</name>
+    <synonym>
+      <key>ru</key>
+      <value>Море</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

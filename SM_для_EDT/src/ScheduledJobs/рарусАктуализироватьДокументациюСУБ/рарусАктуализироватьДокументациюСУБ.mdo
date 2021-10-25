@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a47f29dc-8e8a-4cf7-b876-4c7264647180">
+  <name>рарусАктуализироватьДокументациюСУБ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Актуализировать документацию СУБ</value>
+  </synonym>
+  <methodName>CommonModule.рарусСУБСервер.АктуализироватьДокументациюСУБ</methodName>
+  <description>Актуализировать документацию СУБ</description>
+  <key>рарусАктуализироватьДокументациюСУБ</key>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

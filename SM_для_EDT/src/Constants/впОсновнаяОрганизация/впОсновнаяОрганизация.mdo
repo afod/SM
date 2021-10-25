@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="93ba9a9f-41c4-4da3-a443-1f74fe74473d">
+  <producedTypes>
+    <managerType typeId="67ffb185-c72c-47c2-b4d1-9094586403c1" valueTypeId="381746da-4404-44f5-a2ee-db20cfaf547d"/>
+    <valueManagerType typeId="630b233c-bc1b-426d-831c-22fcae31cb3a" valueTypeId="ef3c7c4c-4058-4a0d-8bd6-2ab3359064f4"/>
+    <valueKeyType typeId="bab328b6-5850-484c-bed8-dc242adb8efa" valueTypeId="5f9debe9-72ea-4ee8-b5a2-ad99e255523a"/>
+  </producedTypes>
+  <name>впОсновнаяОрганизация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Организация</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Организации</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

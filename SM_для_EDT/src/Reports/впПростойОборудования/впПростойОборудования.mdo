@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="860354ca-8a02-4ee6-afc1-052f67eb2504">
+  <producedTypes>
+    <objectType typeId="33c6903a-5e24-4694-8f95-4061d2cd2df2" valueTypeId="38785be9-4d6e-4bb4-9479-f675d4c3c05d"/>
+    <managerType typeId="fd8886ee-9638-4041-a2eb-157955c65c35" valueTypeId="95345e06-37b2-42cc-9d6a-48cc78cc66c2"/>
+  </producedTypes>
+  <name>впПростойОборудования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Простой оборудования</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.впПростойОборудования.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Простой оборудования</value>
+  </extendedPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Простой оборудования</value>
+  </explanation>
+  <templates uuid="d284c9b9-7985-4cb8-bfcc-91b242b8e1a0">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="35b9001f-3471-4753-b348-0b08e6f1175a">
+  <name>рарусОбменУправлениеПредприятиемСудовойМодульРегистрация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен &quot;Судовой модуль - ERP&quot;. Регистрация.</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.vftРейсПрисоединенныеФайлы</types>
+    <types>CatalogObject.рарусПрочиеСуда</types>
+    <types>CatalogObject.рарусЛоцманы</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.рарусОбменДаннымиСобытияУППСудовойМодуль.рарусОбменУправлениеПредприятиемСудовойМодульРегистрацияПередЗаписью</handler>
+</mdclass:EventSubscription>

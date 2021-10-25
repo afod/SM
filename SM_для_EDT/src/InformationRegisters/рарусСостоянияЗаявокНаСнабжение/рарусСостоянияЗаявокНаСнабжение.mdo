@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="90dc9501-e19d-49d8-a229-c3a017492864">
+  <producedTypes>
+    <selectionType typeId="b6e3514a-319f-4da1-8763-55407d2a845b" valueTypeId="c3afaace-1a66-4b8b-b815-1b421fef7190"/>
+    <listType typeId="45ff32b7-167d-4a99-af41-07674f258134" valueTypeId="fa783965-6fc4-42b2-b535-76ce4eb65897"/>
+    <managerType typeId="ee053b42-7c30-4cad-a45c-33c88526b3f9" valueTypeId="eb7c4c98-f556-40e3-9e71-80651e66c882"/>
+    <recordSetType typeId="d74cb7a4-eb94-4627-839e-721cfaf7bae2" valueTypeId="3817c21d-8f92-4a1b-a9c5-d08d7e6a8754"/>
+    <recordKeyType typeId="86825a15-8458-4f48-92bd-0189d7bfc20f" valueTypeId="f1b24fb2-2737-4c43-9b1c-9e8f95eca2e4"/>
+    <recordType typeId="0527d18f-9cf1-42fe-909c-12536ec32cd4" valueTypeId="55c1ef49-caf5-4259-898e-e07d932fd707"/>
+    <recordManagerType typeId="a462d5d9-558a-433d-a40b-6d738b0b8ef1" valueTypeId="48596a47-dd0e-4ed9-8a3f-c55d94f1f47e"/>
+  </producedTypes>
+  <name>рарусСостоянияЗаявокНаСнабжение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояния заявок на снабжение (Рарус)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>States of internal orders</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="80fc702b-931e-4e22-a064-20aefdff7784">
+    <name>Состояние</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>State</value>
+    </synonym>
+    <type>
+      <types>EnumRef.рарусСостоянияЗаявокНаСнабжение</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Текущее состояние заказа</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Current order state</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="2b9ba49b-5352-4779-b80e-270667e1cb12">
+    <name>Заказ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Order</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.впЗаявкаНаСнабжение</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

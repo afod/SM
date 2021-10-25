@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="79186693-db38-4fe7-94e7-2f75b656d46f">
+  <producedTypes>
+    <selectionType typeId="db0257ec-a88a-4b6d-beb1-94267684f2e1" valueTypeId="005213b5-008d-4d68-913d-523c37a13328"/>
+    <listType typeId="ae8369cd-b649-4d76-9e04-420b2ec829c6" valueTypeId="d6a308fc-3363-4f5e-8125-f195df43b6b5"/>
+    <managerType typeId="e7ce4e4f-2e40-4b23-a8f3-ffd641bc960a" valueTypeId="924f49c0-3dc8-4c9f-a593-658b194033e7"/>
+    <recordSetType typeId="be5d66d9-3cbd-4f86-be0c-a2f200ddd85e" valueTypeId="03ecffa9-277c-47fa-8cd6-aee68b0c5dc9"/>
+    <recordKeyType typeId="6f6735a2-1837-403e-9f55-fd68042378ae" valueTypeId="689810dd-9a7c-4cf6-aa4d-fc22798ec6d7"/>
+    <recordType typeId="12e38f1a-0199-44a8-abe8-af5daa67f276" valueTypeId="3ee0c943-d09c-43a8-b555-f948960beb84"/>
+    <recordManagerType typeId="896a194e-334c-41f6-a7af-5305eb708655" valueTypeId="72f9f3ab-cdcf-460a-804f-d52977d8e409"/>
+  </producedTypes>
+  <name>рарусДанныеВиджетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Данные виджетов</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="c840fc35-0a35-4827-8b60-e99355250dcd">
+    <name>ДанныеВиджета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные виджета</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="97bb2169-9044-4334-8e68-772e0f0a882d">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="922b8d0b-d111-4444-b65a-bb231349ca69">
+    <name>Виджет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Виджет</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.рарусВиджеты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="22af5a88-c83b-414a-b50b-de45202493b5">
+    <name>ИдентификаторФоновогоЗадания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор фонового задания</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+</mdclass:InformationRegister>

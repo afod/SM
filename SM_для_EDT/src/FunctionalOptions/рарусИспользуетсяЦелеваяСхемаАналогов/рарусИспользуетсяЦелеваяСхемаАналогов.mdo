@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aed1cd30-7d9a-4088-bf96-27ac04984cb9">
+  <name>рарусИспользуетсяЦелеваяСхемаАналогов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Используется целевая схема аналогов</value>
+  </synonym>
+  <comment>ФТ.АН.01.32</comment>
+  <location>Constant.рарусИспользуетсяЦелеваяСхемаАналогов</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

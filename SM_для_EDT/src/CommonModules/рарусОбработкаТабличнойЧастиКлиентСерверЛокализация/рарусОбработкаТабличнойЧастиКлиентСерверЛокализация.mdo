@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d34906ae-7c97-45fa-a483-86e1cebf879e">
+  <name>рарусОбработкаТабличнойЧастиКлиентСерверЛокализация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработка табличной части (Локализация, клиент, сервер)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Tabular section processing (Localization, client, server)</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

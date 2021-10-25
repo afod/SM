@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fa9a9293-4b79-498f-b15c-900e3d7d8e07">
+  <producedTypes>
+    <selectionType typeId="345389c2-91cf-40e7-b162-3c7d3383c5d8" valueTypeId="ca539e55-9649-482a-b9d5-f641ba7e6c75"/>
+    <listType typeId="ddc5ca52-187a-4708-9a47-87e3e1dd5c53" valueTypeId="ea4419cb-8877-49c0-99f5-c978d5c932d1"/>
+    <managerType typeId="2ecdd676-3bc4-4e00-9480-3a778ec7d8a4" valueTypeId="4443086d-c97d-4745-a5f9-a097c54e631c"/>
+    <recordSetType typeId="f339f257-55be-415b-b6ec-54ac2db436f9" valueTypeId="26652329-4037-4f10-a7ab-5ef65661e03c"/>
+    <recordKeyType typeId="573063a1-9975-42f6-8665-cbebf728082f" valueTypeId="4fc162a0-1735-4803-a5b8-7b1403067b61"/>
+    <recordType typeId="2e6dbcf2-06bd-4876-8d7e-77e0a149cb57" valueTypeId="2edd4762-9723-48e2-ad4a-223078812853"/>
+    <recordManagerType typeId="d25cbaae-ce83-4323-8fc5-6f4a4f3e5abd" valueTypeId="1c59ca90-7946-46e3-b8f2-ef04a426674c"/>
+  </producedTypes>
+  <name>рарусОчередьЗаявокНаСнабжениеКОбновлениюСостояния</name>
+  <synonym>
+    <key>ru</key>
+    <value>Очередь для обновления состояний заявок на снабжение (Рарус)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>States of internal orders</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.рарусОчередьЗаявокНаСнабжениеКОбновлениюСостояния.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="008e6fee-bfb0-4f51-82df-9c1b1df74754">
+    <name>Заказ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Order</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.впЗаказПоставщику</types>
+      <types>DocumentRef.впПеремещениеТоваров</types>
+      <types>DocumentRef.впЗаявкаНаСнабжение</types>
+      <types>DocumentRef.впПриходТМЦ</types>
+      <types>DocumentRef.рарусАктВыполненныхРаботОказанныхУслуг</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Документ, инициирующий изменения состояния заказа на внутреннее потребление</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="f63b7094-d1c0-4a5f-add5-8e27236cca75">
+    <name>Идентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Identifier</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="8eb7990e-da4d-4c63-9f31-209cd185e394">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

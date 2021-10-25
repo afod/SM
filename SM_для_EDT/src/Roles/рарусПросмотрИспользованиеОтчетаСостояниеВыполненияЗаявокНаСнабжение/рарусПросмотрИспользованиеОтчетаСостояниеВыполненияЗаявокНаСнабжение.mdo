@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a963593f-eb55-485d-9607-95f31a86aad9">
+  <name>рарусПросмотрИспользованиеОтчетаСостояниеВыполненияЗаявокНаСнабжение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Просмотр и использование отчета Cостояние выполнения заявок на снабжение</value>
+  </synonym>
+  <comment>makole РАIT-0023341</comment>
+</mdclass:Role>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3fd383d5-8081-4b65-bb04-544b045d38c5">
+  <producedTypes>
+    <objectType typeId="11a4e438-241c-405d-9b89-e0bfe9003719" valueTypeId="44927764-f2f5-4639-97ee-f0658f3ed639"/>
+    <managerType typeId="143d787c-1aee-480a-943b-c36d1460c08e" valueTypeId="4eab308b-b956-46e7-903b-2ce4c2bf8ef8"/>
+  </producedTypes>
+  <name>рарусРейсыСправкаБезлоцманскойПроводки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справка безлоцманской проводки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.рарусРейсыСправкаБезлоцманскойПроводки.Form.ФормаОтчета</defaultForm>
+  <attributes uuid="58145e6c-2f5f-40ed-9380-4a94abb5504e">
+    <name>НачДата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нач. дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ebfaf76b-abb4-42a5-b889-7ba2453ae17a">
+    <name>КонДата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кон. дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="a37fbce9-bb4c-495c-9d80-f09872833ae7">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="1a44b0ad-ac4d-4f7e-b1b7-3201e5fb8041">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

@@ -1,0 +1,3590 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document xmlns="http://v8.1c.ru/8.2/data/spreadsheet" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<languageSettings>
+		<currentLanguage>ru</currentLanguage>
+		<defaultLanguage>ru</defaultLanguage>
+		<languageInfo>
+			<id>ru</id>
+			<code>Русский</code>
+			<description>Русский</description>
+		</languageInfo>
+	</languageSettings>
+	<columns>
+		<size>23</size>
+		<columnsItem>
+			<index>0</index>
+			<column>
+				<formatIndex>1</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>1</index>
+			<column>
+				<formatIndex>2</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>2</index>
+			<column>
+				<formatIndex>3</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>3</index>
+			<column>
+				<formatIndex>4</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>4</index>
+			<column>
+				<formatIndex>5</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>5</index>
+			<column>
+				<formatIndex>6</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>6</index>
+			<column>
+				<formatIndex>7</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>7</index>
+			<column>
+				<formatIndex>8</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>8</index>
+			<column>
+				<formatIndex>9</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>9</index>
+			<column>
+				<formatIndex>10</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>10</index>
+			<column>
+				<formatIndex>10</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>11</index>
+			<column>
+				<formatIndex>2</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>12</index>
+			<column>
+				<formatIndex>2</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>13</index>
+			<column>
+				<formatIndex>11</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>14</index>
+			<column>
+				<formatIndex>11</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>15</index>
+			<column>
+				<formatIndex>12</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>16</index>
+			<column>
+				<formatIndex>13</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>17</index>
+			<column>
+				<formatIndex>4</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>18</index>
+			<column>
+				<formatIndex>12</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>19</index>
+			<column>
+				<formatIndex>14</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>20</index>
+			<column>
+				<formatIndex>15</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>21</index>
+			<column>
+				<formatIndex>16</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>22</index>
+			<column>
+				<formatIndex>17</formatIndex>
+			</column>
+		</columnsItem>
+	</columns>
+	<rowsItem>
+		<index>0</index>
+		<row>
+			<formatIndex>18</formatIndex>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>20</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>20</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Приложение 2 лист 1 к приказу №651  от 24.10.2013</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">Приложение 2 лист 1 к приказу №651  от 24.10.2013</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>1</index>
+		<row>
+			<formatIndex>21</formatIndex>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>22</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<i>4</i>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>23</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<i>17</i>
+				<c>
+					<f>24</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>23</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<i>22</i>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>2</index>
+		<row>
+			<formatIndex>18</formatIndex>
+			<c>
+				<c>
+					<f>22</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>25</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>25</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>25</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>26</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ПУТЕВОЙ ЖУРНАЛ</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">ПУТЕВОЙ ЖУРНАЛ</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>27</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>27</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>28</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>29</f>
+					<parameter>Судно</parameter>
+					<d xsi:type="xs:string">=Data!C3</d>
+				</c>
+			</c>
+			<c>
+				<i>13</i>
+				<c>
+					<f>30</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>30</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>31</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>за круговой рейс [НомерРейса]</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">=CONCATENATE("за круговой рейс № ",Data!C6,)</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>32</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>32</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>32</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>3</index>
+		<row>
+			<formatIndex>21</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>25</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>25</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>25</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>33</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>33</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>33</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>33</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>34</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>34</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>34</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>33</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>33</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>33</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>33</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>33</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>4</index>
+		<row>
+			<formatIndex>18</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>25</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>25</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>25</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>35</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>[ПереходЗаголовок] рейс</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">1. Порожний рейс</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>36</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>33</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>33</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>37</f>
+					<parameter>Порты</parameter>
+					<d xsi:type="xs:string">Дамиетта</d>
+				</c>
+			</c>
+			<c>
+				<i>13</i>
+				<c>
+					<f>38</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<i>16</i>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>5</index>
+		<row>
+			<formatIndex>39</formatIndex>
+			<c>
+				<c>
+					<f>40</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>40</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>40</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>40</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>40</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>40</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>40</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>40</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>41</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>41</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>41</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>41</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>40</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>40</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>40</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>40</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>40</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>40</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>40</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>40</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>40</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>40</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>6</index>
+		<row>
+			<formatIndex>42</formatIndex>
+			<c>
+				<c>
+					<f>43</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Пункты погрузки, выгрузки, остановки в пути, лоцманских станций и контрольных точек</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">Пункты погрузки, выгрузки, остановки в пути, лоцманских станций и контрольных точек</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>44</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Пройденное расстояние, км</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">Пройденное расстояние, км</d>
+				</c>
+			</c>
+			<c>
+				<i>3</i>
+				<c>
+					<f>43</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Нормативное значение ходового времени, ч</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">Нормативное значение ходового времени, ч</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>44</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Приход</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">Приход</d>
+				</c>
+			</c>
+			<c>
+				<i>6</i>
+				<c>
+					<f>45</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отход</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">Отход</d>
+				</c>
+			</c>
+			<c>
+				<i>8</i>
+				<c>
+					<f>43</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Фактическое ходовое время, час:мин</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">Фактическое ходовое время, час:мин</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>44</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Обработка в порту погрузки / выгрузки</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">Обработка в порту погрузки / выгрузки</d>
+				</c>
+			</c>
+			<c>
+				<i>11</i>
+				<c>
+					<f>44</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Путевые стоянки,  час:мин</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">Путевые стоянки,  час:мин</d>
+				</c>
+			</c>
+			<c>
+				<i>19</i>
+				<c>
+					<f>43</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Всего ходового  и стояночного  времени, час:мин</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">Всего ходового  и стояночного  времени, час:мин</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>43</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отклонение норматива ходового времени (отставание (+) / опережение (-))</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">Отклонение норматива ходового времени (отставание (+) / опережение (-))</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>43</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Примечания    (режим работы ГД, погодные условия и т.д.)</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">Примечания    (режим работы ГД, погодные условия и т.д.)</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>46</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>7</index>
+		<row>
+			<formatIndex>18</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>47</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Норма</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">Норма</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>48</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Факт</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">Факт</d>
+				</c>
+			</c>
+			<c>
+				<i>4</i>
+				<c>
+					<f>47</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дата</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">Дата</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>48</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Время, час:мин</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">Время, час:мин</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>47</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дата</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">Дата</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>48</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Время, час:мин</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">Время, час:мин</d>
+				</c>
+			</c>
+			<c>
+				<i>9</i>
+				<c>
+					<f>48</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Маневровый режим, рейдовые и внутрипортовые переходы</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">Маневровый режим, рейдовые и внутрипортовые переходы</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>48</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Общее время нахождения в порту (за исключением рейдовых и внутрипортовых переходов)</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">Общее время нахождения в порту (за исключением рейдовых и внутрипортовых переходов)</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>48</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content> Ожидание шлюзования</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string"> Ожидание шлюзования</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>48</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Шлюзование, в т.ч. маневры по заходу/выходу в/из шлюза</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">Шлюзование, в т.ч. маневры по заходу/выходу в/из шлюза</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>48</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>КОФ</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">КОФ</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>49</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>прочие путевые стоянки</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">прочие путевые стоянки</d>
+				</c>
+			</c>
+			<c>
+				<i>22</i>
+				<c>
+					<f>46</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>8</index>
+		<row>
+			<formatIndex>50</formatIndex>
+			<c>
+				<i>14</i>
+				<c>
+					<f>48</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Метеорологические причины</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">Метеорологические причины</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>48</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ремонтные работы (в т.ч.РМРС, тех.снабжение)</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">Ремонтные работы (в т.ч.РМРС, тех.снабжение)</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>48</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ожидание разводки мостов, лоцманов (также посадка/высадка), открытия проливов, светлого времени суток</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">Ожидание разводки мостов, лоцманов (также посадка/высадка), открытия проливов, светлого времени суток</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>48</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ожидание и работа комиссии      КПП при транзите</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">Ожидание и работа комиссии      КПП при транзите</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>48</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Прочие причины (с рашифровкой)</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">Прочие причины (с рашифровкой)</d>
+				</c>
+			</c>
+			<c>
+				<i>22</i>
+				<c>
+					<f>46</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>9</index>
+		<row>
+			<formatIndex>51</formatIndex>
+			<c>
+				<i>22</i>
+				<c>
+					<f>46</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>10</index>
+		<row>
+			<formatIndex>52</formatIndex>
+			<c>
+				<c>
+					<f>53</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>1</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">1</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>53</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>2</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">2</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>53</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>3</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">3</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>53</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>4</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">4</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>53</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>5</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">5</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>53</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>6</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">6</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>53</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>7</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">7</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>53</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>8</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">8</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>54</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>9</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">9</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>55</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>10</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">10</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>54</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>11</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">11</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>55</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>12</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">12</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>53</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>13</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">13</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>53</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>14</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">14</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>53</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>15</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">15</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>53</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>16</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">16</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>53</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>17</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">17</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>53</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>18</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">18</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>53</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>19</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">19</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>53</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>20</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">20</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>53</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>21</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">21</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>53</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>22</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">22</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>46</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>11</index>
+		<row>
+			<formatIndex>56</formatIndex>
+			<c>
+				<c>
+					<f>57</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>[Пункт]
+[Координаты]</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">п.Дамиетта</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>58</f>
+					<parameter>ПройденноеРасстояниеНорма</parameter>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>59</f>
+					<parameter>ПройденноеРасстояниеФакт</parameter>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>60</f>
+					<parameter>ХодовоеВремяНормаВывод</parameter>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>61</f>
+					<parameter>Начало</parameter>
+					<d xsi:type="xs:string">41726</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>62</f>
+					<parameter>Начало</parameter>
+					<d xsi:type="xs:string">0.361111111111111</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>61</f>
+					<parameter>Окончание</parameter>
+					<d xsi:type="xs:string">41726</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>62</f>
+					<parameter>Окончание</parameter>
+					<d xsi:type="xs:string">0.361111111111111</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>63</f>
+					<parameter>ХодовоеВремяФактВывод</parameter>
+					<d xsi:type="xs:string">0</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>64</f>
+					<parameter>МаневрированиеВывод</parameter>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>63</f>
+					<parameter>НахождениеВПортуВывод</parameter>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>65</f>
+					<parameter>ОжиданиеШлюзованияВывод</parameter>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>66</f>
+					<parameter>ШлюзованиеВывод</parameter>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>66</f>
+					<parameter>КОФВывод</parameter>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>66</f>
+					<parameter>МетеорологическиеПричиныВывод</parameter>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>66</f>
+					<parameter>РемонтныеРаботыВывод</parameter>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>66</f>
+					<parameter>ОжиданиеРазводкиМостовВывод</parameter>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>66</f>
+					<parameter>РаботаКомиссииКППВывод</parameter>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>67</f>
+					<parameter>ПрочиеВывод</parameter>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>68</f>
+					<parameter>ВсегоВремя</parameter>
+					<d xsi:type="xs:string">=SUM(I12:S12)</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>68</f>
+					<parameter>ОтклонениеВывод</parameter>
+					<d xsi:type="xs:string">=IF(I12&gt;D12,ABS(ROUNDDOWN(((I12-D12)*24),0))&amp;" ч "&amp;ABS(ROUND((((I12-D12)*24)-ROUNDDOWN(((I12-D12)*24),0))/100*60*100,2))&amp;" мин","- "&amp;ABS(ROUNDDOWN(((I12-D12)*24),0))&amp;" ч "&amp;ABS(ROUND((((I12-D12)*24)-ROUNDDOWN(((I12-D12)*24),0))/100*60*100,2))&amp;" мин")</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>69</f>
+					<parameter>Примечание</parameter>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>70</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>12</index>
+		<row>
+			<formatIndex>71</formatIndex>
+			<c>
+				<c>
+					<f>72</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Итого за [переход] рейс:</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">Итого за порожний рейс:</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>73</f>
+					<parameter>ИтогоПройденноеРасстояниеНорма</parameter>
+					<d xsi:type="xs:string">=SUM(B12:B35)</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>73</f>
+					<parameter>ИтогоПройденноеРасстояниеФакт</parameter>
+					<d xsi:type="xs:string">=SUM(C12:C35)</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>73</f>
+					<parameter>ИтогоХодовоеВремяНорма</parameter>
+					<d xsi:type="xs:string">=SUM(D12:D35)</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>73</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>73</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>73</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>73</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>73</f>
+					<parameter>ИтогоХодовоеВремяФакт</parameter>
+					<d xsi:type="xs:string">=SUM(I12:I35)</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>73</f>
+					<parameter>ИтогоМаневрирование</parameter>
+					<d xsi:type="xs:string">=SUM(J12:J35)</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>73</f>
+					<parameter>ИтогоВПорту</parameter>
+					<d xsi:type="xs:string">=SUM(K12:K35)</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>73</f>
+					<parameter>ИтогоОжиданиеШлюзования</parameter>
+					<d xsi:type="xs:string">=SUM(L12:L35)</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>73</f>
+					<parameter>ИтогоШлюзование</parameter>
+					<d xsi:type="xs:string">=SUM(M12:M35)</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>73</f>
+					<parameter>ИтогоКОФ</parameter>
+					<d xsi:type="xs:string">=SUM(N12:N35)</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>73</f>
+					<parameter>ИтогоМетеорологическиеПричины</parameter>
+					<d xsi:type="xs:string">=SUM(O12:O35)</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>73</f>
+					<parameter>ИтогоРемонтныеРаботы</parameter>
+					<d xsi:type="xs:string">=SUM(P12:P35)</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>73</f>
+					<parameter>ИтогоОжиданиеРазводкиМостов</parameter>
+					<d xsi:type="xs:string">=SUM(Q12:Q35)</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>73</f>
+					<parameter>ИтогоРаботаКомиссииКПП</parameter>
+					<d xsi:type="xs:string">=SUM(R12:R35)</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>73</f>
+					<parameter>ИтогоПрочие</parameter>
+					<d xsi:type="xs:string">=SUM(S12:S35)</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>73</f>
+					<parameter>ИтогоВсегоВремя</parameter>
+					<d xsi:type="xs:string">=SUM(T12:T35)</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>73</f>
+					<parameter>ИтогоОтклонение</parameter>
+					<d xsi:type="xs:string">=IF(I36&gt;D36,ABS(ROUNDDOWN(((I36-D36)*24),0))&amp;" ч "&amp;ABS(ROUND((((I36-D36)*24)-ROUNDDOWN(((I36-D36)*24),0))/100*60*100,2))&amp;" мин","- "&amp;ABS(ROUNDDOWN(((I36-D36)*24),0))&amp;" ч "&amp;ABS(ROUND((((I36-D36)*24)-ROUNDDOWN(((I36-D36)*24),0))/100*60*100,2))&amp;" мин")</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>74</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>70</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>13</index>
+		<row>
+			<formatIndex>39</formatIndex>
+			<c>
+				<c>
+					<f>75</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Пояснение:</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">Пояснение:</d>
+				</c>
+			</c>
+			<c>
+				<i>17</i>
+				<c>
+					<f>76</f>
+					<tl/>
+					<d xsi:type="xs:string">Проверка:</d>
+				</c>
+			</c>
+			<c>
+				<i>19</i>
+				<c>
+					<f>77</f>
+					<tl/>
+					<d xsi:type="xs:string">=SUM(I36:S36)</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>78</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>78</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>14</index>
+		<row>
+			<formatIndex>79</formatIndex>
+			<c>
+				<c>
+					<f>80</f>
+					<parameter>ПояснениеСтрока</parameter>
+					<d xsi:type="xs:string">1)29.03.14 12:00 - 31.03.14  09:00 Движение в штормовых условиях (ветер NE 20-28 м\с ,волна 4-4,5 м)(45:00)</d>
+				</c>
+			</c>
+			<c>
+				<i>22</i>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>15</index>
+		<row>
+			<formatIndex>79</formatIndex>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>25</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>16</index>
+		<row>
+			<formatIndex>79</formatIndex>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>25</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>17</index>
+		<row>
+			<formatIndex>79</formatIndex>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>25</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>18</index>
+		<row>
+			<formatIndex>79</formatIndex>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>25</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>19</index>
+		<row>
+			<formatIndex>79</formatIndex>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>81</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<templateMode>true</templateMode>
+	<defaultFormatIndex>17</defaultFormatIndex>
+	<height>20</height>
+	<vgRows>20</vgRows>
+	<merge>
+		<r>1</r>
+		<c>2</c>
+		<w>1</w>
+	</merge>
+	<merge>
+		<r>1</r>
+		<c>15</c>
+		<w>1</w>
+	</merge>
+	<merge>
+		<r>1</r>
+		<c>18</c>
+		<w>3</w>
+	</merge>
+	<merge>
+		<r>2</r>
+		<c>0</c>
+		<h>2</h>
+	</merge>
+	<merge>
+		<r>2</r>
+		<c>8</c>
+		<w>4</w>
+	</merge>
+	<merge>
+		<r>4</r>
+		<c>8</c>
+		<w>4</w>
+	</merge>
+	<merge>
+		<r>4</r>
+		<c>13</c>
+		<w>2</w>
+	</merge>
+	<merge>
+		<r>6</r>
+		<c>0</c>
+		<h>3</h>
+	</merge>
+	<merge>
+		<r>6</r>
+		<c>1</c>
+		<w>1</w>
+	</merge>
+	<merge>
+		<r>6</r>
+		<c>3</c>
+		<h>3</h>
+	</merge>
+	<merge>
+		<r>6</r>
+		<c>4</c>
+		<w>1</w>
+	</merge>
+	<merge>
+		<r>6</r>
+		<c>6</c>
+		<w>1</w>
+	</merge>
+	<merge>
+		<r>6</r>
+		<c>8</c>
+		<h>3</h>
+	</merge>
+	<merge>
+		<r>6</r>
+		<c>9</c>
+		<w>1</w>
+	</merge>
+	<merge>
+		<r>6</r>
+		<c>11</c>
+		<w>7</w>
+	</merge>
+	<merge>
+		<r>6</r>
+		<c>19</c>
+		<h>3</h>
+	</merge>
+	<merge>
+		<r>6</r>
+		<c>20</c>
+		<h>3</h>
+	</merge>
+	<merge>
+		<r>6</r>
+		<c>21</c>
+		<h>3</h>
+	</merge>
+	<merge>
+		<r>7</r>
+		<c>1</c>
+		<h>2</h>
+	</merge>
+	<merge>
+		<r>7</r>
+		<c>2</c>
+		<h>2</h>
+	</merge>
+	<merge>
+		<r>7</r>
+		<c>4</c>
+		<h>2</h>
+	</merge>
+	<merge>
+		<r>7</r>
+		<c>5</c>
+		<h>2</h>
+	</merge>
+	<merge>
+		<r>7</r>
+		<c>6</c>
+		<h>2</h>
+	</merge>
+	<merge>
+		<r>7</r>
+		<c>7</c>
+		<h>2</h>
+	</merge>
+	<merge>
+		<r>7</r>
+		<c>9</c>
+		<h>2</h>
+	</merge>
+	<merge>
+		<r>7</r>
+		<c>10</c>
+		<h>2</h>
+	</merge>
+	<merge>
+		<r>7</r>
+		<c>11</c>
+		<h>2</h>
+	</merge>
+	<merge>
+		<r>7</r>
+		<c>12</c>
+		<h>2</h>
+	</merge>
+	<merge>
+		<r>7</r>
+		<c>13</c>
+		<h>2</h>
+	</merge>
+	<merge>
+		<r>7</r>
+		<c>14</c>
+		<w>4</w>
+	</merge>
+	<merge>
+		<r>8</r>
+		<c>14</c>
+		<h>1</h>
+	</merge>
+	<merge>
+		<r>8</r>
+		<c>15</c>
+		<h>1</h>
+	</merge>
+	<merge>
+		<r>8</r>
+		<c>16</c>
+		<h>1</h>
+	</merge>
+	<merge>
+		<r>8</r>
+		<c>17</c>
+		<h>1</h>
+	</merge>
+	<merge>
+		<r>8</r>
+		<c>18</c>
+		<h>1</h>
+	</merge>
+	<merge>
+		<r>13</r>
+		<c>0</c>
+		<w>16</w>
+	</merge>
+	<merge>
+		<r>13</r>
+		<c>17</c>
+		<w>1</w>
+	</merge>
+	<merge>
+		<r>14</r>
+		<c>0</c>
+		<w>21</w>
+	</merge>
+	<namedItem xsi:type="NamedItemCells">
+		<name>Заголовок</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>0</beginRow>
+			<endRow>10</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>Итого</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>12</beginRow>
+			<endRow>12</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>ПояснениеЗаголовок</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>13</beginRow>
+			<endRow>13</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>ПояснениеСтрока</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>14</beginRow>
+			<endRow>14</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>Строка</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>11</beginRow>
+			<endRow>11</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<line width="1" gap="false">
+		<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">None</v8ui:style>
+	</line>
+	<line width="1" gap="false">
+		<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">Solid</v8ui:style>
+	</line>
+	<line width="1" gap="false">
+		<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">Double</v8ui:style>
+	</line>
+	<line width="2" gap="false">
+		<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">Solid</v8ui:style>
+	</line>
+	<font faceName="Arial" height="10" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
+	<font faceName="Times New Roman" height="12" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
+	<font faceName="Arial" height="11" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
+	<font faceName="Arial" height="12" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
+	<font faceName="Arial" height="12" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
+	<font faceName="Times New Roman" height="9" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
+	<font faceName="Calibri" height="11" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
+	<font faceName="Arial" height="8" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
+	<font faceName="Arial" height="9" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
+	<font faceName="Arial" height="8" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
+	<font faceName="Arial" height="10" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
+	<format>
+		<width>173</width>
+	</format>
+	<format>
+		<width>60</width>
+	</format>
+	<format>
+		<width>73</width>
+	</format>
+	<format>
+		<width>61</width>
+	</format>
+	<format>
+		<width>58</width>
+	</format>
+	<format>
+		<width>49</width>
+	</format>
+	<format>
+		<width>59</width>
+	</format>
+	<format>
+		<width>43</width>
+	</format>
+	<format>
+		<width>88</width>
+	</format>
+	<format>
+		<width>81</width>
+	</format>
+	<format>
+		<width>48</width>
+	</format>
+	<format>
+		<width>54</width>
+	</format>
+	<format>
+		<width>65</width>
+	</format>
+	<format>
+		<width>66</width>
+	</format>
+	<format>
+		<width>99</width>
+	</format>
+	<format>
+		<width>108</width>
+	</format>
+	<format>
+		<width>72</width>
+	</format>
+	<format>
+		<height>63</height>
+	</format>
+	<format>
+		<font>0</font>
+		<border>0</border>
+		<horizontalAlignment>Left</horizontalAlignment>
+		<verticalAlignment>Bottom</verticalAlignment>
+		<textColor>#000000</textColor>
+		<backColor>#FFFFFF</backColor>
+		<textPlacement>Auto</textPlacement>
+	</format>
+	<format>
+		<font>1</font>
+		<border>0</border>
+		<horizontalAlignment>Left</horizontalAlignment>
+		<verticalAlignment>Bottom</verticalAlignment>
+		<textColor>#000000</textColor>
+		<backColor>#FFFFFF</backColor>
+		<textPlacement>Auto</textPlacement>
+	</format>
+	<format>
+		<height>60</height>
+	</format>
+	<format>
+		<font>0</font>
+		<leftBorder>0</leftBorder>
+		<topBorder>0</topBorder>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Bottom</verticalAlignment>
+		<textColor>#000000</textColor>
+		<backColor>#FFFFFF</backColor>
+		<textPlacement>Auto</textPlacement>
+	</format>
+	<format>
+		<font>2</font>
+		<leftBorder>0</leftBorder>
+		<topBorder>0</topBorder>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Bottom</verticalAlignment>
+		<textColor>#000000</textColor>
+		<backColor>#FFFFFF</backColor>
+		<textPlacement>Auto</textPlacement>
+	</format>
+	<format>
+		<font>2</font>
+		<border>0</border>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Bottom</verticalAlignment>
+		<textColor>#000000</textColor>
+		<backColor>#FFFFFF</backColor>
+		<textPlacement>Auto</textPlacement>
+	</format>
+	<format>
+		<font>0</font>
+		<border>0</border>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Bottom</verticalAlignment>
+		<textColor>#000000</textColor>
+		<backColor>#FFFFFF</backColor>
+		<textPlacement>Auto</textPlacement>
+	</format>
+	<format>
+		<font>3</font>
+		<leftBorder>0</leftBorder>
+		<topBorder>0</topBorder>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Bottom</verticalAlignment>
+		<textColor>#000000</textColor>
+		<backColor>#FFFFFF</backColor>
+		<textPlacement>Auto</textPlacement>
+	</format>
+	<format>
+		<font>3</font>
+		<topBorder>0</topBorder>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Bottom</verticalAlignment>
+		<textColor>#000000</textColor>
+		<backColor>#FFFFFF</backColor>
+		<textPlacement>Auto</textPlacement>
+	</format>
+	<format>
+		<font>4</font>
+		<border>0</border>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Bottom</verticalAlignment>
+		<textColor>#000000</textColor>
+		<backColor>#FFFFFF</backColor>
+		<textPlacement>Auto</textPlacement>
+	</format>
+	<format>
+		<font>2</font>
+		<leftBorder>0</leftBorder>
+		<topBorder>0</topBorder>
+		<bottomBorder>1</bottomBorder>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Bottom</verticalAlignment>
+		<textColor>#000000</textColor>
+		<backColor>#FFFFFF</backColor>
+		<textPlacement>Auto</textPlacement>
+		<fillType>Parameter</fillType>
+	</format>
+	<format>
+		<font>3</font>
+		<topBorder>0</topBorder>
+		<horizontalAlignment>Right</horizontalAlignment>
+		<verticalAlignment>Bottom</verticalAlignment>
+		<textColor>#000000</textColor>
+		<backColor>#FFFFFF</backColor>
+		<textPlacement>Auto</textPlacement>
+	</format>
+	<format>
+		<font>3</font>
+		<leftBorder>0</leftBorder>
+		<topBorder>0</topBorder>
+		<horizontalAlignment>Left</horizontalAlignment>
+		<verticalAlignment>Bottom</verticalAlignment>
+		<textColor>#000000</textColor>
+		<backColor>#FFFFFF</backColor>
+		<textPlacement>Auto</textPlacement>
+		<fillType>Template</fillType>
+	</format>
+	<format>
+		<font>3</font>
+		<topBorder>0</topBorder>
+		<horizontalAlignment>Left</horizontalAlignment>
+		<verticalAlignment>Bottom</verticalAlignment>
+		<textColor>#000000</textColor>
+		<backColor>#FFFFFF</backColor>
+		<textPlacement>Auto</textPlacement>
+		<fillType>Template</fillType>
+	</format>
+	<format>
+		<font>4</font>
+		<border>0</border>
+		<horizontalAlignment>Left</horizontalAlignment>
+		<verticalAlignment>Bottom</verticalAlignment>
+		<textColor>#000000</textColor>
+		<backColor>#FFFFFF</backColor>
+		<textPlacement>Auto</textPlacement>
+	</format>
+	<format>
+		<font>4</font>
+		<leftBorder>0</leftBorder>
+		<topBorder>1</topBorder>
+		<rightBorder>0</rightBorder>
+		<bottomBorder>0</bottomBorder>
+		<horizontalAlignment>Left</horizontalAlignment>
+		<verticalAlignment>Bottom</verticalAlignment>
+		<textColor>#000000</textColor>
+		<backColor>#FFFFFF</backColor>
+		<textPlacement>Auto</textPlacement>
+	</format>
+	<format>
+		<font>3</font>
+		<border>0</border>
+		<horizontalAlignment>Left</horizontalAlignment>
+		<verticalAlignment>Bottom</verticalAlignment>
+		<textColor>#000000</textColor>
+		<backColor>#FFFFFF</backColor>
+		<textPlacement>Auto</textPlacement>
+		<fillType>Template</fillType>
+	</format>
+	<format>
+		<font>3</font>
+		<border>0</border>
+		<horizontalAlignment>Left</horizontalAlignment>
+		<verticalAlignment>Bottom</verticalAlignment>
+		<textColor>#000000</textColor>
+		<backColor>#FFFFFF</backColor>
+		<textPlacement>Auto</textPlacement>
+	</format>
+	<format>
+		<font>3</font>
+		<leftBorder>0</leftBorder>
+		<topBorder>0</topBorder>
+		<rightBorder>0</rightBorder>
+		<bottomBorder>1</bottomBorder>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Bottom</verticalAlignment>
+		<textColor>#000000</textColor>
+		<backColor>#FFFFFF</backColor>
+		<textPlacement>Auto</textPlacement>
+		<fillType>Parameter</fillType>
+	</format>
+	<format>
+		<font>4</font>
+		<leftBorder>0</leftBorder>
+		<topBorder>0</topBorder>
+		<horizontalAlignment>Left</horizontalAlignment>
+		<verticalAlignment>Bottom</verticalAlignment>
+		<textColor>#000000</textColor>
+		<backColor>#FFFFFF</backColor>
+		<textPlacement>Auto</textPlacement>
+	</format>
+	<format>
+		<height>54</height>
+	</format>
+	<format>
+		<font>0</font>
+		<leftBorder>0</leftBorder>
+		<topBorder>0</topBorder>
+		<rightBorder>0</rightBorder>
+		<bottomBorder>2</bottomBorder>
+		<horizontalAlignment>Left</horizontalAlignment>
+		<verticalAlignment>Bottom</verticalAlignment>
+		<textColor>#000000</textColor>
+		<backColor>#FFFFFF</backColor>
+		<textPlacement>Auto</textPlacement>
+	</format>
+	<format>
+		<font>0</font>
+		<leftBorder>0</leftBorder>
+		<topBorder>1</topBorder>
+		<rightBorder>0</rightBorder>
+		<bottomBorder>2</bottomBorder>
+		<horizontalAlignment>Left</horizontalAlignment>
+		<verticalAlignment>Bottom</verticalAlignment>
+		<textColor>#000000</textColor>
+		<backColor>#FFFFFF</backColor>
+		<textPlacement>Auto</textPlacement>
+	</format>
+	<format>
+		<height>117</height>
+	</format>
+	<format>
+		<font>5</font>
+		<leftBorder>2</leftBorder>
+		<topBorder>2</topBorder>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<textColor>#000000</textColor>
+		<backColor>#FFFFFF</backColor>
+		<textPlacement>Wrap</textPlacement>
+		<textOrientation>900</textOrientation>
+	</format>
+	<format>
+		<font>5</font>
+		<leftBorder>2</leftBorder>
+		<topBorder>2</topBorder>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<textColor>#000000</textColor>
+		<backColor>#FFFFFF</backColor>
+		<textPlacement>Wrap</textPlacement>
+	</format>
+	<format>
+		<font>5</font>
+		<leftBorder>3</leftBorder>
+		<topBorder>2</topBorder>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<textColor>#000000</textColor>
+		<backColor>#FFFFFF</backColor>
+		<textPlacement>Wrap</textPlacement>
+	</format>
+	<format>
+		<font>6</font>
+		<leftBorder>2</leftBorder>
+		<topBorder>0</topBorder>
+		<rightBorder>0</rightBorder>
+		<bottomBorder>0</bottomBorder>
+		<horizontalAlignment>Left</horizontalAlignment>
+		<verticalAlignment>Bottom</verticalAlignment>
+		<textColor>#000000</textColor>
+		<backColor>#FFFFFF</backColor>
+		<textPlacement>Auto</textPlacement>
+	</format>
+	<format>
+		<font>5</font>
+		<leftBorder>2</leftBorder>
+		<topBorder>3</topBorder>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<textColor>#000000</textColor>
+		<backColor>#FFFFFF</backColor>
+		<textPlacement>Wrap</textPlacement>
+		<textOrientation>900</textOrientation>
+	</format>
+	<format>
+		<font>5</font>
+		<leftBorder>3</leftBorder>
+		<topBorder>3</topBorder>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<textColor>#000000</textColor>
+		<backColor>#FFFFFF</backColor>
+		<textPlacement>Wrap</textPlacement>
+		<textOrientation>900</textOrientation>
+	</format>
+	<format>
+		<font>5</font>
+		<leftBorder>3</leftBorder>
+		<topBorder>3</topBorder>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<textColor>#000000</textColor>
+		<backColor>#FFFFFF</backColor>
+		<textPlacement>Wrap</textPlacement>
+	</format>
+	<format>
+		<height>345</height>
+	</format>
+	<format>
+		<height>270</height>
+	</format>
+	<format>
+		<height>66</height>
+	</format>
+	<format>
+		<font>7</font>
+		<border>2</border>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Bottom</verticalAlignment>
+		<textColor>#000000</textColor>
+		<backColor>#FFFFFF</backColor>
+		<textPlacement>Auto</textPlacement>
+	</format>
+	<format>
+		<font>7</font>
+		<leftBorder>2</leftBorder>
+		<topBorder>2</topBorder>
+		<rightBorder>3</rightBorder>
+		<bottomBorder>2</bottomBorder>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Bottom</verticalAlignment>
+		<textColor>#000000</textColor>
+		<backColor>#FFFFFF</backColor>
+		<textPlacement>Auto</textPlacement>
+	</format>
+	<format>
+		<font>7</font>
+		<leftBorder>3</leftBorder>
+		<topBorder>2</topBorder>
+		<rightBorder>2</rightBorder>
+		<bottomBorder>2</bottomBorder>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Bottom</verticalAlignment>
+		<textColor>#000000</textColor>
+		<backColor>#FFFFFF</backColor>
+		<textPlacement>Auto</textPlacement>
+	</format>
+	<format>
+		<height>0</height>
+	</format>
+	<format>
+		<font>0</font>
+		<leftBorder>2</leftBorder>
+		<topBorder>2</topBorder>
+		<rightBorder>2</rightBorder>
+		<bottomBorder>1</bottomBorder>
+		<horizontalAlignment>Left</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<textColor>#000000</textColor>
+		<backColor>#FFFFFF</backColor>
+		<textPlacement>Wrap</textPlacement>
+		<fillType>Template</fillType>
+	</format>
+	<format>
+		<font>0</font>
+		<leftBorder>2</leftBorder>
+		<topBorder>2</topBorder>
+		<rightBorder>1</rightBorder>
+		<bottomBorder>1</bottomBorder>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<textColor>#000000</textColor>
+		<backColor>#D9D9D9</backColor>
+		<textPlacement>Wrap</textPlacement>
+		<fillType>Parameter</fillType>
+	</format>
+	<format>
+		<font>0</font>
+		<leftBorder>1</leftBorder>
+		<topBorder>2</topBorder>
+		<rightBorder>2</rightBorder>
+		<bottomBorder>1</bottomBorder>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<textColor>#000000</textColor>
+		<backColor>#FFFFFF</backColor>
+		<textPlacement>Wrap</textPlacement>
+		<fillType>Parameter</fillType>
+	</format>
+	<format>
+		<font>0</font>
+		<leftBorder>2</leftBorder>
+		<topBorder>2</topBorder>
+		<rightBorder>2</rightBorder>
+		<bottomBorder>1</bottomBorder>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<textColor>#000000</textColor>
+		<backColor>#D9D9D9</backColor>
+		<textPlacement>Auto</textPlacement>
+		<fillType>Parameter</fillType>
+	</format>
+	<format>
+		<font>8</font>
+		<leftBorder>2</leftBorder>
+		<topBorder>2</topBorder>
+		<rightBorder>1</rightBorder>
+		<bottomBorder>1</bottomBorder>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<textColor>#000000</textColor>
+		<backColor>#FFFFFF</backColor>
+		<textPlacement>Auto</textPlacement>
+		<fillType>Parameter</fillType>
+		<format>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>ДФ=dd.MM.yy</v8:content>
+			</v8:item>
+		</format>
+	</format>
+	<format>
+		<font>8</font>
+		<leftBorder>1</leftBorder>
+		<topBorder>2</topBorder>
+		<rightBorder>2</rightBorder>
+		<bottomBorder>1</bottomBorder>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<textColor>#000000</textColor>
+		<backColor>#FFFFFF</backColor>
+		<textPlacement>Auto</textPlacement>
+		<fillType>Parameter</fillType>
+		<format>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>ДФ=ЧЧ:мм</v8:content>
+			</v8:item>
+		</format>
+		<editFormat>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>ДФ=ЧЧ:мм</v8:content>
+			</v8:item>
+		</editFormat>
+	</format>
+	<format>
+		<font>0</font>
+		<leftBorder>2</leftBorder>
+		<topBorder>2</topBorder>
+		<rightBorder>3</rightBorder>
+		<bottomBorder>1</bottomBorder>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<textColor>#000000</textColor>
+		<backColor>#FFFFFF</backColor>
+		<textPlacement>Auto</textPlacement>
+		<fillType>Parameter</fillType>
+	</format>
+	<format>
+		<font>0</font>
+		<leftBorder>3</leftBorder>
+		<topBorder>2</topBorder>
+		<rightBorder>2</rightBorder>
+		<bottomBorder>1</bottomBorder>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<textColor>#000000</textColor>
+		<backColor>#FFFFFF</backColor>
+		<textPlacement>Auto</textPlacement>
+		<fillType>Parameter</fillType>
+		<format>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>ДФ=ЧЧ:мм</v8:content>
+			</v8:item>
+		</format>
+	</format>
+	<format>
+		<font>0</font>
+		<leftBorder>3</leftBorder>
+		<topBorder>2</topBorder>
+		<rightBorder>1</rightBorder>
+		<bottomBorder>1</bottomBorder>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<textColor>#000000</textColor>
+		<backColor>#FFFFFF</backColor>
+		<textPlacement>Auto</textPlacement>
+		<fillType>Parameter</fillType>
+	</format>
+	<format>
+		<font>0</font>
+		<leftBorder>1</leftBorder>
+		<topBorder>2</topBorder>
+		<rightBorder>1</rightBorder>
+		<bottomBorder>1</bottomBorder>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<textColor>#000000</textColor>
+		<backColor>#FFFFFF</backColor>
+		<textPlacement>Auto</textPlacement>
+		<fillType>Parameter</fillType>
+	</format>
+	<format>
+		<font>0</font>
+		<leftBorder>1</leftBorder>
+		<topBorder>2</topBorder>
+		<rightBorder>2</rightBorder>
+		<bottomBorder>1</bottomBorder>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<textColor>#000000</textColor>
+		<backColor>#FFFFFF</backColor>
+		<textPlacement>Auto</textPlacement>
+		<fillType>Parameter</fillType>
+	</format>
+	<format>
+		<font>0</font>
+		<leftBorder>2</leftBorder>
+		<topBorder>2</topBorder>
+		<rightBorder>2</rightBorder>
+		<bottomBorder>1</bottomBorder>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<textColor>#000000</textColor>
+		<backColor>#FFFFFF</backColor>
+		<textPlacement>Auto</textPlacement>
+		<fillType>Parameter</fillType>
+	</format>
+	<format>
+		<font>9</font>
+		<leftBorder>2</leftBorder>
+		<topBorder>2</topBorder>
+		<rightBorder>2</rightBorder>
+		<bottomBorder>1</bottomBorder>
+		<horizontalAlignment>Left</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<textColor>#000000</textColor>
+		<backColor>#FFFFFF</backColor>
+		<textPlacement>Auto</textPlacement>
+		<fillType>Parameter</fillType>
+	</format>
+	<format>
+		<font>0</font>
+		<leftBorder>2</leftBorder>
+		<topBorder>0</topBorder>
+		<rightBorder>0</rightBorder>
+		<bottomBorder>0</bottomBorder>
+		<horizontalAlignment>Left</horizontalAlignment>
+		<verticalAlignment>Bottom</verticalAlignment>
+		<textColor>#000000</textColor>
+		<backColor>#FFFFFF</backColor>
+		<textPlacement>Auto</textPlacement>
+	</format>
+	<format>
+		<height>108</height>
+	</format>
+	<format>
+		<font>10</font>
+		<border>2</border>
+		<horizontalAlignment>Left</horizontalAlignment>
+		<verticalAlignment>Bottom</verticalAlignment>
+		<textColor>#000000</textColor>
+		<backColor>#FFFFFF</backColor>
+		<textPlacement>Wrap</textPlacement>
+		<fillType>Template</fillType>
+	</format>
+	<format>
+		<font>10</font>
+		<border>2</border>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<textColor>#000000</textColor>
+		<backColor>#FFFFFF</backColor>
+		<textPlacement>Auto</textPlacement>
+		<fillType>Parameter</fillType>
+	</format>
+	<format>
+		<font>10</font>
+		<border>2</border>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<textColor>#000000</textColor>
+		<backColor>#FFFFFF</backColor>
+		<textPlacement>Auto</textPlacement>
+	</format>
+	<format>
+		<font>0</font>
+		<leftBorder>0</leftBorder>
+		<topBorder>2</topBorder>
+		<horizontalAlignment>Left</horizontalAlignment>
+		<verticalAlignment>Bottom</verticalAlignment>
+		<textColor>#000000</textColor>
+		<backColor>#FFFFFF</backColor>
+		<textPlacement>Auto</textPlacement>
+	</format>
+	<format>
+		<font>10</font>
+		<leftBorder>0</leftBorder>
+		<topBorder>2</topBorder>
+		<horizontalAlignment>Right</horizontalAlignment>
+		<verticalAlignment>Bottom</verticalAlignment>
+		<textColor>#000000</textColor>
+		<backColor>#FFFFFF</backColor>
+		<textPlacement>Auto</textPlacement>
+	</format>
+	<format>
+		<font>10</font>
+		<leftBorder>0</leftBorder>
+		<topBorder>2</topBorder>
+		<rightBorder>0</rightBorder>
+		<bottomBorder>0</bottomBorder>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Bottom</verticalAlignment>
+		<textColor>#000000</textColor>
+		<backColor>#FFFFFF</backColor>
+		<textPlacement>Auto</textPlacement>
+	</format>
+	<format>
+		<font>0</font>
+		<leftBorder>0</leftBorder>
+		<topBorder>2</topBorder>
+		<rightBorder>0</rightBorder>
+		<bottomBorder>0</bottomBorder>
+		<horizontalAlignment>Left</horizontalAlignment>
+		<verticalAlignment>Bottom</verticalAlignment>
+		<textColor>#000000</textColor>
+		<backColor>#FFFFFF</backColor>
+		<textPlacement>Auto</textPlacement>
+	</format>
+	<format>
+		<height>51</height>
+	</format>
+	<format>
+		<font>0</font>
+		<border>0</border>
+		<horizontalAlignment>Left</horizontalAlignment>
+		<verticalAlignment>Bottom</verticalAlignment>
+		<textColor>#000000</textColor>
+		<backColor>#FFFFFF</backColor>
+		<textPlacement>Auto</textPlacement>
+		<fillType>Parameter</fillType>
+	</format>
+	<format>
+		<horizontalAlignment>Left</horizontalAlignment>
+		<verticalAlignment>Bottom</verticalAlignment>
+	</format>
+</document>

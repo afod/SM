@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="76794a4f-df6c-4ac9-8e42-fe0e72ff317a">
+  <producedTypes>
+    <objectType typeId="9caa1fa3-740e-4f67-8a5f-0354f368661d" valueTypeId="5ddc4787-e259-4ff7-86dc-42a8892022c9"/>
+    <refType typeId="df6cd441-1ffd-45e7-ab4c-bd32fa941fd1" valueTypeId="d6ca964a-1b5a-42d6-a3ae-040acf6dac6f"/>
+    <selectionType typeId="41e45c43-23a3-4f02-90f3-c0b4dc07ca4a" valueTypeId="11c30629-5485-4b24-9213-bf08f7078dbf"/>
+    <listType typeId="76990696-db30-482b-a71f-c4c23400ea0e" valueTypeId="396aecdc-6527-4097-8c89-f5e85b56c8d2"/>
+    <managerType typeId="b2742376-db3c-42d7-8134-0cb91cbac473" valueTypeId="ac0e2a80-2af5-41ed-b1c6-05ab93e2c844"/>
+  </producedTypes>
+  <name>рарусТипыПунктовСледования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы пунктов следования</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.рарусТипыПунктовСледования.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.рарусТипыПунктовСледования.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>11</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="a092b204-5a58-4113-9ee1-ef001e82420a">
+      <name>ВДХР</name>
+      <description>ВДХР</description>
+      <code xsi:type="core:StringValue">
+        <value>00000000001</value>
+      </code>
+    </items>
+    <items id="3dbfdedc-1216-4e40-b846-098ccbd37bd7">
+      <name>Гидроузел</name>
+      <description>Гидроузел</description>
+      <code xsi:type="core:StringValue">
+        <value>00000000002</value>
+      </code>
+    </items>
+    <items id="eb4b68b7-1e18-446d-ac4a-f22af49f088a">
+      <name>Залив</name>
+      <description>Залив</description>
+      <code xsi:type="core:StringValue">
+        <value>00000000003</value>
+      </code>
+    </items>
+    <items id="6b7847d1-1e17-46a7-a6d4-8f9094cb9c6d">
+      <name>Канал</name>
+      <description>Канал</description>
+      <code xsi:type="core:StringValue">
+        <value>00000000004</value>
+      </code>
+    </items>
+    <items id="438dbef1-6d79-459c-98fc-b5581eaaf8a8">
+      <name>Мост</name>
+      <description>Мост</description>
+      <code xsi:type="core:StringValue">
+        <value>00000000005</value>
+      </code>
+    </items>
+    <items id="bd6fe3af-1f77-4de5-bd26-e393390aa4c7">
+      <name>НП</name>
+      <description>НП</description>
+      <code xsi:type="core:StringValue">
+        <value>00000000006</value>
+      </code>
+    </items>
+    <items id="5d537e68-76e6-434e-8835-4a94b78cf459">
+      <name>Озеро</name>
+      <description>Озеро</description>
+      <code xsi:type="core:StringValue">
+        <value>00000000007</value>
+      </code>
+    </items>
+    <items id="3a6101f4-dd09-4e3c-ada5-573f2876945c">
+      <name>Остров</name>
+      <description>Остров</description>
+      <code xsi:type="core:StringValue">
+        <value>00000000008</value>
+      </code>
+    </items>
+    <items id="22a000e8-72db-4373-824a-3eba85dd7e2f">
+      <name>Порог</name>
+      <description>Порог</description>
+      <code xsi:type="core:StringValue">
+        <value>00000000009</value>
+      </code>
+    </items>
+    <items id="8723039a-5994-42d3-81bb-3295b64a2a77">
+      <name>Порт</name>
+      <description>Порт</description>
+      <code xsi:type="core:StringValue">
+        <value>00000000010</value>
+      </code>
+    </items>
+    <items id="f08359c2-8107-4de7-b6f1-0369bd0f73d5">
+      <name>Пролив</name>
+      <description>Пролив</description>
+      <code xsi:type="core:StringValue">
+        <value>00000000011</value>
+      </code>
+    </items>
+    <items id="a5e835d1-3b03-4d5d-ab67-cc1203bee910">
+      <name>Прочий</name>
+      <description>Прочий</description>
+      <code xsi:type="core:StringValue">
+        <value>00000000012</value>
+      </code>
+    </items>
+    <items id="e945f7e7-ed87-4e90-972e-58a0f81f7a6a">
+      <name>Рейд</name>
+      <description>Рейд</description>
+      <code xsi:type="core:StringValue">
+        <value>00000000013</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
